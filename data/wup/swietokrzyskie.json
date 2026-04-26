@@ -28,8 +28,21 @@
     {
       "nazwa": "BUR I/1/2026 - działanie 10.6 DLA PRACODAWCÓW",
       "status": "nabor",
-      "operator": "WUP Kielce"
+      "operator": "WUP Kielce",
+      "id_bur": null,
+      "kwota_alokacji": null,
+      "intensywnosc_max": null,
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": null,
+      "url_regulamin": null,
+      "url_wniosek": null,
+      "irin_dopasowane_szkolenia": [],
+      "claudia_note": null,
+      "do_weryfikacji": true
     }
   ],
-  "claudia_note": "Cykl 5-6 naborów BUR rocznie, naprzemiennie 10.6 (pracodawcy) i 10.9 (osoby indywidualne). Siedziba IRIN."
+  "claudia_note": "Cykl 5-6 naborów BUR rocznie, naprzemiennie 10.6 (pracodawcy) i 10.9 (osoby indywidualne). Siedziba IRIN.",
+  "akcja_tygodnia": null,
+  "akcja_tygodnia_target": null
 }

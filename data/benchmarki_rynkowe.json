@@ -1,0 +1,36 @@
+{
+  "data_aktualizacji": "2026-04-27",
+  "metoda": "Statyczne benchmarki per kategoria. Aktualizacja kwartalna. Źródła: BUR PARP search aggregate, oferty 5 największych konkurentów per kategoria.",
+  "kategorie": {
+    "ai": {
+      "cena_h_rynek_avg": 250,
+      "zrodlo": "Średnia z 20 szkoleń AI/Cyfrowych w BUR (Q1 2026)",
+      "konkurencja_top": ["Comarch Edu", "Altkom", "Akademia 4.0"]
+    },
+    "edukacja": {
+      "cena_h_rynek_avg": 100,
+      "zrodlo": "Specjalistyka medyczna/terapeutyczna BUR Q1 2026",
+      "konkurencja_top": ["PSI Polska", "Acedeu"]
+    },
+    "biznes": {
+      "cena_h_rynek_avg": 220,
+      "zrodlo": "Sprzedaż/zarządzanie BUR Q1 2026",
+      "konkurencja_top": ["PNSA", "Akademia Biznesu MDDP", "Brian Tracy Polska"]
+    },
+    "soft_skills": {
+      "cena_h_rynek_avg": 200,
+      "zrodlo": "Kompetencje miękkie BUR Q1 2026",
+      "konkurencja_top": ["Door Polska", "Time Manager Inter."]
+    },
+    "regulacje": {
+      "cena_h_rynek_avg": 350,
+      "zrodlo": "AI Act / NIS2 / CSRD compliance BUR Q1 2026 - premium niche",
+      "konkurencja_top": ["Deloitte Academy", "EY Academy", "PwC Academy"]
+    },
+    "ai_regulacje": {
+      "cena_h_rynek_avg": 320,
+      "zrodlo": "AI Act compliance - hybrid AI/legal niche",
+      "konkurencja_top": ["Deloitte", "Maruta Wachta"]
+    }
+  }
+}

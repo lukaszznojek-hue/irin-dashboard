@@ -22,16 +22,9 @@ git pull origin main
 #    data/szkolenia_irin.json   — nowe usługi / zmiany terminów
 #    data/meta.json             — data, wersja, changelog
 
-# 4. Walidacja
-python3 -c "
-import json, os
-for root, dirs, files in os.walk('data'):
-    for f in files:
-        if f.endswith('.json'):
-            path = os.path.join(root, f)
-            json.load(open(path, encoding='utf-8'))
-            print(f'OK: {path}')
-"
+# 4. Walidacja (v5: JSON Schema + pre-commit hook)
+python3 tools/validate_jsons.py
+# Wymaga jsonschema: pip3 install --user jsonschema
 
 # 5. Commit + push
 git add data/

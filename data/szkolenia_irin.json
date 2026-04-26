@@ -17,14 +17,18 @@
       "data_start": "2026-06-22",
       "data_end": "2026-06-24",
       "tier_priorytetu_irin": 1,
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "argumenty_sprzedazowe": [
         "Ocena 4.9/5 z 813 ocen w BUR",
         "Trafia w priorytet PARP P3: cyfryzacja i AI",
         "20h - krótka inwestycja czasowa",
         "Zdalna - elastyczność lokalizacji",
         "Dofinansowanie do 90% dla mikrofirm (KFS 2026)"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3432500",
@@ -38,13 +42,17 @@
       "data_start": "2026-05-11",
       "data_end": "2026-05-13",
       "tier_priorytetu_irin": 1,
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "argumenty_sprzedazowe": [
         "Cyfryzacja handlu - priorytet PARP P3",
         "Praktyczne: marketing + bezpieczeństwo cyfrowe",
         "20h zdalne - minimum czasu poza firmą",
         "Dofinansowanie do 90% mikrofirmy"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3421591",
@@ -58,13 +66,17 @@
       "data_start": "2026-07-13",
       "data_end": "2026-07-15",
       "tier_priorytetu_irin": 1,
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "argumenty_sprzedazowe": [
         "Łączy AI z efektywnością osobistą - 2 w 1",
         "Generatywne AI (ChatGPT, Claude, Midjourney) w praktyce",
         "28h za 5880 zł = 210 zł/h (poniżej rynkowej)",
         "Priorytet P3 PARP: cyfryzacja i AI"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3386476",
@@ -78,13 +90,17 @@
       "data_start": "2026-06-15",
       "data_end": "2026-06-19",
       "tier_priorytetu_irin": 1,
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "argumenty_sprzedazowe": [
         "50h intensywnego programu - kompleksowa transformacja",
         "175 zł/h - znacznie poniżej rynkowej (250+ zł/h)",
         "AI + zarządzanie sobą - kompetencje przyszłości",
         "Priorytet P3 PARP"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3420786",
@@ -98,13 +114,17 @@
       "data_start": "2026-05-22",
       "data_end": "2026-07-10",
       "tier_priorytetu_irin": 2,
-      "powiazane_priorytety": ["P4"],
+      "powiazane_priorytety": [
+        "P4"
+      ],
       "argumenty_sprzedazowe": [
         "120h = kompletny program diagnostyczno-terapeutyczny",
         "77.6 zł/h - wyjątkowo niska cena dla specjalizacji medycznej",
         "Priorytet P4 PARP: sektor zdrowotny i opiekuńczy",
         "Gdańsk - oddział pomorski IRIN"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3405199",
@@ -118,11 +138,15 @@
       "data_start": "2026-08-04",
       "data_end": "2026-09-20",
       "tier_priorytetu_irin": 2,
-      "powiazane_priorytety": ["P4"],
+      "powiazane_priorytety": [
+        "P4"
+      ],
       "argumenty_sprzedazowe": [
         "Drugi termin Gdańsk - dla osób które nie zdążyły na maj",
         "Identyczny program: 120h, 77.6 zł/h"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3270238",
@@ -136,11 +160,15 @@
       "data_start": "2026-05-19",
       "data_end": "2026-07-12",
       "tier_priorytetu_irin": 2,
-      "powiazane_priorytety": ["P4"],
+      "powiazane_priorytety": [
+        "P4"
+      ],
       "argumenty_sprzedazowe": [
         "Kielce - siedziba IRIN, stacjonarnie + online",
         "120h za 77.6 zł/h"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3379725",
@@ -154,13 +182,17 @@
       "data_start": "2026-06-12",
       "data_end": "2026-06-21",
       "tier_priorytetu_irin": 2,
-      "powiazane_priorytety": ["P4"],
+      "powiazane_priorytety": [
+        "P4"
+      ],
       "argumenty_sprzedazowe": [
         "TUS z elementem cyfrowym (profilaktyka uzależnień cyfrowych)",
         "Priorytet P4 PARP: sektor opiekuńczy",
         "120 zł/h - bardzo konkurencyjna cena",
         "Kielce: łatwy dojazd + stacjonarnie"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     },
     {
       "id_bur": "3381926",
@@ -174,29 +206,45 @@
       "data_start": "2026-07-29",
       "data_end": "2026-07-31",
       "tier_priorytetu_irin": 3,
-      "powiazane_priorytety": ["P1"],
+      "powiazane_priorytety": [
+        "P1"
+      ],
       "argumenty_sprzedazowe": [
         "META-SZKOLENIE: klient po nim często wraca po inne szkolenia IRIN",
         "Praktyczne: od pomysłu do kompletnego wniosku",
         "27h za 5300 zł = 196 zł/h",
         "Top of funnel - lead generation dla IRIN"
-      ]
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null
     }
   ],
   "podsumowanie_oferty": {
     "klastry": {
       "ai_cyfryzacja": {
-        "szkolenia": ["3432404", "3432500", "3421591", "3386476"],
+        "szkolenia": [
+          "3432404",
+          "3432500",
+          "3421591",
+          "3386476"
+        ],
         "opis": "4 szkolenia zdalne z AI/cyfryzacji - priorytet P3 PARP, 20-50h, 5880-8750 zł",
         "mocne": "Dobrze trafiają w trend i priorytet. Zdalne = skalowalne ogólnopolsko."
       },
       "edukacja_specjalistyczna": {
-        "szkolenia": ["3420786", "3405199", "3270238", "3379725"],
+        "szkolenia": [
+          "3420786",
+          "3405199",
+          "3270238",
+          "3379725"
+        ],
         "opis": "Integracja sensoryczna (3 lokalizacje) + TUS - priorytet P4 PARP, 50-120h, 6000-9310 zł",
         "mocne": "Premium niche, lojalny klient, bardzo niski koszt godzinowy (77-120 zł/h)"
       },
       "biznes_meta": {
-        "szkolenia": ["3381926"],
+        "szkolenia": [
+          "3381926"
+        ],
         "opis": "Przygotowanie projektu dofinansowanego - meta-szkolenie, lead gen",
         "mocne": "Generuje pipeline dla pozostałych usług IRIN"
       }

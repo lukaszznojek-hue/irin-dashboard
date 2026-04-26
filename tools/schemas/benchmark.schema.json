@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Benchmarki rynkowe per kategoria szkoleń",
+  "type": "object",
+  "required": ["data_aktualizacji", "kategorie"],
+  "properties": {
+    "data_aktualizacji": {"type": "string"},
+    "metoda": {"type": ["string", "null"]},
+    "kategorie": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["cena_h_rynek_avg"],
+        "properties": {
+          "cena_h_rynek_avg": {"type": "number"},
+          "zrodlo": {"type": ["string", "null"]},
+          "konkurencja_top": {"type": ["array", "null"]}
+        }
+      }
+    }
+  }
+}

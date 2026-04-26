@@ -44,7 +44,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20"
     },
     {
       "voivodeship": "pomorskie",
@@ -85,7 +87,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -114,7 +118,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "pomorskie",
@@ -155,7 +161,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -196,7 +204,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20"
     },
     {
       "voivodeship": "pomorskie",
@@ -237,7 +247,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -278,7 +290,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -319,7 +333,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-05-08"
     },
     {
       "voivodeship": "pomorskie",
@@ -348,7 +364,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "pomorskie",
@@ -389,7 +407,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "monitor",
+      "akcja_status_uzasadnienie": "Nabor planowany od 2026-06-15"
     },
     {
       "voivodeship": "pomorskie",
@@ -430,7 +450,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-04-28"
     },
     {
       "voivodeship": "pomorskie",
@@ -471,7 +493,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -512,7 +536,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -553,7 +579,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -594,7 +622,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony"
     },
     {
       "voivodeship": "pomorskie",
@@ -635,7 +665,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "monitor",
+      "akcja_status_uzasadnienie": "Nabor planowany od 2026-06-08"
     },
     {
       "voivodeship": "pomorskie",
@@ -676,7 +708,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-04-30"
     },
     {
       "voivodeship": "pomorskie",
@@ -717,7 +751,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-05-05"
     },
     {
       "voivodeship": "pomorskie",
@@ -758,7 +794,9 @@
         "P5",
         "P6",
         "P7"
-      ]
+      ],
+      "akcja_status": "monitor",
+      "akcja_status_uzasadnienie": "Nabor planowany od 2026-09-07"
     }
   ]
 }

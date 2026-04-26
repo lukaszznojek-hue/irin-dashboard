@@ -57,7 +57,9 @@
           }
         }
       ],
-      "claudia_note": "Nabór KFS zakończony 24.04. EFS+ AZOB IV wciąż aktywny - bony szkoleniowe = kanał sprzedaży IRIN. Sprawdzić czy PUP ogłosi kolejny nabór KFS."
+      "claudia_note": "Nabór KFS zakończony 24.04. EFS+ AZOB IV wciąż aktywny - bony szkoleniowe = kanał sprzedaży IRIN. Sprawdzić czy PUP ogłosi kolejny nabór KFS.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-24"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -109,7 +111,9 @@
           }
         }
       ],
-      "claudia_note": "Nabór KFS zakończony 22.04. Kwoty EFS+ do weryfikacji telefonicznej."
+      "claudia_note": "Nabór KFS zakończony 22.04. Kwoty EFS+ do weryfikacji telefonicznej.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-22"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -167,7 +171,9 @@
           "raw_content": "Grupowe porady 'Kompetencje cyfrowe' (25-31.03.2026) - potencjalny partner do warsztatów"
         }
       ],
-      "claudia_note": "KFS 214k zakończony 30.04. PUP prowadzi porady cyfrowe - szansa na pozycjonowanie IRIN jako partnera warsztatów."
+      "claudia_note": "KFS 214k zakończony 30.04. PUP prowadzi porady cyfrowe - szansa na pozycjonowanie IRIN jako partnera warsztatów.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-30"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -227,7 +233,9 @@
           "raw_content": "PFRON - staże i szkolenia dla osób z niepełnosprawnością"
         }
       ],
-      "claudia_note": "KFS 2 029 000 zł - nabór zakończony 25.03. Szkolenia EFS+ = NABÓR CIĄGŁY cały rok."
+      "claudia_note": "KFS 2 029 000 zł - nabór zakończony 25.03. Szkolenia EFS+ = NABÓR CIĄGŁY cały rok.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-25"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -286,7 +294,9 @@
           "raw_content": "PFRON - szkolenia dla osób z niepełnosprawnością (od 04.04.2026, do wyczerpania)"
         }
       ],
-      "claudia_note": "MONITOROWAĆ - nabór KFS 2026 jeszcze NIE OGŁOSZONY. Duża kwota historyczna (2.3 mln w 2025). Kluczowy urząd dla IRIN."
+      "claudia_note": "MONITOROWAĆ - nabór KFS 2026 jeszcze NIE OGŁOSZONY. Duża kwota historyczna (2.3 mln w 2025). Kluczowy urząd dla IRIN.",
+      "akcja_status": "monitor",
+      "akcja_status_uzasadnienie": "Nabor zapowiedziany"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -329,7 +339,9 @@
           }
         }
       ],
-      "claudia_note": "KFS zakończony 17.04. EFS+ do weryfikacji - projekt z v1 kończyły się 31.03.2026."
+      "claudia_note": "KFS zakończony 17.04. EFS+ do weryfikacji - projekt z v1 kończyły się 31.03.2026.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-17"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -370,7 +382,9 @@
           }
         }
       ],
-      "claudia_note": "Brak ogłoszenia naboru KFS 2026 na stronie PUP. Do weryfikacji telefonicznie."
+      "claudia_note": "Brak ogłoszenia naboru KFS 2026 na stronie PUP. Do weryfikacji telefonicznie.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -411,7 +425,9 @@
           }
         }
       ],
-      "claudia_note": "EFS+ projekt kończył się 31.03.2026 - sprawdzić kontynuację."
+      "claudia_note": "EFS+ projekt kończył się 31.03.2026 - sprawdzić kontynuację.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -442,7 +458,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "Do weryfikacji telefonicznie."
+      "claudia_note": "Do weryfikacji telefonicznie.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -473,7 +491,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "Do weryfikacji telefonicznie."
+      "claudia_note": "Do weryfikacji telefonicznie.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -504,7 +524,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "EFS+ projekt kończył się 31.03.2026 - potwierdzić kontynuację."
+      "claudia_note": "EFS+ projekt kończył się 31.03.2026 - potwierdzić kontynuację.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -535,7 +557,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "Do weryfikacji telefonicznie."
+      "claudia_note": "Do weryfikacji telefonicznie.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -566,7 +590,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "Do weryfikacji telefonicznie."
+      "claudia_note": "Do weryfikacji telefonicznie.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
     {
       "voivodeship": "swietokrzyskie",
@@ -597,7 +623,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "Do weryfikacji telefonicznie."
+      "claudia_note": "Do weryfikacji telefonicznie.",
+      "akcja_status": "zadzwon",
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     }
   ]
 }

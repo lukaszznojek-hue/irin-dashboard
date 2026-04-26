@@ -10,9 +10,16 @@
       "estymowana_cena": 6500,
       "estymowane_godziny": 24,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "rynek_target": "MŚP, działy compliance, kadra zarządzająca",
-      "pilnosc": "wysoka - pełne wdrożenie AI Act 2026"
+      "pilnosc": "wysoka - pełne wdrożenie AI Act 2026",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-02",
@@ -22,9 +29,17 @@
       "estymowana_cena": 7200,
       "estymowane_godziny": 30,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3", "P5 świętokrzyskie"],
+      "powiazane_priorytety": [
+        "P3",
+        "P5 świętokrzyskie"
+      ],
       "rynek_target": "MŚP, podmioty kluczowe i ważne wg NIS2",
-      "pilnosc": "wysoka - obowiązkowe szkolenia 2025-2026"
+      "pilnosc": "wysoka - obowiązkowe szkolenia 2025-2026",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-03",
@@ -34,9 +49,17 @@
       "estymowana_cena": 6800,
       "estymowane_godziny": 24,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3", "P5 zachodniopomorskie"],
+      "powiazane_priorytety": [
+        "P3",
+        "P5 zachodniopomorskie"
+      ],
       "rynek_target": "MŚP, działy compliance/raportowania, zarząd",
-      "pilnosc": "średnia - rośnie z każdym kwartałem"
+      "pilnosc": "średnia - rośnie z każdym kwartałem",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-04",
@@ -46,9 +69,17 @@
       "estymowana_cena": 7500,
       "estymowane_godziny": 32,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P1", "P3"],
+      "powiazane_priorytety": [
+        "P1",
+        "P3"
+      ],
       "rynek_target": "HR managerowie, dyrektorzy personalni MŚP i dużych firm",
-      "pilnosc": "średnia"
+      "pilnosc": "średnia",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-05",
@@ -58,9 +89,16 @@
       "estymowana_cena": 5900,
       "estymowane_godziny": 20,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "rynek_target": "Właściciele MŚP usługowych, marketerzy",
-      "pilnosc": "niska - obecna oferta częściowo pokrywa"
+      "pilnosc": "niska - obecna oferta częściowo pokrywa",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-06",
@@ -70,9 +108,16 @@
       "estymowana_cena": 6500,
       "estymowane_godziny": 24,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "rynek_target": "Handlowcy B2B, key account managerowie, dyrektorzy sprzedaży",
-      "pilnosc": "średnia"
+      "pilnosc": "średnia",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-07",
@@ -82,9 +127,16 @@
       "estymowana_cena": 5500,
       "estymowane_godziny": 20,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "rynek_target": "Branża usługowa: gastronomia, retail, e-commerce",
-      "pilnosc": "niska"
+      "pilnosc": "niska",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-08",
@@ -94,9 +146,16 @@
       "estymowana_cena": 7000,
       "estymowane_godziny": 30,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "rynek_target": "Project managerowie, team leaderzy, IT managerowie",
-      "pilnosc": "niska"
+      "pilnosc": "niska",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-09",
@@ -106,9 +165,16 @@
       "estymowana_cena": 6200,
       "estymowane_godziny": 24,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P3"],
+      "powiazane_priorytety": [
+        "P3"
+      ],
       "rynek_target": "Analitycy, kontrolerzy finansowi, managerowie raportujący",
-      "pilnosc": "średnia - stały popyt"
+      "pilnosc": "średnia - stały popyt",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     },
     {
       "kod": "PROP-10",
@@ -118,9 +184,17 @@
       "estymowana_cena": 8900,
       "estymowane_godziny": 40,
       "forma": "zdalna",
-      "powiazane_priorytety": ["P1", "P3"],
+      "powiazane_priorytety": [
+        "P1",
+        "P3"
+      ],
       "rynek_target": "C-level, dyrektorzy, senior managerowie",
-      "pilnosc": "niska - premium niche"
+      "pilnosc": "niska - premium niche",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
     }
   ]
 }
