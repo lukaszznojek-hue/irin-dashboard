@@ -1,0 +1,19 @@
+{
+  "wojewodztwo": "wielkopolskie",
+  "wojewodztwo_label": "Wielkopolskie",
+  "tier": "1b",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wuppoznan.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Poznań",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Ochrona przedemerytalna",
+      "opis": "Wydłużanie aktywności zawodowej osób w ochronie przedemerytalnej i po osiągnięciu wieku emerytalnego"
+    }
+  ],
+  "projekty_bur": [],
+  "claudia_note": "PUP Poznań: 7 mln zł KFS. Kontakt KFS: 61 8345 730, kfs@poznan.praca.gov.pl."
+}

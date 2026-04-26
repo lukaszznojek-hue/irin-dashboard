@@ -1,0 +1,764 @@
+{
+  "wojewodztwo": "pomorskie",
+  "wojewodztwo_label": "Pomorskie",
+  "tier": "1a",
+  "data_aktualizacji": "2026-04-27",
+  "zrodlo_danych": "WUP Gdańsk portal KFS-nabory + web search 27.04.2026",
+  "powiaty": [
+    {
+      "voivodeship": "pomorskie",
+      "name": "Gdańsk",
+      "display_name": "MUP Gdańsk",
+      "display_meta": "Gdańsk",
+      "url_pup": "https://gdansk.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-03-16",
+      "kfs_end_date": "2026-03-20",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 7600000,
+      "amount_total": 7600000,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony (2026-03-16 → 2026-03-20)",
+          "fields": {
+            "Kwota": "7 600 000 zł",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Rekordowy budżet KFS 2026: 7.6 mln zł. Nabór I zakończony 20.03.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Gdynia",
+      "display_name": "MUP Gdynia",
+      "display_meta": "Gdynia",
+      "url_pup": "https://gdynia.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór I zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Sopot",
+      "display_name": "MUP Sopot",
+      "display_meta": "Sopot",
+      "url_pup": "https://sopot.praca.gov.pl",
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "DO_WERYFIKACJI",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Brak danych w tabeli WUP Gdańsk.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Słupsk",
+      "display_name": "MUP Słupsk",
+      "display_meta": "Słupsk",
+      "url_pup": "https://slupsk.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór I zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Gdańsk - powiat",
+      "display_name": "PUP Gdańsk",
+      "display_meta": "Gdańsk - powiat",
+      "url_pup": "https://gdansk.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-03-16",
+      "kfs_end_date": "2026-03-20",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 7600000,
+      "amount_total": 7600000,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony (2026-03-16 → 2026-03-20)",
+          "fields": {
+            "Kwota": "7 600 000 zł",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Rekordowy budżet KFS 2026: 7.6 mln zł. Nabór I zakończony 20.03.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Słupsk - powiat",
+      "display_name": "PUP Słupsk",
+      "display_meta": "Słupsk - powiat",
+      "url_pup": "https://slupsk.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór I zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Bytów",
+      "display_name": "PUP Bytów",
+      "display_meta": "powiat Bytów",
+      "url_pup": "https://bytow.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Chojnice",
+      "display_name": "PUP Chojnice",
+      "display_meta": "powiat Chojnice",
+      "url_pup": "https://chojnice.praca.gov.pl",
+      "urgency": "trwa",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-05-04",
+      "kfs_end_date": "2026-05-08",
+      "kfs_status": "TRWA",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-05-04 → 2026-05-08",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór trwa 4-8.05.2026.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Człuchów",
+      "display_name": "PUP Człuchów",
+      "display_meta": "powiat Człuchów",
+      "url_pup": "https://czluchow.praca.gov.pl",
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "DO_WERYFIKACJI",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Brak danych w tabeli WUP.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Kartuzy",
+      "display_name": "PUP Kartuzy",
+      "display_meta": "powiat Kartuzy",
+      "url_pup": "https://kartuzy.praca.gov.pl",
+      "urgency": "nadchodzi",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-06-15",
+      "kfs_end_date": "2026-06-19",
+      "kfs_status": "NADCHODZI",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór planowany 2026-06-15 → 2026-06-19",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Planowane: 15-19.06 + 31.08-4.09.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Kościerzyna",
+      "display_name": "PUP Kościerzyna",
+      "display_meta": "powiat Kościerzyna",
+      "url_pup": "https://koscierzyna.praca.gov.pl",
+      "urgency": "trwa",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-22",
+      "kfs_end_date": "2026-04-28",
+      "kfs_status": "TRWA",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-22 → 2026-04-28",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór trwa 22-28.04.2026.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Kwidzyn",
+      "display_name": "PUP Kwidzyn",
+      "display_meta": "powiat Kwidzyn",
+      "url_pup": "https://kwidzyn.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Lębork",
+      "display_name": "PUP Lębork",
+      "display_meta": "powiat Lębork",
+      "url_pup": "https://lebork.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Malbork",
+      "display_name": "PUP Malbork",
+      "display_meta": "powiat Malbork",
+      "url_pup": "https://malbork.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Nowy Dwór Gdański",
+      "display_name": "PUP Nowy Dwór Gdański",
+      "display_meta": "powiat Nowy Dwór Gdański",
+      "url_pup": "https://nowydworgdanski.praca.gov.pl",
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór zakończony",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór zakończony.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Puck",
+      "display_name": "PUP Puck",
+      "display_meta": "powiat Puck",
+      "url_pup": "https://puck.praca.gov.pl",
+      "urgency": "nadchodzi",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-06-08",
+      "kfs_end_date": "2026-06-12",
+      "kfs_status": "NADCHODZI",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór planowany 2026-06-08 → 2026-06-12",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Planowany 8-12.06.2026.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Starogard Gdański",
+      "display_name": "PUP Starogard Gdański",
+      "display_meta": "powiat Starogard Gdański",
+      "url_pup": "https://starogardgdanski.praca.gov.pl",
+      "urgency": "trwa",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-24",
+      "kfs_end_date": "2026-04-30",
+      "kfs_status": "TRWA",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-24 → 2026-04-30",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór trwa 24-30.04.2026.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Tczew",
+      "display_name": "PUP Tczew",
+      "display_meta": "powiat Tczew",
+      "url_pup": "https://tczew.praca.gov.pl",
+      "urgency": "trwa",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-28",
+      "kfs_end_date": "2026-05-05",
+      "kfs_status": "TRWA",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-28 → 2026-05-05",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Nabór trwa 28.04-5.05.2026.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "voivodeship": "pomorskie",
+      "name": "Wejherowo",
+      "display_name": "PUP Wejherowo",
+      "display_meta": "powiat Wejherowo",
+      "url_pup": "https://wejherowo.praca.gov.pl",
+      "urgency": "nadchodzi",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-09-07",
+      "kfs_end_date": "2026-09-11",
+      "kfs_status": "NADCHODZI",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór planowany 2026-09-07 → 2026-09-11",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Planowany 7-11.09.2026.",
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    }
+  ]
+}

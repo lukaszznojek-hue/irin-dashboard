@@ -1,0 +1,29 @@
+{
+  "wojewodztwo": "slaskie",
+  "wojewodztwo_label": "Śląskie",
+  "tier": "1b",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wupkatowice.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Katowice",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Zawody deficytowe + zapobieganie utracie pracy",
+      "opis": "Wsparcie umiejętności i kwalifikacji w zawodach deficytowych, w tym kompetencje zapobiegające utracie pracy i umożliwiające rekrutację wewnętrzną"
+    },
+    {
+      "kod": "P6",
+      "nazwa": "Osoby zagrożone na rynku pracy",
+      "opis": "Wsparcie osób szczególnie narażonych na zmiany rynku pracy: osoby bez kwalifikacji zawodowych i osoby poniżej 30 roku życia"
+    },
+    {
+      "kod": "P7",
+      "nazwa": "Sektory kluczowe dla Śląska",
+      "opis": "Wsparcie kwalifikacji w sektorach: medycyna, IT, energetyka, zielona gospodarka, branże wschodzące"
+    }
+  ],
+  "projekty_bur": [],
+  "claudia_note": "3 priorytety wojewódzkie. Sektory kluczowe (P7): medycyna, IT, energetyka, zielona gospodarka - dopasowanie do oferty IRIN (AI, cyfryzacja)."
+}

@@ -1,0 +1,111 @@
+{
+  "data_aktualizacji": "2026-04-27",
+  "kolumny": ["bur", "kfs", "efs", "doradztwo", "elearning"],
+  "kolumny_labels": {
+    "bur": "Szkolenia BUR",
+    "kfs": "KFS (pracodawcy)",
+    "efs": "EFS+ (aktywizacja)",
+    "doradztwo": "Doradztwo",
+    "elearning": "E-learning"
+  },
+  "wagi": {"high": 3, "med": 2, "low": 1, "none": 0},
+  "scoring": "A >= 12, B >= 7, C >= 3, D < 3. Auto-bonus: +3 jeśli aktywne KFS > 500k zł, +2 jeśli EFS+ aktywne > 3 projekty.",
+  "wojewodztwa": [
+    {
+      "wojewodztwo": "swietokrzyskie",
+      "oceny": {"bur": "high", "kfs": "high", "efs": "high", "doradztwo": "med", "elearning": "med"},
+      "wynik": "A",
+      "uzasadnienie": "Siedziba IRIN. 14 PUP-ów. PUP Kielce: 2 029 000 zł KFS. EFS+ AZOB aktywny. WUP BUR cykliczne nabory."
+    },
+    {
+      "wojewodztwo": "pomorskie",
+      "oceny": {"bur": "high", "kfs": "high", "efs": "med", "doradztwo": "med", "elearning": "low"},
+      "wynik": "A",
+      "uzasadnienie": "Oddział IRIN (Jakub Jabłoński). Gdańsk 7.6 mln KFS rekord. 5 aktywnych naborów KFS. Integracja sensoryczna w Gdańsku."
+    },
+    {
+      "wojewodztwo": "zachodniopomorskie",
+      "oceny": {"bur": "med", "kfs": "med", "efs": "med", "doradztwo": "low", "elearning": "low"},
+      "wynik": "B",
+      "uzasadnienie": "Oddział IRIN. Szczecin 4 mln KFS. Priorytet P5: transformacja energetyczna = Akademia OZE."
+    },
+    {
+      "wojewodztwo": "kujawsko-pomorskie",
+      "oceny": {"bur": "med", "kfs": "med", "efs": "med", "doradztwo": "low", "elearning": "low"},
+      "wynik": "B",
+      "uzasadnienie": "Oddział IRIN. BUR 'Kierunek - Rozwój' aktywny. Granty do 37 tys."
+    },
+    {
+      "wojewodztwo": "wielkopolskie",
+      "oceny": {"bur": "med", "kfs": "high", "efs": "low", "doradztwo": "low", "elearning": "med"},
+      "wynik": "B",
+      "uzasadnienie": "Poznań 7 mln KFS. Duży rynek, zdalne szkolenia IRIN docierają."
+    },
+    {
+      "wojewodztwo": "slaskie",
+      "oceny": {"bur": "med", "kfs": "med", "efs": "low", "doradztwo": "low", "elearning": "med"},
+      "wynik": "B",
+      "uzasadnienie": "P7: IT, energetyka, zielona gospodarka = dopasowanie do oferty IRIN. 24 powiaty."
+    },
+    {
+      "wojewodztwo": "dolnoslaskie",
+      "oceny": {"bur": "low", "kfs": "med", "efs": "low", "doradztwo": "none", "elearning": "med"},
+      "wynik": "C",
+      "uzasadnienie": "Duży rynek (Wrocław), ale IRIN nie ma tu fizycznej obecności. Tylko zdalne."
+    },
+    {
+      "wojewodztwo": "malopolskie",
+      "oceny": {"bur": "low", "kfs": "med", "efs": "low", "doradztwo": "none", "elearning": "med"},
+      "wynik": "C",
+      "uzasadnienie": "Kraków - duży rynek szkoleniowy, silna konkurencja. Zdalne."
+    },
+    {
+      "wojewodztwo": "mazowieckie",
+      "oceny": {"bur": "low", "kfs": "high", "efs": "low", "doradztwo": "none", "elearning": "med"},
+      "wynik": "C",
+      "uzasadnienie": "Warszawa - największy rynek w kraju, ale najsilniejsza konkurencja. 38 powiatów."
+    },
+    {
+      "wojewodztwo": "lodzkie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "low"},
+      "wynik": "D",
+      "uzasadnienie": "Brak obecności IRIN, brak danych szczegółowych. Do monitoringu."
+    },
+    {
+      "wojewodztwo": "lubelskie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "low"},
+      "wynik": "D",
+      "uzasadnienie": "Sąsiedztwo świętokrzyskiego - potencjał na overflow. Do monitoringu."
+    },
+    {
+      "wojewodztwo": "podkarpackie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "low"},
+      "wynik": "D",
+      "uzasadnienie": "Sąsiedztwo świętokrzyskiego. Do monitoringu."
+    },
+    {
+      "wojewodztwo": "lubuskie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "none"},
+      "wynik": "D",
+      "uzasadnienie": "Mały rynek, brak obecności. Monitoring."
+    },
+    {
+      "wojewodztwo": "opolskie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "none"},
+      "wynik": "D",
+      "uzasadnienie": "Mały rynek, 12 powiatów. Monitoring."
+    },
+    {
+      "wojewodztwo": "podlaskie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "none"},
+      "wynik": "D",
+      "uzasadnienie": "Monitoring."
+    },
+    {
+      "wojewodztwo": "warminsko-mazurskie",
+      "oceny": {"bur": "none", "kfs": "low", "efs": "none", "doradztwo": "none", "elearning": "none"},
+      "wynik": "D",
+      "uzasadnienie": "Monitoring."
+    }
+  ]
+}

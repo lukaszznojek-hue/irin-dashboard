@@ -1,0 +1,19 @@
+{
+  "wojewodztwo": "dolnoslaskie",
+  "wojewodztwo_label": "Dolnośląskie",
+  "tier": "1b",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wupwroclaw.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Wrocław",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Do weryfikacji",
+      "opis": "Priorytety P5-P7 do pobrania ze strony WUP Wrocław"
+    }
+  ],
+  "projekty_bur": [],
+  "claudia_note": "TIER 1B - WUP + priorytety do uzupełnienia."
+}

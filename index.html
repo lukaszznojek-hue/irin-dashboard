@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard IRIN v4 — KFS + BUR + EFS+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dashboard strategiczno-operacyjny IRIN sp. z o.o. Nabory KFS, projekty BUR, szkolenia, matryca regionalna.">
+<link rel="icon" href="assets/img/logo-irin.png" type="image/png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="container">
+  <header class="header">
+    <div class="header-left">
+      <img src="assets/img/logo-irin-poziom.svg" alt="IRIN" class="header-logo" onerror="this.style.display='none'">
+      <div class="header-text">
+        <h1 class="header-title">Dashboard IRIN</h1>
+        <div class="header-subtitle">KFS · BUR · EFS+ · Szkolenia · Strategia</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <span class="header-meta" id="header-meta">v4.0.0 · Aktualizacja: 2026-04-27</span>
+      <a href="strategia.html" class="header-strat-link">🔒 Strategia zarządu</a>
+    </div>
+  </header>
+
+  <!-- KFS 2026 GAME CHANGER BANNER -->
+  <div class="kfs-banner" id="kfs-banner">
+    <div class="kfs-banner-icon">⚡</div>
+    <div class="kfs-banner-content">
+      <div class="kfs-banner-title">KFS 2026 — co nowego</div>
+      <div class="kfs-banner-text">
+        <strong>Dofinansowanie:</strong> do 70% (mikrofirmy do 90%) ·
+        <strong>Wymóg BUR od 1.01.2026</strong> — IRIN ma BUR (4.9/5, 813 ocen) ·
+        <strong>Retencja 3 mies.</strong> — pracodawca utrzymuje pracownika ·
+        <strong>Wniosek elektroniczny</strong> przez praca.gov.pl
+      </div>
+    </div>
+    <button class="kfs-banner-close" onclick="this.parentElement.style.display='none'" aria-label="Zamknij">✕</button>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-strip" id="stats-strip">
+    <div class="stat-card"><div class="stat-value" id="stat-total">—</div><div class="stat-label">Powiatów</div></div>
+    <div class="stat-card"><div class="stat-value" id="stat-active">—</div><div class="stat-label">Aktywne nabory</div></div>
+    <div class="stat-card stat-urgent"><div class="stat-value" id="stat-urgent">—</div><div class="stat-label">Pilne</div></div>
+    <div class="stat-card stat-critical"><div class="stat-value" id="stat-critical">—</div><div class="stat-label">Krytyczne</div></div>
+  </div>
+
+  <!-- NAV TABS -->
+  <div class="nav-tabs" role="tablist" aria-label="Sekcje dashboardu">
+    <div class="nav-tab active" data-panel="powiaty" role="tab" tabindex="0" aria-selected="true" onclick="switchTab(this,'powiaty')">Powiaty</div>
+    <div class="nav-tab" data-panel="wup" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'wup')">WUP</div>
+    <div class="nav-tab" data-panel="szkolenia" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'szkolenia')">Szkolenia IRIN</div>
+    <div class="nav-tab" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
+    <div class="nav-tab" data-panel="trendy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'trendy')">Trendy 2026</div>
+    <div class="nav-tab" data-panel="slownik" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'slownik')">Słownik</div>
+    <div class="nav-tab" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaż</div>
+  </div>
+
+  <!-- ======== PANEL: POWIATY ======== -->
+  <div class="panel" id="panel-powiaty" role="tabpanel">
+    <div class="filters-header">
+      <div class="filter-group">
+        <span class="filter-label">Status:</span>
+        <div class="filter-chip active" data-filter="status" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
+        <div class="filter-chip critical-filter" data-filter="status" data-value="krytyczny" onclick="toggleFilter(this)">🔴 Krytyczne</div>
+        <div class="filter-chip urgent-filter" data-filter="status" data-value="pilny" onclick="toggleFilter(this)">🟠 Pilne</div>
+        <div class="filter-chip" data-filter="status" data-value="trwa" onclick="toggleFilter(this)">🟢 Trwają</div>
+        <div class="filter-chip" data-filter="status" data-value="nadchodzi" onclick="toggleFilter(this)">📅 Nadchodzą</div>
+        <div class="filter-chip" data-filter="status" data-value="zakonczony" onclick="toggleFilter(this)">⬜ Zakończone</div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Filar:</span>
+        <div class="filter-chip" data-filter="pillar" data-value="KFS" onclick="toggleFilter(this)">KFS</div>
+        <div class="filter-chip" data-filter="pillar" data-value="EFS+" onclick="toggleFilter(this)">EFS+</div>
+      </div>
+      <div class="filter-group" id="filter-group-voivodeship">
+        <div class="woj-dropdown-wrap" id="woj-dropdown-wrap">
+          <button class="woj-dropdown-btn" id="woj-dropdown-btn" onclick="toggleWojDropdown(event)">
+            Województwa <span id="woj-dropdown-badge" class="woj-badge" style="display:none">0</span> ▾
+          </button>
+          <button class="woj-all-btn" onclick="selectAllVoivodeships()">Wszystkie</button>
+          <div class="woj-dropdown-panel" id="woj-dropdown-panel"></div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Sortuj:</span>
+        <select class="sort-select" id="sort-preset" onchange="applySortPreset(this.value)">
+          <option value="urgency">Po pilności</option>
+          <option value="amount">Po kwocie</option>
+          <option value="irin">Dopasowanie IRIN</option>
+          <option value="geo">Geograficznie</option>
+        </select>
+      </div>
+      <div class="results-count" id="results-count"></div>
+    </div>
+    <div class="cards-grid" id="cards-grid"></div>
+  </div>
+
+  <!-- ======== PANEL: WUP ======== -->
+  <div class="panel" id="panel-wup" role="tabpanel" style="display:none">
+    <div class="wup-grid" id="wup-grid"></div>
+  </div>
+
+  <!-- ======== PANEL: SZKOLENIA IRIN ======== -->
+  <div class="panel" id="panel-szkolenia" role="tabpanel" style="display:none">
+    <div class="irin-stats-strip" id="irin-stats-strip"></div>
+    <div class="irin-filters" id="irin-filters">
+      <div class="irin-filter-group">
+        <span class="irin-filter-label">Kategoria:</span>
+        <div class="irin-filter-chip active" data-bur-filter="kat" data-val="all" onclick="toggleBurFilter(this)">Wszystkie</div>
+        <div class="irin-filter-chip" data-bur-filter="kat" data-val="ai" onclick="toggleBurFilter(this)">AI / Cyfrowe</div>
+        <div class="irin-filter-chip" data-bur-filter="kat" data-val="edukacja" onclick="toggleBurFilter(this)">Edukacja spec.</div>
+        <div class="irin-filter-chip" data-bur-filter="kat" data-val="biznes" onclick="toggleBurFilter(this)">Biznes</div>
+      </div>
+    </div>
+    <div class="irin-table-wrap">
+      <table class="irin-table">
+        <thead>
+          <tr>
+            <th style="min-width:280px">Szkolenie</th>
+            <th>Kat.</th>
+            <th>Cena</th>
+            <th>Cena/h</th>
+            <th>Godz.</th>
+            <th>Forma</th>
+            <th>Termin</th>
+            <th>Tier</th>
+            <th>Priorytety</th>
+          </tr>
+        </thead>
+        <tbody id="irin-tbody"></tbody>
+      </table>
+    </div>
+    <div class="panel-note">
+      Dane z BUR PARP · <span id="irin-date">2026-04-27</span> · Ocena: <strong id="irin-rating">4.9/5</strong> (<span id="irin-reviews">813</span> ocen) ·
+      <a href="https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/szukaj?dostawcyUslug%5B%5D=160205&mozliwoscDofinansowania=0" target="_blank" rel="noopener">Otwórz w BUR ↗</a>
+    </div>
+    <div class="proposals-section" id="proposals-section">
+      <h3 class="proposals-title">Propozycje nowych szkoleń (10)</h3>
+      <div class="proposals-grid" id="proposals-grid"></div>
+    </div>
+  </div>
+
+  <!-- ======== PANEL: MATRYCA ======== -->
+  <div class="panel" id="panel-matryca" role="tabpanel" style="display:none">
+    <div class="matryca-legend">
+      <span class="mat-leg mat-high">★ Wysoki</span>
+      <span class="mat-leg mat-med">◐ Średni</span>
+      <span class="mat-leg mat-low">○ Niski</span>
+      <span class="mat-leg mat-none">— Brak</span>
+      <span style="margin-left:16px">Wynik:</span>
+      <span class="mat-wynik A">A</span>
+      <span class="mat-wynik B">B</span>
+      <span class="mat-wynik C">C</span>
+      <span class="mat-wynik D">D</span>
+    </div>
+    <div class="matryca-scroll-wrap">
+      <table class="matryca-table" id="matryca-table">
+        <thead>
+          <tr>
+            <th>Województwo</th>
+            <th>Tier</th>
+            <th>BUR</th>
+            <th>KFS</th>
+            <th>EFS+</th>
+            <th>Doradztwo</th>
+            <th>E-learning</th>
+            <th>Wynik</th>
+          </tr>
+        </thead>
+        <tbody id="matryca-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ======== PANEL: TRENDY 2026 ======== -->
+  <div class="panel" id="panel-trendy" role="tabpanel" style="display:none">
+    <div id="trendy-content"></div>
+  </div>
+
+  <!-- ======== PANEL: SŁOWNIK ======== -->
+  <div class="panel" id="panel-slownik" role="tabpanel" style="display:none">
+    <div class="slownik-grid" id="slownik-grid"></div>
+  </div>
+
+  <!-- ======== PANEL: SPRZEDAŻ ======== -->
+  <div class="panel" id="panel-sprzedaz" role="tabpanel" style="display:none">
+    <div class="sales-section">
+      <h3>Skrypty telefoniczne</h3>
+      <div class="sales-grid" id="sales-skrypty"></div>
+    </div>
+    <div class="sales-section">
+      <h3>Wzorce email (per persona)</h3>
+      <div class="sales-grid" id="sales-emaile"></div>
+    </div>
+    <div class="sales-section">
+      <h3>Bitrix24 CRM</h3>
+      <div class="sales-grid" id="sales-bitrix"></div>
+    </div>
+    <div class="sales-section">
+      <h3>Prezentacje</h3>
+      <div class="sales-grid" id="sales-prezentacje"></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">
+      <span id="footer-version">Dashboard IRIN v4.0.0</span> ·
+      <span id="footer-date">Aktualizacja: 2026-04-27</span>
+    </div>
+    <div class="footer-right">
+      IRIN sp. z o.o. · ul. Olszewskiego 6, 25-663 Kielce · biuro@irin.pl · +48 453 049 912
+    </div>
+  </footer>
+</div>
+
+<script src="assets/js/dashboard.js"></script>
+</body>
+</html>

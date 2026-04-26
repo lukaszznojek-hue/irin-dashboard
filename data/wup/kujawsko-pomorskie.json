@@ -1,0 +1,35 @@
+{
+  "wojewodztwo": "kujawsko-pomorskie",
+  "wojewodztwo_label": "Kujawsko-pomorskie",
+  "tier": "1a",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wuptorun.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Toruń",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Strategia 2030+",
+      "opis": "Kształcenie w obszarach kluczowych dla rozwoju regionu wg Strategii Rozwoju Woj. Kuj.-Pom. do 2030+"
+    },
+    {
+      "kod": "P6",
+      "nazwa": "Powrót po opiece",
+      "opis": "Wsparcie osób powracających na rynek pracy po przerwie związanej z opieką nad dzieckiem/osobą zależną"
+    },
+    {
+      "kod": "P7",
+      "nazwa": "Pracownicy 50+",
+      "opis": "Wsparcie kształcenia ustawicznego osób powyżej 50 roku życia"
+    }
+  ],
+  "projekty_bur": [
+    {
+      "nazwa": "Kierunek - Rozwój",
+      "status": "trwa",
+      "operator": "WUP Toruń"
+    }
+  ],
+  "claudia_note": "Granty KFS do 37 000 zł. Projekt BUR 'Kierunek - Rozwój' aktywny."
+}

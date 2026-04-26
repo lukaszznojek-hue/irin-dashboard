@@ -1,0 +1,19 @@
+{
+  "wojewodztwo": "zachodniopomorskie",
+  "wojewodztwo_label": "Zachodniopomorskie",
+  "tier": "1a",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wupszczecin.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Szczecin",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Transformacja energetyczna",
+      "opis": "Wsparcie umiejętności i kwalifikacji zawodowych związanych z transformacją energetyczną, zwłaszcza w zakładach zagrożonych utratą miejsc pracy"
+    }
+  ],
+  "projekty_bur": [],
+  "claudia_note": "PUP Szczecin: nabór 27.03-3.04 zakończony, 4 mln zł. Jeden priorytet wojewódzki: transformacja energetyczna - Akademia OZE IRIN trafia idealnie."
+}

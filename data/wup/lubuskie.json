@@ -1,0 +1,19 @@
+{
+  "wojewodztwo": "lubuskie",
+  "wojewodztwo_label": "Lubuskie",
+  "tier": "2",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wupzielonagora.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Zielona Góra",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Do weryfikacji",
+      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+    }
+  ],
+  "projekty_bur": [],
+  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN."
+}

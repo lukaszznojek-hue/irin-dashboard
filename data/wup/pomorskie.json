@@ -1,0 +1,29 @@
+{
+  "wojewodztwo": "pomorskie",
+  "wojewodztwo_label": "Pomorskie",
+  "tier": "1a",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wupgdansk.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Gdańsk",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Inteligentne Specjalizacje Pomorza",
+      "opis": "Wsparcie transformacji w obszarach/sektorach kluczowych dla rozwoju regionu i Inteligentnych Specjalizacji"
+    },
+    {
+      "kod": "P6",
+      "nazwa": "Pracownicy 45+",
+      "opis": "Wsparcie wydłużania aktywności zawodowej osób powyżej 45 roku życia"
+    },
+    {
+      "kod": "P7",
+      "nazwa": "Odporność regionu",
+      "opis": "Wzmacnianie odporności rynku pracy na sytuacje kryzysowe"
+    }
+  ],
+  "projekty_bur": [],
+  "claudia_note": "Oddział pomorski IRIN (prowadzi Jakub Jabłoński). Rekordowy budżet KFS Gdańska 7.6 mln zł. Aktywne nabory: Chojnice, Kościerzyna, Starogard, Tczew."
+}

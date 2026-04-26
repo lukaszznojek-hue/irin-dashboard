@@ -1,0 +1,603 @@
+{
+  "wojewodztwo": "swietokrzyskie",
+  "wojewodztwo_label": "Świętokrzyskie",
+  "tier": "1a",
+  "data_aktualizacji": "2026-04-27",
+  "zrodlo_danych": "v3 dashboard (17.04.2026) + web research aktualizacja (27.04.2026)",
+  "powiaty": [
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Busko-Zdrój",
+      "display_name": "PUP Busko-Zdrój",
+      "display_meta": "powiat buski",
+      "url_pup": "https://busko.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-17",
+      "kfs_end_date": "2026-04-24",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "AKTYWNY",
+      "amount_kfs": 619000,
+      "amount_total": 1943409,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": false,
+      "pillars": [
+        "KFS",
+        "EFS+"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-17 → 2026-04-24 (ZAKOŃCZONY)",
+          "fields": {
+            "Kwota": "619 000 zł",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true,
+            "Status": "Nabór zakończony 24.04.2026"
+          }
+        },
+        {
+          "type": "EFS+",
+          "title": "Aktywizacja zawodowa osób bezrobotnych w powiecie buskim (AZOB IV)",
+          "fields": {
+            "Alokacja": "1 324 409 zł (2026)",
+            "Instrumenty": "Bony szkoleniowe, szkolenia zawodowe, staże, prace interwencyjne, refundacja wyposażenia, dofinansowanie wynagrodzenia 50+",
+            "Status": "AKTYWNY - nabór ciągły"
+          }
+        }
+      ],
+      "claudia_note": "Nabór KFS zakończony 24.04. EFS+ AZOB IV wciąż aktywny - bony szkoleniowe = kanał sprzedaży IRIN. Sprawdzić czy PUP ogłosi kolejny nabór KFS."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Sandomierz",
+      "display_name": "PUP Sandomierz",
+      "display_meta": "powiat sandomierski",
+      "url_pup": "https://sandomierz.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-16",
+      "kfs_end_date": "2026-04-22",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "AKTYWNY",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [
+        "KFS",
+        "EFS+"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-16 → 2026-04-22 (ZAKOŃCZONY)",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        },
+        {
+          "type": "EFS+",
+          "title": "Aktywność drogą do zatrudnienia",
+          "fields": {
+            "Alokacja": "brak danych",
+            "Instrumenty": "Staże, prace interwencyjne, szkolenia"
+          }
+        }
+      ],
+      "claudia_note": "Nabór KFS zakończony 22.04. Kwoty EFS+ do weryfikacji telefonicznej."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Kazimierza Wielka",
+      "display_name": "PUP Kazimierza Wielka",
+      "display_meta": "powiat kazimierski",
+      "url_pup": "https://kazimierzawielka.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-24",
+      "kfs_end_date": "2026-04-30",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "AKTYWNY",
+      "amount_kfs": 214000,
+      "amount_total": 214000,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": false,
+      "pillars": [
+        "KFS",
+        "EFS+"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-24 → 2026-04-30 (właśnie zakończony)",
+          "fields": {
+            "Kwota": "214 000 zł",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        },
+        {
+          "type": "EFS+",
+          "title": "Aktywizacja zawodowa osób bezrobotnych z powiatu kazimierskiego (AZOB III)",
+          "fields": {
+            "Alokacja": "brak danych",
+            "Instrumenty": "Staże, prace interwencyjne"
+          }
+        },
+        {
+          "type": null,
+          "title": "Inne okazje",
+          "fields": {},
+          "raw_content": "Grupowe porady 'Kompetencje cyfrowe' (25-31.03.2026) - potencjalny partner do warsztatów"
+        }
+      ],
+      "claudia_note": "KFS 214k zakończony 30.04. PUP prowadzi porady cyfrowe - szansa na pozycjonowanie IRIN jako partnera warsztatów."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Kielce - powiat",
+      "display_name": "PUP Kielce",
+      "display_meta": "powiat kielecki",
+      "url_pup": "https://kielce.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
+      "urgency_days": 999,
+      "kfs_start_date": "2026-03-19",
+      "kfs_end_date": "2026-03-25",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "AKTYWNY",
+      "amount_kfs": 2029000,
+      "amount_total": 2029000,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": false,
+      "pillars": [
+        "KFS",
+        "EFS+"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-03-19 → 2026-03-25 (ZAKOŃCZONY)",
+          "fields": {
+            "Kwota": "2 029 000 zł",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true,
+            "Dofinansowanie": "Do 90% mikrofirmy, 70% pozostałe"
+          }
+        },
+        {
+          "type": "EFS+",
+          "title": "Aktywizacja zawodowa osób bezrobotnych i poszukujących pracy IV",
+          "fields": {
+            "Alokacja": "brak danych",
+            "Instrumenty": "Staże, szkolenia (NABÓR CIĄGŁY), studia podyplomowe, bony na zasiedlenie, prace interwencyjne, refundacja wyposażenia",
+            "Status": "NABÓR CIĄGŁY na szkolenia"
+          }
+        },
+        {
+          "type": null,
+          "title": "Inne okazje",
+          "fields": {},
+          "raw_content": "PFRON - staże i szkolenia dla osób z niepełnosprawnością"
+        }
+      ],
+      "claudia_note": "KFS 2 029 000 zł - nabór zakończony 25.03. Szkolenia EFS+ = NABÓR CIĄGŁY cały rok."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Kielce - miasto",
+      "display_name": "MUP Kielce",
+      "display_meta": "miasto Kielce",
+      "url_pup": "https://mupkielce.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nadchodzi",
+      "urgency_days": 999,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "NADCHODZI",
+      "efs_status": "AKTYWNY",
+      "amount_kfs": null,
+      "amount_total": null,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [
+        "KFS",
+        "EFS+"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026 - termin nieogłoszony",
+          "fields": {
+            "Kwota": "brak danych (w 2025: 2 287 536 zł)",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true,
+            "Uwaga": "Priorytety KFS 2026 ogłoszone, formularz naboru jeszcze NIE"
+          }
+        },
+        {
+          "type": "EFS+",
+          "title": "Projekt regionalny EFS+ (szczegóły na stronie MUP)",
+          "fields": {
+            "Alokacja": "brak danych",
+            "Instrumenty": "Staże, refundacja wyposażenia, prace interwencyjne, szkolenia"
+          }
+        },
+        {
+          "type": null,
+          "title": "Inne okazje",
+          "fields": {},
+          "raw_content": "PFRON - szkolenia dla osób z niepełnosprawnością (od 04.04.2026, do wyczerpania)"
+        }
+      ],
+      "claudia_note": "MONITOROWAĆ - nabór KFS 2026 jeszcze NIE OGŁOSZONY. Duża kwota historyczna (2.3 mln w 2025). Kluczowy urząd dla IRIN."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Starachowice",
+      "display_name": "PUP Starachowice",
+      "display_meta": "powiat starachowicki",
+      "url_pup": "https://starachowice.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
+      "urgency_days": 0,
+      "kfs_start_date": "2026-04-13",
+      "kfs_end_date": "2026-04-17",
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-13 → 2026-04-17 (ZAKOŃCZONY)",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "KFS zakończony 17.04. EFS+ do weryfikacji - projekt z v1 kończyły się 31.03.2026."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Jędrzejów",
+      "display_name": "PUP Jędrzejów",
+      "display_meta": "powiat jędrzejowski",
+      "url_pup": "https://jedrzejow.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "BRAK_DANYCH",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór - brak danych",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "Brak ogłoszenia naboru KFS 2026 na stronie PUP. Do weryfikacji telefonicznie."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Końskie",
+      "display_name": "PUP Końskie",
+      "display_meta": "powiat konecki",
+      "url_pup": "https://konskie.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór - brak aktywnego",
+          "fields": {
+            "Kwota": "brak danych",
+            "Priorytety": "P1-P7",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "EFS+ projekt kończył się 31.03.2026 - sprawdzić kontynuację."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Opatów",
+      "display_name": "PUP Opatów",
+      "display_meta": "powiat opatowski",
+      "url_pup": "https://opatow.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "BRAK_DANYCH",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Do weryfikacji telefonicznie."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Ostrowiec Świętokrzyski",
+      "display_name": "PUP Ostrowiec",
+      "display_meta": "powiat ostrowiecki",
+      "url_pup": "https://ostrowiec.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Do weryfikacji telefonicznie."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Pińczów",
+      "display_name": "PUP Pińczów",
+      "display_meta": "powiat pińczowski",
+      "url_pup": "https://pinczow.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "BRAK_DANYCH",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "EFS+ projekt kończył się 31.03.2026 - potwierdzić kontynuację."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Skarżysko-Kamienna",
+      "display_name": "PUP Skarżysko",
+      "display_meta": "powiat skarżyski",
+      "url_pup": "https://skarzysko.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Do weryfikacji telefonicznie."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Staszów",
+      "display_name": "PUP Staszów",
+      "display_meta": "powiat staszowski",
+      "url_pup": "https://staszow.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "ZAKONCZONY",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Do weryfikacji telefonicznie."
+    },
+    {
+      "voivodeship": "swietokrzyskie",
+      "name": "Włoszczowa",
+      "display_name": "PUP Włoszczowa",
+      "display_meta": "powiat włoszczowski",
+      "url_pup": "https://wloszczowa.praca.gov.pl",
+      "telefon": null,
+      "email": null,
+      "urgency": "nieznany",
+      "urgency_days": 0,
+      "kfs_start_date": null,
+      "kfs_end_date": null,
+      "kfs_status": "BRAK_DANYCH",
+      "efs_status": "DO_WERYFIKACJI",
+      "amount_kfs": 0,
+      "amount_total": 0,
+      "irin_match": 1,
+      "priorytety": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "has_warning": true,
+      "pillars": [],
+      "pillar_details": [],
+      "claudia_note": "Do weryfikacji telefonicznie."
+    }
+  ]
+}

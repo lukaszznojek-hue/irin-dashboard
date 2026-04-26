@@ -1,0 +1,79 @@
+{
+  "data_aktualizacji": "2026-04-27",
+  "terminy": [
+    {
+      "skrot": "KFS",
+      "nazwa": "Krajowy Fundusz Szkoleniowy",
+      "krotki_opis": "Państwowe środki na szkolenia pracowników finansowane przez Fundusz Pracy. Przyznawane przez PUP na wniosek pracodawcy.",
+      "pelny_opis_html": "<p>KFS to wydzielona część Funduszu Pracy przeznaczona na kształcenie ustawiczne pracowników i pracodawców.</p><p><strong>ZMIANY OD 2026:</strong></p><ul><li>Dofinansowanie: <strong>do 70% kosztów</strong> szkolenia (do 90% dla mikrofirm do 9 pracowników)</li><li>Maksymalnie 2× przeciętne wynagrodzenie na osobę rocznie (~17 800 zł w 2026)</li><li><strong>Wymóg BUR:</strong> od 1.01.2026 szkolenie KFS może realizować TYLKO dostawca zarejestrowany w Bazie Usług Rozwojowych PARP. RIS (Rejestr Instytucji Szkoleniowych) zamknięty 31.12.2025</li><li><strong>Retencja 3 miesiące:</strong> pracodawca musi utrzymać zatrudnienie uczestnika przez 3 miesiące po szkoleniu. Dla JDG: 3 mies. nieprzerwanej działalności</li><li>Wniosek elektroniczny przez praca.gov.pl (PSZ-KFS)</li></ul><p>Co można sfinansować: szkolenia, studia podyplomowe, egzaminy, badania lekarskie/psychologiczne, ubezpieczenie NNW.</p><p>Nabory ogłaszane przez każdy PUP oddzielnie - terminy różnią się. Pula środków ograniczona.</p><p>W 2026 r. obowiązują priorytety ministerialne P1-P4 (ogólnopolskie) oraz P5-P7 (ustalone przez każde WUP).</p>",
+      "uwagi_2026": "GAME CHANGER: wymóg BUR eliminuje firmy szkoleniowe bez certyfikatu. IRIN ma BUR (ID 160205, ocena 4.9/5, 813 ocen) - przewaga konkurencyjna."
+    },
+    {
+      "skrot": "EFS+",
+      "nazwa": "Europejski Fundusz Społeczny Plus",
+      "krotki_opis": "Unijny fundusz wspierający zatrudnienie, edukację i włączenie społeczne 2021-2027. Finansuje projekty aktywizacji zawodowej prowadzone m.in. przez PUP.",
+      "pelny_opis_html": "<p>EFS+ to kontynuacja Europejskiego Funduszu Społecznego w perspektywie finansowej 2021-2027, z budżetem ponad 99 mld euro dla całej UE.</p><p>W Polsce środki dystrybuowane przez programy krajowe (FERS - Fundusze Europejskie dla Rozwoju Społecznego) i regionalne (np. FESW dla świętokrzyskiego).</p><p>Kluczowe obszary: zatrudnienie młodych, aktywizacja osób bezrobotnych, podnoszenie kwalifikacji, włączenie społeczne, edukacja, zdrowie.</p><p>Dla IRIN istotne są projekty typu AZOB (Aktywizacja Zawodowa Osób Bezrobotnych) prowadzone przez PUP, z bonami szkoleniowymi i szkoleniami zawodowymi.</p><p>Nabór zwykle ciągły (do wyczerpania środków) - inaczej niż KFS z konkretnymi oknami.</p><p>Wnioskodawcą jest osoba bezrobotna (nie pracodawca) - istotna różnica względem KFS.</p>"
+    },
+    {
+      "skrot": "BUR",
+      "nazwa": "Baza Usług Rozwojowych",
+      "krotki_opis": "Platforma PARP z certyfikowanymi usługami szkoleniowymi i doradczymi. Od 2026 jedyna baza uprawniająca do realizacji KFS.",
+      "pelny_opis_html": "<p>BUR (uslugirozwojowe.parp.gov.pl) to centralny rejestr certyfikowanych usług rozwojowych - szkoleń, doradztwa, coachingu, e-learningu.</p><p>Dofinansowanie z EFS+ przyznawane przez WUP w konkursach regionalnych. Dla świętokrzyskiego: WUP Kielce prowadzi nabory w ramach działań 10.6 i 10.9 FESW.</p><p>Zwykle 5-6 naborów rocznie, naprzemiennie dla pracodawców (10.6) i dla osób indywidualnych (10.9). Pula: 2-5 mln zł na nabór.</p><p>Dofinansowanie do 80% kosztów usługi, z limitem 7-9 tys. zł/uczestnik rocznie (zależy od regionu).</p><p><strong>Od 2026:</strong> rejestracja w BUR wymaga certyfikatu jakości (SUS 2.0/3.0, ISO 9001 lub MSUES). IRIN spełnia ten wymóg.</p><p>Dla klienta: wybór usługi z katalogu BUR → wniosek w WUP → umowa → szkolenie → rozliczenie.</p>",
+      "uwagi_2026": "IRIN w BUR: ID 160205, ocena 4.9/5, 813 ocen, 12 aktywnych usług. Silna pozycja."
+    },
+    {
+      "skrot": "AZOB",
+      "nazwa": "Aktywizacja Zawodowa Osób Bezrobotnych",
+      "krotki_opis": "Projekty EFS+ realizowane przez PUP: staże, szkolenia, bony, prace interwencyjne. Numeracja: AZOB I, II, III, IV - kolejne edycje.",
+      "pelny_opis_html": "<p>AZOB to rodzaj projektu EFS+ realizowanego przez Powiatowe Urzędy Pracy. Nazwa pochodzi od skrótu 'Aktywizacja Zawodowa Osób Bezrobotnych'.</p><p>Kolejne edycje (AZOB I, II, III, IV) to następne transze finansowania z Funduszy Europejskich. Każda edycja ma własny budżet i okres realizacji.</p><p>Instrumenty: bony szkoleniowe, szkolenia zawodowe, staże, prace interwencyjne, refundacja wyposażenia stanowiska, dofinansowanie wynagrodzenia 50+.</p><p>Kluczowe dla IRIN: bony szkoleniowe z AZOB to bezpośredni kanał sprzedaży - osoba bezrobotna wybiera szkolenie z BUR i płaci bonem.</p>"
+    },
+    {
+      "skrot": "P1-P7",
+      "nazwa": "Priorytety KFS",
+      "krotki_opis": "7 priorytetów wydatkowania KFS: P1-P4 ogólnopolskie (MRiPS), P5-P7 wojewódzkie (WUP). Wniosek musi wpisywać się w co najmniej 1.",
+      "pelny_opis_html": "<p><strong>Priorytety ogólnopolskie (MRiPS 2026):</strong></p><p>P1 - Zarządzanie i komunikacja. Poprawa zarządzania, przeciwdziałanie dyskryminacji i mobbingowi, dialog społeczny.</p><p>P2 - Zawody deficytowe. Szkolenia w zawodach z Barometru Zawodów dla danego powiatu/województwa.</p><p>P3 - AI, cyfryzacja, zielone kompetencje. <strong>★ KLUCZOWY DLA IRIN.</strong> Nowe technologie, AI, umiejętności cyfrowe, kompetencje zielone.</p><p>P4 - Sektor zdrowotny i opiekuńczy. <strong>★ KLUCZOWY DLA IRIN</strong> (integracja sensoryczna, TUS). Usługi zdrowotne, opiekuńcze, spółdzielnie socjalne.</p><p><strong>Priorytety wojewódzkie (różne per WUP):</strong></p><p>Przykład świętokrzyskie: P5 cyberbezpieczeństwo, P6 powrót z zagranicy, P7 nowe stanowisko pracy.</p><p>Przykład pomorskie: P5 Inteligentne Specjalizacje, P6 pracownicy 45+, P7 odporność regionu.</p>"
+    },
+    {
+      "skrot": "PUP",
+      "nazwa": "Powiatowy Urząd Pracy",
+      "krotki_opis": "Urząd przyznający środki KFS na poziomie powiatu. Każdy PUP ma własne terminy naborów i budżet.",
+      "pelny_opis_html": "<p>PUP to powiatowa jednostka administracji rządowej odpowiedzialna za rynek pracy na poziomie powiatu.</p><p>Kluczowe funkcje dla dashboardu: ogłaszanie naborów KFS (terminy, kwoty, priorytety), realizacja projektów EFS+ (AZOB), prowadzenie programów aktywizacyjnych.</p><p>Wzorzec URL: https://{nazwa-pup}.praca.gov.pl</p><p>W Polsce: ok. 340 PUP i MUP (Miejskich Urzędów Pracy).</p>"
+    },
+    {
+      "skrot": "MUP",
+      "nazwa": "Miejski Urząd Pracy",
+      "krotki_opis": "Odpowiednik PUP dla miast na prawach powiatu (np. Kielce, Gdańsk, Szczecin). Te same funkcje KFS i EFS+.",
+      "pelny_opis_html": "<p>MUP działa w miastach na prawach powiatu. Pełni te same funkcje co PUP - w tym przyznawanie KFS i realizację projektów EFS+.</p><p>Kluczowe MUP dla IRIN: MUP Kielce (siedziba), MUP Gdańsk, MUP Szczecin (oddział pomorski).</p>"
+    },
+    {
+      "skrot": "WUP",
+      "nazwa": "Wojewódzki Urząd Pracy",
+      "krotki_opis": "Urząd na poziomie województwa. Operator naborów BUR, ustala priorytety wojewódzkie P5-P7 KFS.",
+      "pelny_opis_html": "<p>WUP to wojewódzka jednostka odpowiedzialna za politykę rynku pracy na poziomie regionu.</p><p>Kluczowe funkcje: prowadzenie naborów BUR (dofinansowanie usług rozwojowych dla pracodawców i osób indywidualnych), ustalanie priorytetów wojewódzkich P5-P7 KFS, monitoring regionalnego rynku pracy.</p><p>WUP Kielce: cykl 5-6 naborów BUR rocznie, naprzemiennie działanie 10.6 (pracodawcy) i 10.9 (osoby indywidualne).</p>"
+    },
+    {
+      "skrot": "FESW",
+      "nazwa": "Fundusze Europejskie dla Świętokrzyskiego",
+      "krotki_opis": "Regionalny program operacyjny 2021-2027 dla woj. świętokrzyskiego. Źródło środków na BUR (działania 10.6, 10.9).",
+      "pelny_opis_html": "<p>FESW to program regionalny finansowany z EFS+ dla województwa świętokrzyskiego na lata 2021-2027.</p><p>Kluczowe działania dla IRIN: 10.6 (usługi rozwojowe dla pracodawców przez BUR) i 10.9 (usługi rozwojowe dla osób indywidualnych).</p><p>Analogiczne programy w innych województwach: FELB (lubelskie), FEPM (pomorskie), itp.</p>"
+    },
+    {
+      "skrot": "MRiPS",
+      "nazwa": "Ministerstwo Rodziny i Polityki Społecznej",
+      "krotki_opis": "Ministerstwo ustalające priorytety ogólnopolskie KFS (P1-P4) i zasady wydatkowania Funduszu Pracy.",
+      "pelny_opis_html": "<p>MRiPS (dawniej MPiPS, MRPiPS) jest organem ustalającym coroczne priorytety wydatkowania KFS na poziomie krajowym (P1-P4).</p><p>Ministerstwo określa też zasady przyznawania środków KFS, limity dofinansowania i formularz wniosku PSZ-KFS.</p>"
+    },
+    {
+      "skrot": "Bon szkoleniowy",
+      "nazwa": "Bon szkoleniowy",
+      "krotki_opis": "Instrument EFS+/AZOB: osoba bezrobotna otrzymuje bon i sama wybiera szkolenie z BUR. Bezpośredni kanał sprzedaży dla IRIN.",
+      "pelny_opis_html": "<p>Bon szkoleniowy to instrument rynku pracy dostępny w projektach EFS+/AZOB. Osoba bezrobotna zarejestrowana w PUP otrzymuje bon o określonej wartości i sama wybiera szkolenie z katalogu BUR.</p><p>Dla IRIN to bezpośredni kanał sprzedaży: klient przychodzi z bonem, wybiera usługę IRIN z BUR, PUP płaci za szkolenie.</p><p>Wartość bonu: zależy od projektu i regionu, zwykle 3-9 tys. zł.</p>"
+    },
+    {
+      "skrot": "FERS",
+      "nazwa": "Fundusze Europejskie dla Rozwoju Społecznego",
+      "krotki_opis": "Program krajowy PARP finansujący usługi rozwojowe. Aktualny nabór dla dostawców BUR do 31.08.2026.",
+      "pelny_opis_html": "<p>FERS to krajowy program operacyjny zarządzany przez PARP, finansujący poprawę jakości usług w Bazie Usług Rozwojowych.</p><p>Główne obszary: praca, edukacja, zdrowie, dostępność.</p><p>Z dofinansowanych usług BUR mogą korzystać mieszkańcy wszystkich województw: pracownicy, pracodawcy i osoby dorosłe.</p><p>Aktualny nabór FERS dla dostawców BUR: do 31.08.2026.</p>"
+    }
+  ]
+}

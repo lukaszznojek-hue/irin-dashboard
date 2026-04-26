@@ -1,0 +1,35 @@
+{
+  "wojewodztwo": "swietokrzyskie",
+  "wojewodztwo_label": "Świętokrzyskie",
+  "tier": "1a",
+  "data_aktualizacji": "2026-04-27",
+  "wup_url": "https://wupkielce.praca.gov.pl",
+  "wup_email": null,
+  "wup_telefon": null,
+  "operator_bur": "WUP Kielce",
+  "priorytety_wojewodzkie": [
+    {
+      "kod": "P5",
+      "nazwa": "Cyberbezpieczeństwo",
+      "opis": "Wsparcie kształcenia w zakresie cyberbezpieczeństwa"
+    },
+    {
+      "kod": "P6",
+      "nazwa": "Powrót z zagranicy",
+      "opis": "Wsparcie osób powracających z zagranicy na rynek pracy"
+    },
+    {
+      "kod": "P7",
+      "nazwa": "Nowe stanowisko pracy",
+      "opis": "Kształcenie ustawiczne pracowników przenoszonych na nowe stanowiska"
+    }
+  ],
+  "projekty_bur": [
+    {
+      "nazwa": "BUR I/1/2026 - działanie 10.6 DLA PRACODAWCÓW",
+      "status": "nabor",
+      "operator": "WUP Kielce"
+    }
+  ],
+  "claudia_note": "Cykl 5-6 naborów BUR rocznie, naprzemiennie 10.6 (pracodawcy) i 10.9 (osoby indywidualne). Siedziba IRIN."
+}

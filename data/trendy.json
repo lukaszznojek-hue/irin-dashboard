@@ -1,0 +1,142 @@
+{
+  "data_aktualizacji": "2026-04-27",
+  "kategorie": [
+    {
+      "klucz": "regulacyjne",
+      "nazwa": "Regulacyjne - obowiązkowe szkolenia 2026",
+      "intensywnosc_popytu": 5,
+      "opis_ogolny": "Rok 2026 to pełna implementacja kluczowych regulacji UE nakładających bezpośrednie obowiązki szkoleniowe na organizacje",
+      "elementy": [
+        {
+          "nazwa": "NIS2 - cyberbezpieczeństwo",
+          "opis": "Dyrektywa unijna o cyberbezpieczeństwie. Pełne egzekwowanie 2025-2026. Wymaga szkoleń cyber dla kadry zarządzającej i IT w podmiotach kluczowych i ważnych. Ministerstwo Cyfryzacji ogłosiło strategię implementacji na 2026-2027.",
+          "popyt": "wysoki",
+          "kfs_priorytet_match": "P3 (cyfryzacja) + P5 świętokrzyskie (cyberbezpieczeństwo)",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true,
+          "rekomendacja": "Stworzyć szkolenie: Cyberbezpieczeństwo dla MŚP - wdrożenie NIS2"
+        },
+        {
+          "nazwa": "AI Act - sztuczna inteligencja",
+          "opis": "Rozporządzenie UE o sztucznej inteligencji. Etapami od 2024, pełne wdrożenie 2026. Obowiązek AI literacy dla zespołów pracujących z AI wysokiego ryzyka. Dotyczy zarówno dostawców jak i użytkowników systemów AI.",
+          "popyt": "rosnący silnie",
+          "kfs_priorytet_match": "P3 (AI)",
+          "irin_obecnie_oferuje": "częściowo (szkolenia z AI w pracy)",
+          "luka_oferty": true,
+          "rekomendacja": "Stworzyć szkolenie: AI Compliance dla MŚP - AI Act w praktyce"
+        },
+        {
+          "nazwa": "DORA - sektor finansowy",
+          "opis": "Digital Operational Resilience Act. Od 17.01.2025. Szkolenia z odporności cyfrowej, zarządzania ryzykiem ICT i testowania bezpieczeństwa dla sektora finansowego.",
+          "popyt": "średni (specjalizowany sektor)",
+          "kfs_priorytet_match": "P3",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true,
+          "rekomendacja": "Niszowe - rozważyć jeśli IRIN ma trenerów z sektora finansowego"
+        },
+        {
+          "nazwa": "CSRD/ESG - raportowanie zrównoważonego rozwoju",
+          "opis": "Corporate Sustainability Reporting Directive. Od 2024 dla dużych spółek, od 2026 rozszerzenie na MŚP giełdowe. Wymaga kompetencji raportowania ESG.",
+          "popyt": "rosnący",
+          "kfs_priorytet_match": "P3 (zielone kompetencje)",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true,
+          "rekomendacja": "Stworzyć szkolenie: Zielona transformacja firmy - ESG i raportowanie CSRD"
+        }
+      ]
+    },
+    {
+      "klucz": "cyfryzacja_ai",
+      "nazwa": "Cyfryzacja i AI - gorące 2026",
+      "intensywnosc_popytu": 5,
+      "elementy": [
+        {
+          "nazwa": "AI w pracy codziennej (generatywne AI, prompt engineering)",
+          "popyt": "bardzo wysoki",
+          "irin_obecnie_oferuje": true,
+          "powiazane_szkolenia_irin": ["3421591", "3386476"],
+          "luka_oferty": false
+        },
+        {
+          "nazwa": "Social media i marketing cyfrowy z AI",
+          "popyt": "wysoki",
+          "irin_obecnie_oferuje": true,
+          "powiazane_szkolenia_irin": ["3432404", "3432500"],
+          "luka_oferty": false
+        },
+        {
+          "nazwa": "AI Security Specialist",
+          "popyt": "wysoki (premium niche)",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true
+        },
+        {
+          "nazwa": "Cloud Security Architect (AWS/Azure/GCP)",
+          "popyt": "wysoki (premium niche)",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true
+        },
+        {
+          "nazwa": "Excel + Power BI + AI dla analityków",
+          "popyt": "stabilny wysoki (hard skill, zawsze popyt)",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true,
+          "rekomendacja": "Stworzyć szkolenie twardych kompetencji analitycznych z AI"
+        }
+      ]
+    },
+    {
+      "klucz": "soft_skills_premium",
+      "nazwa": "Soft skills premium - stabilne",
+      "intensywnosc_popytu": 3,
+      "elementy": [
+        {
+          "nazwa": "Skuteczność osobista i zarządzanie energią",
+          "popyt": "stabilny",
+          "irin_obecnie_oferuje": true,
+          "powiazane_szkolenia_irin": ["3386476", "3421591"]
+        },
+        {
+          "nazwa": "Komunikacja w zespole rozproszonym",
+          "popyt": "stabilny",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true
+        },
+        {
+          "nazwa": "Przywództwo w erze cyfrowej",
+          "popyt": "rosnący",
+          "irin_obecnie_oferuje": false,
+          "luka_oferty": true,
+          "rekomendacja": "Akademia Lidera - przywództwo w erze cyfrowej"
+        }
+      ]
+    },
+    {
+      "klucz": "edukacja_specjalistyczna",
+      "nazwa": "Edukacja specjalistyczna - nisza IRIN",
+      "intensywnosc_popytu": 3,
+      "elementy": [
+        {
+          "nazwa": "Integracja sensoryczna (diagnostyka i terapia)",
+          "popyt": "stabilny niszowy",
+          "irin_obecnie_oferuje": true,
+          "powiazane_szkolenia_irin": ["3420786", "3270238", "3405199"],
+          "uwaga": "Wysoka cena (9310 zł), ale premium niche z lojalnym klientem"
+        },
+        {
+          "nazwa": "TUS - Trening Umiejętności Społecznych",
+          "popyt": "stabilny",
+          "irin_obecnie_oferuje": true,
+          "powiazane_szkolenia_irin": ["3379725"]
+        },
+        {
+          "nazwa": "Przygotowanie projektów dofinansowanych",
+          "popyt": "meta-szkolenie (lead gen)",
+          "irin_obecnie_oferuje": true,
+          "powiazane_szkolenia_irin": ["3381926"],
+          "uwaga": "Top of funnel - klient po szkoleniu wraca po inne usługi IRIN"
+        }
+      ]
+    }
+  ]
+}

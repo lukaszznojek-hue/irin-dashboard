@@ -1,0 +1,34 @@
+{
+  "wersja": "4.0.0",
+  "data_aktualizacji": "2026-04-27",
+  "kolejna_planowana_aktualizacja": "2026-05-04",
+  "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "4.0.0",
+      "zmiany": [
+        "Modularna architektura: dane JSON + HTML fetch",
+        "16 województw (TIER 1A pełne, 1B podstawowe, 2 skeleton)",
+        "12 aktualnych usług BUR IRIN (ocena 4.9/5, 813 ocen)",
+        "Materiały sprzedażowe: 6 skryptów + 8 maili + Bitrix spec",
+        "Prezentacja IRIN PDF + PPTX",
+        "Warstwa zarządu AES-256 (Strategia)",
+        "Banner KFS 2026 game changer: BUR wymóg, 70%/90%, 3-mies retencja"
+      ],
+      "kto": "Claudia + Łukasz"
+    }
+  ],
+  "tier_pokrycia": {
+    "tier_1a": ["swietokrzyskie", "pomorskie", "zachodniopomorskie", "kujawsko-pomorskie"],
+    "tier_1b": ["wielkopolskie", "slaskie", "dolnoslaskie", "malopolskie", "mazowieckie"],
+    "tier_2": ["lubelskie", "lubuskie", "lodzkie", "opolskie", "podkarpackie", "podlaskie", "warminsko-mazurskie"]
+  },
+  "kfs_2026_zmiany": {
+    "intensywnosc_max_standard_procent": 70,
+    "intensywnosc_max_mikrofirma_procent": 90,
+    "wymog_bur_od": "2026-01-01",
+    "retencja_miesiace": 3,
+    "wniosek_elektroniczny": true,
+    "ris_zamkniety": "2025-12-31"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "data_aktualizacji": "2026-04-27",
+  "uzasadnienie": "Luki w obecnej ofercie IRIN vs trendy regulacyjne + popytowe 2026. Każda propozycja trafia w minimum 1 priorytet PARP i jest realizowalna zdalnie (skalowalna).",
+  "propozycje": [
+    {
+      "kod": "PROP-01",
+      "tytul": "AI Compliance dla MŚP - AI Act w praktyce",
+      "kategoria": "ai_regulacje",
+      "uzasadnienie": "AI Act wchodzi etapami 2024-2026, obowiązek AI literacy. Brak ofert na polskim rynku szkoleń BUR dedykowanych compliance AI Act.",
+      "estymowana_cena": 6500,
+      "estymowane_godziny": 24,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3"],
+      "rynek_target": "MŚP, działy compliance, kadra zarządzająca",
+      "pilnosc": "wysoka - pełne wdrożenie AI Act 2026"
+    },
+    {
+      "kod": "PROP-02",
+      "tytul": "Cyberbezpieczeństwo dla MŚP - wdrożenie NIS2",
+      "kategoria": "regulacje",
+      "uzasadnienie": "NIS2 wymaga szkoleń cyber dla kadry zarządzającej i IT. P5 świętokrzyskie = cyberbezpieczeństwo.",
+      "estymowana_cena": 7200,
+      "estymowane_godziny": 30,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3", "P5 świętokrzyskie"],
+      "rynek_target": "MŚP, podmioty kluczowe i ważne wg NIS2",
+      "pilnosc": "wysoka - obowiązkowe szkolenia 2025-2026"
+    },
+    {
+      "kod": "PROP-03",
+      "tytul": "Zielona transformacja firmy - ESG i raportowanie CSRD",
+      "kategoria": "regulacje",
+      "uzasadnienie": "CSRD od 2026 dla MŚP giełdowych. P3 PARP: zielone kompetencje. P5 zachodniopomorskie: transformacja energetyczna.",
+      "estymowana_cena": 6800,
+      "estymowane_godziny": 24,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3", "P5 zachodniopomorskie"],
+      "rynek_target": "MŚP, działy compliance/raportowania, zarząd",
+      "pilnosc": "średnia - rośnie z każdym kwartałem"
+    },
+    {
+      "kod": "PROP-04",
+      "tytul": "Akademia HR z elementami AI - rekrutacja i retencja",
+      "kategoria": "ai",
+      "uzasadnienie": "Projekt BUR 'Akademia HR' istnieje. AI w rekrutacji = trend 2026. P1 PARP: zarządzanie i komunikacja.",
+      "estymowana_cena": 7500,
+      "estymowane_godziny": 32,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P1", "P3"],
+      "rynek_target": "HR managerowie, dyrektorzy personalni MŚP i dużych firm",
+      "pilnosc": "średnia"
+    },
+    {
+      "kod": "PROP-05",
+      "tytul": "Marketing dla MŚP usługowych z wykorzystaniem AI",
+      "kategoria": "ai",
+      "uzasadnienie": "Rozszerzenie obecnej oferty Social Media. Głębszy fokus na AI narzędzia marketingowe (Canva AI, ChatGPT, midjourney).",
+      "estymowana_cena": 5900,
+      "estymowane_godziny": 20,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3"],
+      "rynek_target": "Właściciele MŚP usługowych, marketerzy",
+      "pilnosc": "niska - obecna oferta częściowo pokrywa"
+    },
+    {
+      "kod": "PROP-06",
+      "tytul": "Sprzedaż B2B w erze AI - prospecting + CRM",
+      "kategoria": "biznes",
+      "uzasadnienie": "Akademia Sprzedaży IRIN + PNSA dają bazę. Brakuje wariantu z AI prospecting tools.",
+      "estymowana_cena": 6500,
+      "estymowane_godziny": 24,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3"],
+      "rynek_target": "Handlowcy B2B, key account managerowie, dyrektorzy sprzedaży",
+      "pilnosc": "średnia"
+    },
+    {
+      "kod": "PROP-07",
+      "tytul": "Customer Experience i obsługa klienta z AI",
+      "kategoria": "ai",
+      "uzasadnienie": "Chatboty, voiceboty, automatyzacja CX. Gastronomia, retail, e-commerce - branże obecne w akademiach IRIN.",
+      "estymowana_cena": 5500,
+      "estymowane_godziny": 20,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3"],
+      "rynek_target": "Branża usługowa: gastronomia, retail, e-commerce",
+      "pilnosc": "niska"
+    },
+    {
+      "kod": "PROP-08",
+      "tytul": "Zarządzanie projektami z AI (PMI/Scrum + AI tools)",
+      "kategoria": "biznes",
+      "uzasadnienie": "Stałe zapotrzebowanie na PM. Dodanie AI tools (Notion AI, GitHub Copilot, Asana AI) jako wyróżnik.",
+      "estymowana_cena": 7000,
+      "estymowane_godziny": 30,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3"],
+      "rynek_target": "Project managerowie, team leaderzy, IT managerowie",
+      "pilnosc": "niska"
+    },
+    {
+      "kod": "PROP-09",
+      "tytul": "Excel + Power BI + AI dla analityków",
+      "kategoria": "ai",
+      "uzasadnienie": "Twardy hard skill, zawsze popyt. Copilot w Excel + Power BI = nowy standard 2026.",
+      "estymowana_cena": 6200,
+      "estymowane_godziny": 24,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P3"],
+      "rynek_target": "Analitycy, kontrolerzy finansowi, managerowie raportujący",
+      "pilnosc": "średnia - stały popyt"
+    },
+    {
+      "kod": "PROP-10",
+      "tytul": "Akademia Lidera - przywództwo w erze cyfrowej",
+      "kategoria": "soft_skills",
+      "uzasadnienie": "Soft skills premium. Akademia Managera + Akademia Zarządzania PNSA = baza. Wariant z elementami remote leadership i AI.",
+      "estymowana_cena": 8900,
+      "estymowane_godziny": 40,
+      "forma": "zdalna",
+      "powiazane_priorytety": ["P1", "P3"],
+      "rynek_target": "C-level, dyrektorzy, senior managerowie",
+      "pilnosc": "niska - premium niche"
+    }
+  ]
+}

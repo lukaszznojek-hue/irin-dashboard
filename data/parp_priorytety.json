@@ -1,0 +1,88 @@
+{
+  "rok": 2026,
+  "data_aktualizacji": "2026-04-27",
+  "zrodlo": "psz.praca.gov.pl, szkolenia.expert, web search 27.04.2026",
+  "system_priorytetow": "3-poziomowy: do 4 ogólnopolskich + do 3 wojewódzkich + 1 powiatowy = max 8 per PUP",
+  "ministerialne": [
+    {
+      "kod": "P1",
+      "nazwa": "Zarządzanie i komunikacja",
+      "opis": "Poprawa zarządzania i komunikacji w firmie w oparciu o zasady przeciwdziałania dyskryminacji i mobbingowi, rozwoju dialogu społecznego, partycypacji pracowniczej i wspierania integracji w miejscu pracy",
+      "irin_match": false,
+      "powiazane_szkolenia_irin": []
+    },
+    {
+      "kod": "P2",
+      "nazwa": "Zawody deficytowe",
+      "opis": "Wsparcie kształcenia ustawicznego osób w zakresie umiejętności lub kwalifikacji w zawodach określonych jako deficytowe w Barometrze Zawodów dla danego powiatu lub województwa",
+      "irin_match": false,
+      "powiazane_szkolenia_irin": []
+    },
+    {
+      "kod": "P3",
+      "nazwa": "AI, cyfryzacja, zielone kompetencje",
+      "opis": "Wsparcie kształcenia ustawicznego w związku z wdrażaniem nowych procesów, technologii i narzędzi pracy, ze szczególnym uwzględnieniem umiejętności cyfrowych, sztucznej inteligencji i kompetencji zielonych",
+      "irin_match": true,
+      "irin_match_opis": "KLUCZOWY DLA IRIN - 4 z 12 aktywnych usług BUR trafia bezpośrednio w ten priorytet",
+      "powiazane_szkolenia_irin": ["3432404", "3421591", "3386476", "3432500"]
+    },
+    {
+      "kod": "P4",
+      "nazwa": "Sektor zdrowotny i opiekuńczy",
+      "opis": "Wsparcie kształcenia ustawicznego w zakresie kwalifikacji niezbędnych do świadczenia usług zdrowotnych, opiekuńczych oraz usług w ramach spółdzielni socjalnych",
+      "irin_match": true,
+      "irin_match_opis": "KLUCZOWY DLA IRIN - integracja sensoryczna, TUS, psychologia dobrostanu",
+      "powiazane_szkolenia_irin": ["3420786", "3379725", "3270238", "3405199", "3252643"]
+    }
+  ],
+  "wojewodzkie_zestawienie": {
+    "swietokrzyskie": [
+      {"kod":"P5","nazwa":"Cyberbezpieczeństwo"},
+      {"kod":"P6","nazwa":"Powrót z zagranicy"},
+      {"kod":"P7","nazwa":"Nowe stanowisko pracy"}
+    ],
+    "pomorskie": [
+      {"kod":"P5","nazwa":"Inteligentne Specjalizacje Pomorza"},
+      {"kod":"P6","nazwa":"Pracownicy 45+"},
+      {"kod":"P7","nazwa":"Odporność regionu"}
+    ],
+    "zachodniopomorskie": [
+      {"kod":"P5","nazwa":"Transformacja energetyczna"}
+    ],
+    "kujawsko-pomorskie": [
+      {"kod":"P5","nazwa":"Strategia 2030+ (sektory kluczowe regionu)"},
+      {"kod":"P6","nazwa":"Powrót po opiece nad dzieckiem/osobą zależną"},
+      {"kod":"P7","nazwa":"Pracownicy 50+"}
+    ],
+    "wielkopolskie": [
+      {"kod":"P5","nazwa":"Ochrona przedemerytalna i wiek emerytalny"}
+    ],
+    "slaskie": [
+      {"kod":"P5","nazwa":"Zawody deficytowe + zapobieganie utracie pracy"},
+      {"kod":"P6","nazwa":"Osoby bez kwalifikacji + osoby do 30 lat"},
+      {"kod":"P7","nazwa":"Sektory kluczowe: medycyna, IT, energetyka, zielona gospodarka"}
+    ],
+    "dolnoslaskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "malopolskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "mazowieckie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "lubelskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "lubuskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "lodzkie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "opolskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "podkarpackie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "podlaskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}],
+    "warminsko-mazurskie": [{"kod":"P5","nazwa":"DO WERYFIKACJI"}]
+  },
+  "limity_2026": {
+    "intensywnosc_max_standard_procent": 70,
+    "intensywnosc_max_mikrofirma_do_9_procent": 90,
+    "max_per_uczestnik_x_srednia": 2,
+    "szacunkowa_kwota_max_per_uczestnik_pln": 17800,
+    "wymog_bur": true,
+    "wymog_bur_od": "2026-01-01",
+    "ris_zamkniety": "2025-12-31",
+    "retencja_miesiace": 3,
+    "wniosek_elektroniczny": true,
+    "portal_wnioskow": "praca.gov.pl (PSZ-KFS)"
+  }
+}
