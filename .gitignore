@@ -6,3 +6,6 @@ pre_flight_audit.md
 audyt_v3.md
 architektura_v4.md
 plan_faza_B.md
+archiwum/data_backup_*/
+__pycache__/
+*.pyc
