@@ -27,7 +27,7 @@ function renderVoivodeshipGroup(slug, urzedy) {
   const tier = getTier(slug);
 
   return `
-    <div class="woj-group" data-woj="${slug}">
+    <div class="woj-group collapsed" data-woj="${slug}">
       <div class="woj-header" onclick="toggleVoivodeshipGroup(this)">
         <span class="woj-chevron">▾</span>
         <span class="woj-nazwa">${VOIVODESHIP_LABELS[slug] || slug}</span>
