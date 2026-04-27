@@ -88,11 +88,11 @@ function globalSearch(query) {
 
     // Propozycje
     (DASHBOARD_DATA.propozycje?.propozycje || []).forEach(p => {
-      const haystack = [p.tytul_roboczy, p.opis_krotki, p.uzasadnienie].filter(Boolean).join(' ').toLowerCase();
+      const haystack = [p.kod, p.tytul, p.kategoria, p.uzasadnienie, p.rynek_target].filter(Boolean).join(' ').toLowerCase();
       if (haystack.includes(q)) {
         hits.push({
           type: 'propozycja',
-          label: p.tytul_roboczy,
+          label: p.kod + ' · ' + (p.tytul || '(bez tytułu)'),
           sub: p.status || '',
           badge: p.pilnosc || '',
           action: () => { goToSzkolenia('propozycje'); closeSearch(); }
