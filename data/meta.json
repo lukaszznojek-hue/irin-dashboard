@@ -1,8 +1,23 @@
 {
-  "wersja": "6.2.0",
+  "wersja": "6.3.0-partial",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.3.0-partial",
+      "zmiany": [
+        "TIER 1A research czesciowy: dograne 6 powiatow z konkretnymi kwotami KFS 2026 (suma 4.8 mln zl nowych danych)",
+        "Pomorskie: PUP Kartuzy alokacja 1 803 300 zl (top kwota poza MUP Gdansk) - lead priorytetowy",
+        "Zachodniopomorskie: PUP Bialogard (3 telefony zweryfikowane: 94 311 31 22, 733 444 129, 697 978 705 + nabor ciagly), PUP Gryfino 791 548 zl (P5 transformacja energetyczna - dopasowanie Akademia OZE), PUP Pyrzyce 368 337 zl",
+        "Kujawsko-pomorskie: PUP Aleksandrow Kujawski 400 000 zl, PUP Mogilno 474 447 zl (oba zakonczone 24.04)",
+        "TIER 1A statystyki: zadzwon spadlo z 83% (64/77) do 63% (49/77), powiatow z kwota KFS: 4->10",
+        "Suma kwot KFS w TIER 1A: 21 899 632 zl",
+        "Odkryta laczna alokacja KFS 2026 PL: 417 493 tys. zl (mazowieckie 68 465 / slaskie 46 820 / wielkopolskie 42 353 top, opolskie 9 460 / lubuskie 10 012 dol)",
+        "Sygnal na v6.4: pelny scraping pozostalych 49 powiatow zadzwon TIER 1A wymaga Playwright headless (4-6h dev) - WebFetch zwraca shell dla wiekszosci PUP-ow"
+      ],
+      "kto": "Claude Code (autonomous workflow) - sesja research TIER 1A"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.2.0",
@@ -106,7 +121,7 @@
   },
   "kpi_dashboardu": {
     "data_aktualizacji": "2026-04-27",
-    "liczba_aktywnych_naborow": 4,
+    "liczba_aktywnych_naborow": 5,
     "kwota_kfs_tier_1a_pln": 0,
     "liczba_szkolen_bur": 10,
     "dni_do_najblizszego_deadline_regulacyjnego": 97,

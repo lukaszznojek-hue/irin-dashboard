@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Zachodniopomorskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.3 czesciowy: 3 powiaty zhydratowane (Bialogard/Gryfino/Pyrzyce) z zielonalinia.gov.pl. Pozostale 18 nadal SKELETON - wymaga Playwright scrapera w v6.4.",
   "powiaty": [
     {
       "voivodeship": "zachodniopomorskie",
@@ -99,21 +99,33 @@
       "display_name": "PUP Białogard",
       "display_meta": "powiat Białogard",
       "url_pup": "https://bialogard.praca.gov.pl",
-      "urgency": "nieznany",
-      "urgency_days": 0,
-      "kfs_start_date": null,
+      "telefon": "94 311 31 22, 733 444 129, 697 978 705",
+      "email": null,
+      "urgency": "trwa",
+      "urgency_days": 999,
+      "kfs_start_date": "2026-02-27",
       "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
-      "irin_match": 0,
-      "has_warning": true,
-      "pillars": [],
-      "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": ["KFS"],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór ciągły od 2026-02-27 do wyczerpania środków",
+          "fields": {
+            "Kwota": "brak danych - do weryfikacji telefonicznej",
+            "Charakter": "nabór ciągły",
+            "Telefon": "94 311 31 22, 733 444 129, 697 978 705"
+          }
+        }
+      ],
+      "claudia_note": "v6.3: 3 telefony zweryfikowane ze zielonalinia.gov.pl. Nabór KFS 2026 trwa od 27.02 do wyczerpania środków. Pilna pierwsza akcja: zadzwonić, dograć kwotę i email.",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor ciagly KFS 2026 - kontakt mozliwy, telefon zdobyty"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -209,21 +221,33 @@
       "display_name": "PUP Gryfino",
       "display_meta": "powiat Gryfino",
       "url_pup": "https://gryfino.praca.gov.pl",
-      "urgency": "nieznany",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-01",
+      "kfs_end_date": "2026-03-20",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
-      "irin_match": 0,
-      "has_warning": true,
-      "pillars": [],
-      "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "amount_kfs": 791548,
+      "amount_total": 791548,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": ["KFS"],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-03-01 → 2026-03-20 (ZAKONCZONY)",
+          "fields": {
+            "Kwota": "791 548 zł",
+            "Priorytety": "P3 zachodniopomorskie (transformacja energetyczna) + ogólnopolskie P1-P5",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "v6.3: alokacja 791 548 zł zweryfikowana z zielonalinia.gov.pl. P5 wojewódzki = transformacja energetyczna - świetne dopasowanie do Akademii OZE IRIN. Nabór zakończony 20.03 - sprawdzić II termin Q3 2026.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20 - dograc II termin"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -341,21 +365,33 @@
       "display_name": "PUP Pyrzyce",
       "display_meta": "powiat Pyrzyce",
       "url_pup": "https://pyrzyce.praca.gov.pl",
-      "urgency": "nieznany",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-23",
+      "kfs_end_date": "2026-03-31",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
-      "irin_match": 0,
-      "has_warning": true,
-      "pillars": [],
-      "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "amount_kfs": 368337,
+      "amount_total": 368337,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": ["KFS"],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-03-23 → 2026-03-31 (ZAKONCZONY)",
+          "fields": {
+            "Kwota": "368 337 zł",
+            "Priorytety": "P1-P5 ogólnopolskie (zarządzanie/zawody deficytowe/AI/zdrowie/45+)",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "v6.3: alokacja 368 337 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 31.03 - sprawdzić II termin.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-31 - dograc II termin"
     },
     {
       "voivodeship": "zachodniopomorskie",

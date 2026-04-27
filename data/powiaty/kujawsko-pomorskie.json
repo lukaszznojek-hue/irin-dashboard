@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Kujawsko-pomorskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.3 czesciowy: 2 powiaty zhydratowane (Aleksandrow Kujawski/Mogilno) z zielonalinia.gov.pl. Pozostale 21 nadal SKELETON - wymaga Playwright scrapera w v6.4.",
   "powiaty": [
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -143,21 +143,34 @@
       "display_name": "PUP Aleksandrów Kujawski",
       "display_meta": "powiat Aleksandrów Kujawski",
       "url_pup": "https://aleksandrowkujawski.praca.gov.pl",
-      "urgency": "nieznany",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-20",
+      "kfs_end_date": "2026-04-24",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
-      "irin_match": 0,
-      "has_warning": true,
-      "pillars": [],
-      "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "amount_kfs": 400000,
+      "amount_total": 400000,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": ["KFS"],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-20 → 2026-04-24 (właśnie zakończony, 3 dni temu)",
+          "fields": {
+            "Kwota": "400 000 zł",
+            "Priorytety": "P1-P5 ogólnopolskie + P5-P7 wojewódzkie kuj-pom (Strategia 2030+/powrót po opiece/50+)",
+            "Priorytety_irin_star": true,
+            "Czas_rozpatrywania": "ok. 45 dni"
+          }
+        }
+      ],
+      "claudia_note": "v6.3: alokacja 400 000 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 24.04 (3 dni temu) - sprawdzić II termin Q3 2026.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-24"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -319,21 +332,33 @@
       "display_name": "PUP Mogilno",
       "display_meta": "powiat Mogilno",
       "url_pup": "https://mogilno.praca.gov.pl",
-      "urgency": "nieznany",
+      "telefon": null,
+      "email": null,
+      "urgency": "zakonczony",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-20",
+      "kfs_end_date": "2026-04-24",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
-      "irin_match": 0,
-      "has_warning": true,
-      "pillars": [],
-      "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "amount_kfs": 474447,
+      "amount_total": 474447,
+      "irin_match": 1,
+      "has_warning": false,
+      "pillars": ["KFS"],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "Nabór 2026-04-20 → 2026-04-24 (właśnie zakończony)",
+          "fields": {
+            "Kwota": "474 447 zł",
+            "Priorytety": "P1-P5 ogólnopolskie",
+            "Priorytety_irin_star": true
+          }
+        }
+      ],
+      "claudia_note": "v6.3: alokacja 474 447 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 24.04 - sprawdzić II termin.",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-24"
     },
     {
       "voivodeship": "kujawsko-pomorskie",

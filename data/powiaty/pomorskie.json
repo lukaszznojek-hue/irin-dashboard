@@ -377,14 +377,16 @@
       "display_name": "PUP Kartuzy",
       "display_meta": "powiat Kartuzy",
       "url_pup": "https://kartuzy.praca.gov.pl",
+      "telefon": null,
+      "email": null,
       "urgency": "nadchodzi",
-      "urgency_days": 0,
+      "urgency_days": 49,
       "kfs_start_date": "2026-06-15",
       "kfs_end_date": "2026-06-19",
       "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1803300,
+      "amount_total": 1803300,
       "irin_match": 1,
       "has_warning": false,
       "pillars": [
@@ -395,13 +397,14 @@
           "type": "KFS",
           "title": "Nabór planowany 2026-06-15 → 2026-06-19",
           "fields": {
-            "Kwota": "brak danych",
-            "Priorytety": "P1-P7",
-            "Priorytety_irin_star": true
+            "Kwota": "1 803 300 zł",
+            "Priorytety": "P1-P7 + P5 wojewódzki Inteligentne Specjalizacje Pomorza",
+            "Priorytety_irin_star": true,
+            "II_termin": "31.08-04.09.2026"
           }
         }
       ],
-      "claudia_note": "Planowane: 15-19.06 + 31.08-4.09.",
+      "claudia_note": "v6.3: alokacja 1 803 300 zł zweryfikowana z zielonalinia.gov.pl. Planowane terminy: 15-19.06 (I) + 31.08-04.09 (II). PUP Kartuzy ma TOP kwote w powiatach pomorskich poza MUP Gdansk - lead priorytetowy.",
       "priorytety": [
         "P1",
         "P2",
