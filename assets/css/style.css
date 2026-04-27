@@ -651,6 +651,10 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 .search-badge { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 3px; background: var(--krem); color: var(--granat); white-space: nowrap; }
 .search-no-results { padding: 12px; text-align: center; font-size: 12px; color: var(--szary); }
 
+/* Status row w karcie powiatu */
+.card-status-row { display: flex; gap: 8px; flex-wrap: wrap; padding: 6px 0; margin-bottom: 6px; border-bottom: 1px dashed var(--linia); font-size: 11px; color: var(--szary); }
+.card-status-sep { color: var(--linia); }
+
 /* Kontakt PUP w karcie */
 .card-contact { display: flex; gap: 16px; flex-wrap: wrap; margin: 6px 0; font-size: 12px; }
 .contact-item a { color: var(--granat); text-decoration: none; }

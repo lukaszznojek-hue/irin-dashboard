@@ -105,6 +105,7 @@ function renderCard(card) {
       <div class="card-col-akcja">${akcjaBadge}</div>
     </div>
     <div class="card-body">
+      ${renderCardStatusRow(card)}
       ${renderPillarDetails(card)}
       ${(card.priorytety && card.priorytety.length) ? `<div class="card-priorytety"><strong>Priorytety PARP:</strong> ${card.priorytety.map(p => `<span class="prior-tag">${p}</span>`).join(' ')}</div>` : ''}
       ${card.akcja_status_uzasadnienie ? `<div class="akcja-uzasadnienie"><strong>Status:</strong> ${escapeHtml(card.akcja_status_uzasadnienie)}</div>` : ''}
@@ -123,6 +124,15 @@ function renderCard(card) {
       </div>` : ''}
     </div>
   </div>`;
+}
+
+function renderCardStatusRow(card) {
+  const parts = [];
+  if (card.kfs_status) parts.push(`<span class="card-status-item">KFS: <strong>${card.kfs_status}</strong></span>`);
+  if (card.efs_status) parts.push(`<span class="card-status-item">EFS+: <strong>${card.efs_status}</strong></span>`);
+  if (card.amount_total > 0) parts.push(`<span class="card-status-item">Kwota calkowita: <strong>${formatKwota(card.amount_total)}</strong></span>`);
+  if (!parts.length) return '';
+  return `<div class="card-status-row">${parts.join('<span class="card-status-sep">|</span>')}</div>`;
 }
 
 function renderAkcjaBadge(akcja) {
