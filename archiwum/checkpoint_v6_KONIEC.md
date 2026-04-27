@@ -8,7 +8,7 @@
 
 🔑 **NOWE HASŁO STRATEGII:** `byPC-R0SDrHbB-GS`
 
-Stare `Wiktori@2026` już nie działa. Przekaż zarządowi (Wiktoria, Anita) i zapisz w gestorze haseł.
+Stare `Wiktori@2026` już nie działa. Przekaż zarządowi (Wiktoria) i zapisz w gestorze haseł.
 
 **Jak zmienić hasło:**
 ```bash
