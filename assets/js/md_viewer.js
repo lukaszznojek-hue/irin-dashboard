@@ -25,6 +25,7 @@ async function openMdModal(filePath, title) {
         <div class="md-modal-body" data-raw="${encodeURIComponent(md)}">${html}</div>
       </div>`;
     modal.onclick = (e) => { if (e.target === modal) closeMdModal(modal.querySelector('.btn-close')); };
+    interceptMdLinks(modal.querySelector('.md-modal-body'), filePath);
     document.body.appendChild(modal);
     document.addEventListener('keydown', escMdHandler);
   } catch (e) {
@@ -44,6 +45,25 @@ function closeMdModal(el) {
   const modal = el.closest('.md-modal-overlay');
   if (modal) modal.remove();
   document.removeEventListener('keydown', escMdHandler);
+}
+
+function interceptMdLinks(bodyEl, currentFilePath) {
+  if (!bodyEl) return;
+  const baseDir = currentFilePath.replace(/[^/]*$/, '');
+  bodyEl.querySelectorAll('a[href]').forEach(a => {
+    const href = a.getAttribute('href');
+    if (!href) return;
+    if (href.startsWith('http://') || href.startsWith('https://')) return;
+    if (href.endsWith('.md')) {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const resolved = new URL(href, location.origin + '/' + baseDir).pathname.replace(/^\//, '');
+        const title = a.textContent.replace(/[→↗←]/g, '').trim();
+        openMdModal(resolved, title);
+      });
+      a.style.cursor = 'pointer';
+    }
+  });
 }
 
 function copyMdContent(btn) {
