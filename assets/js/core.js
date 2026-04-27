@@ -76,11 +76,12 @@ function renderAll() {
   if (typeof renderTailwinds === 'function') renderTailwinds();
   if (typeof updateTailwindsBanner === 'function') updateTailwindsBanner();
   if (typeof initKalkulator === 'function') initKalkulator();
-  // Tooltipy na panelach po renderze
+  // Tooltipy - wyłączone na powiaty/wup (zaklóca workflow)
   setTimeout(() => {
-    document.querySelectorAll('.panel').forEach(p => addTermTooltips(p));
-    addTermTooltips(document.querySelector('.kfs-banner'));
-    addTermTooltips(document.querySelector('.tailwinds-banner'));
+    document.querySelectorAll('.panel').forEach(p => {
+      if (p.id === 'panel-powiaty' || p.id === 'panel-wup') return;
+      addTermTooltips(p);
+    });
   }, 100);
 }
 

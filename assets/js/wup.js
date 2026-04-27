@@ -27,7 +27,11 @@ function renderWupGrid() {
           <div class="claudia-text">${interpolateLinks(w.claudia_note)}</div>
         </div>` : ''}
       </div>
-      <div class="wup-card-footer"><a href="${w.wup_url}" target="_blank" rel="noopener">Strona WUP ↗</a></div>
+      <div class="wup-card-footer">
+        <a href="${w.wup_url}" target="_blank" rel="noopener">Strona WUP ↗</a>
+        <a href="${w.wup_url}/urzad/bur/" target="_blank" rel="noopener">Projekty BUR ↗</a>
+        <a href="${w.wup_url}/urzad/kfs/" target="_blank" rel="noopener">Nabory KFS ↗</a>
+      </div>
     </div>`;
   }).join('');
 }
