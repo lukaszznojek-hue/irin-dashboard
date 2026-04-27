@@ -16,7 +16,7 @@ try:
     checks = {
         "Tailwinds 2026 tab": 'data-panel="tailwinds"' in html,
         "Kalkulator": "kalkulator-dofinansowania" in html or "kalk-rozmiar" in html,
-        "Banner": "tailwinds-banner" in html,
+        "Info-bar": "info-bar" in html,
         "8+ zakładek": html.count("data-panel=") >= 8,
         "Per szkolenie sekcja": "sales-per-szkolenie" in html,
         "kalkulator.js": "kalkulator.js" in html,
