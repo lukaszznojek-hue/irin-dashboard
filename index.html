@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="header-search">
-      <input type="text" id="global-search" class="global-search-input" placeholder="Szukaj powiat, szkolenie, termin..." oninput="globalSearch(this.value)">
+      <input type="text" id="global-search" class="global-search-input" placeholder="Szukaj powiat, szkolenie, termin..." oninput="globalSearch(this.value)" aria-label="Wyszukiwarka globalna" autocomplete="off">
       <div class="global-search-results" id="global-search-results"></div>
     </div>
     <div class="header-right">
@@ -167,7 +167,7 @@
       <div class="kalk-grid">
         <div class="kalk-row">
           <label for="kalk-rozmiar">Rozmiar firmy:</label>
-          <select id="kalk-rozmiar">
+          <select id="kalk-rozmiar" aria-label="Rozmiar firmy">
             <option value="mikro">Mikro (1-9 osób)</option>
             <option value="male">Małe (10-49)</option>
             <option value="srednie">Średnie (50-249)</option>
@@ -176,7 +176,7 @@
         </div>
         <div class="kalk-row">
           <label for="kalk-filar">Filar:</label>
-          <select id="kalk-filar">
+          <select id="kalk-filar" aria-label="Filar dofinansowania">
             <option value="kfs">KFS</option>
             <option value="bur">BUR (PARP)</option>
             <option value="efs">EFS+</option>
@@ -185,7 +185,7 @@
         </div>
         <div class="kalk-row">
           <label for="kalk-szkolenie">Szkolenie:</label>
-          <select id="kalk-szkolenie"></select>
+          <select id="kalk-szkolenie" aria-label="Wybór szkolenia"></select>
         </div>
       </div>
       <div class="kalk-result" id="kalk-result">
