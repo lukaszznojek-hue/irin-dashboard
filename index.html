@@ -364,7 +364,10 @@
       <div class="mapa-right">
         <h3>📊 Ranking 16 województw (KFS 2026)</h3>
         <div id="mapa-ranking-bars" class="mapa-ranking-bars"></div>
-        <h3 style="margin-top:24px">🏆 TOP-20 powiatów (potencjał sprzedażowy)</h3>
+        <div class="mapa-h3-row">
+          <h3 style="margin-top:24px">🏆 TOP-20 powiatów (potencjał sprzedażowy)</h3>
+          <button id="btn-eksport-csv-powiaty" class="btn-eksport" type="button" title="Pobierz aktualną listę TOP-20 jako CSV">📥 Pobierz CSV</button>
+        </div>
         <p class="mapa-hint">Score = log(kwota) × mnożnik_status × mnożnik_priorytet × mnożnik_irin_match</p>
         <table class="mapa-tabela" id="mapa-top-powiaty">
           <thead><tr><th>#</th><th>Powiat</th><th>Województwo</th><th>Kwota KFS</th><th>Status</th><th>Score</th></tr></thead>
@@ -374,9 +377,44 @@
     </div>
     <div class="mapa-section">
       <h3>📋 Tabela WUP wide overview (16 województw)</h3>
-      <p class="mapa-hint">Sortowane po sumie KFS+BUR. Kliknij wiersz żeby zobaczyć kartę WUP z drill-down.</p>
+      <p class="mapa-hint">Sortowane po sumie KFS+BUR. Kliknij nagłówek aby zmienić sortowanie. Kliknij wiersz aby zobaczyć kartę WUP.</p>
+      <div class="wup-wide-filters">
+        <label>Match IRIN:
+          <select id="filter-match-irin">
+            <option value="0">wszystkie</option>
+            <option value="1">⭐ i więcej</option>
+            <option value="2">⭐⭐ i więcej</option>
+            <option value="3">⭐⭐⭐</option>
+          </select>
+        </label>
+        <label>SUMA pieniędzy:
+          <select id="filter-suma-min">
+            <option value="0">wszystkie</option>
+            <option value="30000000">≥ 30 mln</option>
+            <option value="50000000">≥ 50 mln</option>
+            <option value="100000000">≥ 100 mln</option>
+          </select>
+        </label>
+        <label>Priorytety:
+          <select id="filter-priorytety-status">
+            <option value="all">wszystkie</option>
+            <option value="full">tylko pełne (3/3)</option>
+            <option value="partial">tylko z lukami</option>
+          </select>
+        </label>
+        <button id="filter-clear" class="btn-eksport" type="button" style="background:#777">Wyczyść</button>
+        <span id="wup-wide-count" class="wup-wide-count"></span>
+      </div>
       <table class="mapa-tabela tabela-wup-wide" id="tabela-wup-wide">
-        <thead><tr><th>#</th><th>Województwo</th><th>KFS 2026</th><th>BUR aktywne</th><th>SUMA pieniędzy</th><th>Priorytety wojew.</th><th>Match IRIN</th></tr></thead>
+        <thead><tr>
+          <th>#</th>
+          <th data-sort="label">Województwo</th>
+          <th data-sort="kfs">KFS 2026</th>
+          <th data-sort="sumaBur">BUR aktywne</th>
+          <th data-sort="total">SUMA pieniędzy</th>
+          <th data-sort="prCount">Priorytety wojew.</th>
+          <th data-sort="matchCount">Match IRIN</th>
+        </tr></thead>
         <tbody></tbody>
       </table>
     </div>

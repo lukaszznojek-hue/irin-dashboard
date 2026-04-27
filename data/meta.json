@@ -1,8 +1,20 @@
 {
-  "wersja": "6.5.1",
+  "wersja": "6.6.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.6.0",
+      "zmiany": [
+        "UI v6.6.1: Real SVG mapa Polski (16 wojewodztw z konturami geograficznymi) zastapila siatke 5x4 prostokatow - assets/img/poland_voivodeships.svg (24 KB) generowane przez tools/build_poland_svg.py z andilabs/polska-wojewodztwa-geojson",
+        "UI v6.6.2: Eksport CSV dla TOP-20 powiatow - przycisk 'Pobierz CSV' generuje plik z polskimi znakami (UTF-8 BOM) zawierajacy rank/powiat/wojew/kwota/status/daty/score/telefon/email/url",
+        "UI v6.6.3: Filtry tabeli WUP wide - 3 dropdowny (Match IRIN gwiazdek / SUMA pieniedzy prog / Priorytety pelne|luki) + sortowanie wszystkich kolumn klikiem naglowka + licznik 'X z 16 wojew.'",
+        "UI v6.6.4: Mobile responsive (@media max-600px) - timeline single-column z data-nad-tytulem, tabela WUP wide kompakt 11px, filterbar pelnej szerokosci, drilldown overflow-x scroll",
+        "Tools: nowy skrypt tools/build_poland_svg.py do regeneracji SVG mapy z GeoJSON (Mercator projection, simplified Douglas-Peucker)"
+      ],
+      "kto": "Claude Code - sprint v6.6 UI rozbudowa zakladki Mapa pieniedzy"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.5.1",

@@ -1,0 +1,170 @@
+#!/usr/bin/env python3
+"""
+build_poland_svg.py - generuje minimalny SVG konturow 16 wojewodztw Polski
+z atrybutami id="woj-{slug}" pasujacymi do WOJ_POSITIONS w mapa_pieniedzy.js
+
+Zrodlo geometrii: andilabs/polska-wojewodztwa-geojson na GitHub
+(dane administracyjne PL = dane publiczne GUGiK/PRG; convenience repo bez LICENSE).
+Projekcja: Mercator (zachowuje ksztalty na malej skali Polski).
+
+Uruchomienie (z dashboard_v4/):
+    python3 tools/build_poland_svg.py
+Wynik: assets/img/poland_voivodeships.svg
+"""
+import json
+import math
+import sys
+from pathlib import Path
+from urllib.request import Request, urlopen
+
+REPO_RAW = "https://raw.githubusercontent.com/andilabs/polska-wojewodztwa-geojson/master"
+OUT = Path(__file__).resolve().parents[1] / "assets" / "img" / "poland_voivodeships.svg"
+
+# Slugi zgodne z WOJ_POSITIONS w assets/js/mapa_pieniedzy.js + nazwy plikow w repo
+SLUGS_TO_FILES = {
+    "dolnoslaskie":         "dolnoslaskie.geojson",
+    "kujawsko-pomorskie":   "kujawsko-pomorskie.geojson",
+    "lubelskie":            "lubelskie.geojson",
+    "lubuskie":             "lubuskie.geojson",
+    "lodzkie":              "lódzkie.geojson",
+    "malopolskie":          "malopolskie.geojson",
+    "mazowieckie":          "mazowieckie.geojson",
+    "opolskie":             "opolskie.geojson",
+    "podkarpackie":         "podkarpackie.geojson",
+    "podlaskie":            "podlaskie.geojson",
+    "pomorskie":            "pomorskie.geojson",
+    "slaskie":              "slaskie.geojson",
+    "swietokrzyskie":       "swietokrzyskie.geojson",
+    "warminsko-mazurskie":  "warminsko-mazurskie.geojson",
+    "wielkopolskie":        "wielkopolskie.geojson",
+    "zachodniopomorskie":   "zachodniopomorskie.geojson",
+}
+
+VIEWBOX_W = 1000.0
+VIEWBOX_H = 1000.0
+PADDING = 10.0
+
+
+def fetch_json(url):
+    from urllib.parse import quote
+    safe_url = quote(url, safe=':/?&=#%')
+    req = Request(safe_url, headers={'User-Agent': 'irin-dashboard build_poland_svg.py'})
+    with urlopen(req) as r:
+        return json.loads(r.read().decode('utf-8'))
+
+
+def mercator(lng, lat):
+    """Mercator projection: lng/lat (deg) -> x/y unbounded."""
+    x = math.radians(lng)
+    y = math.log(math.tan(math.pi / 4 + math.radians(lat) / 2))
+    return x, y
+
+
+def iter_rings(geom):
+    """Iteruje ringi (lista [lng,lat]) z GeoJSON Polygon/MultiPolygon."""
+    t = geom.get('type')
+    coords = geom.get('coordinates')
+    if t == 'Polygon':
+        for ring in coords:
+            yield ring
+    elif t == 'MultiPolygon':
+        for poly in coords:
+            for ring in poly:
+                yield ring
+    else:
+        raise ValueError(f"Unsupported geometry type: {t}")
+
+
+def main():
+    print("Fetching 16 GeoJSON files from andilabs/polska-wojewodztwa-geojson...")
+    geoms = {}
+    for slug, fname in SLUGS_TO_FILES.items():
+        url = f"{REPO_RAW}/{fname}"
+        try:
+            geoms[slug] = fetch_json(url)
+            print(f"  OK {slug} <- {fname}")
+        except Exception as e:
+            print(f"  FAIL {slug}: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    # 1. Globalny bbox w merkatorze
+    all_x, all_y = [], []
+    for slug, g in geoms.items():
+        for ring in iter_rings(g):
+            for lng, lat in ring:
+                x, y = mercator(lng, lat)
+                all_x.append(x)
+                all_y.append(y)
+    min_x, max_x = min(all_x), max(all_x)
+    min_y, max_y = min(all_y), max(all_y)
+    width = max_x - min_x
+    height = max_y - min_y
+    # Skala zachowujaca aspect ratio (preserveAspectRatio meet)
+    scale = min((VIEWBOX_W - 2 * PADDING) / width, (VIEWBOX_H - 2 * PADDING) / height)
+    # Translacja zeby figure byla wyrodkowana
+    used_w = width * scale
+    used_h = height * scale
+    off_x = PADDING + (VIEWBOX_W - 2 * PADDING - used_w) / 2
+    off_y = PADDING + (VIEWBOX_H - 2 * PADDING - used_h) / 2
+    print(f"\nBbox merkator: x=[{min_x:.4f},{max_x:.4f}] y=[{min_y:.4f},{max_y:.4f}] scale={scale:.2f}")
+
+    def project(lng, lat):
+        x, y = mercator(lng, lat)
+        sx = off_x + (x - min_x) * scale
+        # Y inverted: SVG y rosnie w dol, mercator y rosnie ku polnocy
+        sy = off_y + (max_y - y) * scale
+        return sx, sy
+
+    # Maly upraszczacz: pomijaj punkty blisko siebie (Douglas-Peucker by sie przydal,
+    # tu robimy distance-based simplification dla rozmiaru pliku)
+    def simplify(ring, tol=0.5):
+        out = []
+        last = None
+        for p in ring:
+            sx, sy = project(p[0], p[1])
+            if last is None or abs(sx - last[0]) + abs(sy - last[1]) >= tol:
+                out.append((sx, sy))
+                last = (sx, sy)
+        if not out or out[-1] != (project(ring[0][0], ring[0][1])):
+            out.append(project(ring[0][0], ring[0][1]))
+        return out
+
+    # 2. Generuj SVG paths
+    print("\nGenerujac paths...")
+    parts = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<!-- Wojewodztwa Polski. Generated by tools/build_poland_svg.py -->',
+        '<!-- Source: andilabs/polska-wojewodztwa-geojson (dane administracyjne PL = public domain) -->',
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {int(VIEWBOX_W)} {int(VIEWBOX_H)}" preserveAspectRatio="xMidYMid meet">',
+        '  <g class="poland-voivodeships" fill="#e5e5e5" stroke="#222" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round">',
+    ]
+    for slug in sorted(SLUGS_TO_FILES):
+        g = geoms[slug]
+        d_parts = []
+        all_x, all_y = [], []
+        for ring in iter_rings(g):
+            pts = simplify(ring, tol=0.3)
+            if len(pts) < 3:
+                continue
+            d_parts.append(f"M{pts[0][0]:.1f},{pts[0][1]:.1f}")
+            for x, y in pts[1:]:
+                d_parts.append(f"L{x:.1f},{y:.1f}")
+            d_parts.append("Z")
+            for x, y in pts:
+                all_x.append(x)
+                all_y.append(y)
+        d = " ".join(d_parts)
+        # Centroida = bbox center (proste przyblizenie wystarczajace dla etykiet)
+        cx = (min(all_x) + max(all_x)) / 2
+        cy = (min(all_y) + max(all_y)) / 2
+        parts.append(f'    <path id="woj-{slug}" data-woj="{slug}" data-cx="{cx:.1f}" data-cy="{cy:.1f}" d="{d}"/>')
+    parts.append('  </g>')
+    parts.append('</svg>')
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text('\n'.join(parts) + '\n', encoding='utf-8')
+    print(f"\nWrote {OUT} ({OUT.stat().st_size} bytes)")
+
+
+if __name__ == '__main__':
+    main()

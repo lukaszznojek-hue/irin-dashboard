@@ -102,6 +102,7 @@ function renderMapaPieniedzy() {
   renderZrodlaGrid();
   renderMapaSvg(alokacje, minK, maxK);
   renderRankingBars(alokacje, maxK);
+  setupWupWideControls();
   renderTabelaWupWide();
   renderTimelineNaborow();
   renderTopPowiaty(20);
@@ -163,31 +164,87 @@ function renderZrodlaGrid() {
   }).join('') + `<div class="zrodla-suma">💰 SUMA dostępna PL 2026: <strong>${fmtKwota(sumaTotal)}</strong> · 6 źródeł zmapowanych</div>`;
 }
 
-function renderMapaSvg(alokacje, minK, maxK) {
+// Cache pliku SVG - fetch tylko raz, reuse dla kolejnych re-renderow
+let _polandSvgCache = null;
+async function loadPolandSvg() {
+  if (_polandSvgCache) return _polandSvgCache;
+  const r = await fetch('assets/img/poland_voivodeships.svg');
+  if (!r.ok) throw new Error(`Failed to load SVG: ${r.status}`);
+  _polandSvgCache = await r.text();
+  return _polandSvgCache;
+}
+
+async function renderMapaSvg(alokacje, minK, maxK) {
   const container = document.getElementById('mapa-svg-container');
   if (!container) return;
-  const cellW = 110, cellH = 70, gap = 8;
-  const cols = 5, rows = 5;
-  const w = cols * (cellW + gap), h = rows * (cellH + gap);
-  let svg = `<svg viewBox="0 0 ${w} ${h}" class="mapa-svg" xmlns="http://www.w3.org/2000/svg">`;
+  let svgText;
+  try {
+    svgText = await loadPolandSvg();
+  } catch (e) {
+    container.innerHTML = `<p class="brak-danych">Nie udalo sie zaladowac mapy: ${e.message}</p>`;
+    return;
+  }
+
+  // Wstrzyknij SVG, dodaj klase + atrybut role dla a11y
+  container.innerHTML = svgText;
+  const svg = container.querySelector('svg');
+  if (!svg) return;
+  svg.classList.add('mapa-svg');
+  svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', 'Mapa Polski - alokacja KFS 2026 per wojewodztwo');
+
+  // Pokoloruj kazde wojewodztwo + dodaj tooltip + onclick + etykiety
   Object.entries(WOJ_POSITIONS).forEach(([slug, pos]) => {
-    const x = pos.x * (cellW + gap);
-    const y = pos.y * (cellH + gap);
+    const path = svg.querySelector(`#woj-${slug}`);
+    if (!path) return;
     const kwota = alokacje[slug] || 0;
     const color = colorForKwota(kwota, minK, maxK);
-    const txtColor = textColorForBg(kwota, minK, maxK);
-    const tooltip = `${pos.label}: ${fmtKwota(kwota)}`;
-    const labelShadow = txtColor === '#fff' ? 'paint-order:stroke;stroke:rgba(0,0,0,0.4);stroke-width:2px;' : '';
-    svg += `<g class="mapa-woj-cell" data-woj="${slug}" onclick="onWojClick('${slug}')" tabindex="0">
-      <rect x="${x}" y="${y}" width="${cellW}" height="${cellH}" rx="6" fill="${color}" stroke="#222" stroke-width="1.5">
-        <title>${tooltip}</title>
-      </rect>
-      <text x="${x + cellW/2}" y="${y + 26}" text-anchor="middle" class="mapa-woj-label" style="fill:${txtColor};font-size:12px;font-weight:700;${labelShadow}">${pos.label}</text>
-      <text x="${x + cellW/2}" y="${y + 50}" text-anchor="middle" class="mapa-woj-kwota" style="fill:${txtColor};font-size:12px;font-weight:600;${labelShadow}">${fmtKwota(kwota)}</text>
-    </g>`;
+    path.setAttribute('fill', color);
+    path.setAttribute('class', 'mapa-woj-cell');
+    path.style.cursor = 'pointer';
+    path.addEventListener('click', () => onWojClick(slug));
+    path.setAttribute('tabindex', '0');
+    path.addEventListener('keypress', (e) => { if (e.key === 'Enter' || e.key === ' ') onWojClick(slug); });
+    // Tooltip natywny
+    let title = path.querySelector('title');
+    if (!title) {
+      title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+      path.appendChild(title);
+    }
+    title.textContent = `${pos.label}: ${fmtKwota(kwota)}`;
   });
-  svg += `</svg>`;
-  container.innerHTML = svg;
+
+  // Etykiety kwot na centroidach (nakladka zewnetrzna)
+  const oldLabels = svg.querySelector('.mapa-svg-labels');
+  if (oldLabels) oldLabels.remove();
+  const labelsGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  labelsGroup.setAttribute('class', 'mapa-svg-labels');
+  labelsGroup.style.pointerEvents = 'none';
+  Object.entries(WOJ_POSITIONS).forEach(([slug, pos]) => {
+    const path = svg.querySelector(`#woj-${slug}`);
+    if (!path) return;
+    // Centroidy zapisane w SVG przy generacji (tools/build_poland_svg.py)
+    const cx = parseFloat(path.getAttribute('data-cx')) || 0;
+    const cy = parseFloat(path.getAttribute('data-cy')) || 0;
+    const kwota = alokacje[slug] || 0;
+    const txtColor = textColorForBg(kwota, minK, maxK);
+    const shadow = txtColor === '#fff' ? 'paint-order:stroke;stroke:rgba(0,0,0,0.45);stroke-width:2px;' : 'paint-order:stroke;stroke:#fff;stroke-width:2px;';
+    const labelText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    labelText.setAttribute('x', cx);
+    labelText.setAttribute('y', cy - 4);
+    labelText.setAttribute('text-anchor', 'middle');
+    labelText.setAttribute('style', `fill:${txtColor};font-size:14px;font-weight:700;${shadow}`);
+    labelText.textContent = pos.label;
+    const kwotaText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    kwotaText.setAttribute('x', cx);
+    kwotaText.setAttribute('y', cy + 14);
+    kwotaText.setAttribute('text-anchor', 'middle');
+    kwotaText.setAttribute('style', `fill:${txtColor};font-size:12px;font-weight:600;${shadow}`);
+    kwotaText.textContent = fmtKwota(kwota);
+    labelsGroup.appendChild(labelText);
+    labelsGroup.appendChild(kwotaText);
+  });
+  svg.appendChild(labelsGroup);
 }
 
 function renderTopPowiaty(n) {
@@ -201,6 +258,7 @@ function renderTopPowiaty(n) {
 
   if (powiaty.length === 0) {
     tbody.innerHTML = `<tr><td colspan="6" style="text-align:center;color:#999;padding:20px">Brak powiatów z wpisaną kwotą KFS. Dograć w v6.5.</td></tr>`;
+    setupCsvExport([]);
     return;
   }
 
@@ -217,6 +275,59 @@ function renderTopPowiaty(n) {
       <td><span class="mapa-score">${p._score.toFixed(1)}</span></td>
     </tr>`;
   }).join('');
+
+  setupCsvExport(powiaty);
+}
+
+function csvEscape(v) {
+  if (v == null) return '';
+  const s = String(v);
+  if (s.includes(',') || s.includes('"') || s.includes('\n') || s.includes(';')) {
+    return '"' + s.replace(/"/g, '""') + '"';
+  }
+  return s;
+}
+
+function eksportCSV(rows) {
+  // BOM dla Excela aby polskie znaki sie pokazaly
+  const BOM = '﻿';
+  const header = ['rank', 'powiat', 'wojewodztwo', 'kwota_kfs_pln', 'status', 'data_start', 'data_end', 'score', 'telefon', 'email', 'url_pup', 'lead_claudia'];
+  const lines = [header.join(',')];
+  rows.forEach((p, i) => {
+    const wojLabel = WOJ_POSITIONS[p.voivodeship]?.label || p.voivodeship;
+    lines.push([
+      i + 1,
+      csvEscape(p.display_name || p.name || ''),
+      csvEscape(wojLabel),
+      p.amount_kfs || 0,
+      csvEscape(p.kfs_status || ''),
+      csvEscape(p.kfs_start_date || ''),
+      csvEscape(p.kfs_end_date || ''),
+      (p._score ?? 0).toFixed(2),
+      csvEscape(p.telefon || ''),
+      csvEscape(p.email || ''),
+      csvEscape(p.url_pup || ''),
+      p.claudia_lead ? '1' : '0',
+    ].join(','));
+  });
+  const csv = BOM + lines.join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const today = new Date().toISOString().slice(0, 10);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `top20_powiaty_${today}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function setupCsvExport(rows) {
+  const btn = document.getElementById('btn-eksport-csv-powiaty');
+  if (!btn) return;
+  btn.disabled = rows.length === 0;
+  btn.onclick = () => eksportCSV(rows);
 }
 
 // IRIN portfolio - mapping priorytetow do produktow
@@ -355,23 +466,89 @@ function onWojClick(woj) {
   drilldown.scrollIntoView({behavior:'smooth', block:'nearest'});
 }
 
-function renderTabelaWupWide() {
-  const tbody = document.querySelector('#tabela-wup-wide tbody');
-  if (!tbody) return;
-  const rows = Object.entries(DASHBOARD_DATA.wup || {}).map(([slug, w]) => {
+// State sortowania tabeli WUP wide
+let _wupSortKey = 'total';
+let _wupSortDir = 'desc';
+
+function buildWupRows() {
+  return Object.entries(DASHBOARD_DATA.wup || {}).map(([slug, w]) => {
     const kfs = w.alokacja_kfs_2026_wojewodztwo_pln || 0;
     const burProjekty = (w.projekty_bur || []);
-    const sumaBur = burProjekty.reduce((s,p) => s + (p.kwota_alokacji || 0), 0);
+    const sumaBur = burProjekty.reduce((s, p) => s + (p.kwota_alokacji || 0), 0);
     const burCount = burProjekty.filter(p => p.kwota_alokacji > 0).length;
     const prCount = (w.priorytety_wojewodzkie || []).filter(p => !p.nazwa?.includes('Do weryfikacji')).length;
     const totalCount = (w.priorytety_wojewodzkie || []).length;
     const irinMatch = computeIrinMatch(w);
-    const matchStars = irinMatch.matches.length > 0 ? '⭐'.repeat(Math.min(irinMatch.matches.length, 3)) : '—';
-    return { slug, label: WOJ_POSITIONS[slug]?.label || slug, kfs, sumaBur, burCount, totalBur: burProjekty.length, prCount, totalPr: totalCount, total: kfs + sumaBur, matchStars };
-  }).sort((a,b) => b.total - a.total);
+    const matchCount = irinMatch.matches.length;
+    const matchStars = matchCount > 0 ? '⭐'.repeat(Math.min(matchCount, 3)) : '—';
+    return {
+      slug,
+      label: WOJ_POSITIONS[slug]?.label || slug,
+      kfs,
+      sumaBur,
+      burCount,
+      totalBur: burProjekty.length,
+      prCount,
+      totalPr: totalCount,
+      total: kfs + sumaBur,
+      matchCount,
+      matchStars,
+    };
+  });
+}
 
-  tbody.innerHTML = rows.map((r,i) => `<tr onclick="onWojClick('${r.slug}')">
-    <td><strong>${i+1}</strong></td>
+function applyWupFilters(rows) {
+  const minMatch = parseInt(document.getElementById('filter-match-irin')?.value || '0', 10);
+  const minSuma = parseInt(document.getElementById('filter-suma-min')?.value || '0', 10);
+  const prStatus = document.getElementById('filter-priorytety-status')?.value || 'all';
+  return rows.filter(r => {
+    if (r.matchCount < minMatch) return false;
+    if (r.total < minSuma) return false;
+    if (prStatus === 'full' && r.prCount < 3) return false;
+    if (prStatus === 'partial' && r.prCount >= 3) return false;
+    return true;
+  });
+}
+
+function sortWupRows(rows) {
+  const key = _wupSortKey;
+  const dir = _wupSortDir === 'desc' ? -1 : 1;
+  return [...rows].sort((a, b) => {
+    const va = a[key], vb = b[key];
+    if (typeof va === 'string') return va.localeCompare(vb, 'pl') * dir;
+    return ((va || 0) - (vb || 0)) * dir;
+  });
+}
+
+function renderTabelaWupWide() {
+  const tbody = document.querySelector('#tabela-wup-wide tbody');
+  if (!tbody) return;
+  const all = buildWupRows();
+  const filtered = applyWupFilters(all);
+  const rows = sortWupRows(filtered);
+
+  // Update count
+  const countEl = document.getElementById('wup-wide-count');
+  if (countEl) {
+    countEl.textContent = filtered.length === all.length
+      ? `${all.length} wojew.`
+      : `${filtered.length} z ${all.length} wojew.`;
+  }
+
+  // Update sort indicators
+  document.querySelectorAll('#tabela-wup-wide thead th[data-sort]').forEach(th => {
+    const k = th.getAttribute('data-sort');
+    th.classList.toggle('sort-active', k === _wupSortKey);
+    th.dataset.dir = (k === _wupSortKey) ? _wupSortDir : '';
+  });
+
+  if (rows.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;color:#999;padding:20px">Brak wojew. spełniających filtry. Zmień kryteria.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = rows.map((r, i) => `<tr onclick="onWojClick('${r.slug}')">
+    <td><strong>${i + 1}</strong></td>
     <td>${r.label}</td>
     <td><strong>${fmtKwota(r.kfs)}</strong></td>
     <td>${fmtKwota(r.sumaBur)}<br><span class="cell-meta">${r.burCount}/${r.totalBur} z kwotą</span></td>
@@ -379,6 +556,40 @@ function renderTabelaWupWide() {
     <td>${r.prCount}/${r.totalPr}</td>
     <td>${r.matchStars}</td>
   </tr>`).join('');
+}
+
+function setupWupWideControls() {
+  const ids = ['filter-match-irin', 'filter-suma-min', 'filter-priorytety-status'];
+  ids.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && !el._wired) {
+      el.addEventListener('change', renderTabelaWupWide);
+      el._wired = true;
+    }
+  });
+  const clearBtn = document.getElementById('filter-clear');
+  if (clearBtn && !clearBtn._wired) {
+    clearBtn.addEventListener('click', () => {
+      ids.forEach(id => { const e = document.getElementById(id); if (e) e.value = e.querySelector('option').value; });
+      renderTabelaWupWide();
+    });
+    clearBtn._wired = true;
+  }
+  document.querySelectorAll('#tabela-wup-wide thead th[data-sort]').forEach(th => {
+    if (th._wired) return;
+    th.style.cursor = 'pointer';
+    th.addEventListener('click', () => {
+      const key = th.getAttribute('data-sort');
+      if (_wupSortKey === key) {
+        _wupSortDir = _wupSortDir === 'desc' ? 'asc' : 'desc';
+      } else {
+        _wupSortKey = key;
+        _wupSortDir = (key === 'label') ? 'asc' : 'desc';
+      }
+      renderTabelaWupWide();
+    });
+    th._wired = true;
+  });
 }
 
 function renderTimelineNaborow() {
