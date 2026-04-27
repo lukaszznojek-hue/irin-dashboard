@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WUP per województwo",
+  "type": "object",
+  "required": ["wojewodztwo", "wojewodztwo_label", "tier", "operator_bur"],
+  "properties": {
+    "wojewodztwo": {"type": "string"},
+    "wojewodztwo_label": {"type": "string"},
+    "tier": {"type": "string", "enum": ["1a", "1b", "2"]},
+    "data_aktualizacji": {"type": ["string", "null"]},
+    "wup_url": {"type": ["string", "null"]},
+    "wup_email": {"type": ["string", "null"]},
+    "wup_telefon": {"type": ["string", "null"]},
+    "operator_bur": {"type": "string"},
+    "akcja_tygodnia": {"type": ["string", "null"], "maxLength": 200},
+    "akcja_tygodnia_target": {"type": ["string", "null"]},
+    "priorytety_wojewodzkie": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kod", "nazwa"],
+        "properties": {
+          "kod": {"type": "string"},
+          "nazwa": {"type": "string"},
+          "opis": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "projekty_bur": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nazwa"],
+        "properties": {
+          "id_bur": {"type": ["string", "null"]},
+          "nazwa": {"type": "string"},
+          "status": {"type": ["string", "null"]},
+          "operator": {"type": ["string", "null"]},
+          "kwota_alokacji": {"type": ["number", "null"]},
+          "intensywnosc_max": {"type": ["string", "null"]},
+          "data_start": {"type": ["string", "null"]},
+          "data_end": {"type": ["string", "null"]},
+          "grupa_docelowa": {"type": ["string", "null"]},
+          "url_regulamin": {"type": ["string", "null"]},
+          "url_wniosek": {"type": ["string", "null"]},
+          "irin_dopasowane_szkolenia": {"type": ["array", "null"]},
+          "claudia_note": {"type": ["string", "null"]},
+          "do_weryfikacji": {"type": ["boolean", "null"]}
+        }
+      }
+    },
+    "claudia_note": {"type": ["string", "null"]}
+  }
+}

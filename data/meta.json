@@ -1,8 +1,26 @@
 {
-  "wersja": "4.0.0",
+  "wersja": "5.0.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "5.0.0",
+      "zmiany": [
+        "Grupowanie powiatów po województwie z rollup'em (16 zwijalnych sekcji)",
+        "4 stany akcji: AKTYWNY/MONITORUJ/ZADZWOŃ/ZAKOŃCZONY (zamiast 5 + warning)",
+        "Deep-linking via URL hash + klikalne sygnały (stat-cards, KFS Banner, akcja tygodnia)",
+        "MD viewer modal w zakładce Sprzedaż (marked.js, Skopiuj + Edytuj na GitHub)",
+        "Benchmark cenowy szkoleń vs rynek (4 strefy: tańsi/równi/drożsi/premium + tooltip sprzedażowy)",
+        "Rozszerzone projekty BUR (11 pól: id, kwota, intensywność, daty, grupa, regulamin, wniosek, dopasowane szkolenia)",
+        "5+ nowych filtrów: priorytet PARP, kwota, świeżość, forma, tier IRIN, benchmark",
+        "JSON Schema validator (6 schematów Draft-7) + pre-commit hook blokujący błędne JSON-y",
+        "Modułowy JS: dashboard.js (534 linii) → 12 plików per zakładka",
+        "Akcja tygodnia per województwo (auto-expand+scroll do wskazanego urzędu)",
+        "interpolateLinks: P3, Akademia X w notatkach Claudii → klikalne nawigacje"
+      ],
+      "kto": "Claude Code (autonomous workflow)"
+    },
     {
       "data": "2026-04-27",
       "wersja": "4.0.0",

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Szkolenia IRIN (BUR PARP)",
+  "type": "object",
+  "required": ["data_fetch_bur", "uslugi"],
+  "properties": {
+    "data_fetch_bur": {"type": "string"},
+    "ocena_dostawcy": {"type": ["number", "null"]},
+    "liczba_ocen": {"type": ["integer", "null"]},
+    "liczba_uslug": {"type": ["integer", "null"]},
+    "url_bur_dostawca": {"type": ["string", "null"]},
+    "uslugi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id_bur", "tytul"],
+        "properties": {
+          "id_bur": {"type": "string"},
+          "tytul": {"type": "string"},
+          "kategoria": {
+            "type": ["string", "null"],
+            "enum": ["ai", "edukacja", "biznes", "soft_skills", "regulacje", "ai_regulacje", null]
+          },
+          "cena_brutto": {"type": ["number", "null"]},
+          "godziny": {"type": ["number", "null"]},
+          "cena_h": {"type": ["number", "null"]},
+          "cena_h_rynek_avg": {"type": ["number", "null"]},
+          "cena_h_rynek_zrodlo": {"type": ["string", "null"]},
+          "forma": {"type": ["string", "null"]},
+          "miasto": {"type": ["string", "null"]},
+          "data_start": {"type": ["string", "null"]},
+          "data_end": {"type": ["string", "null"]},
+          "tier_priorytetu_irin": {"type": ["integer", "null"]},
+          "powiazane_priorytety": {"type": ["array", "null"]},
+          "argumenty_sprzedazowe": {"type": ["array", "null"]}
+        }
+      }
+    },
+    "podsumowanie_oferty": {"type": ["object", "null"]}
+  }
+}

@@ -28,8 +28,21 @@
     {
       "nazwa": "Kierunek - Rozwój",
       "status": "trwa",
-      "operator": "WUP Toruń"
+      "operator": "WUP Toruń",
+      "id_bur": null,
+      "kwota_alokacji": null,
+      "intensywnosc_max": null,
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": null,
+      "url_regulamin": null,
+      "url_wniosek": null,
+      "irin_dopasowane_szkolenia": [],
+      "claudia_note": null,
+      "do_weryfikacji": true
     }
   ],
-  "claudia_note": "Granty KFS do 37 000 zł. Projekt BUR 'Kierunek - Rozwój' aktywny."
+  "claudia_note": "Granty KFS do 37 000 zł. Projekt BUR 'Kierunek - Rozwój' aktywny.",
+  "akcja_tygodnia": null,
+  "akcja_tygodnia_target": null
 }

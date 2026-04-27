@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Meta dashboard",
+  "type": "object",
+  "required": ["wersja", "data_aktualizacji"],
+  "properties": {
+    "wersja": {"type": "string"},
+    "data_aktualizacji": {"type": "string"},
+    "kolejna_planowana_aktualizacja": {"type": ["string", "null"]},
+    "tier_pokrycia": {
+      "type": ["object", "null"],
+      "properties": {
+        "tier_1a": {"type": "array", "items": {"type": "string"}},
+        "tier_1b": {"type": "array", "items": {"type": "string"}},
+        "tier_2": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "changelog": {"type": ["array", "null"]}
+  }
+}

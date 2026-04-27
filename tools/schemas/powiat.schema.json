@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Powiaty per województwo",
+  "type": "object",
+  "required": ["wojewodztwo", "wojewodztwo_label", "tier", "powiaty"],
+  "properties": {
+    "wojewodztwo": {"type": "string"},
+    "wojewodztwo_label": {"type": "string"},
+    "tier": {"type": "string", "enum": ["1a", "1b", "2"]},
+    "data_aktualizacji": {"type": ["string", "null"]},
+    "zrodlo_danych": {"type": ["string", "null"]},
+    "powiaty": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["voivodeship", "name"],
+        "properties": {
+          "voivodeship": {"type": "string"},
+          "name": {"type": "string"},
+          "display_name": {"type": ["string", "null"]},
+          "display_meta": {"type": ["string", "null"]},
+          "url_pup": {"type": ["string", "null"]},
+          "telefon": {"type": ["string", "null"]},
+          "email": {"type": ["string", "null"]},
+          "urgency": {"type": ["string", "null"], "enum": ["krytyczny", "pilny", "trwa", "nadchodzi", "zakonczony", "nieznany", null]},
+          "urgency_days": {"type": ["integer", "null"]},
+          "kfs_start_date": {"type": ["string", "null"]},
+          "kfs_end_date": {"type": ["string", "null"]},
+          "kfs_status": {"type": ["string", "null"]},
+          "efs_status": {"type": ["string", "null"]},
+          "amount_kfs": {"type": ["number", "null"]},
+          "amount_total": {"type": ["number", "null"]},
+          "irin_match": {"type": ["integer", "boolean", "null"]},
+          "priorytety": {"type": ["array", "null"]},
+          "has_warning": {"type": ["boolean", "null"]},
+          "pillars": {"type": ["array", "null"]},
+          "pillar_details": {"type": ["array", "null"]},
+          "claudia_note": {"type": ["string", "null"]},
+          "akcja_status": {
+            "type": ["string", "null"],
+            "enum": ["aktywny", "monitor", "zadzwon", "zakonczony", null]
+          },
+          "akcja_status_uzasadnienie": {"type": ["string", "null"], "maxLength": 200}
+        }
+      }
+    }
+  }
+}
