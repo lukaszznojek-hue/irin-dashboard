@@ -1,4 +1,4 @@
-/* sprzedaz.js - sekcja Per szkolenie + linki sales (skrypty/emaile/bitrix/prezentacje) z MD viewer modal */
+/* sprzedaz.js - sekcja Per szkolenie + Propozycje promowane + linki sales (skrypty/emaile/bitrix/prezentacje) z MD viewer modal */
 
 const PER_SZKOLENIE_FOLDERS = {
   '3432404': '01_social_media_ai',
@@ -12,6 +12,50 @@ const PER_SZKOLENIE_FOLDERS = {
   '3381926': '09_projekty_dofinansowane',
   '3486195': '10_si_kielce_wrzesien',
 };
+
+const PROPOZYCJE_FOLDERS = {
+  'PROP-01': 'PROP-01_ai_act',
+  'PROP-02': 'PROP-02_nis2',
+};
+
+function renderPropozycjePromowane() {
+  const el = document.getElementById('sales-propozycje-promowane');
+  if (!el || !DASHBOARD_DATA.propozycje?.propozycje) return;
+
+  const promowane = DASHBOARD_DATA.propozycje.propozycje.filter(
+    p => p.status === 'research_zakonczony' && PROPOZYCJE_FOLDERS[p.kod]
+  );
+
+  if (promowane.length === 0) {
+    el.innerHTML = '';
+    return;
+  }
+
+  el.innerHTML = promowane.map(p => {
+    const folder = PROPOZYCJE_FOLDERS[p.kod];
+    const base = 'sales/per_szkolenie/' + folder + '/';
+    const tytulShort = p.tytul.length > 50 ? p.tytul.slice(0, 47) + '...' : p.tytul;
+    const pilnoscBadge = p.pilnosc && p.pilnosc.includes('KRYTYCZNA') ? 'pilnosc-krytyczna' : 'pilnosc-normalna';
+    return `
+      <div class="sales-card sales-card-szkolenie sales-card-propozycja">
+        <div class="sales-card-header">
+          <span class="propozycja-kod ${pilnoscBadge}">${p.kod} ${p.pilnosc || ''}</span>
+        </div>
+        <div class="sales-card-title">${tytulShort}</div>
+        <div class="sales-card-meta">${formatKwota(p.estymowana_cena)} · ${p.estymowane_godziny}h · ${p.forma}</div>
+        <div class="sales-card-files">
+          <span class="sales-file-btn" onclick="openMdModal('${base}one_pager.md', 'One-pager: ${escapeAttr(tytulShort)}')" title="One-pager">📋</span>
+          <span class="sales-file-btn" onclick="openMdModal('${base}program_skrocony.md', 'Program: ${escapeAttr(tytulShort)}')" title="Program szczegółowy">📚</span>
+          <span class="sales-file-btn" onclick="openMdModal('${base}skrypt_rozmowy.md', 'Skrypt: ${escapeAttr(tytulShort)}')" title="Skrypt rozmowy">🗣️</span>
+          <span class="sales-file-btn" onclick="openMdModal('${base}email_cold.md', 'Email: ${escapeAttr(tytulShort)}')" title="Email cold">📧</span>
+          <span class="sales-file-btn" onclick="openMdModal('${base}obiekcje_specyficzne.md', 'Obiekcje: ${escapeAttr(tytulShort)}')" title="Obiekcje">🛡️</span>
+          <span class="sales-file-btn" onclick="openMdModal('${base}linki.md', 'Linki: ${escapeAttr(tytulShort)}')" title="Linki i źródła">🔗</span>
+        </div>
+        <div class="sales-card-action"><span class="bur-status">Status: research zakończony - rejestracja w BUR oczekuje</span></div>
+      </div>
+    `;
+  }).join('');
+}
 
 function renderPerSzkolenie() {
   const el = document.getElementById('sales-per-szkolenie');
@@ -44,6 +88,7 @@ function renderPerSzkolenie() {
 }
 
 function renderSalesLinks() {
+  renderPropozycjePromowane();
   renderPerSzkolenie();
 
   const skrypty = [

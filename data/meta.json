@@ -1,8 +1,28 @@
 {
-  "wersja": "6.1.0",
+  "wersja": "6.2.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.2.0",
+      "zmiany": [
+        "PROP-02 NIS2 promowane do oferty (6 plików sales/per_szkolenie/PROP-02_nis2/) - status research_zakonczony",
+        "PROP-01 AI Act promowane do oferty (6 plików sales/per_szkolenie/PROP-01_ai_act/) - status research_zakonczony",
+        "trendy.json: NIS2 status W MOCY (ustawa o KSC od 03.04.2026, deadline samoidentyfikacji 03.10.2026)",
+        "trendy.json: AI Act korekta krytyczna - art. 4 AI literacy obowiązuje od 02.02.2025 (nie 'od sierpnia 2026')",
+        "Aktualizacja TIER 1A: świętokrzyskie + pomorskie powiaty (statusy, claudia_note)",
+        "Telefon + email dla MUP Kielce (41 340-60-55, kancelaria@mupkielce) - PIERWSZY kontakt zweryfikowany",
+        "Telefon dla PUP Chojnice ((52) 39-50-700) - PIERWSZY kontakt pomorski",
+        "Lead operacyjny: PUP Kielce oszczędności KFS - claudia_lead dla MUP/PUP Kielce",
+        "Korekta statusu PUP Chojnice (TRWA → NADCHODZI, start 04.05)",
+        "WUP Kielce: dograny BUR-I/1/2026 (3 mln zł, 80%/75%, 19-30.01.2026 ZAKONCZONY, transformacja cyfrowa priorytet)",
+        "UI: nowa sekcja Propozycje promowane w panelu Sprzedaż (PROP-01/02)",
+        "Schema propozycja.schema.json: dodano 'research_zakonczony' do enum status + nowe pole folder_sprzedazowy",
+        "Sygnał na v6.3: BUR pokazuje 13 aktywnych usług IRIN (mamy 10) - 3 nowe do dograne; regulamin BUR od 13.03.2026 - PDF ręcznie pobrać"
+      ],
+      "kto": "Claudia (Cowork transfer brief) + Claude Code (autonomous workflow)"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.0.0",

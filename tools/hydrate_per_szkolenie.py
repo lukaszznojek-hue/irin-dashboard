@@ -19,6 +19,10 @@ FOLDERS = {
     "3379725": "08_tus_kielce",
     "3381926": "09_projekty_dofinansowane",
     "3486195": "10_si_kielce_wrzesien",
+    # PROP - NIE hydratowane przez ten skrypt, pliki tworzone recznie
+    # (PROP nie sa w SZKOL = data/szkolenia_irin.json - skrypt iteruje tylko SZKOL)
+    "PROP-01": "PROP-01_ai_act",
+    "PROP-02": "PROP-02_nis2",
 }
 
 KLASTRY = {
@@ -31,6 +35,7 @@ KLASTRY = {
         "10_si_kielce_wrzesien",
     ],
     "dofinans": ["09_projekty_dofinansowane"],
+    "ai_regulacje": ["PROP-01_ai_act", "PROP-02_nis2"],
 }
 
 PERSONY = {

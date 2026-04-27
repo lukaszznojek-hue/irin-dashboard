@@ -6,26 +6,33 @@
       "kod": "PROP-01",
       "tytul": "AI Compliance dla MŚP - AI Act w praktyce",
       "kategoria": "ai_regulacje",
-      "uzasadnienie": "AI Act wchodzi etapami 2024-2026, obowiązek AI literacy. Brak ofert na polskim rynku szkoleń BUR dedykowanych compliance AI Act.",
+      "uzasadnienie": "AI Act stosowany etapami 2025-2027. AI literacy art. 4 OBOWIAZUJE OD 02.02.2025 (korekta wczesniejszych materialow IRIN), pelne high-risk od 02.08.2026. Brak ofert na polskim rynku szkoleń BUR dedykowanych compliance AI Act.",
       "estymowana_cena": 6500,
       "estymowane_godziny": 24,
       "forma": "zdalna",
       "powiazane_priorytety": [
         "P3"
       ],
-      "rynek_target": "MŚP, działy compliance, kadra zarządzająca",
+      "rynek_target": "MŚP, działy compliance, kadra zarządzająca, HR managerowie (rekrutacja AI = high-risk), sektory wysokiego ryzyka (HR, finanse, edukacja, zdrowie, infra krytyczna)",
       "pilnosc": "🔴 KRYTYCZNA",
-      "status": "pomysl",
+      "status": "research_zakonczony",
       "owner_irin": null,
-      "data_promocji_do_oferty": null,
-      "url_program": null,
-      "komentarze_zespolu": []
+      "data_promocji_do_oferty": "2026-04-27",
+      "url_program": "../sales/per_szkolenie/PROP-01_ai_act/program_skrocony.md",
+      "folder_sprzedazowy": "PROP-01_ai_act",
+      "komentarze_zespolu": [
+        {
+          "data": "2026-04-27",
+          "autor": "Claudia",
+          "komentarz": "Pakiet sprzedażowy gotowy: 6 plików w sales/per_szkolenie/PROP-01_ai_act/. Otwarte decyzje: trener (rekomendacja: zewnętrzny prawnik AI compliance + tech), rejestracja w BUR (sugerowana 14 dni), termin pierwszej edycji (rekomendacja lipiec 2026 - przed deadline 02.08)."
+        }
+      ]
     },
     {
       "kod": "PROP-02",
       "tytul": "Cyberbezpieczeństwo dla MŚP - wdrożenie NIS2",
       "kategoria": "regulacje",
-      "uzasadnienie": "NIS2 wymaga szkoleń cyber dla kadry zarządzającej i IT. P5 świętokrzyskie = cyberbezpieczeństwo.",
+      "uzasadnienie": "Ustawa o KSC wdrazajaca NIS2 obowiazuje od 03.04.2026 - deadline samoidentyfikacji 03.10.2026 (5 mies). NIS2 wymaga rocznych szkolen kadry zarzadzajacej cyber. Double match KFS: P3 PARP + P5 świętokrzyskie (cyberbezpieczeństwo).",
       "estymowana_cena": 7200,
       "estymowane_godziny": 30,
       "forma": "zdalna",
@@ -33,13 +40,20 @@
         "P3",
         "P5 świętokrzyskie"
       ],
-      "rynek_target": "MŚP, podmioty kluczowe i ważne wg NIS2",
+      "rynek_target": "MŚP 50-250 osób (podmioty ważne - sweet spot), sektory priorytetowe NIS2 (energetyka/transport/bankowość/zdrowie/woda/infra cyfrowa/administracja/odpady/żywność/chemikalia/produkcja cyfrowa)",
       "pilnosc": "🔴 KRYTYCZNA",
-      "status": "pomysl",
+      "status": "research_zakonczony",
       "owner_irin": null,
-      "data_promocji_do_oferty": null,
-      "url_program": null,
-      "komentarze_zespolu": []
+      "data_promocji_do_oferty": "2026-04-27",
+      "url_program": "../sales/per_szkolenie/PROP-02_nis2/program_skrocony.md",
+      "folder_sprzedazowy": "PROP-02_nis2",
+      "komentarze_zespolu": [
+        {
+          "data": "2026-04-27",
+          "autor": "Claudia",
+          "komentarz": "Pakiet sprzedażowy gotowy: 6 plików w sales/per_szkolenie/PROP-02_nis2/. Otwarte decyzje: trener (rekomendacja: zewnętrzny CISSP/CISM z portfolio NIS), rejestracja w BUR (sugerowana 14 dni), termin pierwszej edycji (rekomendacja Q3 2026 - wrzesień 2026 jako 'ostatni dzwonek' przed deadline 03.10)."
+        }
+      ]
     },
     {
       "kod": "PROP-03",

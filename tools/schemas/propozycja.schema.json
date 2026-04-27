@@ -24,11 +24,12 @@
           "pilnosc": {"type": ["string", "null"]},
           "status": {
             "type": ["string", "null"],
-            "enum": ["pomysl", "analiza", "w_opracowaniu", "gotowe", "odrzucone", null]
+            "enum": ["pomysl", "analiza", "w_opracowaniu", "research_zakonczony", "gotowe", "odrzucone", null]
           },
           "owner_irin": {"type": ["string", "null"]},
           "data_promocji_do_oferty": {"type": ["string", "null"]},
           "url_program": {"type": ["string", "null"]},
+          "folder_sprzedazowy": {"type": ["string", "null"]},
           "komentarze_zespolu": {"type": ["array", "null"]}
         }
       }
