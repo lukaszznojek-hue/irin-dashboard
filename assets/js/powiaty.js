@@ -106,10 +106,15 @@ function renderCard(card) {
     </div>
     <div class="card-body">
       ${renderPillarDetails(card)}
+      ${(card.priorytety && card.priorytety.length) ? `<div class="card-priorytety"><strong>Priorytety PARP:</strong> ${card.priorytety.map(p => `<span class="prior-tag">${p}</span>`).join(' ')}</div>` : ''}
       ${card.akcja_status_uzasadnienie ? `<div class="akcja-uzasadnienie"><strong>Status:</strong> ${escapeHtml(card.akcja_status_uzasadnienie)}</div>` : ''}
       ${card.claudia_note ? `<div class="claudia-note">
         <span class="claudia-avatar">C</span>
         <div class="claudia-text">${interpolateLinks(card.claudia_note)}</div>
+      </div>` : ''}
+      ${(card.telefon || card.email) ? `<div class="card-contact">
+        ${card.telefon ? `<span class="contact-item">📞 <a href="tel:${card.telefon}">${card.telefon}</a></span>` : ''}
+        ${card.email ? `<span class="contact-item">✉️ <a href="mailto:${card.email}">${card.email}</a></span>` : ''}
       </div>` : ''}
       ${card.url_pup ? `<div class="card-links">
         <a href="${card.url_pup}" target="_blank" rel="noopener">Strona PUP ↗</a>

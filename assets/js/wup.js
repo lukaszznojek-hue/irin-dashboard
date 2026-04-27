@@ -8,7 +8,7 @@ function renderWupGrid() {
     if (!w) return '';
     const tierColor = TIER_COLORS[w.tier] || '#999';
     const priors = (w.priorytety_wojewodzkie || []).map(p =>
-      `<div class="wup-priority"><strong>${p.kod}:</strong> ${p.nazwa}</div>`
+      `<div class="wup-priority"><strong>${p.kod}:</strong> ${p.nazwa}${p.opis ? `<div class="wup-priority-desc">${escapeHtml(p.opis)}</div>` : ''}</div>`
     ).join('') || '<div class="no-data">Do weryfikacji</div>';
     const projektyBur = (w.projekty_bur && w.projekty_bur.length)
       ? w.projekty_bur.map(renderProjektBur).join('')
@@ -27,6 +27,7 @@ function renderWupGrid() {
           <div class="claudia-text">${interpolateLinks(w.claudia_note)}</div>
         </div>` : ''}
       </div>
+      ${w.data_aktualizacji ? `<div class="wup-card-updated">Dane z: ${w.data_aktualizacji}</div>` : ''}
       <div class="wup-card-footer">
         <a href="${w.wup_url}" target="_blank" rel="noopener">Strona WUP ↗</a>
         <a href="${w.wup_url}/urzad/bur/" target="_blank" rel="noopener">Projekty BUR ↗</a>

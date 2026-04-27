@@ -559,6 +559,21 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 }
 .sales-file-btn:hover { background: var(--zloto-jasny); }
 
+/* Kontakt PUP w karcie */
+.card-contact { display: flex; gap: 16px; flex-wrap: wrap; margin: 6px 0; font-size: 12px; }
+.contact-item a { color: var(--granat); text-decoration: none; }
+.contact-item a:hover { text-decoration: underline; }
+
+/* Priorytety PARP w karcie */
+.card-priorytety { margin: 6px 0; font-size: 12px; }
+.card-priorytety .prior-tag { margin-left: 4px; }
+
+/* WUP opisy priorytetów */
+.wup-priority-desc { font-size: 11px; color: var(--szary); margin: 2px 0 6px 0; line-height: 1.4; }
+
+/* WUP data aktualizacji */
+.wup-card-updated { font-size: 10px; color: var(--szary-jasny); padding: 4px 12px; text-align: right; }
+
 /* Tooltip term - klikalne skróty */
 .tooltip-term {
   cursor: help; border-bottom: 1px dotted var(--zloto);
