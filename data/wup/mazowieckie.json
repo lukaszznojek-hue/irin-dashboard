@@ -4,20 +4,93 @@
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
   "wup_url": "https://wupwarszawa.praca.gov.pl",
-  "wup_email": null,
-  "wup_telefon": null,
+  "wup_email": "burrws@wup.mazowsze.pl",
+  "wup_telefon": "(22) 578-44-03, (22) 578-44-35 (Działanie 6.5), (22) 578-44-34 (Działanie 7.4)",
   "operator_bur": "WUP Warszawa",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP Warszawa"
+      "nazwa": "Wsparcie cudzoziemców",
+      "opis": "Wsparcie kształcenia ustawicznego skierowane do cudzoziemców oraz pracodawców zatrudniających cudzoziemców (priorytet wojewódzki Mazowsza 2026)"
+    },
+    {
+      "kod": "P6",
+      "nazwa": "Do weryfikacji - drugi priorytet",
+      "opis": "Brak danych - sprawdzić uchwałę Zarządu Województwa Mazowieckiego"
+    },
+    {
+      "kod": "P7",
+      "nazwa": "Do weryfikacji - trzeci priorytet",
+      "opis": "Brak danych - sprawdzić uchwałę Zarządu Województwa Mazowieckiego"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 1B - największy rynek w kraju. Warszawa: 38 powiatów.",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "BUR Mazowsze - Działanie 6.5 (pracodawcy) RWS - Nabór 1/RWS/2026",
+      "status": "trwa",
+      "operator": "WUP Warszawa",
+      "id_bur": "1/RWS/2026",
+      "kwota_alokacji": 6000000,
+      "kwota_efs_eu": 3000000,
+      "intensywnosc_max": "do 80% (refundacja po realizacji)",
+      "data_start": "2026-01-09",
+      "data_end": "do wyczerpania alokacji",
+      "obszar": "RWS - Warszawa Stołeczny Region",
+      "grupa_docelowa": "Pracodawcy z obszaru RWS i ich pracownicy (działanie 6.5)",
+      "url_regulamin": "https://wupwarszawa.praca.gov.pl/nabor-nr-1/rws/2026",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "BUR Mazowsze - Działanie 6.5 (pracodawcy) RMR - Nabór 1/RMR/2026",
+      "status": "trwa",
+      "operator": "WUP Warszawa",
+      "id_bur": "1/RMR/2026",
+      "kwota_alokacji": 5000000,
+      "kwota_efs_eu": 4250000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-01-23",
+      "data_end": "do wyczerpania alokacji",
+      "obszar": "RMR - Mazowiecki Regionalny Region",
+      "grupa_docelowa": "Pracodawcy z obszaru RMR i ich pracownicy",
+      "url_regulamin": "https://wupwarszawa.praca.gov.pl/nabor-nr-1/rmr/2026",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "BUR Mazowsze - Nabór 2/RWS/2026 (II runda)",
+      "status": "trwa",
+      "operator": "WUP Warszawa",
+      "id_bur": "2/RWS/2026",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-03-09",
+      "data_end": "do wyczerpania alokacji",
+      "obszar": "RWS",
+      "grupa_docelowa": "Pracodawcy RWS",
+      "url_regulamin": "https://wupwarszawa.praca.gov.pl/nabor-nr-2/rws/2026",
+      "do_weryfikacji": true
+    },
+    {
+      "nazwa": "BUR Mazowsze - Nabór 2/RMR/2026 (II runda)",
+      "status": "trwa",
+      "operator": "WUP Warszawa",
+      "id_bur": "2/RMR/2026",
+      "kwota_alokacji": 4000000,
+      "kwota_efs_eu": 3400000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-03-09",
+      "data_end": "do wyczerpania alokacji",
+      "obszar": "RMR",
+      "grupa_docelowa": "Pracodawcy RMR",
+      "url_regulamin": "https://wupwarszawa.praca.gov.pl/nabor-nr-2/rmr/2026",
+      "do_weryfikacji": false
+    }
+  ],
+  "claudia_note": "TIER 1B - NAJWIĘKSZY rynek w kraju. v6.5.1 dograne BUR: WUP Warszawa zarządza 2 obszarami (RWS Warszawa Stołeczny + RMR Mazowiecki Regionalny). 4 aktywne nabory BUR 2026 łącznie ~15-19 mln zł. Działanie 6.5 dla pracodawców (refundacja kosztów po realizacji szkolenia). Priorytet wojewódzki KFS = cudzoziemcy (luka oferty IRIN - rozważyć PROP nowy). Email kontakt: burrws@wup.mazowsze.pl. 38 powiatów łącznie, alokacja KFS rekord 68.5 mln zł.",
+  "akcja_tygodnia": "Sprawdzić nabór 1/RWS/2026 lub 1/RMR/2026 dla pracodawców mazowieckich - oba TRWAJĄ od stycznia",
+  "akcja_tygodnia_target": "warszawa-stoleczny",
   "alokacja_kfs_2026_wojewodztwo_pln": 68465000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "suma_bur_2026_pln": 15000000,
+  "suma_bur_2026_uwaga": "Suma znanych kwot 4 naborów BUR. Nabór 2/RWS/2026 bez kwoty - może być jeszcze 3-5 mln zł.",
+  "url_aktualne_nabory": "https://wupwarszawa.praca.gov.pl/aktualne-nabory"
 }

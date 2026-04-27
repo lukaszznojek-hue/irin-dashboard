@@ -4,8 +4,8 @@
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
   "wup_url": "https://wuppoznan.praca.gov.pl",
-  "wup_email": null,
-  "wup_telefon": null,
+  "wup_email": "wup@wup.poznan.pl",
+  "wup_telefon": "61 8345 730 (KFS)",
   "operator_bur": "WUP Poznań",
   "priorytety_wojewodzkie": [
     {
@@ -14,10 +14,28 @@
       "opis": "Wydłużanie aktywności zawodowej osób w ochronie przedemerytalnej i po osiągnięciu wieku emerytalnego"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "PUP Poznań: 7 mln zł KFS. Kontakt KFS: 61 8345 730, kfs@poznan.praca.gov.pl.",
+  "projekty_bur": [
+    {
+      "nazwa": "BUR Wielkopolska - dofinansowanie szkoleń (FEW)",
+      "status": "do_weryfikacji",
+      "operator": "WUP Poznań - operatorzy regionalni przez serwis-uslugirozwojowe.parp.gov.pl",
+      "id_bur": null,
+      "kwota_alokacji": null,
+      "intensywnosc_max": "50-80% (refundacja po realizacji)",
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Pracodawcy MŚP wielkopolscy (refundacja kosztów szkoleń od 50%)",
+      "url_regulamin": "https://serwis-uslugirozwojowe.parp.gov.pl/dofinansowanie/wojewodztwo-wielkopolskie",
+      "claudia_note": "WUP Poznań nie publikuje agregowanej listy aktywnych projektów BUR online. Operatorzy są na PARP regionalnym. Wymaga ręcznego dograne kwot z portalu PARP lub kontakt do WUP.",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 1B - 3 największe woj. KFS (42.4 mln). PUP Poznań sam ma 7 mln zł KFS. WUP Poznań NIE publikuje agregowanej listy projektów BUR online - operatorzy są na PARP. v6.5.1 SYGNAŁ LUKI: konkretne projekty BUR + kwoty wymagają (1) pobrania XLSX terminów naborów KFS z wuppoznan.praca.gov.pl/aktualne-nabory lub (2) bezpośredniego kontaktu z WUP. Priorytety wojewódzkie KFS poza P5 (przedemerytalna) - DO WERYFIKACJI.",
   "akcja_tygodnia": null,
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 42353000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_aktualne_nabory": "https://wuppoznan.praca.gov.pl/aktualne-nabory",
+  "url_kfs": "https://wuppoznan.praca.gov.pl/krajowy-fundusz-szkoleniowy-w-wielkopolsce",
+  "url_bur": "https://serwis-uslugirozwojowe.parp.gov.pl/dofinansowanie/wojewodztwo-wielkopolskie"
 }

@@ -4,20 +4,63 @@
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
   "wup_url": "https://wupkrakow.praca.gov.pl",
-  "wup_email": null,
-  "wup_telefon": null,
+  "wup_email": "bon@wup-krakow.pl, kariera@wup-krakow.pl",
+  "wup_telefon": "12 619 84 09",
   "operator_bur": "WUP Kraków",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
       "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP Kraków"
+      "opis": "Brak danych - sprawdzić uchwałę Zarządu Województwa Małopolskiego"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 1B - duży rynek szkoleniowy. Kraków + powiaty.",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "Małopolski Pociąg do Kariery - sezon 1",
+      "status": "trwa",
+      "operator": "WUP Kraków",
+      "id_bur": "MPDK-1",
+      "kwota_alokacji": 90000000,
+      "intensywnosc_max": "90% (wkład własny 10%)",
+      "wartosc_bonu_pln": 5025,
+      "data_start": "2024-04 (cykl wieloroczny)",
+      "data_end": "2026 (z dograne na 2026 dla pozostałych miejsc)",
+      "limit_miejsc": 1500,
+      "grupa_docelowa": "Osoby dorosłe pełnoletnie pracujące, związane z Małopolską",
+      "url_regulamin": "https://wupkrakow.praca.gov.pl",
+      "claudia_note": "PROJEKT FLAGOWY WUP Kraków - 90 mln zł, 1500 bonów po 5 025 zł, 10% wkład własny. Bon = wybór z BUR. IDEALNE źródło dla IRIN dla pracowników z Małopolski. Kontakt: kariera@wup-krakow.pl",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "Doświadczenie ma znaczenie (2025-2026)",
+      "status": "trwa",
+      "operator": "WUP Kraków",
+      "id_bur": "DMZ-2025",
+      "kwota_alokacji": null,
+      "data_start": "2025",
+      "data_end": "2026-12",
+      "grupa_docelowa": "Bezrobotni do 30 roku życia - kwalifikacje, doświadczenie zawodowe",
+      "url_regulamin": "https://wupkrakow.praca.gov.pl/-/program-regionalny-firma-1-2025-2026-",
+      "do_weryfikacji": true
+    },
+    {
+      "nazwa": "Konserwator (2025-2026)",
+      "status": "trwa",
+      "operator": "WUP Kraków",
+      "id_bur": "KON-2025",
+      "kwota_alokacji": null,
+      "data_start": "2025",
+      "data_end": "2026-12",
+      "grupa_docelowa": "Bezrobotni - sektor kultury, ochrona zabytków",
+      "url_regulamin": "https://wupkrakow.praca.gov.pl",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 1B - 4. woj KFS w Polsce (39.9 mln). v6.5.1 dograne FLAGOWY projekt 'Małopolski Pociąg do Kariery sezon 1' - 90 MLN ZŁ, 1500 bonów po 5025 zł dla pracowników. To znacznie więcej niż KFS! Bon = wybór szkolenia z BUR (IRIN OK). 2 inne projekty WUP regionalne (Doświadczenie/Konserwator) - dograne kwot wymaga ręcznie. Priorytety wojewódzkie KFS - SYGNAŁ LUKI: niedostępne na stronie WUP, trzeba ze stron PUP-ów lub uchwały Zarządu Woj. Małopolskiego. Kontakt: bon@wup-krakow.pl / kariera@wup-krakow.pl",
+  "akcja_tygodnia": "Małopolski Pociąg do Kariery - 90 mln zł, 1500 bonów aktywnych - target IRIN dla pracujących Małopolan",
+  "akcja_tygodnia_target": "malopolski-pociag-do-kariery",
   "alokacja_kfs_2026_wojewodztwo_pln": 39926000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_aktualne_nabory": "https://wupkrakow.praca.gov.pl/aktualnosci-wup",
+  "url_programy": "https://wupkrakow.praca.gov.pl/programy-i-projekty-urz%C4%99du"
 }

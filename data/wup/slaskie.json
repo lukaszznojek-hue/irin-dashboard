@@ -4,8 +4,8 @@
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
   "wup_url": "https://wupkatowice.praca.gov.pl",
-  "wup_email": null,
-  "wup_telefon": null,
+  "wup_email": "funduszeue@wup-katowice.pl",
+  "wup_telefon": "+48 32 757 33 11 (Punkt Kontaktowy Funduszy Europejskich)",
   "operator_bur": "WUP Katowice",
   "priorytety_wojewodzkie": [
     {
@@ -21,13 +21,80 @@
     {
       "kod": "P7",
       "nazwa": "Sektory kluczowe dla Śląska",
-      "opis": "Wsparcie kwalifikacji w sektorach: medycyna, IT, energetyka, zielona gospodarka, branże wschodzące"
+      "opis": "Wsparcie kwalifikacji w sektorach: medycyna, IT, energetyka, zielona gospodarka, branże wschodzące - sweet spot IRIN (AI/cyfryzacja/PROP-02 NIS2)"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "3 priorytety wojewódzkie. Sektory kluczowe (P7): medycyna, IT, energetyka, zielona gospodarka - dopasowanie do oferty IRIN (AI, cyfryzacja).",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "FESL.10.17 Kształcenie osób dorosłych FST (Fundusz Sprawiedliwej Transformacji)",
+      "status": "trwa",
+      "operator": "WUP Katowice",
+      "id_bur": "FESL.10.17",
+      "kwota_alokacji": 160700000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-01-30",
+      "data_end": "2026-03-31",
+      "grupa_docelowa": "Osoby dorosłe (kształcenie ustawiczne) - obszary FST (transformacja energetyczna)",
+      "url_regulamin": "https://wupkatowice.praca.gov.pl/strona-glowna/-/asset_publisher/39JZIRdpmxrz/content/nowe-nabory-w-2026-roku",
+      "claudia_note": "NAJWIĘKSZY pojedynczy nabór BUR w PL 2026: 160.7 mln zł! FST = sektor węglowy, restrukturyzacja - target Akademia OZE IRIN.",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "FESL.10.20 Wsparcie na założenie działalności gospodarczej",
+      "status": "trwa",
+      "operator": "WUP Katowice",
+      "id_bur": "FESL.10.20",
+      "kwota_alokacji": 35100000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-02-27",
+      "data_end": "2026-04-30",
+      "grupa_docelowa": "Osoby zakładające działalność gospodarczą",
+      "url_regulamin": "https://wupkatowice.praca.gov.pl",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "FESL.07.03 Integracja społeczno-gospodarcza cudzoziemców",
+      "status": "trwa",
+      "operator": "WUP Katowice",
+      "id_bur": "FESL.07.03",
+      "kwota_alokacji": 15200000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-02-27",
+      "data_end": "2026-04-30",
+      "grupa_docelowa": "Cudzoziemcy w PL - integracja na rynku pracy",
+      "url_regulamin": "https://wupkatowice.praca.gov.pl",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "FESL.06.09 Lokalne Ośrodki Wiedzy i Edukacji (LOWE)",
+      "status": "trwa",
+      "operator": "WUP Katowice",
+      "id_bur": "FESL.06.09",
+      "kwota_alokacji": 2800000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-02-14",
+      "data_end": "2026-04-30",
+      "grupa_docelowa": "Lokalne Ośrodki Wiedzy i Edukacji",
+      "url_regulamin": "https://wupkatowice.praca.gov.pl",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "FESL.05.11 Równość szans na rynku pracy",
+      "status": "trwa",
+      "operator": "WUP Katowice",
+      "id_bur": "FESL.05.11",
+      "kwota_alokacji": 2800000,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-02-27",
+      "data_end": "2026-04-30",
+      "grupa_docelowa": "Wsparcie równości szans",
+      "url_regulamin": "https://wupkatowice.praca.gov.pl",
+      "do_weryfikacji": false
+    }
+  ],
+  "claudia_note": "REKORDOWY OBSZAR. v6.5.1 dograne 5 z 12 planowanych naborów BUR 2026 (~217 mln zł znanych). FESL.10.17 to NAJWIĘKSZY pojedynczy nabór w PL (160.7 mln, kształcenie dorosłych z FST). Sektory kluczowe (P7): medycyna, IT, energetyka, zielona gospodarka - DOSKONAŁE dopasowanie do AI/cyfryzacja/NIS2. Plus 7 dodatkowych naborów w Q2-Q4 2026 (do dograne).",
+  "akcja_tygodnia": "FESL.10.17 - 160.7 mln zł trwa do 31.03.2026 (kształcenie dorosłych FST, sektor restrukturyzacja węgla)",
+  "akcja_tygodnia_target": "fesl-10-17",
   "alokacja_kfs_2026_wojewodztwo_pln": 46820000,
   "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }
