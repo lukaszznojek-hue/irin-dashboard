@@ -25,7 +25,7 @@ function renderBURTable() {
               data-forma="${u.forma || ''}"
               data-tier="${u.tier_priorytetu_irin}"
               data-benchmark="${benchKat}">
-      <td><div class="bur-title">${u.tytul}</div><div class="bur-id">ID: ${u.id_bur}</div></td>
+      <td><div class="bur-title">${u.tytul}</div><div class="bur-id"><a href="${u.url_bur || 'https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=' + u.id_bur}" target="_blank" rel="noopener" class="bur-link">ID: ${u.id_bur} ↗</a></div></td>
       <td><span class="irin-cat ${u.kategoria}">${katLabel(u.kategoria)}</span></td>
       <td class="amount">${formatKwota(u.cena_brutto)}</td>
       <td class="cena-h-irin">${cenaIrin} zł/h</td>

@@ -74,6 +74,48 @@
       "nazwa": "Fundusze Europejskie dla Rozwoju Społecznego",
       "krotki_opis": "Program krajowy PARP finansujący usługi rozwojowe. Aktualny nabór dla dostawców BUR do 31.08.2026.",
       "pelny_opis_html": "<p>FERS to krajowy program operacyjny zarządzany przez PARP, finansujący poprawę jakości usług w Bazie Usług Rozwojowych.</p><p>Główne obszary: praca, edukacja, zdrowie, dostępność.</p><p>Z dofinansowanych usług BUR mogą korzystać mieszkańcy wszystkich województw: pracownicy, pracodawcy i osoby dorosłe.</p><p>Aktualny nabór FERS dla dostawców BUR: do 31.08.2026.</p>"
+    },
+    {
+      "skrot": "AI Act",
+      "nazwa": "Akt o Sztucznej Inteligencji UE",
+      "krotki_opis": "Pierwsze na świecie kompleksowe prawo regulujące AI. Obowiązek AI literacy dla firm używających ChatGPT, Claude, Copilot itp. Pełne wdrożenie 02.08.2026.",
+      "pelny_opis_html": "<p>Rozporządzenie (UE) 2024/1689. Klasyfikuje systemy AI według poziomu ryzyka. <strong>Art. 4 (AI literacy) obowiązuje od 02.02.2025</strong> – pracodawcy używający narzędzi AI muszą zapewnić pracownikom szkolenia z odpowiedzialnego korzystania z AI.</p><p><strong>Kluczowe daty:</strong> 02.08.2026 – pełne stosowanie większości przepisów. Kary do 35 mln EUR lub 7% obrotu globalnego.</p><p>Dla IRIN: krytyczne okno sprzedażowe maj-lipiec 2026 (firmy budzą się przed deadline). Szkolenia AI IRIN mogą być udokumentowane jako spełnienie wymogu AI literacy.</p>",
+      "uwagi_2026": "🔴 KRYTYCZNE: 97 dni do 02.08.2026. Organ nadzorczy: KRiBSI (powołany 31.03.2026)."
+    },
+    {
+      "skrot": "NIS2",
+      "nazwa": "Dyrektywa o cyberbezpieczeństwie UE",
+      "krotki_opis": "Unijna dyrektywa nakładająca obowiązki cyberbezpieczeństwa na podmioty kluczowe i ważne. Polska transpozycja: 03.04.2026. Obowiązkowe szkolenia zarządu.",
+      "pelny_opis_html": "<p>Dyrektywa (UE) 2022/2555. Zastępuje NIS z 2016 r. – znacznie szerszy zakres: ~38 000 podmiotów w Polsce (sektory energetyki, transportu, zdrowia, IT, produkcji).</p><p><strong>Polska transpozycja (UKSC 2):</strong> obowiązuje od 03.04.2026. Rejestracja podmiotów: do 03.10.2026.</p><p>Obowiązki: roczne szkolenia cyberbezpieczeństwa dla zarządu, polityki bezpieczeństwa, zarządzanie ryzykiem ICT, raportowanie incydentów. Kary do 10 mln EUR lub 2% obrotu.</p>",
+      "uwagi_2026": "🔴 KRYTYCZNE: rejestracja podmiotów do 03.10.2026 (159 dni). Potencjalny nowy produkt IRIN: 'Szkolenie NIS2 dla zarządu'."
+    },
+    {
+      "skrot": "CSRD",
+      "nazwa": "Dyrektywa o raportowaniu ESG",
+      "krotki_opis": "Unijna dyrektywa wymagająca od firm raportowania ESG (środowiskowego, społecznego i zarządczego). Dla MŚP nienotowanych pilność niska – presja pośrednia.",
+      "pelny_opis_html": "<p>Corporate Sustainability Reporting Directive (2022/2464). Zastępuje NFRD. Standardy: ESRS. Polska ustawa z 28.07.2025 ('stop-the-clock') przesunęła terminy dla MŚP.</p><p><strong>Kogo dotyczy dziś:</strong> duże spółki giełdowe (>500 osób). MŚP nienotowane: presja pośrednia – banki, kontrahenci pytają o dane ESG (Scope 3). Szkolenia IRIN powiązane: P3 (zielone kompetencje).</p>",
+      "uwagi_2026": "Pilność NISKA dla typowych klientów IRIN. Nie priorytetyzować aktywnie – reagować na zapytania."
+    },
+    {
+      "skrot": "DORA",
+      "nazwa": "Cyfrowa odporność operacyjna sektora finansowego",
+      "krotki_opis": "Rozporządzenie UE dla sektora finansowego: banki, ubezpieczyciele, TFI. Obowiązuje od 17.01.2025. Szkolenia cyber dla personelu.",
+      "pelny_opis_html": "<p>Digital Operational Resilience Act (2022/2554). Obowiązuje od 17.01.2025. Dotyczy banków, ubezpieczycieli, TFI, firm inwestycyjnych oraz dostawców ICT dla sektora finansowego (~22 000 podmiotów w UE).</p><p>Obowiązki: zarządzanie ryzykiem ICT, raportowanie incydentów (wstępnie w 4h!), testy penetracyjne, obowiązkowe szkolenia personelu.</p><p>Dla IRIN: pilność niska – sektor finansowy to nie core klientów. Możliwa nisza: szkolenia 'DORA dla działów L&D w bankach'.</p>",
+      "uwagi_2026": "Już obowiązuje (01.2025). Niszowy rynek dla IRIN – nie priorytetyzować."
+    },
+    {
+      "skrot": "Inno_Lab",
+      "nazwa": "Inno_Lab Pilotaż AI (PARP 2026)",
+      "krotki_opis": "Nowy nabór PARP 2026: wsparcie MŚP we wdrożeniu AI (nie szkolenia, lecz wdrożenia technologiczne). Komplementarny z BUR – szkolenia IRIN jako uzupełnienie.",
+      "pelny_opis_html": "<p>Program PARP planowany na 2026 r. (część puli 22 naborów, łącznie 1,3 mld zł). Finansuje wdrożenia produkcyjne AI w MŚP z branż priorytetowych (budownictwo, przetwórstwo, transport, magazynowanie).</p><p><strong>Dla IRIN to NIE jest konkurencja</strong> – Inno_Lab finansuje wdrożenia technologiczne (software, POC), a IRIN oferuje szkolenia (kompetencje ludzkie). To komplementarność: klient wdraża AI przez Inno_Lab → potrzebuje szkoleń AI Act compliance + AI literacy przez BUR/KFS z IRIN.</p><p>Argument sprzedażowy: 'Planujecie wdrożyć AI? Zadbajcie też o szkolenie pracowników – to wymóg AI Act, może być z KFS.'</p>",
+      "uwagi_2026": "Status: jeszcze nie ogłoszony (kwiecień 2026). Monitorować PARP.gov.pl."
+    },
+    {
+      "skrot": "KRiBSI",
+      "nazwa": "Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji",
+      "krotki_opis": "Polski organ nadzoru AI Act powołany ustawą Rady Ministrów z 31.03.2026. Odpowiednik krajowego organu nadzorczego wymaganego przez AI Act.",
+      "pelny_opis_html": "<p>KRiBSI (Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji) – krajowy organ nadzorczy ds. AI powołany uchwałą RM z 31.03.2026, działający w strukturach rządu RP.</p><p>Zadania: nadzór nad stosowaniem AI Act w Polsce, certyfikacja systemów AI wysokiego ryzyka, rejestr systemów AI, prowadzenie postępowań w sprawie naruszeń AI Act.</p><p>Dla IRIN: powołanie KRiBSI to sygnał, że egzekucja AI Act w Polsce staje się realna. Wzmacnia argument sprzedażowy: 'Jest organ, będą kontrole, będą kary.'</p>",
+      "uwagi_2026": "Nowo powołany (31.03.2026). Wzmacnia pilność sprzedaży szkoleń AI literacy."
     }
   ]
 }

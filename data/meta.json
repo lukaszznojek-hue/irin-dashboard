@@ -1,8 +1,24 @@
 {
-  "wersja": "5.0.0",
+  "wersja": "6.0.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.0.0",
+      "zmiany": [
+        "10. szkolenie BUR (id 3486195 - Integracja sensoryczna Kielce II termin)",
+        "liczba_uslug poprawione: 12→10",
+        "15 propozycji (10 zaktualizowanych + 5 nowych PROP-11..15)",
+        "18 terminów w słowniku (+6: AI Act, NIS2, CSRD, DORA, Inno_Lab, KRiBSI)",
+        "Re-priorytetyzacja: PROP-01 i PROP-02 → 🔴 KRYTYCZNA",
+        "KPI dashboardu w meta.json",
+        "Mapowanie zakładek na 4 warstwy researchu strategicznego",
+        "subscription_available + bundle_compatible + url_bur per usługa",
+        "Reorganizacja sales/: per_persona/, uniwersalne/, szef_sprzedazy/"
+      ],
+      "kto": "Claudia (Cowork) + Claude Code"
+    },
     {
       "data": "2026-04-27",
       "wersja": "5.0.0",
@@ -37,9 +53,28 @@
     }
   ],
   "tier_pokrycia": {
-    "tier_1a": ["swietokrzyskie", "pomorskie", "zachodniopomorskie", "kujawsko-pomorskie"],
-    "tier_1b": ["wielkopolskie", "slaskie", "dolnoslaskie", "malopolskie", "mazowieckie"],
-    "tier_2": ["lubelskie", "lubuskie", "lodzkie", "opolskie", "podkarpackie", "podlaskie", "warminsko-mazurskie"]
+    "tier_1a": [
+      "swietokrzyskie",
+      "pomorskie",
+      "zachodniopomorskie",
+      "kujawsko-pomorskie"
+    ],
+    "tier_1b": [
+      "wielkopolskie",
+      "slaskie",
+      "dolnoslaskie",
+      "malopolskie",
+      "mazowieckie"
+    ],
+    "tier_2": [
+      "lubelskie",
+      "lubuskie",
+      "lodzkie",
+      "opolskie",
+      "podkarpackie",
+      "podlaskie",
+      "warminsko-mazurskie"
+    ]
   },
   "kfs_2026_zmiany": {
     "intensywnosc_max_standard_procent": 70,
@@ -48,5 +83,33 @@
     "retencja_miesiace": 3,
     "wniosek_elektroniczny": true,
     "ris_zamkniety": "2025-12-31"
+  },
+  "kpi_dashboardu": {
+    "data_aktualizacji": "2026-04-27",
+    "liczba_aktywnych_naborow": 0,
+    "kwota_kfs_tier_1a_pln": 0,
+    "liczba_szkolen_bur": 10,
+    "dni_do_najblizszego_deadline_regulacyjnego": 97,
+    "deadline_najblizszy_nazwa": "AI Act pełne stosowanie (02.08.2026)",
+    "data_ostatniej_weryfikacji_telefonicznej": null
+  },
+  "mapowanie_warstw_researchu": {
+    "warstwa_faktyczna": [
+      "powiaty",
+      "wup",
+      "szkolenia"
+    ],
+    "warstwa_sprzedazowa": [
+      "sprzedaz",
+      "trendy",
+      "tailwinds"
+    ],
+    "warstwa_konkurencyjna": [
+      "matryca"
+    ],
+    "warstwa_operacyjna": [
+      "slownik",
+      "strategia"
+    ]
   }
 }

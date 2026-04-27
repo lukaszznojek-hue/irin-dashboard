@@ -89,6 +89,65 @@ function mapUrgencyToAkcja(card) {
   return 'zadzwon';
 }
 
+// addTermTooltips: opakowuje skróty słownikowe w span z tooltip title
+// Wywołaj na kontenerze: addTermTooltips(document.getElementById('tab-szkolenia'))
+function addTermTooltips(container) {
+  if (!container || !DASHBOARD_DATA.slownik?.terminy) return;
+
+  // Zbuduj mapę skrót → krotki_opis
+  const tooltipMap = {};
+  (DASHBOARD_DATA.slownik.terminy || []).forEach(t => {
+    if (t.skrot && t.krotki_opis) tooltipMap[t.skrot] = t.krotki_opis;
+  });
+
+  // Terminy do podlinkowania (kolejność: dłuższe najpierw, żeby AI Act przed AI)
+  const TERMS_REGEX = /\b(AI Act|KRiBSI|Inno_Lab|NIS2|CSRD|DORA|KFS|BUR|EFS\+|AZOB|FERS|FESW|MRiPS|MFiPR|PUP|MUP|WUP|P[1-7])\b/g;
+
+  // Przejdź przez węzły tekstowe w kontenerze
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const p = node.parentElement;
+      if (!p) return NodeFilter.FILTER_REJECT;
+      // Pomiń już opakowane, elementy formularzy, skrypty
+      if (p.classList.contains('tooltip-term')) return NodeFilter.FILTER_REJECT;
+      if (['SCRIPT','STYLE','A','INPUT','SELECT','TEXTAREA'].includes(p.tagName)) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  const nodesToProcess = [];
+  let node;
+  while ((node = walker.nextNode())) nodesToProcess.push(node);
+
+  nodesToProcess.forEach(textNode => {
+    const text = textNode.textContent;
+    if (!TERMS_REGEX.test(text)) return;
+    TERMS_REGEX.lastIndex = 0;
+
+    const fragment = document.createDocumentFragment();
+    let lastIndex = 0, match;
+    TERMS_REGEX.lastIndex = 0;
+    while ((match = TERMS_REGEX.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+      const term = match[0];
+      const desc = tooltipMap[term] || '';
+      const span = document.createElement('span');
+      span.className = 'tooltip-term';
+      span.textContent = term;
+      if (desc) span.title = desc;
+      span.onclick = () => { if (typeof goToSlownik === 'function') goToSlownik(term); };
+      fragment.appendChild(span);
+      lastIndex = match.index + match[0].length;
+    }
+    if (lastIndex < text.length) {
+      fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+    textNode.parentNode.replaceChild(fragment, textNode);
+  });
+}
+
 // "P3" / "Akademia X" -> klikalne nawigacje (interpolateLinks)
 function interpolateLinks(text) {
   if (!text) return '';

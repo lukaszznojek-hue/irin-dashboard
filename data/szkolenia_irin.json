@@ -2,7 +2,7 @@
   "data_fetch_bur": "2026-04-27",
   "ocena_dostawcy": 4.9,
   "liczba_ocen": 813,
-  "liczba_uslug": 12,
+  "liczba_uslug": 10,
   "url_bur_dostawca": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/szukaj?dostawcyUslug%5B%5D=160205&mozliwoscDofinansowania=0",
   "uslugi": [
     {
@@ -28,7 +28,13 @@
         "Dofinansowanie do 90% dla mikrofirm (KFS 2026)"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3432404",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3432500",
@@ -52,7 +58,13 @@
         "Dofinansowanie do 90% mikrofirmy"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3432500",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3421591",
@@ -76,7 +88,13 @@
         "Priorytet P3 PARP: cyfryzacja i AI"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3421591",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3386476",
@@ -100,7 +118,13 @@
         "Priorytet P3 PARP"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3386476",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3420786",
@@ -124,7 +148,13 @@
         "Gdańsk - oddział pomorski IRIN"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3420786",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3405199",
@@ -146,7 +176,13 @@
         "Identyczny program: 120h, 77.6 zł/h"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3405199",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3270238",
@@ -168,7 +204,13 @@
         "120h za 77.6 zł/h"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3270238",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3379725",
@@ -192,7 +234,13 @@
         "Kielce: łatwy dojazd + stacjonarnie"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3379725",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
     },
     {
       "id_bur": "3381926",
@@ -216,7 +264,44 @@
         "Top of funnel - lead generation dla IRIN"
       ],
       "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3381926",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
+    },
+    {
+      "id_bur": "3486195",
+      "tytul": "Integracja sensoryczna w ujęciu neurofizjologicznym – kurs I i II stopnia z zakresu diagnozy i terapii",
+      "kategoria": "edukacja",
+      "cena_brutto": 9310,
+      "godziny": 120,
+      "cena_h": 77.58,
+      "forma": "mieszana",
+      "miasto": "Kielce",
+      "data_start": "2026-09-08",
+      "data_end": "2026-10-25",
+      "tier_priorytetu_irin": 2,
+      "powiazane_priorytety": [
+        "P4"
+      ],
+      "argumenty_sprzedazowe": [
+        "Cena/h 77,58 zł vs rynek 121,56 zł = -36% taniej (silny argument cenowy)",
+        "Trafia w priorytet PARP P4 (sektor zdrowotny i opiekuńczy)",
+        "120h - kurs kwalifikacyjny I+II stopień (kompletna ścieżka)",
+        "Forma mieszana (stacjonarnie Kielce + online) - elastyczność",
+        "4. termin SI w portfolio IRIN - sprawdzony program"
+      ],
+      "cena_h_rynek_avg": 121.56,
+      "cena_h_rynek_zrodlo": "BUR (porównanie z innymi kursami SI 2026-04)",
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3486195",
+      "trener": null,
+      "uczestnicy_zapisani": 0,
+      "alert_cena_h": false,
+      "subscription_available": false,
+      "bundle_compatible": []
     }
   ],
   "podsumowanie_oferty": {
@@ -236,9 +321,10 @@
           "3420786",
           "3405199",
           "3270238",
-          "3379725"
+          "3379725",
+          "3486195"
         ],
-        "opis": "Integracja sensoryczna (3 lokalizacje) + TUS - priorytet P4 PARP, 50-120h, 6000-9310 zł",
+        "opis": "Integracja sensoryczna (4 terminy: Gdańsk 2× + Kielce 2×) + TUS - priorytet P4 PARP, 50-120h, 6000-9310 zł",
         "mocne": "Premium niche, lojalny klient, bardzo niski koszt godzinowy (77-120 zł/h)"
       },
       "biznes_meta": {

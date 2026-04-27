@@ -14,7 +14,7 @@
         "P3"
       ],
       "rynek_target": "MŚP, działy compliance, kadra zarządzająca",
-      "pilnosc": "wysoka - pełne wdrożenie AI Act 2026",
+      "pilnosc": "🔴 KRYTYCZNA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -34,7 +34,7 @@
         "P5 świętokrzyskie"
       ],
       "rynek_target": "MŚP, podmioty kluczowe i ważne wg NIS2",
-      "pilnosc": "wysoka - obowiązkowe szkolenia 2025-2026",
+      "pilnosc": "🔴 KRYTYCZNA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -54,7 +54,7 @@
         "P5 zachodniopomorskie"
       ],
       "rynek_target": "MŚP, działy compliance/raportowania, zarząd",
-      "pilnosc": "średnia - rośnie z każdym kwartałem",
+      "pilnosc": "NISKA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -74,7 +74,7 @@
         "P3"
       ],
       "rynek_target": "HR managerowie, dyrektorzy personalni MŚP i dużych firm",
-      "pilnosc": "średnia",
+      "pilnosc": "WYSOKA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -93,7 +93,7 @@
         "P3"
       ],
       "rynek_target": "Właściciele MŚP usługowych, marketerzy",
-      "pilnosc": "niska - obecna oferta częściowo pokrywa",
+      "pilnosc": "NISKA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -112,7 +112,7 @@
         "P3"
       ],
       "rynek_target": "Handlowcy B2B, key account managerowie, dyrektorzy sprzedaży",
-      "pilnosc": "średnia",
+      "pilnosc": "ŚREDNIA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -131,7 +131,7 @@
         "P3"
       ],
       "rynek_target": "Branża usługowa: gastronomia, retail, e-commerce",
-      "pilnosc": "niska",
+      "pilnosc": "ŚREDNIA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -150,7 +150,7 @@
         "P3"
       ],
       "rynek_target": "Project managerowie, team leaderzy, IT managerowie",
-      "pilnosc": "niska",
+      "pilnosc": "NISKA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -169,7 +169,7 @@
         "P3"
       ],
       "rynek_target": "Analitycy, kontrolerzy finansowi, managerowie raportujący",
-      "pilnosc": "średnia - stały popyt",
+      "pilnosc": "WYSOKA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
@@ -189,7 +189,102 @@
         "P3"
       ],
       "rynek_target": "C-level, dyrektorzy, senior managerowie",
-      "pilnosc": "niska - premium niche",
+      "pilnosc": "NISKA",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
+    },
+    {
+      "kod": "PROP-11",
+      "tytul": "Agenci AI dla MŚP – automatyzacja no-code/low-code",
+      "kategoria": "ai",
+      "uzasadnienie": "Trend 2026: agenci AI (n8n, Make, Zapier AI, AutoGPT) dostępni dla MŚP bez programowania. Rosnące zapytania rynkowe. Priorytet P3 PARP.",
+      "estymowana_cena": 6800,
+      "estymowane_godziny": 24,
+      "forma": "zdalna",
+      "powiazane_priorytety": [
+        "P3"
+      ],
+      "rynek_target": "Właściciele MŚP, dyrektorzy operacyjni, analitycy biznesowi",
+      "pilnosc": "WYSOKA",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
+    },
+    {
+      "kod": "PROP-12",
+      "tytul": "Terapia ręki I+II stopnia",
+      "kategoria": "edukacja",
+      "uzasadnienie": "Naturalne rozszerzenie klastera SI (integracja sensoryczna). Certyfikowane kursy kwalifikacyjne, P4 PARP, niski koszt/h, lojalny klient (pedagodzy, terapeuci).",
+      "estymowana_cena": 1800,
+      "estymowane_godziny": 22,
+      "forma": "mieszana",
+      "powiazane_priorytety": [
+        "P4"
+      ],
+      "rynek_target": "Pedagodzy, terapeuci SI, fizjoterapeuci, logopedzi",
+      "pilnosc": "ŚREDNIA",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
+    },
+    {
+      "kod": "PROP-13",
+      "tytul": "AI w księgowości i finansach – Copilot, automatyzacja faktur",
+      "kategoria": "ai",
+      "uzasadnienie": "Microsoft Copilot w Excel/Dynamics + automatyzacja fakturowania = masowy popyt w MŚP. P3 PARP. Unikalne połączenie: hard skills finanse + AI praktyczne.",
+      "estymowana_cena": 6500,
+      "estymowane_godziny": 24,
+      "forma": "zdalna",
+      "powiazane_priorytety": [
+        "P3"
+      ],
+      "rynek_target": "Księgowi, kontrolerzy finansowi, CFO MŚP",
+      "pilnosc": "WYSOKA",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
+    },
+    {
+      "kod": "PROP-14",
+      "tytul": "Profilaktyka uzależnień cyfrowych dzieci",
+      "kategoria": "edukacja",
+      "uzasadnienie": "Rozszerzenie istniejącego TUS (3379725 już ma element uzależnień cyfrowych). P4 PARP. Szkoły, placówki oświatowe, pedagodzy szkolni – rosnący popyt 2026.",
+      "estymowana_cena": 4500,
+      "estymowane_godziny": 30,
+      "forma": "mieszana",
+      "powiazane_priorytety": [
+        "P4"
+      ],
+      "rynek_target": "Pedagodzy szkolni, psycholodzy, wychowawcy, dyrektorzy placówek",
+      "pilnosc": "ŚREDNIA",
+      "status": "pomysl",
+      "owner_irin": null,
+      "data_promocji_do_oferty": null,
+      "url_program": null,
+      "komentarze_zespolu": []
+    },
+    {
+      "kod": "PROP-15",
+      "tytul": "KFS dla mikrofirm 1-9 osób – mini-szkolenie lead-gen",
+      "kategoria": "biznes",
+      "uzasadnienie": "Mikrofirmy (1-9 os.) = 90% dofinansowania KFS. Często nie wiedzą o tej możliwości. Krótkie, tanie szkolenie = wejście do segmentu + cross-sell. P1 PARP.",
+      "estymowana_cena": 1200,
+      "estymowane_godziny": 8,
+      "forma": "zdalna",
+      "powiazane_priorytety": [
+        "P1"
+      ],
+      "rynek_target": "Właściciele mikrofirm (1-9 pracowników), JDG z pracownikami",
+      "pilnosc": "WYSOKA",
       "status": "pomysl",
       "owner_irin": null,
       "data_promocji_do_oferty": null,
