@@ -372,11 +372,23 @@
         </table>
       </div>
     </div>
+    <div class="mapa-section">
+      <h3>📋 Tabela WUP wide overview (16 województw)</h3>
+      <p class="mapa-hint">Sortowane po sumie KFS+BUR. Kliknij wiersz żeby zobaczyć kartę WUP z drill-down.</p>
+      <table class="mapa-tabela tabela-wup-wide" id="tabela-wup-wide">
+        <thead><tr><th>#</th><th>Województwo</th><th>KFS 2026</th><th>BUR aktywne</th><th>SUMA pieniędzy</th><th>Priorytety wojew.</th><th>Match IRIN</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="mapa-section">
+      <h3>⏰ Timeline naborów - Q2-Q4 2026</h3>
+      <p class="mapa-hint">Wszystkie aktualne nabory KFS+BUR per miesiąc. Wyblakłe = przeszłe.</p>
+      <div id="timeline-naborow" class="timeline-grid"></div>
+    </div>
     <div class="mapa-drilldown" id="mapa-drilldown" style="display:none">
-      <h3 id="mapa-drilldown-title">Powiaty województwa: —</h3>
-      <p id="mapa-drilldown-meta"></p>
-      <table class="mapa-tabela mapa-tabela-drilldown">
-        <thead><tr><th>Powiat</th><th>Kwota KFS</th><th>Status</th><th>Daty naboru</th><th>Akcja</th></tr></thead>
+      <h3 id="mapa-drilldown-title">Karta WUP: —</h3>
+      <div id="mapa-drilldown-meta"></div>
+      <table class="mapa-tabela mapa-tabela-wup-card">
         <tbody id="mapa-drilldown-body"></tbody>
       </table>
     </div>

@@ -1,8 +1,25 @@
 {
-  "wersja": "6.5.0",
+  "wersja": "6.5.1",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.5.1",
+      "zmiany": [
+        "WHERE IS MONEY? - zasada nadrzedna researchu (CLAUDE.md + _claudia_system/protokoly/where_is_money.md)",
+        "WUP deep-research: 16/16 wojewodztw zaktualizowanych - SUMA 1.18 MLD ZL zmapowane (KFS 417mln + BUR 765mln)",
+        "10/16 WUP z konkretnymi kwotami BUR (+ 6 z LUKAMI sygnalizowanymi w claudia_note)",
+        "10/16 WUP z pelnymi priorytetami wojewodzkimi (+ 6 do dograne z PDF uchwal zarzadu)",
+        "TOP odkrycia BUR: slaskie FESL.10.17 - 160.7 mln (rekord PL), kuj-pom 'Kierunek-Rozwoj' 78 mln, pomorskie Akcja 5.2 FEP 108 mln, lodzkie FELD 96.9 mln, warm-maz FEWiM 7.1 93.6 mln, malopolskie 'Pociag do Kariery' 90 mln",
+        "UI Karta WUP rozbudowana: priorytety + projekty BUR (kafelki) + match IRIN + powiaty + linki",
+        "UI Match IRIN: mapping kategorii (cyber/AI/energetyka/edukacja/HR/zdrowie/cudzoziemcy/finanse/senior/deficytowe) -> portfolio IRIN (PROP-01/02 + 10 aktywnych BUR)",
+        "UI Tabela WUP wide overview: 16 wojewodztw rankowane po SUMIE pieniedzy, sortowanie",
+        "UI Timeline naborow Q2-Q4 2026: kafelki per miesiac (KFS+BUR), grupowanie chronologiczne, status colorowanie",
+        "Sygnal v6.6: dograne BUR dla 6 brakujacych WUP (dolnoslaskie/lubuskie/opolskie/podlaskie/wielkopolskie/zachodniopomorskie) + pelne priorytety wojew dla 6 woj"
+      ],
+      "kto": "Claude Code (autonomous workflow) - sprint v6.5.1 WUP deep-research"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.5.0",
