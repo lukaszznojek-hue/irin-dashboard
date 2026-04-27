@@ -289,6 +289,202 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 
 .error-msg { padding: 20px; text-align: center; color: var(--krytyczne); font-size: 14px; }
 
+/* === v5: stat warn (zadzwon) === */
+.stat-warn .stat-value { color: var(--zloto); }
+
+/* === v5: KFS banner clickable === */
+.kfs-banner-text .banner-link { cursor: pointer; color: var(--granat); text-decoration: underline; }
+.kfs-banner-text .banner-link:hover { color: var(--zloto); }
+
+/* === v5: stat-card hover === */
+.stat-card { cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; }
+.stat-card:hover { transform: translateY(-1px); box-shadow: 0 3px 8px rgba(0,0,0,0.1); }
+
+/* === v5: voivodeship groups === */
+.cards-grid { gap: 14px; }
+.woj-group {
+  margin-bottom: 0;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid var(--linia);
+  overflow: hidden;
+}
+.woj-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 18px;
+  background: var(--krem-jasny);
+  cursor: pointer;
+  border-bottom: 1px solid var(--linia);
+  user-select: none;
+}
+.woj-header:hover { background: var(--krem); }
+.woj-chevron { font-size: 12px; color: var(--szary); transition: transform 0.2s; }
+.woj-group.collapsed .woj-chevron { transform: rotate(-90deg); }
+.woj-group.collapsed .woj-body { display: none; }
+.woj-group.collapsed .woj-akcja-tygodnia { display: none; }
+.woj-nazwa { font-family: Georgia, serif; font-weight: 700; font-size: 15px; color: var(--granat); }
+.woj-rollup { margin-left: auto; display: flex; gap: 6px; align-items: center; font-size: 11px; }
+.rollup-stat { padding: 2px 8px; border-radius: 8px; font-weight: 700; min-width: 20px; text-align: center; }
+.rollup-stat.aktywny { background: var(--trwa-bg); color: var(--trwa); }
+.rollup-stat.monitor { background: var(--nadchodzi-bg); color: var(--nadchodzi); }
+.rollup-stat.zadzwon { background: var(--pilne-bg); color: var(--pilne); }
+.rollup-stat.zakonczony { background: var(--zakonczony-bg); color: var(--zakonczony); }
+.rollup-kwota { font-family: Georgia, serif; font-weight: 700; color: var(--granat); margin-left: 8px; padding-left: 8px; border-left: 1px solid var(--linia); }
+
+.woj-akcja-tygodnia {
+  padding: 10px 18px;
+  background: linear-gradient(90deg, #FFF7ED 0%, transparent 100%);
+  border-bottom: 1px solid var(--linia);
+  font-size: 12px; color: #5C3D00; cursor: pointer;
+  transition: background 0.15s;
+}
+.woj-akcja-tygodnia:hover { background: #FFF7ED; }
+.woj-akcja-tygodnia .akcja-label { font-weight: 700; color: var(--pilne); margin-right: 4px; }
+.woj-body { padding: 6px 10px 10px; display: flex; flex-direction: column; gap: 6px; }
+
+.matryca-wynik { padding: 2px 8px; border-radius: 4px; font-weight: 700; font-size: 11px; }
+.matryca-wynik.wynik-A { background: #16A34A; color: white; }
+.matryca-wynik.wynik-B { background: #2563EB; color: white; }
+.matryca-wynik.wynik-C { background: #D97706; color: white; }
+.matryca-wynik.wynik-D { background: #9CA3AF; color: white; }
+
+/* === v5: card 6-column grid === */
+.card-head {
+  display: grid;
+  grid-template-columns: 14px 1fr auto auto auto auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 14px;
+}
+.card-col-chevron { font-size: 11px; color: var(--szary); transition: transform 0.2s; }
+.card.expanded .card-col-chevron { transform: rotate(90deg); }
+.card-col-nazwa { min-width: 0; }
+.card-col-pillar { display: flex; gap: 4px; flex-wrap: wrap; }
+.card-col-data { font-size: 11px; color: var(--szary); white-space: nowrap; }
+.data-ctx.krytyczna { color: var(--krytyczne); font-weight: 700; }
+.data-ctx.zadzwon { color: var(--zloto); font-style: italic; }
+.brak-danych { color: var(--szary-jasny); font-style: italic; font-size: 11px; }
+
+/* === v5: 4 akcja stany - left border === */
+.card.akcja-aktywny { border-left: 4px solid var(--trwa); }
+.card.akcja-monitor { border-left: 4px solid var(--nadchodzi); }
+.card.akcja-zadzwon { border-left: 4px solid var(--zloto); }
+.card.akcja-zakonczony { border-left: 4px solid var(--szary-jasny); }
+
+.akcja-badge { padding: 3px 10px; border-radius: 999px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+.akcja-badge-aktywny { background: var(--trwa-bg); color: var(--trwa); }
+.akcja-badge-monitor { background: var(--nadchodzi-bg); color: var(--nadchodzi); }
+.akcja-badge-zadzwon { background: #FFFBEB; color: #92400E; }
+.akcja-badge-zakonczony { background: var(--zakonczony-bg); color: var(--zakonczony); }
+
+.card.highlight { animation: highlightCard 2s ease; }
+@keyframes highlightCard {
+  0%, 100% { background: white; }
+  20%, 60% { background: #FEF3C7; }
+}
+
+.akcja-uzasadnienie { font-size: 11px; color: var(--szary); padding: 6px 0; border-bottom: 1px dashed var(--linia); margin-bottom: 8px; }
+
+.link-prior, .link-akad { color: var(--granat); text-decoration: underline; cursor: pointer; }
+.link-prior:hover, .link-akad:hover { color: var(--zloto); }
+
+/* === v5: WUP rozszerzone projekty === */
+.wup-project { padding: 8px 0; border-bottom: 1px dashed var(--linia); }
+.wup-project:last-child { border-bottom: none; }
+.proj-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 12px; }
+.proj-head strong { color: var(--granat); flex: 1; }
+.proj-id { font-size: 10px; color: var(--szary); font-family: monospace; }
+.proj-fields { margin-top: 4px; display: flex; flex-direction: column; gap: 2px; padding-left: 4px; }
+.proj-field { font-size: 11px; }
+.proj-field .field-label { color: var(--szary); }
+.proj-links { margin-top: 4px; display: flex; gap: 8px; }
+.proj-links a { font-size: 11px; color: var(--nadchodzi); text-decoration: none; }
+.proj-links a:hover { text-decoration: underline; }
+.proj-note { font-size: 11px; color: #444; margin-top: 4px; font-style: italic; }
+.project-status.status-nabor { background: var(--trwa-bg); color: var(--trwa); }
+.project-status.status-zakonczony { background: var(--zakonczony-bg); color: var(--zakonczony); }
+.project-status.status-planowany { background: var(--nadchodzi-bg); color: var(--nadchodzi); }
+.project-status.status-unknown { background: var(--zakonczony-bg); color: var(--szary-jasny); }
+
+/* === v5: benchmark cenowy === */
+.bench-badge { padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; cursor: help; }
+.bench-cheaper { background: #DCFCE7; color: #166534; }
+.bench-equal { background: #DBEAFE; color: #1E40AF; }
+.bench-higher { background: #FEF3C7; color: #92400E; }
+.bench-premium { background: #FEE2E2; color: #991B1B; }
+.bench-unknown { background: var(--zakonczony-bg); color: var(--szary); }
+.cena-h-irin { font-weight: 700; color: var(--granat); }
+.cena-h-rynek { color: var(--szary); }
+
+/* === v5: propozycje rozszerzone === */
+.proposal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.prop-status { padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+.prop-status.status-pomysl { background: var(--zakonczony-bg); color: var(--szary); }
+.prop-status.status-analiza { background: var(--nadchodzi-bg); color: var(--nadchodzi); }
+.prop-status.status-w_opracowaniu { background: var(--pilne-bg); color: var(--pilne); }
+.prop-status.status-gotowe { background: var(--trwa-bg); color: var(--trwa); }
+.prop-status.status-odrzucone { background: var(--krytyczne-bg); color: var(--krytyczne); }
+.prop-owner { font-size: 11px; color: var(--szary); }
+.prop-program { display: inline-block; margin-top: 8px; font-size: 11px; color: var(--nadchodzi); text-decoration: none; }
+.prop-program:hover { text-decoration: underline; }
+.proposals-filters { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+
+/* === v5: sales card hover === */
+.sales-card-md { cursor: pointer; transition: transform 0.15s, border-color 0.15s; }
+.sales-card-md:hover { border-color: var(--zloto); transform: translateY(-1px); }
+.sales-card-action { font-size: 11px; color: var(--nadchodzi); margin-top: 8px; font-weight: 600; }
+
+/* === v5: MD modal === */
+.md-modal-overlay {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5); z-index: 1000;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.md-modal {
+  background: white; border-radius: 12px;
+  max-width: 800px; width: 100%;
+  max-height: 90vh; display: flex; flex-direction: column; overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.md-modal-header {
+  padding: 14px 20px; background: var(--granat); color: white;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.md-modal-header h3 { font-family: Georgia, serif; font-size: 15px; color: var(--zloto-jasny); flex: 1; }
+.md-modal-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.btn-copy, .btn-edit, .btn-close {
+  padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer;
+  border: 1px solid var(--zloto); background: transparent; color: var(--zloto-jasny);
+  text-decoration: none; font-family: inherit;
+}
+.btn-copy:hover, .btn-edit:hover { background: var(--zloto); color: var(--granat); }
+.btn-close { padding: 6px 10px; }
+.md-modal-body { padding: 20px 30px; overflow-y: auto; line-height: 1.7; font-size: 13px; }
+.md-modal-body h1, .md-modal-body h2, .md-modal-body h3 {
+  font-family: Georgia, serif; color: var(--granat); margin-top: 1em; margin-bottom: 0.4em;
+}
+.md-modal-body h1 { font-size: 22px; }
+.md-modal-body h2 { font-size: 18px; }
+.md-modal-body h3 { font-size: 15px; }
+.md-modal-body p { margin-bottom: 0.6em; }
+.md-modal-body code {
+  background: var(--krem-jasny); padding: 2px 6px; border-radius: 4px;
+  font-family: monospace; font-size: 12px; color: var(--granat);
+}
+.md-modal-body pre {
+  background: var(--krem-jasny); padding: 12px; border-radius: 6px;
+  overflow-x: auto; margin: 8px 0;
+}
+.md-modal-body pre code { background: transparent; padding: 0; }
+.md-modal-body ul, .md-modal-body ol { padding-left: 24px; margin-bottom: 0.6em; }
+.md-modal-body li { margin-bottom: 4px; }
+.md-modal-body blockquote { border-left: 3px solid var(--zloto); padding-left: 12px; color: var(--szary); margin: 8px 0; }
+.md-modal-body table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 12px; }
+.md-modal-body th, .md-modal-body td { padding: 6px 8px; border: 1px solid var(--linia); text-align: left; }
+.md-modal-body th { background: var(--krem-jasny); }
+
+
 @media (max-width: 768px) {
   .header { flex-direction: column; gap: 10px; align-items: flex-start; }
   .stats-strip { grid-template-columns: repeat(2, 1fr); }
