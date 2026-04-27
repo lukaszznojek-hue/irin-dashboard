@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Małopolskie",
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "malopolskie",
@@ -35,9 +35,9 @@
       "url_pup": "https://tarnow.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-23",
+      "kfs_end_date": "2026-03-27",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -45,9 +45,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-tarnow-nabor-wnioskow-o-finansowanie-ze-srodkow-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "email": "krta@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -67,9 +68,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "18 440 08 08",
+      "email": "ko@pup.powiat-ns.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -111,9 +114,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "krta@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -133,9 +137,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "18 440 08 08",
+      "email": "ko@pup.powiat-ns.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -155,9 +161,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "14 611 10 51, 14 611 10 52, 14 611 10 53",
+      "email": "krbo@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -177,9 +185,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "14 663 05 46, 14 663 05 22, 14 686 36 44",
+      "email": "urzad@pup-brzesko.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -199,9 +209,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "krch@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -221,9 +232,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "14 642 24 78, 14 642 31 78, 14 642 43 27",
+      "email": "krda@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -243,9 +256,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "18 353 55 20, 18 353 63 07, 18 352 28 78",
+      "email": "sekretariat@gorlice.praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -265,9 +280,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "18 337 58 50, 18 333 78 50, 49 199 64 60",
+      "email": "krli@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -287,9 +304,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "krmi@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -309,9 +327,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "12 372 96 00, 12 372 96 04, 12 272 35 01",
+      "email": "krmy@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -331,9 +351,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "18 264 93 88, 18 266 98 97",
+      "email": "krnt@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -353,9 +375,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "35 722 80 11, 32 643 05 38, 32 641 34 02",
+      "email": "krol@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -375,9 +399,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "poczta@pup.oswiecim.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -397,9 +422,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "12 386 10 80, 12 386 10 92, 12 386 16 91",
+      "email": "krpr@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -419,9 +446,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "35 711 40 98, 33 874 25 12",
+      "email": "krsu@praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -431,9 +460,9 @@
       "url_pup": "https://wadowice.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-18",
+      "kfs_end_date": "2026-03-23",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -441,9 +470,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-wadowice-czat-dotyczacy-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "33 873 71 00, 33 873 50 20, 33 873 50 21",
+      "email": "pup@wadowice.praca.gov.pl"
     },
     {
       "voivodeship": "malopolskie",
@@ -463,9 +494,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "12 289 70 25, 35 712 60 32, 12 251 02 79",
+      "email": "sekretariat@pupwieliczka.pl"
     }
   ]
 }

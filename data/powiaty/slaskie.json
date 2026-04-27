@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Śląskie",
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "slaskie",
@@ -23,9 +23,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "27 676 58 17"
     },
     {
       "voivodeship": "slaskie",
@@ -45,9 +46,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "34 370 61 00, 34 324 31 30, 34 370 61 30",
+      "email": "kacz@praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -89,9 +92,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=3, email. Zrodlo: https://zielonalinia.gov.pl/pup-gliwice-spotkanie-informacyjne-dla-pracodawcow-dotyczace-kfs/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "27 675 32 57, 32 444 23 00, 32 444 23 01",
+      "email": "sekretariat@pup.gliwice.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -111,9 +116,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 277 90 00, 27 671 84 33",
+      "email": "sekretariat@pupzabrze.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -155,9 +162,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 281 70 19, 32 281 33 07, 32 389 15 36",
+      "email": "urzad@pupbytom.com.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -177,9 +186,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 262 37 39"
     },
     {
       "voivodeship": "slaskie",
@@ -199,9 +209,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 771 59 85, 32 771 59 88, 27 671 08 80",
+      "email": "karu@praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -221,9 +233,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email. Zrodlo: https://zielonalinia.gov.pl/pup-rybnik-nabor-wnioskow-z-krajowego-funduszu-szkoleniowego/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 422 16 23, 32 422 39 62, 69 022 57 98",
+      "email": "kancelaria@rybnik.praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -243,9 +257,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "53 621 51 15, 69 860 91 64, 53 022 17 23",
+      "email": "oferty@pup.tychy.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -287,9 +303,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "34 370 61 00, 34 324 31 30, 34 370 61 30",
+      "email": "kacz@praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -353,9 +371,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "34 351 52 80, 34 350 60 79, 34 350 60 80",
+      "email": "kalu@praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -375,9 +395,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 224 10 92"
     },
     {
       "voivodeship": "slaskie",
@@ -397,9 +418,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "34 313 50 20, 34 313 43 79, 34 313 46 46",
+      "email": "kams@praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -419,9 +442,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 210 27 21, 32 210 47 20",
+      "email": "urzad@pszczyna.praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -441,9 +466,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "26 112 47 08, 32 415 45 50",
+      "email": "wcrrybnik@ron.mil.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -463,9 +490,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 285 50 38, 27 671 89 99, 32 285 50 38",
+      "email": "pup@pup-tg.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -507,9 +536,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "32 670 24 09, 32 672 11 79, 32 672 43 96",
+      "email": "kazw@praca.gov.pl"
     },
     {
       "voivodeship": "slaskie",
@@ -529,9 +560,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "33 475 75 51",
+      "email": "kancelaria@pup.zywiec.pl"
     }
   ]
 }

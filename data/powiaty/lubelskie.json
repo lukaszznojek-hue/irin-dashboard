@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Lubelskie",
   "tier": "2",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton z POWIATY_SORT v3",
+  "zrodlo_danych": "skeleton z POWIATY_SORT v3 + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "lubelskie",
@@ -23,9 +23,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 121 43 22"
     },
     {
       "voivodeship": "lubelskie",
@@ -57,9 +58,9 @@
       "url_pup": "https://chelm.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-24",
+      "kfs_end_date": "2026-05-04",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -67,9 +68,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=3, email, status=TRWA. Zrodlo: https://zielonalinia.gov.pl/pup-chelm-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor TRWA (scraper v6.5)",
+      "telefon": "11 025 94 60, 82 562 76 97, 82 562 76 68",
+      "email": "luch@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -89,9 +92,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "03 088 48 89, 83 341 65 58, 83 341 65 57",
+      "email": "pupbp@pupbialapodlaska.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -111,9 +116,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 121 43 22"
     },
     {
       "voivodeship": "lubelskie",
@@ -155,9 +161,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "11 025 94 60, 82 562 76 97, 82 562 76 68",
+      "email": "luch@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -177,9 +185,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "03 088 48 89, 83 341 65 58, 83 341 65 57",
+      "email": "pupbp@pupbialapodlaska.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -243,9 +253,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "82 544 42 84, 82 544 42 85, 82 544 42 86",
+      "email": "lukk@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -255,9 +267,9 @@
       "url_pup": "https://krasnik.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-05-06",
+      "kfs_end_date": "2026-05-12",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -265,9 +277,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne email, status=NADCHODZI. Zrodlo: https://zielonalinia.gov.pl/pup-krasnik-nabor-wnioskow-o-przyznanie-srodkow-krajowego-funduszu-szkoleniowego/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor NADCHODZI (scraper v6.5)",
+      "email": "sekretariat@pup.krasnik.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -287,9 +300,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 120 24 90",
+      "email": "lule@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -299,19 +314,21 @@
       "url_pup": "https://lukow.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-14",
+      "kfs_end_date": "2026-04-20",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 800000,
+      "amount_total": 800000,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=800000, telefon=5, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-lukow-nabor-wnioskow-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "02 626 04 21, 02 626 04 20, 02 626 04 10",
+      "email": "lulk@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -353,9 +370,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "83 355 16 30",
+      "email": "lupa@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -375,9 +394,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 120 52 70, 81 886 40 96",
+      "email": "lupu@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -397,9 +418,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "83 352 93 80",
+      "email": "lura@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -419,9 +442,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "81 865 33 46, 81 865 33 48, 81 888 19 48"
     },
     {
       "voivodeship": "lubelskie",
@@ -441,9 +465,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 120 33 82, 81 461 35 02",
+      "email": "lusw@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -453,9 +479,9 @@
       "url_pup": "https://tomaszowlubelski.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-05-04",
+      "kfs_end_date": "2026-05-08",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -463,9 +489,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=4, email, status=NADCHODZI. Zrodlo: https://zielonalinia.gov.pl/pup-tomaszow-lubelski-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor NADCHODZI (scraper v6.5)",
+      "telefon": "84 664 20 24, 84 664 20 72, 84 664 38 63",
+      "email": "luto@praca.gov.pl"
     },
     {
       "voivodeship": "lubelskie",
@@ -485,9 +513,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "luwl@praca.gov.pl"
     }
   ]
 }

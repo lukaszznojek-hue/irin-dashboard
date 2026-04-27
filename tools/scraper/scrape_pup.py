@@ -34,6 +34,12 @@ SCRAPE_DIR = DASH / "data" / "scrape"
 SCRAPE_DIR.mkdir(exist_ok=True)
 
 TIER_1A = ["swietokrzyskie", "pomorskie", "zachodniopomorskie", "kujawsko-pomorskie"]
+ALL_WOJ = [
+    "dolnoslaskie", "kujawsko-pomorskie", "lodzkie", "lubelskie", "lubuskie",
+    "malopolskie", "mazowieckie", "opolskie", "podkarpackie", "podlaskie",
+    "pomorskie", "slaskie", "swietokrzyskie", "warminsko-mazurskie",
+    "wielkopolskie", "zachodniopomorskie",
+]
 
 ZIELONA_BASE = "https://zielonalinia.gov.pl"
 ZIELONA_SEARCH = "https://zielonalinia.gov.pl/?s={q}"
@@ -358,13 +364,18 @@ def stats_summary(scrape_data: dict) -> str:
 def main():
     parser = argparse.ArgumentParser(description="Scraper PUP-ow TIER 1A")
     parser.add_argument("--wojewodztwo", default="zachodniopomorskie",
-                        help="nazwa wojewodztwa lub 'all' dla wszystkich TIER 1A")
+                        help="nazwa wojewodztwa | 'tier1a' (4 woj.) | 'all' (16 woj.)")
     args = parser.parse_args()
-    targets = TIER_1A if args.wojewodztwo == "all" else [args.wojewodztwo]
+    if args.wojewodztwo == "tier1a":
+        targets = TIER_1A
+    elif args.wojewodztwo == "all":
+        targets = ALL_WOJ
+    else:
+        targets = [args.wojewodztwo]
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     for woj in targets:
-        if woj not in TIER_1A:
-            print(f"WARN: {woj} nie jest TIER 1A, pomijam", file=sys.stderr)
+        if woj not in ALL_WOJ:
+            print(f"WARN: {woj} nie jest na liscie wojewodztw, pomijam", file=sys.stderr)
             continue
         scrape_data = scrape_wojewodztwo(woj)
         out_fp = SCRAPE_DIR / f"scrape_{woj}_{timestamp}.json"

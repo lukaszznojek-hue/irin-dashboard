@@ -339,8 +339,10 @@
   <!-- ======== PANEL: MAPA PIENIĘDZY (KFS+BUR 2026) ======== -->
   <div class="panel" id="panel-mapa-pieniedzy" role="tabpanel" style="display:none">
     <div class="mapa-pieniedzy-header">
-      <h2>💰 Mapa pieniędzy KFS+BUR 2026</h2>
-      <p class="mapa-subtitle">Strategiczny przegląd alokacji KFS dla 16 województw + szczegóły TIER 1A. Źródło: PDF MRiPS "KFS 2026 plan wydatkowania".</p>
+      <h2>💰 Mapa pieniędzy - wszystkie źródła PL 2026</h2>
+      <p class="mapa-subtitle">Pełen przegląd 6 źródeł finansowania szkoleń dla MŚP w Polsce 2026 (~626 mln zł łącznie). Strategiczny widok dla sprzedaży IRIN.</p>
+      <div id="mapa-zrodla-grid" class="zrodla-grid"></div>
+      <h3 style="margin-top:24px;color:#444;font-size:16px">📊 KFS 2026 - rozkład regionalny (z PDF MRiPS)</h3>
       <div class="mapa-stats">
         <div class="mapa-stat"><span class="mapa-stat-value" id="mp-suma-pl">—</span><span class="mapa-stat-label">Suma KFS 2026 PL</span></div>
         <div class="mapa-stat"><span class="mapa-stat-value" id="mp-top-woj">—</span><span class="mapa-stat-label">Top województwo</span></div>
@@ -360,7 +362,9 @@
         <p class="mapa-hint">Kliknij województwo żeby zobaczyć powiaty + akcje sprzedażowe.</p>
       </div>
       <div class="mapa-right">
-        <h3>🏆 TOP-20 powiatów (potencjał sprzedażowy)</h3>
+        <h3>📊 Ranking 16 województw (KFS 2026)</h3>
+        <div id="mapa-ranking-bars" class="mapa-ranking-bars"></div>
+        <h3 style="margin-top:24px">🏆 TOP-20 powiatów (potencjał sprzedażowy)</h3>
         <p class="mapa-hint">Score = log(kwota) × mnożnik_status × mnożnik_priorytet × mnożnik_irin_match</p>
         <table class="mapa-tabela" id="mapa-top-powiaty">
           <thead><tr><th>#</th><th>Powiat</th><th>Województwo</th><th>Kwota KFS</th><th>Status</th><th>Score</th></tr></thead>

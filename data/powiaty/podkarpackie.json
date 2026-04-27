@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Podkarpackie",
   "tier": "2",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton z POWIATY_SORT v3",
+  "zrodlo_danych": "skeleton z POWIATY_SORT v3 + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "podkarpackie",
@@ -13,9 +13,9 @@
       "url_pup": "https://rzeszow.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-06-01",
+      "kfs_end_date": "2026-11-16",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -23,9 +23,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne status=NADCHODZI. Zrodlo: https://zielonalinia.gov.pl/pup-rzeszow-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor NADCHODZI (scraper v6.5)"
     },
     {
       "voivodeship": "podkarpackie",
@@ -45,9 +45,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "16 676 09 16, 16 676 09 14, 16 676 09 23",
+      "email": "sekretariat@przemysl.praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -57,19 +59,21 @@
       "url_pup": "https://krosno.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-16",
+      "kfs_end_date": "2026-04-22",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1000000,
+      "amount_total": 1000000,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=1000000, telefon=1, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-krosno-nabor-wnioskow-o-przyznanie-srodkow-z-krajowego-funduszu-szkoleniowego/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "37 048 68 69",
+      "email": "rzks@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -89,9 +93,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "83 046 21 98, 15 823 00 30, 15 823 63 93",
+      "email": "rzta@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -133,9 +139,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "16 676 09 16, 16 676 09 14, 16 676 09 23",
+      "email": "sekretariat@przemysl.praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -155,9 +163,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "37 048 68 69",
+      "email": "rzks@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -177,9 +187,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "83 046 21 98, 15 823 00 30, 15 823 63 93",
+      "email": "rzta@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -199,9 +211,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "rzbr@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -221,9 +234,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "14 680 91 00, 69 069 43 24, 14 680 91 00",
+      "email": "iod@debica.praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -243,9 +258,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "16 734 11 11, 16 621 21 88",
+      "email": "pup@jaroslaw.praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -255,9 +272,9 @@
       "url_pup": "https://jaslo.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-21",
+      "kfs_end_date": "2026-04-27",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -265,9 +282,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email, status=TRWA. Zrodlo: https://zielonalinia.gov.pl/pup-jaslo-nabor-wnioskow-o-przyznanie-srodkow-z-krajowego-funduszu-szkoleniowego/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor TRWA (scraper v6.5)",
+      "telefon": "13 443 54 32, 13 443 54 51, 13 443 54 33",
+      "email": "sekretariat@pup-jaslo.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -287,9 +306,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "22 628 01 20, 83 046 19 39, 17 227 17 90",
+      "email": "sekretariat@kolbuszowa.praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -309,9 +330,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "13 469 65 86, 13 469 84 35, 37 103 43 88",
+      "email": "puplesko@puplesko.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -331,9 +354,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "17 242 73 73, 17 240 67 20, 17 240 67 29",
+      "email": "pup@praca.lezajsk.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -353,9 +378,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "16 632 08 51, 60 524 86 59, 50 006 83 63",
+      "email": "pup@puplubaczow.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -375,9 +402,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "17 225 91 45",
+      "email": "rzla@pup-lancut.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -397,9 +426,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "17 788 00 94, 17 788 00 50, 17 788 00 69",
+      "email": "sekretariat@pup.mielec.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -419,9 +450,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "83 046 24 88, 15 841 23 13",
+      "email": "rzni@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -441,9 +474,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "65 095 99 08, 16 648 84 28, 16 648 80 12",
+      "email": "rzpz@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -463,9 +498,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "69 069 18 34",
+      "email": "rzro@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -485,9 +522,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "37 048 72 60",
+      "email": "rzsa@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -507,9 +546,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "15 643 37 53, 15 643 37 80, 83 046 30 22",
+      "email": "rzsw@praca.gov.pl"
     },
     {
       "voivodeship": "podkarpackie",
@@ -529,9 +570,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "17 276 10 74",
+      "email": "rzst@praca.gov.pl"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Podlaskie",
   "tier": "2",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton z POWIATY_SORT v3",
+  "zrodlo_danych": "skeleton z POWIATY_SORT v3 + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "podlaskie",
@@ -23,9 +23,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "85 747 38 00, 85 747 38 61, 85 715 79 10",
+      "email": "bibi@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -45,9 +47,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "45 070 86 38, 86 215 80 10",
+      "email": "bilo@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -57,9 +61,9 @@
       "url_pup": "https://suwalki.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-26",
+      "kfs_end_date": "2026-04-02",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -67,9 +71,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-suwalki-nabor-wnioskow-kfs-2026-r/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "87 565 26 64, 87 565 26 50, 87 565 26 59",
+      "email": "sekretariat@pup.suwalki.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -89,9 +95,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "85 747 38 00, 85 747 38 61, 85 715 79 10",
+      "email": "bibi@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -111,9 +119,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "45 070 86 38, 86 215 80 10",
+      "email": "bilo@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -133,9 +143,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "87 565 26 64, 87 565 26 50, 87 565 26 59",
+      "email": "sekretariat@pup.suwalki.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -155,9 +167,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "79 074 23 33, 87 644 49 00, 87 644 68 90",
+      "email": "sekretariat@pup.augustow.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -177,9 +191,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "85 833 27 00, 85 833 27 01",
+      "email": "bibe@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -199,9 +215,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "86 261 30 11, 86 272 36 05",
+      "email": "bigr@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -221,9 +239,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "85 682 96 10, 85 682 96 11",
+      "email": "biha@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -243,9 +263,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "86 278 95 10, 86 278 95 14, 45 070 99 74",
+      "email": "biko@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -287,9 +309,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "87 516 39 81, 87 516 39 70, 87 739 09 97",
+      "email": "biuro@pup.sejny.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -299,19 +323,21 @@
       "url_pup": "https://siemiatycze.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-24",
+      "kfs_end_date": "2026-03-31",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 396640,
+      "amount_total": 396640,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=396640, telefon=2, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-siemiatycze-nabor-wnioskow-na-dofinansowanie-ksztalcenia-ustawicznego-pracownikow-i-pracodawcow-w-ramach-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "85 656 60 13, 05 086 98 16",
+      "email": "bisi@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -331,9 +357,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "85 722 90 10, 85 722 90 11, 85 712 66 40",
+      "email": "biso@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -343,9 +371,9 @@
       "url_pup": "https://wysokiemazowieckie.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-13",
+      "kfs_end_date": "2026-05-07",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -353,9 +381,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=2, email, status=TRWA. Zrodlo: https://zielonalinia.gov.pl/pup-wysokie-mazowieckie-nabor-wnioskow-o-przyznanie-srodkow-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor TRWA (scraper v6.5)",
+      "telefon": "86 275 86 12, 86 275 86 13",
+      "email": "biwy@praca.gov.pl"
     },
     {
       "voivodeship": "podlaskie",
@@ -375,9 +405,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "86 270 82 10, 86 271 44 59",
+      "email": "sekretariat@zambrow.praca.gov.pl"
     }
   ]
 }

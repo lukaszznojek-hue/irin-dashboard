@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Wielkopolskie",
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "wielkopolskie",
@@ -23,9 +23,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "kancelaria@poznan.praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -45,9 +46,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "62 768 97 00, 62 766 89 40, 62 768 97 90",
+      "email": "poka@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -67,9 +70,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "31 001 77 91",
+      "email": "poko@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -89,9 +94,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "65 529 94 33"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -111,9 +117,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "57 030 22 80, 67 215 11 31"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -133,9 +140,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "kancelaria@poznan.praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -155,9 +163,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "62 768 97 00, 62 766 89 40, 62 768 97 90",
+      "email": "poka@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -177,9 +187,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "31 001 77 91",
+      "email": "poko@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -199,9 +211,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "65 529 94 33"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -221,9 +234,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "57 030 22 80, 67 215 11 31"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -265,9 +279,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "67 255 37 16, 67 255 37 17, 67 216 36 49",
+      "email": "pocz@pupczarnkow.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -277,19 +293,21 @@
       "url_pup": "https://gniezno.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-09",
+      "kfs_end_date": "2026-04-15",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1000000,
+      "amount_total": 1000000,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=1000000, telefon=4, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-gniezno-nabor-wnioskow-z-krajowego-funduszu-szkoleniowego/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "63 969 69 52, 61 426 16 49, 61 426 44 34",
+      "email": "pupgniezno@gniezno.praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -331,9 +349,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "pogr@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -353,9 +372,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "62 747 35 79, 62 747 73 88, 25 005 72 59",
+      "email": "sekretariat@pup.jarocin.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -369,15 +390,17 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1676500,
+      "amount_total": 1676500,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=1676500, telefon=3, email. Zrodlo: https://zielonalinia.gov.pl/pup-kepno-nabor-wnioskow-w-ramach-srodkow-kfs/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "25 096 79 49, 62 782 28 34, 62 782 28 54",
+      "email": "poke@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -391,15 +414,17 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1417329,
+      "amount_total": 1417329,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=1417329, telefon=1, email. Zrodlo: https://zielonalinia.gov.pl/pup-sokolow-podlaski-nabor-wnioskow-ze-srodkow-krajowego-funduszu-szkoleniowego-kfs/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "31 109 60 83",
+      "email": "pokl@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -419,9 +444,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "65 512 10 14, 65 512 10 55, 65 512 14 40",
+      "email": "poks@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -441,9 +468,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "80 020 09 29, 62 725 44 56",
+      "email": "pokr@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -463,9 +492,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "95 748 80 20, 95 715 25 21",
+      "email": "pomi@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -485,9 +516,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "60 021 21 82",
+      "email": "b.sprywa@pupnt.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -529,9 +562,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "25 096 54 20",
+      "email": "poow@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -551,9 +586,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "62 732 07 90, 62 732 07 91",
+      "email": "poos@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -563,19 +600,20 @@
       "url_pup": "https://pleszew.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-25",
+      "kfs_end_date": "2026-11-30",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 3143400,
+      "amount_total": 3143400,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=3143400, email, status=TRWA. Zrodlo: https://zielonalinia.gov.pl/pup-pleszew-nabor-wnioskow-o-przyznanie-srodkow-kfs-na-finansowanie-kosztow-ksztalcenia-ustawicznego/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor TRWA (scraper v6.5)",
+      "email": "popl@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -617,9 +655,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "63 275 14 44",
+      "email": "pup@pup-slupca.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -639,9 +679,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "63 207 65 19, 72 847 56 46",
+      "email": "posz@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -683,9 +725,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "sekretariat@srem.praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -705,9 +748,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "63 280 23 40",
+      "email": "potu@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -749,9 +794,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "68 347 12 95, 68 384 35 81, 41 114 34 90",
+      "email": "powo@praca.gov.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -771,9 +818,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "61 640 35 35, 61 640 21 10",
+      "email": "sekretariat@pupwrzesnia.pl"
     },
     {
       "voivodeship": "wielkopolskie",
@@ -793,9 +842,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "67 263 54 34, 67 263 54 33, 67 263 27 79",
+      "email": "pozl@praca.gov.pl"
     }
   ]
 }

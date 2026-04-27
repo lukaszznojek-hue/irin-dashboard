@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Dolnośląskie",
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "dolnoslaskie",
@@ -133,9 +133,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "76 856 98 28, 75 732 66 01",
+      "email": "wrbo@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -155,9 +157,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "74 832 03 80, 74 831 23 47",
+      "email": "sekretariat@dzierzoniow.praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -211,19 +215,19 @@
       "url_pup": "https://jawor.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-13",
+      "kfs_end_date": "2026-04-17",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 950000,
+      "amount_total": 950000,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=950000, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-jawor-nabor-wnioskow-z-krajowego-funduszu-szkoleniowego/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -243,9 +247,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "23 088 20 16",
+      "email": "wrka@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -265,9 +271,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "74 865 74 10, 74 865 74 34, 74 873 50 50"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -287,9 +294,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "75 722 32 78, 75 722 25 48",
+      "email": "pup@powiatluban.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -331,9 +340,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "75 782 42 24, 75 782 42 24, 75 782 42 27"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -353,9 +363,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "iod@kancelariakuczynski.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -375,9 +386,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "71 314 20 89, 71 314 32 76, 71 314 31 84",
+      "email": "wrol@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -387,9 +400,9 @@
       "url_pup": "https://olawa.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-23",
+      "kfs_end_date": "2026-04-14",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -397,9 +410,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=4, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-olawa-ogloszenie-o-naborze-wnioskow-o-przyznanie-srodkow-krajowego-funduszu-szkoleniowego/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "93 213 23 84, 71 313 96 52, 71 313 90 35",
+      "email": "sekretariat@pup-olawa.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -431,9 +446,9 @@
       "url_pup": "https://strzelin.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-07",
+      "kfs_end_date": "2026-04-21",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -441,9 +456,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-strzelin-nabor-wnioskow-na-szkolenia-ze-srodkow-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "email": "wrst@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -507,9 +523,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "51 067 29 94, 71 387 05 65, 71 387 11 38",
+      "email": "wrtr@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -529,9 +547,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "71 389 10 92, 71 389 48 10, 71 389 26 55",
+      "email": "wrwo@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -541,9 +561,9 @@
       "url_pup": "https://zabkowiceslaskie.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-04",
+      "kfs_end_date": "2026-04-14",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -551,9 +571,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-zabkowice-slaskie-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "email": "wrza@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -573,9 +594,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "23 088 19 85",
+      "email": "wrzg@praca.gov.pl"
     },
     {
       "voivodeship": "dolnoslaskie",
@@ -595,9 +618,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "wrzl@praca.gov.pl"
     }
   ]
 }

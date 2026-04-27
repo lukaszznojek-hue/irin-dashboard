@@ -1,8 +1,25 @@
 {
-  "wersja": "6.4.0",
+  "wersja": "6.5.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.5.0",
+      "zmiany": [
+        "Pelen przeglad 6 zrodel pieniedzy szkolen 2026 w trendy.json: KFS (417.5 mln) + BUR EFS+ (300-500 mln szac.) + Akademia HR PARP (108.2 mln TRWA) + EFS+ PUP + PFRON + Inno_Lab. Suma dostepna PL ~626 mln zl",
+        "Scraper requests/bs4 uruchomiony dla wszystkich 16 wojewodztw (357 powiatow) - bulk merge 282/357 powiatow",
+        "Telefony PUP: 3 -> 252 (70%) z merge zielonalinia + main page",
+        "Emaile PUP: 1 -> 254 (71%)",
+        "Kwoty KFS per powiat: 10 -> 27 (suma 44.9 mln zl)",
+        "Status KFS: 5 -> 65 powiatow (TRWA/NADCHODZI/ZAKONCZONY)",
+        "UX fix: kafelki czerwone w heatmap (top kwoty woj. - mazowieckie/slaskie/wielkopolskie) - zmiana koloru tekstu na bialy z stroke shadow dla lepszej czytelnosci",
+        "UI nowy komponent: 'Zrodla pieniedzy' - 6 kafelkow z mapowaniem zrodel + ranking wojewodztw (bar chart sortowany)",
+        "tools/scraper/merge_scrape_to_powiaty.py - bulk merger zachowujacy istniejace dane (amount_kfs/telefon/email/kfs_status tylko jesli puste)",
+        "Sygnal na v6.6: BUR EFS+ projekty per WUP (15 woj.), priorytety wojewodzkie KFS (12 brakujacych), real SVG mapa Polski"
+      ],
+      "kto": "Claude Code (autonomous workflow) - sprint v6.5 pelen przeglad zrodel"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.4.0",

@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Łódzkie",
   "tier": "2",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton z POWIATY_SORT v3",
+  "zrodlo_danych": "skeleton z POWIATY_SORT v3 + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "lodzkie",
@@ -45,9 +45,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "44 647 45 26, 44 647 10 05, 44 647 04 70",
+      "email": "lopi@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -67,9 +69,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=3, email. Zrodlo: https://zielonalinia.gov.pl/pup-skierniewice-krajowy-fundusz-szkoleniowy-w-2026-roku/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "46 833 61 82, 46 833 63 99, 46 832 56 67",
+      "email": "sekretariat@skierniewice.praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -111,9 +115,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "44 647 45 26, 44 647 10 05, 44 647 04 70",
+      "email": "lopi@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -133,9 +139,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "46 833 61 82, 46 833 63 99, 46 832 56 67",
+      "email": "sekretariat@skierniewice.praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -155,9 +163,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "59 074 59 58, 44 631 40 46, 44 631 40 40",
+      "email": "lobe@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -177,9 +187,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "46 874 25 23, 46 833 21 70, 50 700 73 94",
+      "email": "lobr@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -199,9 +211,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "24 355 70 50, 24 355 70 51, 24 355 70 78",
+      "email": "loku@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -211,9 +225,9 @@
       "url_pup": "https://lask.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-04",
+      "kfs_end_date": "2026-04-14",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -221,9 +235,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=3, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-zabkowice-slaskie-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "43 675 17 20, 43 675 17 40, 73 158 12 06",
+      "email": "lola@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -243,9 +259,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "24 721 29 14, 24 721 32 78, 47 229 14 57",
+      "email": "lole@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -265,9 +283,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "46 830 98 41, 46 830 98 43, 46 830 98 00",
+      "email": "lolw@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -287,9 +307,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "44 755 51 00, 59 074 74 14",
+      "email": "loop@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -309,9 +331,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "42 215 70 71, 42 215 23 00",
+      "email": "lopa@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -331,9 +355,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "34 311 28 82, 34 311 12 92, 59 074 58 30",
+      "email": "praca@pup.pajeczno.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -369,13 +395,13 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 933104,
+      "amount_total": 933104,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=933104. Zrodlo: https://zielonalinia.gov.pl/pup-radomsko-nabor-wnioskow-o-przyznanie-srodkow-krajowego-funduszu-szkoleniowego/",
       "akcja_status": "zadzwon",
       "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
@@ -387,9 +413,9 @@
       "url_pup": "https://rawamazowiecka.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-30",
+      "kfs_end_date": "2026-05-08",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -397,9 +423,9 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne status=NADCHODZI. Zrodlo: https://zielonalinia.gov.pl/pup-rawa-mazowiecka-kfs-nabor-wnioskow/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor NADCHODZI (scraper v6.5)"
     },
     {
       "voivodeship": "lodzkie",
@@ -419,9 +445,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 822 11 43, 43 822 11 47, 43 822 07 39",
+      "email": "losi@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -441,9 +469,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "44 724 21 93, 44 724 60 79, 44 724 68 64",
+      "email": "loto@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -463,9 +493,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 843 47 33, 43 843 46 20, 43 886 05 18",
+      "email": "lowi@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -485,9 +517,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=3, email. Zrodlo: https://zielonalinia.gov.pl/pup-wieruszow-dni-otwarte-z-krajowym-funduszem-szkoleniowym/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "62 506 54 00, 62 784 11 49, 73 100 29 12",
+      "email": "lowe@praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -507,9 +541,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "43 823 23 27, 43 823 23 28, 43 824 56 88",
+      "email": "sekretariat@zdunskawola.praca.gov.pl"
     },
     {
       "voivodeship": "lodzkie",
@@ -519,9 +555,9 @@
       "url_pup": "https://zgierz.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-18",
+      "kfs_end_date": "2026-03-27",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -529,9 +565,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-zgierz-dni-otwarte-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "42 716 49 41, 42 716 67 82, 42 717 41 76",
+      "email": "lozg@praca.gov.pl"
     }
   ]
 }

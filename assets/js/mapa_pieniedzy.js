@@ -48,12 +48,18 @@ function computeSalesScore(powiat) {
 function colorForKwota(kwota, minK, maxK) {
   if (kwota === 0 || !maxK) return '#e5e5e5';
   const t = Math.log10(kwota + 1) / Math.log10(maxK + 1);
-  // continuous Yellow -> Orange -> Red (heatmap)
-  // t=0 -> #fff5b8 (jasnozolty), t=0.5 -> #fb8c00 (orange), t=1 -> #b71c1c (ciemnoczerwony)
   const r = Math.round(255 * (1 - t * 0.28));
   const g = Math.round(245 - t * 220);
   const b = Math.round(184 - t * 156);
   return `rgb(${r},${g},${b})`;
+}
+
+function textColorForBg(kwota, minK, maxK) {
+  // Dla ciemnych tla (mazowieckie/slaskie/wielkopolskie - top kwoty) -> bialy tekst
+  if (kwota === 0 || !maxK) return '#444';
+  const t = Math.log10(kwota + 1) / Math.log10(maxK + 1);
+  // Powyzej t=0.55 (tj. orange-czerwony) tekst staje sie nieczytelny na ciemnym tle
+  return t > 0.55 ? '#fff' : '#222';
 }
 
 function fmtKwota(n) {
@@ -93,8 +99,66 @@ function renderMapaPieniedzy() {
   setText('mp-srednia-woj', fmtKwota(sredniaWoj));
   setText('mp-pow-z-danymi', `${powiatyZKwota}/${(DASHBOARD_DATA.powiaty||[]).length}`);
 
+  renderZrodlaGrid();
   renderMapaSvg(alokacje, minK, maxK);
+  renderRankingBars(alokacje, maxK);
   renderTopPowiaty(20);
+}
+
+function renderRankingBars(alokacje, maxK) {
+  const el = document.getElementById('mapa-ranking-bars');
+  if (!el) return;
+  const sorted = Object.entries(alokacje).sort((a,b) => b[1]-a[1]);
+  el.innerHTML = sorted.map(([slug, kwota], i) => {
+    const label = WOJ_POSITIONS[slug]?.label || slug;
+    const pct = maxK ? (kwota * 100 / maxK) : 0;
+    const color = colorForKwota(kwota, Math.min(...Object.values(alokacje).filter(k=>k>0)), maxK);
+    return `<div class="rank-row" onclick="onWojClick('${slug}')">
+      <span class="rank-pos">${i+1}.</span>
+      <span class="rank-label">${label}</span>
+      <div class="rank-bar-bg">
+        <div class="rank-bar-fill" style="width:${pct}%; background:${color}"></div>
+        <span class="rank-kwota">${fmtKwota(kwota)}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderZrodlaGrid() {
+  const el = document.getElementById('mapa-zrodla-grid');
+  if (!el) return;
+  const zrodla = DASHBOARD_DATA.trendy?.zrodla_dofinansowania_szkolen_2026?.zrodla || [];
+  if (zrodla.length === 0) { el.innerHTML = '<p style="color:#999">Brak danych źródeł.</p>'; return; }
+  const sumaTotal = DASHBOARD_DATA.trendy?.zrodla_dofinansowania_szkolen_2026?.suma_dostepna_pl_2026_szac_pln || 0;
+  const kluczowe = DASHBOARD_DATA.trendy?.zrodla_dofinansowania_szkolen_2026?.kluczowe_dla_irin || [];
+  const ikony = {
+    kfs: '🏛️', bur_efs: '🇪🇺', akademia_hr: '👥', efs_pup: '🎫', pfron: '♿', inno_lab: '🌱'
+  };
+  el.innerHTML = zrodla.map(z => {
+    const isKlucz = kluczowe.includes(z.id);
+    const kwotaStr = z.kwota_pl_pln
+      ? fmtKwota(z.kwota_pl_pln)
+      : (z.kwota_pl_pln_szac || '?');
+    const statusEmoji = z.status_dla_irin?.includes('GŁÓWNE') ? '⭐⭐⭐'
+                      : z.status_dla_irin?.includes('DRUGIE') ? '⭐⭐'
+                      : z.status_dla_irin?.includes('TRZECIE') ? '⭐'
+                      : '';
+    return `<div class="zrodlo-card ${isKlucz ? 'zrodlo-kluczowe' : ''}">
+      <div class="zrodlo-header">
+        <span class="zrodlo-icon">${ikony[z.id] || '💵'}</span>
+        <span class="zrodlo-stars">${statusEmoji}</span>
+      </div>
+      <div class="zrodlo-nazwa">${z.nazwa}</div>
+      <div class="zrodlo-kwota">${kwotaStr}</div>
+      <div class="zrodlo-meta">
+        <div><strong>Kto:</strong> ${z.beneficjent}</div>
+        <div><strong>Operator:</strong> ${z.operator}</div>
+        <div><strong>Intensywność:</strong> ${z.intensywnosc}</div>
+        <div><strong>BUR wymóg:</strong> ${z.wymog_bur === true ? '✅ TAK' : z.wymog_bur === false ? '❌ NIE' : '⚠️ częściowo'}</div>
+      </div>
+      <div class="zrodlo-status">${z.status_dla_irin || ''}</div>
+    </div>`;
+  }).join('') + `<div class="zrodla-suma">💰 SUMA dostępna PL 2026: <strong>${fmtKwota(sumaTotal)}</strong> · 6 źródeł zmapowanych</div>`;
 }
 
 function renderMapaSvg(alokacje, minK, maxK) {
@@ -109,13 +173,15 @@ function renderMapaSvg(alokacje, minK, maxK) {
     const y = pos.y * (cellH + gap);
     const kwota = alokacje[slug] || 0;
     const color = colorForKwota(kwota, minK, maxK);
+    const txtColor = textColorForBg(kwota, minK, maxK);
     const tooltip = `${pos.label}: ${fmtKwota(kwota)}`;
+    const labelShadow = txtColor === '#fff' ? 'paint-order:stroke;stroke:rgba(0,0,0,0.4);stroke-width:2px;' : '';
     svg += `<g class="mapa-woj-cell" data-woj="${slug}" onclick="onWojClick('${slug}')" tabindex="0">
-      <rect x="${x}" y="${y}" width="${cellW}" height="${cellH}" rx="6" fill="${color}" stroke="#222" stroke-width="1">
+      <rect x="${x}" y="${y}" width="${cellW}" height="${cellH}" rx="6" fill="${color}" stroke="#222" stroke-width="1.5">
         <title>${tooltip}</title>
       </rect>
-      <text x="${x + cellW/2}" y="${y + 22}" text-anchor="middle" class="mapa-woj-label">${pos.label}</text>
-      <text x="${x + cellW/2}" y="${y + 44}" text-anchor="middle" class="mapa-woj-kwota">${fmtKwota(kwota)}</text>
+      <text x="${x + cellW/2}" y="${y + 26}" text-anchor="middle" class="mapa-woj-label" style="fill:${txtColor};font-size:12px;font-weight:700;${labelShadow}">${pos.label}</text>
+      <text x="${x + cellW/2}" y="${y + 50}" text-anchor="middle" class="mapa-woj-kwota" style="fill:${txtColor};font-size:12px;font-weight:600;${labelShadow}">${fmtKwota(kwota)}</text>
     </g>`;
   });
   svg += `</svg>`;

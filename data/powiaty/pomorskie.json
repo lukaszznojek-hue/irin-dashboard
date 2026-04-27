@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Pomorskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "WUP Gdańsk portal KFS-nabory + web search 27.04.2026 + v6.2: telefon PUP Chojnice + korekta statusu Chojnice (TRWA→NADCHODZI)",
+  "zrodlo_danych": "WUP Gdańsk portal KFS-nabory + web search 27.04.2026 + v6.2: telefon PUP Chojnice + korekta statusu Chojnice (TRWA→NADCHODZI) + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "pomorskie",
@@ -35,7 +35,7 @@
           }
         }
       ],
-      "claudia_note": "Rekordowy budżet KFS 2026: 7.6 mln zł. Nabór I zakończony 20.03.",
+      "claudia_note": "Rekordowy budżet KFS 2026: 7.6 mln zł. Nabór I zakończony 20.03. | v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -46,7 +46,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20"
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20",
+      "telefon": "19 192 77 40",
+      "email": "kancelaria@gup.gdansk.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -78,7 +80,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór I zakończony.",
+      "claudia_note": "Nabór I zakończony. | v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -89,7 +91,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "19 192 77 34, 58 776 12 28, 58 621 06 95",
+      "email": "pup@pupgdynia.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -152,7 +156,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór I zakończony.",
+      "claudia_note": "Nabór I zakończony. | v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -163,7 +167,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "59 845 67 81, 59 845 67 18, 59 845 75 01",
+      "email": "gdsl@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -195,7 +201,7 @@
           }
         }
       ],
-      "claudia_note": "Rekordowy budżet KFS 2026: 7.6 mln zł. Nabór I zakończony 20.03.",
+      "claudia_note": "Rekordowy budżet KFS 2026: 7.6 mln zł. Nabór I zakończony 20.03. | v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -206,7 +212,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20"
+      "akcja_status_uzasadnienie": "Nabor zakonczony 2026-03-20",
+      "telefon": "19 192 77 40",
+      "email": "kancelaria@gup.gdansk.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -238,7 +246,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór I zakończony.",
+      "claudia_note": "Nabór I zakończony. | v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -249,7 +257,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "59 845 67 81, 59 845 67 18, 59 845 75 01",
+      "email": "gdsl@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -281,7 +291,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór zakończony.",
+      "claudia_note": "Nabór zakończony. | v6.5 scraper [zielonalinia+pup_main]: dograne telefon=4, email. Zrodlo: https://zielonalinia.gov.pl/pup-bytow-wazna-informacja-dla-instytucji-szkoleniowych-wpis-do-bur/",
       "priorytety": [
         "P1",
         "P2",
@@ -292,7 +302,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "59 822 22 27, 59 823 41 02, 59 857 51 19",
+      "email": "gdby@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -358,7 +370,7 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": "Brak danych w tabeli WUP.",
+      "claudia_note": "Brak danych w tabeli WUP. | v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -369,7 +381,8 @@
         "P7"
       ],
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "59 834 34 42"
     },
     {
       "voivodeship": "pomorskie",
@@ -447,7 +460,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór trwa 22-28.04.2026.",
+      "claudia_note": "Nabór trwa 22-28.04.2026. | v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -458,7 +471,9 @@
         "P7"
       ],
       "akcja_status": "aktywny",
-      "akcja_status_uzasadnienie": "Nabor trwa do 2026-04-28"
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-04-28",
+      "telefon": "58 680 20 50, 58 686 58 88, 58 680 20 51",
+      "email": "gdko@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -490,7 +505,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór zakończony.",
+      "claudia_note": "Nabór zakończony. | v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -501,7 +516,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "55 267 27 00, 19 193 25 63, 55 262 41 77",
+      "email": "sekretariat@kwidzyn.praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -533,7 +550,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór zakończony.",
+      "claudia_note": "Nabór zakończony. | v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -544,7 +561,8 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "email": "gdle@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -576,7 +594,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór zakończony.",
+      "claudia_note": "Nabór zakończony. | v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -587,7 +605,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "55 272 33 51, 19 193 44 80",
+      "email": "gdma@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -619,7 +639,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór zakończony.",
+      "claudia_note": "Nabór zakończony. | v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -630,7 +650,9 @@
         "P7"
       ],
       "akcja_status": "zakonczony",
-      "akcja_status_uzasadnienie": "Nabor zakonczony"
+      "akcja_status_uzasadnienie": "Nabor zakonczony",
+      "telefon": "41 380 23 74, 41 380 23 83, 41 386 38 93",
+      "email": "kije@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -662,7 +684,7 @@
           }
         }
       ],
-      "claudia_note": "Planowany 8-12.06.2026.",
+      "claudia_note": "Planowany 8-12.06.2026. | v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -673,7 +695,9 @@
         "P7"
       ],
       "akcja_status": "monitor",
-      "akcja_status_uzasadnienie": "Nabor planowany od 2026-06-08"
+      "akcja_status_uzasadnienie": "Nabor planowany od 2026-06-08",
+      "telefon": "69 773 75 85, 58 774 31 71, 58 774 31 61",
+      "email": "gdpu@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -705,7 +729,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór trwa 24-30.04.2026.",
+      "claudia_note": "Nabór trwa 24-30.04.2026. | v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -716,7 +740,9 @@
         "P7"
       ],
       "akcja_status": "aktywny",
-      "akcja_status_uzasadnienie": "Nabor trwa do 2026-04-30"
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-04-30",
+      "telefon": "19 195 04 89",
+      "email": "sekretariat@pupstarogard.pl"
     },
     {
       "voivodeship": "pomorskie",
@@ -748,7 +774,7 @@
           }
         }
       ],
-      "claudia_note": "Nabór trwa 28.04-5.05.2026.",
+      "claudia_note": "Nabór trwa 28.04-5.05.2026. | v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "priorytety": [
         "P1",
         "P2",
@@ -759,7 +785,9 @@
         "P7"
       ],
       "akcja_status": "aktywny",
-      "akcja_status_uzasadnienie": "Nabor trwa do 2026-05-05"
+      "akcja_status_uzasadnienie": "Nabor trwa do 2026-05-05",
+      "telefon": "58 531 32 13, 58 531 34 15, 58 532 82 72",
+      "email": "gdtc@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",

@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Kujawsko-pomorskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research + v6.3 czesciowy: 2 powiaty zhydratowane (Aleksandrow Kujawski/Mogilno) z zielonalinia.gov.pl. Pozostale 21 nadal SKELETON - wymaga Playwright scrapera w v6.4.",
+  "zrodlo_danych": "skeleton + web research + v6.3 czesciowy: 2 powiaty zhydratowane (Aleksandrow Kujawski/Mogilno) z zielonalinia.gov.pl. Pozostale 21 nadal SKELETON - wymaga Playwright scrapera w v6.4. + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -13,9 +13,9 @@
       "url_pup": "https://bydgoszcz.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-08",
+      "kfs_end_date": "2026-04-17",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -23,9 +23,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-bydgoszcz-nabor-wnioskow-o-finansowanie-ksztalcenia-z-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "09 253 42 82, 52 360 43 00, 52 360 43 05",
+      "email": "sekretariat@pup.bydgoszcz.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -45,9 +47,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "sekretariat@pupdlapowiatutorunskiego.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -67,9 +70,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "72 817 37 50, 54 234 00 89"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -89,9 +93,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "09 253 42 82, 52 360 43 00, 52 360 43 05",
+      "email": "sekretariat@pup.bydgoszcz.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -111,9 +117,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "sekretariat@pupdlapowiatutorunskiego.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -133,9 +140,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "72 817 37 50, 54 234 00 89"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -143,7 +151,7 @@
       "display_name": "PUP Aleksandrów Kujawski",
       "display_meta": "powiat Aleksandrów Kujawski",
       "url_pup": "https://aleksandrowkujawski.praca.gov.pl",
-      "telefon": null,
+      "telefon": "54 282 46 96",
       "email": null,
       "urgency": "zakonczony",
       "urgency_days": 0,
@@ -155,7 +163,9 @@
       "amount_total": 400000,
       "irin_match": 1,
       "has_warning": false,
-      "pillars": ["KFS"],
+      "pillars": [
+        "KFS"
+      ],
       "pillar_details": [
         {
           "type": "KFS",
@@ -168,7 +178,7 @@
           }
         }
       ],
-      "claudia_note": "v6.3: alokacja 400 000 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 24.04 (3 dni temu) - sprawdzić II termin Q3 2026.",
+      "claudia_note": "v6.3: alokacja 400 000 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 24.04 (3 dni temu) - sprawdzić II termin Q3 2026. | v6.5 scraper [zielonalinia+pup_main]: dograne telefon=1. Zrodlo: https://zielonalinia.gov.pl/pup-aleksandrow-kujawski-nabor-wnioskow-w-ramach-srodkow-kfs/",
       "akcja_status": "zakonczony",
       "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-24"
     },
@@ -234,9 +244,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "56 683 52 30",
+      "email": "sekretariat@golub-dobrzyn.praca.gov.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -300,9 +312,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "09 012 21 38, 80 011 31 22",
+      "email": "kancelaria@pupinowroclaw.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -322,9 +336,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "54 288 67 00, 54 288 67 50",
+      "email": "toli@praca.gov.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -332,8 +348,8 @@
       "display_name": "PUP Mogilno",
       "display_meta": "powiat Mogilno",
       "url_pup": "https://mogilno.praca.gov.pl",
-      "telefon": null,
-      "email": null,
+      "telefon": "52 318 67 10, 80 011 91 99, 52 315 18 41",
+      "email": "tomo@praca.gov.pl",
       "urgency": "zakonczony",
       "urgency_days": 0,
       "kfs_start_date": "2026-04-20",
@@ -344,7 +360,9 @@
       "amount_total": 474447,
       "irin_match": 1,
       "has_warning": false,
-      "pillars": ["KFS"],
+      "pillars": [
+        "KFS"
+      ],
       "pillar_details": [
         {
           "type": "KFS",
@@ -356,7 +374,7 @@
           }
         }
       ],
-      "claudia_note": "v6.3: alokacja 474 447 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 24.04 - sprawdzić II termin.",
+      "claudia_note": "v6.3: alokacja 474 447 zł zweryfikowana z zielonalinia.gov.pl. Nabór zakończony 24.04 - sprawdzić II termin. | v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email. Zrodlo: https://zielonalinia.gov.pl/pup-mogilno-krajowy-fundusz-szkoleniowy-w-2026-roku/",
       "akcja_status": "zakonczony",
       "akcja_status_uzasadnienie": "Nabor zakonczony 2026-04-24"
     },
@@ -444,9 +462,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "09 251 26 94, 52 388 13 50",
+      "email": "tose@praca.gov.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -466,9 +486,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "pup@swiecie.praca.gov.pl"
     },
     {
       "voivodeship": "kujawsko-pomorskie",
@@ -532,9 +553,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "52 303 10 64, 52 303 10 83, 52 303 11 12",
+      "email": "tozn@praca.gov.pl"
     }
   ]
 }

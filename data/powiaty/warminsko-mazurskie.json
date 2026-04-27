@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Warmińsko-mazurskie",
   "tier": "2",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton z POWIATY_SORT v3",
+  "zrodlo_danych": "skeleton z POWIATY_SORT v3 + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "warminsko-mazurskie",
@@ -23,9 +23,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "41 380 23 74, 41 380 23 83, 41 386 38 93",
+      "email": "kije@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -57,9 +59,9 @@
       "url_pup": "https://elk.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-24",
+      "kfs_end_date": "2026-04-30",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -67,9 +69,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=2, email, status=TRWA. Zrodlo: https://zielonalinia.gov.pl/pup-kazimierza-wielka-nabor-wnioskow-o-przyznanie-srodkow-z-kfs-na-ksztalcenie-ustawiczne/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor TRWA (scraper v6.5)",
+      "telefon": "87 629 02 00, 87 629 02 04",
+      "email": "olek@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -89,9 +93,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "41 380 23 74, 41 380 23 83, 41 386 38 93",
+      "email": "kije@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -133,9 +139,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "26 132 74 79, 89 762 62 21, 89 762 62 22",
+      "email": "olba@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -155,9 +163,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=4, email. Zrodlo: https://zielonalinia.gov.pl/pup-braniewo-nowe-zasady-przyznawania-srodkow-z-krajowego-funduszu-szkoleniowego-kfs-w-2026-roku/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "55 625 50 43, 55 644 32 07, 55 644 32 22",
+      "email": "olbr@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -199,9 +209,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "51 094 18 60",
+      "email": "olgi@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -265,9 +277,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "89 752 57 50, 89 752 57 55, 89 752 57 54",
+      "email": "doradca@ketrzyn.praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -277,19 +291,21 @@
       "url_pup": "https://lidzbarkwarminski.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-14",
+      "kfs_end_date": "2026-04-20",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 355119,
+      "amount_total": 355119,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=355119, telefon=2, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-lidzbark-warminski-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "89 524 98 14, 89 524 98 50",
+      "email": "sekretariat@puplidzbark.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -309,9 +325,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "89 743 35 00, 89 743 35 01, 51 092 87 18",
+      "email": "sekretariat@mragowo.praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -353,9 +371,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "51 092 96 17",
+      "email": "olno@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -375,9 +395,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "87 520 30 78, 87 520 25 33, 87 520 27 46",
+      "email": "biuro@pup.olecko.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -397,9 +419,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "51 093 01 35, 89 642 95 10, 89 646 42 92",
+      "email": "olos@praca.gov.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -441,9 +465,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "89 624 32 87, 51 093 15 48",
+      "email": "pup@pup.szczytno.pl"
     },
     {
       "voivodeship": "warminsko-mazurskie",
@@ -463,9 +489,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "51 143 39 99",
+      "email": "olwe@praca.gov.pl"
     }
   ]
 }

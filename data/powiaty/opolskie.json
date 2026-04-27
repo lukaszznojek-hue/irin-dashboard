@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Opolskie",
   "tier": "2",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton z POWIATY_SORT v3",
+  "zrodlo_danych": "skeleton z POWIATY_SORT v3 + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "opolskie",
@@ -17,13 +17,13 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 3184400,
+      "amount_total": 3184400,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=3184400. Zrodlo: https://zielonalinia.gov.pl/pup-opole-nabor-wnioskow-z-krajowego-funduszu-szkoleniowego/",
       "akcja_status": "zadzwon",
       "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
     },
@@ -67,9 +67,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "77 444 13 90, 77 444 13 91, 77 444 13 92",
+      "email": "opbr@praca.gov.pl"
     },
     {
       "voivodeship": "opolskie",
@@ -89,9 +91,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "77 485 20 37, 77 485 85 37, 77 485 87 60",
+      "email": "opgl@praca.gov.pl"
     },
     {
       "voivodeship": "opolskie",
@@ -123,19 +127,21 @@
       "url_pup": "https://kluczbork.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-17",
+      "kfs_end_date": "2026-04-24",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 531000,
+      "amount_total": 531000,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=531000, telefon=3, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-kluczbork-nabor-wnioskow-ze-srodkow-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "53 159 59 53, 77 447 13 88, 77 418 77 88",
+      "email": "opkl@praca.gov.pl"
     },
     {
       "voivodeship": "opolskie",
@@ -177,9 +183,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "77 419 09 20, 77 419 09 25",
+      "email": "sekretariat@namyslow.praca.gov.pl"
     },
     {
       "voivodeship": "opolskie",
@@ -189,9 +197,9 @@
       "url_pup": "https://nysa.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-18",
+      "kfs_end_date": "2026-04-03",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -199,9 +207,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=3, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-nysa-nabor-wnioskow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "53 159 59 24, 77 448 99 11, 77 448 99 17",
+      "email": "sekretariat@nysa.praca.gov.pl"
     },
     {
       "voivodeship": "opolskie",
@@ -211,19 +221,19 @@
       "url_pup": "https://olesno.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-30",
+      "kfs_end_date": "2026-04-03",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 581400,
+      "amount_total": 581400,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=581400, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-olesno-krajowy-fundusz-szkoleniowy-nabor-wnioskow/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)"
     },
     {
       "voivodeship": "opolskie",
@@ -265,9 +275,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "53 159 59 47, 77 462 18 00, 77 462 18 01",
+      "email": "opst@praca.gov.pl"
     }
   ]
 }

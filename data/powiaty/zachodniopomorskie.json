@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Zachodniopomorskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research + v6.3 czesciowy: 3 powiaty zhydratowane (Bialogard/Gryfino/Pyrzyce) z zielonalinia.gov.pl. Pozostale 18 nadal SKELETON - wymaga Playwright scrapera w v6.4.",
+  "zrodlo_danych": "skeleton + web research + v6.3 czesciowy: 3 powiaty zhydratowane (Bialogard/Gryfino/Pyrzyce) z zielonalinia.gov.pl. Pozostale 18 nadal SKELETON - wymaga Playwright scrapera w v6.4. + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "zachodniopomorskie",
@@ -23,9 +23,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "91 422 55 33",
+      "email": "pupszczecin@pupszczecin.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -45,9 +47,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "33 103 66 74",
+      "email": "szko@praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -67,9 +71,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "91 422 55 33",
+      "email": "pupszczecin@pupszczecin.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -89,9 +95,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "33 103 66 74",
+      "email": "szko@praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -100,7 +108,7 @@
       "display_meta": "powiat Białogard",
       "url_pup": "https://bialogard.praca.gov.pl",
       "telefon": "94 311 31 22, 733 444 129, 697 978 705",
-      "email": null,
+      "email": "szbi@praca.gov.pl",
       "urgency": "trwa",
       "urgency_days": 999,
       "kfs_start_date": "2026-02-27",
@@ -111,7 +119,9 @@
       "amount_total": 0,
       "irin_match": 1,
       "has_warning": false,
-      "pillars": ["KFS"],
+      "pillars": [
+        "KFS"
+      ],
       "pillar_details": [
         {
           "type": "KFS",
@@ -123,7 +133,7 @@
           }
         }
       ],
-      "claudia_note": "v6.3: 3 telefony zweryfikowane ze zielonalinia.gov.pl. Nabór KFS 2026 trwa od 27.02 do wyczerpania środków. Pilna pierwsza akcja: zadzwonić, dograć kwotę i email.",
+      "claudia_note": "v6.3: 3 telefony zweryfikowane ze zielonalinia.gov.pl. Nabór KFS 2026 trwa od 27.02 do wyczerpania środków. Pilna pierwsza akcja: zadzwonić, dograć kwotę i email. | v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "aktywny",
       "akcja_status_uzasadnienie": "Nabor ciagly KFS 2026 - kontakt mozliwy, telefon zdobyty"
     },
@@ -157,9 +167,9 @@
       "url_pup": "https://drawskopomorskie.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-05-05",
+      "kfs_end_date": "2026-05-11",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -167,9 +177,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=1, email, status=NADCHODZI. Zrodlo: https://zielonalinia.gov.pl/pup-drawsko-pomorskie-nabor-wnioskow-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor NADCHODZI (scraper v6.5)",
+      "telefon": "33 103 72 54",
+      "email": "sekretariat@pupdrawsko.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -189,9 +201,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "91 418 34 95, 91 418 53 67, 91 418 25 77",
+      "email": "szgo@pupgoleniow.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -233,7 +247,9 @@
       "amount_total": 791548,
       "irin_match": 1,
       "has_warning": false,
-      "pillars": ["KFS"],
+      "pillars": [
+        "KFS"
+      ],
       "pillar_details": [
         {
           "type": "KFS",
@@ -267,9 +283,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "sekretariat@pupkamienpomorski.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -289,9 +306,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "94 352 41 33, 33 103 68 81",
+      "email": "sekretariat@kolobrzeg.praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -311,9 +330,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "91 397 40 88, 91 397 42 44, 91 395 13 09",
+      "email": "szgrre@praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -333,9 +354,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "95 746 17 88"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -355,9 +377,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "91 424 08 60, 91 424 08 59, 81 193 62 83",
+      "email": "szpo@praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -377,7 +401,9 @@
       "amount_total": 368337,
       "irin_match": 1,
       "has_warning": false,
-      "pillars": ["KFS"],
+      "pillars": [
+        "KFS"
+      ],
       "pillar_details": [
         {
           "type": "KFS",
@@ -411,9 +437,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "szsl@praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -423,9 +450,9 @@
       "url_pup": "https://stargard.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-05-05",
+      "kfs_end_date": "2026-05-11",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -433,9 +460,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=2, status=NADCHODZI. Zrodlo: https://zielonalinia.gov.pl/pup-stargard-nabor-wnioskow-o-finansowanie-kosztow-ksztalcenia-ustawicznego-ze-srodkow-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor NADCHODZI (scraper v6.5)",
+      "telefon": "91 834 53 11, 91 834 53 18"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -445,9 +473,9 @@
       "url_pup": "https://swidwin.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-17",
+      "kfs_end_date": "2026-04-30",
+      "kfs_status": "TRWA",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -455,9 +483,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=5, email, status=TRWA. Zrodlo: https://zielonalinia.gov.pl/pup-swidwin-nabor-wnioskow-na-kfs/",
+      "akcja_status": "aktywny",
+      "akcja_status_uzasadnienie": "Nabor TRWA (scraper v6.5)",
+      "telefon": "94 365 40 40, 94 365 40 41, 94 365 57 30",
+      "email": "swidwin@swidwin.praca.gov.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -477,9 +507,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "81 193 75 26, 91 321 97 77, 69 506 25 25",
+      "email": "sekretariat@pup.swinoujscie.pl"
     },
     {
       "voivodeship": "zachodniopomorskie",
@@ -499,9 +531,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "67 258 50 66",
+      "email": "rjuszkiewicz@walcz.pup.gov.pl"
     }
   ]
 }

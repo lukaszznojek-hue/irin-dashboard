@@ -173,17 +173,91 @@
     },
     {
       "id": "akademia_hr",
-      "nazwa": "Akademia HR - nabory PARP",
+      "nazwa": "Akademia HR PARP - 108.2 mln zł",
       "deadline": "2026-11-30",
-      "status": "NABORY",
-      "opis": "Dofinansowanie usług rozwojowych z BUR dla MŚP, nabory regionalne"
+      "status": "TRWA",
+      "kwota_alokacji_pln": 108200000,
+      "data_start": "2026-03-25",
+      "data_end": "2026-11-30",
+      "opis": "Akademia HR PARP - dofinansowanie szkoleń HR dla MŚP. Łączna alokacja 108.2 mln zł. Nabór 25.03-30.11.2026 prowadzony przez 9 Operatorów rundami. Grupa docelowa: pracodawcy + ich pracownicy (HR, menadżerowie). Wymóg: Autodiagnoza przed wnioskiem. WAŻNE: nie dla JDG bez pracowników. URL: https://www.parp.gov.pl/component/grants/grants/akademia-hr-oferta-dla-przedsiebiorcow"
     },
     {
-      "id": "inno_lab",
-      "nazwa": "Inno_Lab - dofinansowanie innowacji",
-      "deadline": "2026-12-31",
-      "status": "NABORY",
-      "opis": "Program PARP dla MŚP na zakup usług doradczych i szkoleniowych związanych z innowacjami"
+      "id": "inno_lab_goz",
+      "nazwa": "Inno_Lab Granty dla Zielonej Produkcji - 2.4 mln zł",
+      "deadline": "2026-03-17",
+      "status": "ZAKONCZONY",
+      "kwota_alokacji_pln": 2400000,
+      "data_start": "2026-02-17",
+      "data_end": "2026-03-17",
+      "opis": "Inno_Lab 'Granty dla Zielonej Produkcji' (GOZ). Alokacja 2.4 mln zł, max grant 800 tys. zł na firmę. Nabór ZAKOŃCZONY 17.03.2026. Beneficjent: MŚP transformujące w kierunku gospodarki obiegu zamkniętego (audyty, technologie, transformacja parku maszynowego). Sprawdzić II rundę 2026."
     }
-  ]
+  ],
+  "zrodla_dofinansowania_szkolen_2026": {
+    "data_aktualizacji": "2026-04-27",
+    "uwaga": "Kompletna mapa wszystkich źródeł pieniędzy na szkolenia w PL 2026 dla MŚP. Źródła publiczne tylko (KFS, BUR EFS+, PFRON, programy PARP/UE).",
+    "zrodla": [
+      {
+        "id": "kfs",
+        "nazwa": "Krajowy Fundusz Szkoleniowy (KFS)",
+        "kwota_pl_pln": 417493000,
+        "beneficjent": "Pracodawcy",
+        "operator": "MRiPS → 16 WUP → 357 PUP/MUP",
+        "intensywnosc": "90% mikrofirma / 70% standard, max 200% średniej krajowej / pracownika",
+        "wymog_bur": true,
+        "status_dla_irin": "GŁÓWNE źródło - IRIN w BUR (ID 160205), wniosek przez pracodawcę do PUP lokalizacji"
+      },
+      {
+        "id": "bur_efs",
+        "nazwa": "BUR EFS+ regionalne (działanie 10.6/10.9)",
+        "kwota_pl_pln_szac": "300-500 mln (UE EFS+, 16 województw)",
+        "beneficjent": "10.6 = pracodawcy, 10.9 = osoby fizyczne",
+        "operator": "16 WUP regionalnie, projekty cykliczne (5-6 naborów/rok per WUP)",
+        "intensywnosc": "do 80%",
+        "wymog_bur": true,
+        "status_dla_irin": "DRUGIE źródło - świętokrzyskie BUR-I/1/2026 = 3 mln zł zakończone 30.01. Pozostałe 15 WUP do trackingu osobno (v6.6)"
+      },
+      {
+        "id": "akademia_hr",
+        "nazwa": "Akademia HR PARP",
+        "kwota_pl_pln": 108200000,
+        "beneficjent": "Pracodawcy + zespoły HR (NIE dla JDG bez pracowników)",
+        "operator": "PARP → 9 Operatorów rundami",
+        "intensywnosc": "do ~80% (przez Operatorów)",
+        "wymog_bur": false,
+        "status_dla_irin": "TRZECIE źródło - TRWA do 30.11.2026 (8.2 mln/operator średnio). Wymóg Autodiagnozy. Idealne dla PROP-04 Akademia HR z AI."
+      },
+      {
+        "id": "efs_pup",
+        "nazwa": "EFS+ PUP - bony szkoleniowe (Aktywizacja zawodowa)",
+        "kwota_pl_pln_szac": "kilka mln per powiat",
+        "beneficjent": "Bezrobotni z bonami szkoleniowymi",
+        "operator": "PUP/MUP indywidualnie",
+        "intensywnosc": "100% (bon)",
+        "wymog_bur": "częściowo",
+        "status_dla_irin": "ALTERNATYWA - bezrobotni mogą wybrać szkolenie IRIN przez bon. Tracking w pillar_details TIER 1A. Skala mniejsza ale stała."
+      },
+      {
+        "id": "pfron",
+        "nazwa": "PFRON - Państwowy Fundusz Rehabilitacji Osób Niepełnosprawnych",
+        "kwota_pl_pln_szac": "varies per powiat",
+        "beneficjent": "Pracodawcy zatrudniający osoby z niepełnosprawnością",
+        "operator": "PFRON → PUP",
+        "intensywnosc": "do 75-90%",
+        "wymog_bur": false,
+        "status_dla_irin": "NISZA - mniejsza skala, kierowane na osoby z niepełnosprawnością. Wzmianki w pillar_details niektórych powiatów."
+      },
+      {
+        "id": "inno_lab",
+        "nazwa": "Inno_Lab PARP (Granty dla Zielonej Produkcji)",
+        "kwota_pl_pln": 2400000,
+        "beneficjent": "MŚP transformujące w GOZ",
+        "operator": "PARP",
+        "intensywnosc": "100% (grant max 800k)",
+        "wymog_bur": false,
+        "status_dla_irin": "ZAKONCZONY 17.03.2026. Sprawdzić II rundę. Niszowy."
+      }
+    ],
+    "suma_dostepna_pl_2026_szac_pln": 626093000,
+    "kluczowe_dla_irin": ["kfs", "akademia_hr", "bur_efs"]
+  }
 }

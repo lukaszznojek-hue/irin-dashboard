@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Mazowieckie",
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "skeleton + web research",
+  "zrodlo_danych": "skeleton + web research + v6.5 scraper bulk merge (20260427_124328)",
   "powiaty": [
     {
       "voivodeship": "mazowieckie",
@@ -39,15 +39,17 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 933104,
+      "amount_total": 933104,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=933104, telefon=5, email. Zrodlo: https://zielonalinia.gov.pl/pup-radomsko-nabor-wnioskow-o-przyznanie-srodkow-krajowego-funduszu-szkoleniowego/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "48 384 20 74, 48 384 20 75, 48 363 99 57",
+      "email": "kancelaria@pupradom.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -89,9 +91,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=1. Zrodlo: https://zielonalinia.gov.pl/pup-siedlce-zaloz-konto-na-pracagovpl-od-2026-r/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "71 166 86 96"
     },
     {
       "voivodeship": "mazowieckie",
@@ -111,9 +114,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "29 760 45 62, 25 760 33 77",
+      "email": "kancelaria@pup-ostroleka.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -155,9 +160,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "48 384 20 74, 48 384 20 75, 48 363 99 57",
+      "email": "kancelaria@pupradom.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -199,9 +206,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "71 166 86 96"
     },
     {
       "voivodeship": "mazowieckie",
@@ -221,9 +229,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "29 760 45 62, 25 760 33 77",
+      "email": "kancelaria@pup-ostroleka.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -243,9 +253,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "23 673 08 80, 23 673 08 71, 23 673 08 81",
+      "email": "waci@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -265,9 +277,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "25 685 25 00, 25 685 25 60, 25 685 25 01",
+      "email": "sekretariat@pup.garwolin.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -287,9 +301,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "24 235 48 33, 24 269 71 56",
+      "email": "sekretariat@gostynin.praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -309,9 +325,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "22 755 55 86, 22 723 01 82",
+      "email": "pup@grodziskmazowiecki.praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -331,9 +349,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=2, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "67 198 40 86, 48 685 01 30",
+      "email": "praca@grojec.praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -353,9 +373,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "48 614 66 99",
+      "email": "wako@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -369,15 +391,17 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1912241,
+      "amount_total": 1912241,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=1912241, telefon=3, email. Zrodlo: https://zielonalinia.gov.pl/pup-legionowo-nabor-wnioskow-o-przyznanie-srodkow-kfs/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "22 774 25 16, 22 774 22 88, 01 621 87 55",
+      "email": "wale@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -419,9 +443,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "03 001 77 44",
+      "email": "walo@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -441,9 +467,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "29 717 27 82",
+      "email": "wama@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -463,9 +491,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "71 166 21 56, 25 759 27 13, 25 758 28 54",
+      "email": "wami@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -475,9 +505,9 @@
       "url_pup": "https://mlawa.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-27",
+      "kfs_end_date": "2026-04-10",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -485,9 +515,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=1, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-mlawa-warsztaty-dla-pracodawcow/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "45 368 23 32",
+      "email": "waml@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -519,9 +551,9 @@
       "url_pup": "https://otwock.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-04-14",
+      "kfs_end_date": "2026-04-20",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -529,9 +561,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne telefon=1, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-otwock-nabor-wnioskow-pracodawcow-o-przyznanie-srodkow-z-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "22 779 37 14",
+      "email": "waot@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -551,9 +585,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "01 618 37 03",
+      "email": "kancelaria@piaseczno.praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -573,9 +609,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "22 770 20 20, 22 770 20 21, 01 005 43 01",
+      "email": "sekretariat@puppruszkow.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -595,9 +633,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "29 756 47 43, 29 752 25 11, 29 752 53 06",
+      "email": "wapz@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -617,9 +657,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "48 675 27 88, 48 675 36 74, 48 675 51 31",
+      "email": "waps@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -661,9 +703,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=4, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "24 275 42 12, 24 275 41 12, 24 275 46 56",
+      "email": "sekretariat@pup-sierpc.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -683,9 +727,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "01 618 41 92, 46 862 24 24, 46 862 24 55",
+      "email": "wash@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -699,15 +745,17 @@
       "kfs_end_date": null,
       "kfs_status": "DO_WERYFIKACJI",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 1417329,
+      "amount_total": 1417329,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=1417329, telefon=4, email. Zrodlo: https://zielonalinia.gov.pl/pup-sokolow-podlaski-nabor-wnioskow-ze-srodkow-krajowego-funduszu-szkoleniowego-kfs/",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "71 166 72 48, 25 781 71 30, 25 781 71 31",
+      "email": "sekretariat@pup.sokolowpodl.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -727,9 +775,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "email": "wasz@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -739,19 +788,21 @@
       "url_pup": "https://wolomin.praca.gov.pl",
       "urgency": "nieznany",
       "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
+      "kfs_start_date": "2026-03-20",
+      "kfs_end_date": "2026-04-02",
+      "kfs_status": "ZAKONCZONY",
       "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
+      "amount_kfs": 2813332,
+      "amount_total": 2813332,
       "irin_match": 0,
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "claudia_note": "v6.5 scraper [zielonalinia+pup_main]: dograne amount_kfs=2813332, telefon=2, email, status=ZAKONCZONY. Zrodlo: https://zielonalinia.gov.pl/pup-wolomin-nabor-wnioskow-o-przyznanie-srodkow-kfs/",
+      "akcja_status": "zakonczony",
+      "akcja_status_uzasadnienie": "Nabor zakonczony (scraper v6.5)",
+      "telefon": "22 787 46 20, 22 763 73 06",
+      "email": "wawo@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -771,9 +822,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=3, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "55 034 79 01, 57 216 58 81, 57 216 58 78",
+      "email": "wawy@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -793,9 +846,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=5, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "48 676 27 94, 48 676 46 49, 48 676 35 35",
+      "email": "wazw@praca.gov.pl"
     },
     {
       "voivodeship": "mazowieckie",
@@ -815,9 +870,10 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "23 657 31 63"
     },
     {
       "voivodeship": "mazowieckie",
@@ -837,9 +893,11 @@
       "has_warning": true,
       "pillars": [],
       "pillar_details": [],
-      "claudia_note": null,
+      "claudia_note": "v6.5 scraper [pup_main]: dograne telefon=1, email. Zrodlo: (brak)",
       "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP"
+      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
+      "telefon": "46 306 72 00",
+      "email": "sekretariat@pup-zyrardow.pl"
     }
   ]
 }
