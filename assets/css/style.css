@@ -696,3 +696,44 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
   .fab-kalkulator { bottom: 16px; right: 16px; padding: 8px 14px; font-size: 12px; }
   .nav-tab-sep { display: none; }
 }
+
+/* ======== MAPA PIENIEDZY (KFS+BUR 2026) ======== */
+.mapa-pieniedzy-header { padding: 20px 0 12px; border-bottom: 1px solid #e0e0e0; margin-bottom: 20px; }
+.mapa-pieniedzy-header h2 { margin: 0 0 6px; color: var(--zloto, #c9a227); font-size: 22px; }
+.mapa-subtitle { color: #666; font-size: 13px; margin: 0 0 12px; }
+.mapa-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.mapa-stat { background: #f7f7f7; padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--zloto, #c9a227); }
+.mapa-stat-value { display: block; font-size: 18px; font-weight: 600; color: #222; }
+.mapa-stat-label { display: block; font-size: 11px; color: #777; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.mapa-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 20px; }
+.mapa-left h3, .mapa-right h3 { margin: 0 0 10px; font-size: 16px; }
+.mapa-svg { width: 100%; max-width: 600px; height: auto; }
+.mapa-woj-cell { cursor: pointer; transition: opacity 0.15s; }
+.mapa-woj-cell:hover { opacity: 0.75; }
+.mapa-woj-cell rect { transition: stroke-width 0.15s; }
+.mapa-woj-cell:hover rect { stroke-width: 3; stroke: #c9a227; }
+.mapa-woj-label { font-size: 11px; font-weight: 600; fill: #222; pointer-events: none; }
+.mapa-woj-kwota { font-size: 10px; fill: #444; pointer-events: none; }
+.mapa-legend { display: flex; align-items: center; gap: 10px; margin: 12px 0 8px; font-size: 11px; color: #666; }
+.mapa-legend-bar { flex: 1; height: 12px; max-width: 200px; background: linear-gradient(to right, #fff5b8, #fb8c00, #b71c1c); border-radius: 4px; }
+.mapa-hint { font-size: 12px; color: #777; margin: 6px 0 0; font-style: italic; }
+.mapa-tabela { width: 100%; border-collapse: collapse; font-size: 13px; }
+.mapa-tabela thead { background: #f7f7f7; }
+.mapa-tabela th { padding: 8px 10px; text-align: left; font-weight: 600; color: #444; border-bottom: 2px solid #ddd; }
+.mapa-tabela td { padding: 8px 10px; border-bottom: 1px solid #eee; }
+.mapa-tabela tbody tr { cursor: pointer; transition: background 0.1s; }
+.mapa-tabela tbody tr:hover { background: #fff8e1; }
+.mapa-status-badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; }
+.mapa-status-trwa { background: #c8e6c9; color: #1b5e20; }
+.mapa-status-nadchodzi { background: #fff3cd; color: #856404; }
+.mapa-status-zakonczony { background: #e0e0e0; color: #555; }
+.mapa-status-do_weryfikacji, .mapa-status-brak_danych, .mapa-status-unk { background: #f5f5f5; color: #888; }
+.mapa-score { font-weight: 600; color: var(--zloto, #c9a227); }
+.mapa-drilldown { margin-top: 24px; padding: 18px; background: #fafafa; border-radius: 10px; border-left: 4px solid var(--zloto, #c9a227); }
+.mapa-drilldown h3 { margin: 0 0 6px; }
+.mapa-drilldown-meta { color: #666; font-size: 13px; margin: 0 0 12px; }
+.mapa-tabela-drilldown { background: white; }
+@media (max-width: 900px) {
+  .mapa-stats { grid-template-columns: repeat(2, 1fr); }
+  .mapa-grid { grid-template-columns: 1fr; }
+}

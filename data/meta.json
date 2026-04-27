@@ -1,8 +1,22 @@
 {
-  "wersja": "6.3.0-partial",
+  "wersja": "6.4.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.4.0",
+      "zmiany": [
+        "Strategiczna mapa pieniedzy KFS+BUR 2026 - nowa zakladka UI z heatmap wojewodztw, tabela TOP-20 powiatow, drill-down per region",
+        "PDF MRiPS plan wydatkowania KFS 2026 pobrany i sparsowany (data/scrape/kfs_2026_mrips_plan.pdf) - 100% pokrycie 16 wojewodztw",
+        "Bulk update 16/16 WUP-ow: pole alokacja_kfs_2026_wojewodztwo_pln (z PDF MRiPS)",
+        "UI komponenty: assets/js/mapa_pieniedzy.js (renderMapaSvg + renderTopPowiaty + onWojClick) + style w style.css",
+        "Algorytm sales score = log(kwota) * mnoznik_status (NADCHODZI=2.0/TRWA=1.5/ZAKONCZONY=0.3) * mnoznik_priorytet (P3=1.5/P5=1.3) * mnoznik_irin_match (1=1.2/0=0.8)",
+        "Sygnal na v6.5: BUR projekty per WUP (15 wojewodztw poza swietokrzyskim) - wymagaja recznego researchu, WUP-y nie publikuja agregowanych list online",
+        "Sygnal na v6.5: rozdzial KFS na powiaty (357) realizuja WUP - kazde wojewodztwo ma wlasny dokument 'Plan wydatkowania KFS' wewnetrzny"
+      ],
+      "kto": "Claude Code (autonomous workflow) - sprint v6.4 mapa pieniedzy"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.3.0-partial",

@@ -73,6 +73,7 @@
     <div class="nav-tab nav-tab-primary" data-panel="wup" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'wup')">WUP</div>
     <div class="nav-tab nav-tab-primary" data-panel="szkolenia" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'szkolenia')">Szkolenia IRIN</div>
     <div class="nav-tab nav-tab-primary" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaz</div>
+    <div class="nav-tab nav-tab-primary" data-panel="mapa-pieniedzy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'mapa-pieniedzy')">💰 Mapa pieniędzy</div>
     <div class="nav-tab-sep"></div>
     <div class="nav-tab nav-tab-secondary" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
     <div class="nav-tab nav-tab-secondary" data-panel="trendy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'trendy')">Trendy</div>
@@ -335,6 +336,48 @@
     </div>
   </div>
 
+  <!-- ======== PANEL: MAPA PIENIĘDZY (KFS+BUR 2026) ======== -->
+  <div class="panel" id="panel-mapa-pieniedzy" role="tabpanel" style="display:none">
+    <div class="mapa-pieniedzy-header">
+      <h2>💰 Mapa pieniędzy KFS+BUR 2026</h2>
+      <p class="mapa-subtitle">Strategiczny przegląd alokacji KFS dla 16 województw + szczegóły TIER 1A. Źródło: PDF MRiPS "KFS 2026 plan wydatkowania".</p>
+      <div class="mapa-stats">
+        <div class="mapa-stat"><span class="mapa-stat-value" id="mp-suma-pl">—</span><span class="mapa-stat-label">Suma KFS 2026 PL</span></div>
+        <div class="mapa-stat"><span class="mapa-stat-value" id="mp-top-woj">—</span><span class="mapa-stat-label">Top województwo</span></div>
+        <div class="mapa-stat"><span class="mapa-stat-value" id="mp-srednia-woj">—</span><span class="mapa-stat-label">Średnia/województwo</span></div>
+        <div class="mapa-stat"><span class="mapa-stat-value" id="mp-pow-z-danymi">—</span><span class="mapa-stat-label">Powiaty z kwotami</span></div>
+      </div>
+    </div>
+    <div class="mapa-grid">
+      <div class="mapa-left">
+        <h3>🗺️ Heatmap województw (KFS 2026)</h3>
+        <div id="mapa-svg-container"></div>
+        <div class="mapa-legend">
+          <span>Niska kwota</span>
+          <div class="mapa-legend-bar"></div>
+          <span>Wysoka kwota</span>
+        </div>
+        <p class="mapa-hint">Kliknij województwo żeby zobaczyć powiaty + akcje sprzedażowe.</p>
+      </div>
+      <div class="mapa-right">
+        <h3>🏆 TOP-20 powiatów (potencjał sprzedażowy)</h3>
+        <p class="mapa-hint">Score = log(kwota) × mnożnik_status × mnożnik_priorytet × mnożnik_irin_match</p>
+        <table class="mapa-tabela" id="mapa-top-powiaty">
+          <thead><tr><th>#</th><th>Powiat</th><th>Województwo</th><th>Kwota KFS</th><th>Status</th><th>Score</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="mapa-drilldown" id="mapa-drilldown" style="display:none">
+      <h3 id="mapa-drilldown-title">Powiaty województwa: —</h3>
+      <p id="mapa-drilldown-meta"></p>
+      <table class="mapa-tabela mapa-tabela-drilldown">
+        <thead><tr><th>Powiat</th><th>Kwota KFS</th><th>Status</th><th>Daty naboru</th><th>Akcja</th></tr></thead>
+        <tbody id="mapa-drilldown-body"></tbody>
+      </table>
+    </div>
+  </div>
+
   <!-- FLOATING KALKULATOR BUTTON -->
   <button class="fab-kalkulator" id="fab-kalkulator" onclick="toggleFabKalkulator()" aria-label="Kalkulator dofinansowania">
     Kalkulator
@@ -372,5 +415,6 @@
 <script src="assets/js/tailwinds.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/akcje_dnia.js"></script>
+<script src="assets/js/mapa_pieniedzy.js"></script>
 </body>
 </html>
