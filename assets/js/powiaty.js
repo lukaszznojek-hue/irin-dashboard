@@ -113,6 +113,8 @@ function renderCard(card) {
       </div>` : ''}
       ${card.url_pup ? `<div class="card-links">
         <a href="${card.url_pup}" target="_blank" rel="noopener">Strona PUP ↗</a>
+        <a href="${card.url_pup}/urzad/kfs/" target="_blank" rel="noopener">Nabory KFS / regulaminy ↗</a>
+        <a href="${card.url_pup}/urzad/dokumenty-do-pobrania/" target="_blank" rel="noopener">Dokumenty do pobrania ↗</a>
       </div>` : ''}
     </div>
   </div>`;
