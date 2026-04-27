@@ -54,14 +54,20 @@
           "nazwa": "AI w pracy codziennej (generatywne AI, prompt engineering)",
           "popyt": "bardzo wysoki",
           "irin_obecnie_oferuje": true,
-          "powiazane_szkolenia_irin": ["3421591", "3386476"],
+          "powiazane_szkolenia_irin": [
+            "3421591",
+            "3386476"
+          ],
           "luka_oferty": false
         },
         {
           "nazwa": "Social media i marketing cyfrowy z AI",
           "popyt": "wysoki",
           "irin_obecnie_oferuje": true,
-          "powiazane_szkolenia_irin": ["3432404", "3432500"],
+          "powiazane_szkolenia_irin": [
+            "3432404",
+            "3432500"
+          ],
           "luka_oferty": false
         },
         {
@@ -94,7 +100,10 @@
           "nazwa": "Skuteczność osobista i zarządzanie energią",
           "popyt": "stabilny",
           "irin_obecnie_oferuje": true,
-          "powiazane_szkolenia_irin": ["3386476", "3421591"]
+          "powiazane_szkolenia_irin": [
+            "3386476",
+            "3421591"
+          ]
         },
         {
           "nazwa": "Komunikacja w zespole rozproszonym",
@@ -120,23 +129,61 @@
           "nazwa": "Integracja sensoryczna (diagnostyka i terapia)",
           "popyt": "stabilny niszowy",
           "irin_obecnie_oferuje": true,
-          "powiazane_szkolenia_irin": ["3420786", "3270238", "3405199"],
+          "powiazane_szkolenia_irin": [
+            "3420786",
+            "3270238",
+            "3405199"
+          ],
           "uwaga": "Wysoka cena (9310 zł), ale premium niche z lojalnym klientem"
         },
         {
           "nazwa": "TUS - Trening Umiejętności Społecznych",
           "popyt": "stabilny",
           "irin_obecnie_oferuje": true,
-          "powiazane_szkolenia_irin": ["3379725"]
+          "powiazane_szkolenia_irin": [
+            "3379725"
+          ]
         },
         {
           "nazwa": "Przygotowanie projektów dofinansowanych",
           "popyt": "meta-szkolenie (lead gen)",
           "irin_obecnie_oferuje": true,
-          "powiazane_szkolenia_irin": ["3381926"],
+          "powiazane_szkolenia_irin": [
+            "3381926"
+          ],
           "uwaga": "Top of funnel - klient po szkoleniu wraca po inne usługi IRIN"
         }
       ]
+    }
+  ],
+  "regulacyjne_2026": [
+    {
+      "id": "aiact",
+      "nazwa": "AI Act - pełne stosowanie",
+      "deadline": "2026-08-02",
+      "status": "W MOCY",
+      "opis": "Obowiązek AI literacy dla pracowników, rejestr systemów AI wysokiego ryzyka"
+    },
+    {
+      "id": "nis2",
+      "nazwa": "NIS2 - rejestracja podmiotów",
+      "deadline": "2026-10-03",
+      "status": "TRANSPOZYCJA",
+      "opis": "Podmioty kluczowe i ważne muszą się zarejestrować w krajowym systemie cyberbezpieczeństwa"
+    },
+    {
+      "id": "akademia_hr",
+      "nazwa": "Akademia HR - nabory PARP",
+      "deadline": "2026-11-30",
+      "status": "NABORY",
+      "opis": "Dofinansowanie usług rozwojowych z BUR dla MŚP, nabory regionalne"
+    },
+    {
+      "id": "inno_lab",
+      "nazwa": "Inno_Lab - dofinansowanie innowacji",
+      "deadline": "2026-12-31",
+      "status": "NABORY",
+      "opis": "Program PARP dla MŚP na zakup usług doradczych i szkoleniowych związanych z innowacjami"
     }
   ]
 }

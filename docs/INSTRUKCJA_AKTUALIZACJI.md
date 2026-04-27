@@ -53,6 +53,38 @@ git push origin main
 - data/parp_priorytety.json — jeśli MRiPS zmieni priorytety
 - data/matryca.json — przeliczenie wyników A/B/C/D
 
+## Strategia zarządu (v6.1+)
+
+Treść strategii jest szyfrowana AES-256-CBC. Plaintext w `_zrodla/strategia_plaintext.md` (gitignore).
+
+```bash
+# Edytuj treść:
+nano _zrodla/strategia_plaintext.md
+
+# Re-enkrypcja z istniejącym hasłem:
+python3 tools/encrypt_strategia.py "HASLO"
+
+# Lub wygeneruj nowe hasło:
+python3 tools/encrypt_strategia.py --gen-password
+
+# Commit encrypted JSON:
+git add data/strategia_encrypted.json
+git commit -m "Aktualizacja strategii"
+git push origin main
+```
+
+## Banner Tailwinds
+
+Deadline'y w `assets/js/tailwinds.js` (tablica TAILWINDS_DATA). Countdown obliczany automatycznie.
+
+## KPI dashboardu
+
+```bash
+python3 tools/compute_kpi.py
+# Aktualizuje data/meta.json > kpi_dashboardu
+# Uruchamiaj przy każdej zmianie naborów
+```
+
 ## Flagowanie braków danych
 
 Jeśli dane nie są dostępne online:

@@ -485,6 +485,87 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 .md-modal-body th { background: var(--krem-jasny); }
 
 
+/* Tailwinds banner */
+.tailwinds-banner {
+  display: flex; align-items: center; gap: 10px;
+  background: linear-gradient(135deg, #FFF7ED 0%, #FEF2F2 100%);
+  border: 1px solid var(--pilne); border-radius: 8px;
+  padding: 10px 14px; margin-bottom: 8px;
+  font-size: 13px;
+}
+.tw-banner-icon { font-size: 18px; }
+.tw-banner-content { flex: 1; }
+.tw-banner-content a { color: var(--granat); font-weight: 600; cursor: pointer; }
+
+/* Tailwinds zakładka - karty */
+.tailwinds-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px; padding: 8px 0;
+}
+.tailwinds-card {
+  background: var(--white); border-radius: 8px; border: 1px solid var(--linia);
+  padding: 16px; display: flex; flex-direction: column; gap: 8px;
+}
+.tailwinds-card.tw-urgent { border-left: 4px solid var(--krytyczne); }
+.tailwinds-card.tw-soon { border-left: 4px solid var(--pilne); }
+.tailwinds-card.tw-ok { border-left: 4px solid var(--trwa); }
+.tw-card-header { display: flex; justify-content: space-between; align-items: center; }
+.tw-icon { font-size: 24px; }
+.tw-status { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 10px; text-transform: uppercase; }
+.tw-status-w-mocy { background: #FEF2F2; color: var(--krytyczne); }
+.tw-status-transpozycja { background: #FFF7ED; color: var(--pilne); }
+.tw-status-nabory { background: #F0FFF4; color: var(--trwa); }
+.tw-card-title { font-size: 15px; font-weight: 700; color: var(--granat); }
+.tw-countdown { font-size: 13px; color: var(--szary); }
+.tw-days { font-size: 22px; font-weight: 800; color: var(--granat); }
+.tw-date { font-size: 11px; color: var(--szary-jasny); }
+.tw-desc { font-size: 12px; color: var(--szary); line-height: 1.5; }
+.tw-irin { font-size: 12px; background: var(--krem-jasny); padding: 8px; border-radius: 6px; }
+.tw-link { font-size: 12px; color: var(--granat); font-weight: 600; }
+
+/* Kalkulator dofinansowania */
+.kalkulator-dofinansowania {
+  background: var(--white); border: 1px solid var(--zloto); border-radius: 8px;
+  padding: 16px; margin-bottom: 16px;
+}
+.kalkulator-dofinansowania h4 { font-size: 15px; margin-bottom: 12px; color: var(--granat); }
+.kalk-grid { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.kalk-row { display: flex; flex-direction: column; gap: 4px; min-width: 180px; }
+.kalk-row label { font-size: 11px; color: var(--szary); font-weight: 600; }
+.kalk-row select {
+  padding: 6px 10px; border: 1px solid var(--linia); border-radius: 6px;
+  font-size: 13px; background: var(--krem-jasny); max-width: 280px;
+}
+.kalk-result {
+  background: var(--krem-jasny); border-radius: 6px; padding: 12px;
+  display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px;
+}
+.kalk-highlight { font-size: 15px; color: var(--trwa); }
+.kalk-result-info { width: 100%; font-size: 12px; color: var(--pilne); font-style: italic; }
+
+/* Per szkolenie karty w Sprzedaż */
+.sales-card-szkolenie {
+  display: flex; flex-direction: column; gap: 6px;
+  min-width: 200px;
+}
+.sales-card-header { display: flex; justify-content: space-between; align-items: center; }
+.bur-id-small { font-size: 10px; color: var(--szary-jasny); }
+.sales-card-meta { font-size: 11px; color: var(--szary); }
+.sales-card-files { display: flex; gap: 8px; margin-top: 4px; }
+.sales-file-btn {
+  cursor: pointer; font-size: 18px; padding: 4px 8px;
+  background: var(--krem-jasny); border-radius: 6px;
+  transition: background 0.2s;
+}
+.sales-file-btn:hover { background: var(--zloto-jasny); }
+
+/* Tooltip term - klikalne skróty */
+.tooltip-term {
+  cursor: help; border-bottom: 1px dotted var(--zloto);
+  transition: background 0.15s;
+}
+.tooltip-term:hover { background: var(--zloto-jasny); }
+
 @media (max-width: 768px) {
   .header { flex-direction: column; gap: 10px; align-items: flex-start; }
   .stats-strip { grid-template-columns: repeat(2, 1fr); }
@@ -497,4 +578,6 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
   .footer { flex-direction: column; gap: 6px; text-align: center; }
   .card-head { flex-direction: column; gap: 8px; align-items: flex-start; }
   .card-head-right { flex-wrap: wrap; }
+  .tailwinds-grid { grid-template-columns: 1fr; }
+  .kalk-grid { flex-direction: column; }
 }

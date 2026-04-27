@@ -73,6 +73,15 @@ function renderAll() {
   renderTrendy();
   renderSlownik();
   renderSalesLinks();
+  if (typeof renderTailwinds === 'function') renderTailwinds();
+  if (typeof updateTailwindsBanner === 'function') updateTailwindsBanner();
+  if (typeof initKalkulator === 'function') initKalkulator();
+  // Tooltipy na panelach po renderze
+  setTimeout(() => {
+    document.querySelectorAll('.panel').forEach(p => addTermTooltips(p));
+    addTermTooltips(document.querySelector('.kfs-banner'));
+    addTermTooltips(document.querySelector('.tailwinds-banner'));
+  }, 100);
 }
 
 // ===== TABS + HASH ROUTING =====

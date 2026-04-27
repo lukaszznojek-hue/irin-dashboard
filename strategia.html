@@ -6,7 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="assets/img/logo-irin.png" type="image/png">
 <link rel="stylesheet" href="assets/css/style.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+<script src="assets/js/lib/crypto-js.min.js"></script>
+<script src="assets/js/lib/marked.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -51,82 +52,35 @@
 </div>
 
 <script>
-const STRATEGIA_CONTENT = `
-<h2>Strategia IRIN 2026 — dokument poufny</h2>
-
-<h3>1. Pozycjonowanie rynkowe</h3>
-<p>IRIN sp. z o.o. — Instytut Rozwoju i Nauki z siedzibą w Kielcach. Specjalistyczno-jakościowe pozycjonowanie (nie liderowe). Misja: wspieranie rozwoju osobistego i zawodowego klientów przez szkolenia i programy edukacyjne.</p>
-<p><strong>USP:</strong> dofinansowanie do 90% (mikrofirmy), praca w małych grupach, trenerzy-praktycy, 11 akademii pod jednym dachem, powiązanie PNSA.</p>
-<p><strong>BUR od 2026:</strong> IRIN ma wpis w BUR (ID 160205, ocena 4.9/5, 813 ocen). Od 1.01.2026 KFS wymaga BUR — konkurencja bez BUR nie może realizować szkoleń z KFS. To największa przewaga konkurencyjna 2026.</p>
-
-<h3>2. Wyniki BUR (stan na 27.04.2026)</h3>
-<ul>
-<li>12 aktywnych usług w BUR PARP</li>
-<li>Ocena dostawcy: 4.9/5 (813 ocen)</li>
-<li>3 klastry: AI/cyfryzacja (4 szkolenia), edukacja specjalistyczna (4+1), biznes/meta (1)</li>
-<li>Cennik: 5300–9310 zł, cena/h od 77.6 zł (integracja sensoryczna) do 295 zł (social media)</li>
-</ul>
-
-<h3>3. Priorytety IRIN — wynik matrycy</h3>
-<table style="border-collapse:collapse;width:100%;">
-<tr style="background:#1B2951;color:white;"><th style="padding:8px;text-align:left;">Województwo</th><th>Wynik</th><th>KFS 2026 (zł)</th><th>Kluczowe</th></tr>
-<tr><td style="padding:6px;border-bottom:1px solid #ddd;"><strong>Świętokrzyskie</strong></td><td>A</td><td>2 029 000</td><td>Siedziba. EFS+ nabór ciągły.</td></tr>
-<tr><td style="padding:6px;border-bottom:1px solid #ddd;"><strong>Pomorskie</strong></td><td>A</td><td>7 600 000</td><td>Oddział Jakuba. Rekordowy KFS. IS Gdańsk.</td></tr>
-<tr><td style="padding:6px;border-bottom:1px solid #ddd;">Zachodniopomorskie</td><td>B</td><td>4 000 000</td><td>Oddział. P5: transformacja energetyczna = OZE.</td></tr>
-<tr><td style="padding:6px;border-bottom:1px solid #ddd;">Kujawsko-pomorskie</td><td>B</td><td>—</td><td>Oddział. BUR "Kierunek - Rozwój".</td></tr>
-<tr><td style="padding:6px;border-bottom:1px solid #ddd;">Wielkopolskie</td><td>B</td><td>7 000 000</td><td>Duży rynek, zdalne.</td></tr>
-<tr><td style="padding:6px;border-bottom:1px solid #ddd;">Śląskie</td><td>B</td><td>—</td><td>P7: IT, medycyna, energia.</td></tr>
-</table>
-
-<h3>4. Plan ekspansji ofertowej</h3>
-<p><strong>Top 3 propozycje nowych szkoleń (pilność wysoka):</strong></p>
-<ol>
-<li><strong>AI Compliance dla MŚP — AI Act w praktyce</strong> (P3, ~6500 zł, 24h). AI Act pełne wdrożenie 2026.</li>
-<li><strong>Cyberbezpieczeństwo dla MŚP — NIS2</strong> (P3+P5 świętokrzyskie, ~7200 zł, 30h). NIS2 egzekwowanie 2025-2026.</li>
-<li><strong>Zielona transformacja — ESG i CSRD</strong> (P3+P5 zachodniopomorskie, ~6800 zł, 24h). CSRD dla MŚP od 2026.</li>
-</ol>
-
-<h3>5. KFS 2026 — argumenty sprzedażowe</h3>
-<ul>
-<li><strong>GAME CHANGER:</strong> od 1.01.2026 KFS wymaga BUR. IRIN ma BUR, konkurencja bez BUR odpada.</li>
-<li>Dofinansowanie: 70% standardowo, 90% mikrofirmy (do 9 osób).</li>
-<li>Max 2× średnia pensja na uczestnika (~17 800 zł w 2026).</li>
-<li>Nowy wymóg retencji: pracodawca utrzymuje pracownika 3 miesiące po szkoleniu.</li>
-<li>Wniosek wyłącznie elektroniczny (praca.gov.pl, PSZ-KFS).</li>
-<li>System priorytetów 3-poziomowy: do 4 ogólnopolskich + 3 wojewódzkich + 1 powiatowy.</li>
-</ul>
-
-<h3>6. Ryzyka strategiczne</h3>
-<ul>
-<li>Wyczerpywanie środków KFS — wiele PUP zakończyło nabory w marcu/kwietniu 2026. Następne okna prawdopodobnie Q3/Q4.</li>
-<li>Silna konkurencja w Krakowie/Warszawie — IRIN nie ma fizycznej obecności poza Kielcami/Gdańskiem.</li>
-<li>Brak trenerów z certyfikacjami NIS2/AI Act — wymaga rekrutacji lub partnerstwa.</li>
-<li>Koncentracja oferty: 4/12 usług to integracja sensoryczna — mała dywersyfikacja.</li>
-</ul>
-
-<h3>7. Zarząd</h3>
-<p>Prezes Zarządu: Anita Kozakowska (do weryfikacji KRS). Kluczowe osoby operacyjne: Wiktoria, Grzegorz, Filip, Szczepan. Oddział pomorski: Jakub Jabłoński.</p>
-
-<h3>8. Następne kroki (do 2026-05-04)</h3>
-<ol>
-<li>Łukasz: przegląd prezentacji IRIN, wypełnienie placeholderów (case studies, referencje, zdjęcia zespołu).</li>
-<li>Zarząd: akceptacja 3 propozycji nowych szkoleń → brief dla trenerów.</li>
-<li>Zespół sprzedaży: przegląd 6 skryptów + 8 maili → korekty → dystrybucja.</li>
-<li>Cotygodniowa aktualizacja dashboardu (Claudia, poniedziałek 9:00).</li>
-<li>Weryfikacja telefoniczna: 8 PUP świętokrzyskich bez danych + MUP Kielce termin naboru.</li>
-</ol>
-`;
-
-function unlockStrategia() {
+async function unlockStrategia() {
   const pwd = document.getElementById('strategia-pwd').value;
   const errEl = document.getElementById('strategia-error');
   errEl.style.display = 'none';
 
-  if (pwd === 'Wiktori@2026') {
+  try {
+    const resp = await fetch('data/strategia_encrypted.json');
+    if (!resp.ok) throw new Error('Nie można pobrać pliku encrypted');
+    const data = await resp.json();
+
+    const key = CryptoJS.PBKDF2(pwd, CryptoJS.enc.Utf8.parse(data.salt_string), {
+      keySize: 256 / 32,
+      iterations: data.kdf_iterations,
+      hasher: CryptoJS.algo.SHA1
+    });
+
+    const decrypted = CryptoJS.AES.decrypt(data.ciphertext, key, {
+      iv: CryptoJS.enc.Base64.parse(data.iv),
+      mode: CryptoJS.mode.CBC,
+      padding: CryptoJS.pad.Pkcs7
+    });
+
+    const plaintext = decrypted.toString(CryptoJS.enc.Utf8);
+    if (!plaintext || plaintext.length < 50) throw new Error('Nieprawidłowe hasło');
+
     document.getElementById('strategia-lock').style.display = 'none';
     document.getElementById('strategia-content').style.display = '';
-    document.getElementById('strategia-body').innerHTML = STRATEGIA_CONTENT;
-  } else {
+    document.getElementById('strategia-body').innerHTML = marked.parse(plaintext);
+  } catch (e) {
     errEl.style.display = '';
     errEl.textContent = 'Nieprawidłowe hasło';
   }

@@ -1,5 +1,5 @@
 {
-  "wersja": "6.0.0",
+  "wersja": "6.1.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
@@ -86,11 +86,11 @@
   },
   "kpi_dashboardu": {
     "data_aktualizacji": "2026-04-27",
-    "liczba_aktywnych_naborow": 0,
+    "liczba_aktywnych_naborow": 4,
     "kwota_kfs_tier_1a_pln": 0,
     "liczba_szkolen_bur": 10,
     "dni_do_najblizszego_deadline_regulacyjnego": 97,
-    "deadline_najblizszy_nazwa": "AI Act pełne stosowanie (02.08.2026)",
+    "deadline_najblizszy_nazwa": "AI Act pełne stosowanie (2026-08-02)",
     "data_ostatniej_weryfikacji_telefonicznej": null
   },
   "mapowanie_warstw_researchu": {

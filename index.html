@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>Dashboard IRIN v6 — KFS + BUR + EFS+</title>
+<title>Dashboard IRIN v6.1 — KFS + BUR + EFS+</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Dashboard strategiczno-operacyjny IRIN sp. z o.o. Nabory KFS, projekty BUR, szkolenia, matryca regionalna.">
 <link rel="icon" href="assets/img/logo-irin.png" type="image/png">
@@ -25,6 +25,17 @@
       <a href="strategia.html" class="header-strat-link">🔒 Strategia zarządu</a>
     </div>
   </header>
+
+  <!-- TAILWINDS 2026 BANNER (1 countdown - najpilniejszy) -->
+  <div class="tailwinds-banner" id="tailwinds-banner">
+    <div class="tw-banner-icon">⚠️</div>
+    <div class="tw-banner-content">
+      <strong>Tailwinds 2026:</strong>
+      AI Act pełne stosowanie za <span id="tw-aiact-days">—</span> dni (02.08.2026).
+      <a href="#tailwinds" onclick="switchTab(document.querySelector('[data-panel=&quot;tailwinds&quot;]'),'tailwinds')">Zobacz wszystkie ↗</a>
+    </div>
+    <button class="kfs-banner-close" onclick="this.parentElement.style.display='none'" aria-label="Zamknij">✕</button>
+  </div>
 
   <!-- KFS 2026 GAME CHANGER BANNER (klikalne sygnaly) -->
   <div class="kfs-banner" id="kfs-banner">
@@ -70,6 +81,7 @@
     <div class="nav-tab" data-panel="szkolenia" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'szkolenia')">Szkolenia IRIN</div>
     <div class="nav-tab" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
     <div class="nav-tab" data-panel="trendy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'trendy')">Trendy 2026</div>
+    <div class="nav-tab" data-panel="tailwinds" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'tailwinds')">Tailwinds 2026</div>
     <div class="nav-tab" data-panel="slownik" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'slownik')">Słownik</div>
     <div class="nav-tab" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaż</div>
   </div>
@@ -145,6 +157,40 @@
 
   <!-- ======== PANEL: SZKOLENIA IRIN ======== -->
   <div class="panel" id="panel-szkolenia" role="tabpanel" style="display:none">
+    <!-- Kalkulator dofinansowania -->
+    <div class="kalkulator-dofinansowania" id="kalkulator-dofinansowania">
+      <h4>💰 Kalkulator: ile zapłaci klient?</h4>
+      <div class="kalk-grid">
+        <div class="kalk-row">
+          <label for="kalk-rozmiar">Rozmiar firmy:</label>
+          <select id="kalk-rozmiar">
+            <option value="mikro">Mikro (1-9 osób)</option>
+            <option value="male">Małe (10-49)</option>
+            <option value="srednie">Średnie (50-249)</option>
+            <option value="duze">Duże (250+)</option>
+          </select>
+        </div>
+        <div class="kalk-row">
+          <label for="kalk-filar">Filar:</label>
+          <select id="kalk-filar">
+            <option value="kfs">KFS</option>
+            <option value="bur">BUR (PARP)</option>
+            <option value="efs">EFS+</option>
+            <option value="wlasne">Bez dofinansowania</option>
+          </select>
+        </div>
+        <div class="kalk-row">
+          <label for="kalk-szkolenie">Szkolenie:</label>
+          <select id="kalk-szkolenie"></select>
+        </div>
+      </div>
+      <div class="kalk-result" id="kalk-result">
+        <div>Cena szkolenia: <strong id="kalk-cena">—</strong></div>
+        <div class="kalk-highlight">Klient zapłaci: <strong id="kalk-klient">—</strong></div>
+        <div>Dofinansowanie: <strong id="kalk-dofin">—</strong></div>
+        <div class="kalk-result-info" id="kalk-info"></div>
+      </div>
+    </div>
     <div class="irin-stats-strip" id="irin-stats-strip"></div>
     <div class="irin-filters" id="irin-filters">
       <div class="irin-filter-group">
@@ -250,6 +296,11 @@
     <div id="trendy-content"></div>
   </div>
 
+  <!-- ======== PANEL: TAILWINDS 2026 ======== -->
+  <div class="panel" id="panel-tailwinds" role="tabpanel" style="display:none">
+    <div id="tailwinds-content"></div>
+  </div>
+
   <!-- ======== PANEL: SŁOWNIK ======== -->
   <div class="panel" id="panel-slownik" role="tabpanel" style="display:none">
     <div class="slownik-grid" id="slownik-grid"></div>
@@ -257,6 +308,10 @@
 
   <!-- ======== PANEL: SPRZEDAŻ ======== -->
   <div class="panel" id="panel-sprzedaz" role="tabpanel" style="display:none">
+    <div class="sales-section">
+      <h3>📁 Per szkolenie (materiały handlowca)</h3>
+      <div class="sales-grid" id="sales-per-szkolenie"></div>
+    </div>
     <div class="sales-section">
       <h3>Skrypty telefoniczne</h3>
       <div class="sales-grid" id="sales-skrypty"></div>
@@ -303,5 +358,7 @@
 <script src="assets/js/trendy.js"></script>
 <script src="assets/js/slownik.js"></script>
 <script src="assets/js/sprzedaz.js"></script>
+<script src="assets/js/kalkulator.js"></script>
+<script src="assets/js/tailwinds.js"></script>
 </body>
 </html>
