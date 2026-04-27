@@ -11,13 +11,45 @@
     {
       "kod": "P5",
       "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "opis": "Brak danych - sprawdzić uchwałę Zarządu Województwa Łódzkiego"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
-  "akcja_tygodnia": null,
+  "projekty_bur": [
+    {
+      "nazwa": "Aktywizacja zawodowa osób bezrobotnych 2023-2029 poprzez wsparcie rozwoju przedsiębiorczości",
+      "status": "trwa",
+      "operator": "WUP Łódź",
+      "id_bur": "AZB-2023-2029",
+      "kwota_alokacji": 96994132,
+      "intensywnosc_max": "do 95% (5% wkład własny)",
+      "data_start": "2023",
+      "data_end": "2029-12-31",
+      "kolejne_nabory": ["X nabór: 2026-03-31"],
+      "limit_per_nabor": 30,
+      "grupa_docelowa": "Osoby bezrobotne łódzkie - dotacje na działalność gospodarczą",
+      "url_regulamin": "https://wuplodz.praca.gov.pl/web/projekty-wlasne/aktywizacja-zawodowa-osob-bezrobotnych-2023-2029-poprzez-wsparcie-rozwoju-przedsiebiorczosci",
+      "claudia_note": "DUŻY projekt wieloletni 96.9 mln zł 2023-2029. X nabór ruszył 31.03.2026 (max 30 wniosków per nabór). Bezrobotni → dotacje na działalność. Mniej dla IRIN bo nie BUR-szkolenia direct, ale beneficjenci mogą dograne finansować szkolenia.",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "FELD.07.01 Aktywizacja zawodowa - PUP",
+      "status": "trwa",
+      "operator": "WUP Łódź + powiatowe urzędy pracy",
+      "id_bur": "FELD.07.01-IP.01-001/25",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 95%",
+      "data_start": "2025",
+      "data_end": "2026-12",
+      "grupa_docelowa": "PUP-y łódzkie - aktywizacja zawodowa",
+      "url_regulamin": "https://wuplodz.praca.gov.pl/web/funduszeue/-/ogloszenie-naboru-nr-feld.07.01-ip.01-001/25-w-ramach-dzialania-feld.07.01-aktywizacja-zawodowa-pup",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 2. v6.5.1 dograne 'Aktywizacja zawodowa 2023-2029' - 96.9 MLN ZŁ wieloletni projekt (dotacje dla bezrobotnych na działalność, X nabór ruszył 31.03.2026). Plus FELD.07.01 dla PUP-ów. WUP Łódź ma POWER + FELD (Fundusze Europejskie dla Łódzkiego). Priorytety wojewódzkie KFS - LUKA, do dograne z PDF zarządu woj.",
+  "akcja_tygodnia": "FELD 96.9 mln zl - bezrobotni, X nabor 31.03.2026 (mniej istotne dla IRIN bo dotacje, nie szkolenia)",
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 27408000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_rpo": "https://wuplodz.praca.gov.pl/web/rpo-wl",
+  "url_projekty_wlasne": "https://wuplodz.praca.gov.pl/web/projekty-wlasne/"
 }

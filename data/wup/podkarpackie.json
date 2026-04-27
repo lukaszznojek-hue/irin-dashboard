@@ -10,14 +10,44 @@
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "nazwa": "Priorytety w poszczególnych powiatach Podkarpacia",
+      "opis": "WUP Rzeszów publikuje priorytety per powiat (9 znanych: Jasło, Kolbuszowa, Lubaczów, Nisko, Rzeszów, Sanok, Strzyżów, Tarnobrzeg, Przemyśl) - każdy ma 1 dedykowany priorytet (np. wsparcie 50+, niskie kwalifikacje)"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "FEP 2021-2027 Priorytet 7 - Aktywizacja zawodowa (osoby młode 18-29)",
+      "status": "trwa",
+      "operator": "WUP Rzeszów (IP) + projekty regionalne",
+      "id_bur": "FEP-7-2026",
+      "kwota_alokacji": 42345000,
+      "kwota_efs_eu": 23143000,
+      "intensywnosc_max": "do 95% (5% wkład własny)",
+      "data_start": "2026-01-07",
+      "data_end": "do wyczerpania",
+      "grupa_docelowa": "Osoby młode bezrobotne 18-29 lat - wsparcie rozwoju przedsiębiorczości",
+      "url_regulamin": "https://wuprzeszow.praca.gov.pl/strona-glowna/-/asset_publisher/jaix5tGBAiqD/content/ogloszenie-o-naborze-do-projektu-w-ramach-programu-regionalnego-fundusze-europejskie-dla-podkarpacia-2021-2027",
+      "claudia_note": "FEP 2021-2027 Priorytet 7 dla Podkarpacia: 575 mln EUR cała pula UE. Konkretny nabór 42.3 mln zł (z budżetu 27.2 mln zł projektu, 23.1 mln EU). Ruszył 07.01.2026.",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "Projekt 'Orientuj się!' - WUP Rzeszów",
+      "status": "trwa",
+      "operator": "WUP Rzeszów",
+      "id_bur": "ORIENTUJ-2026",
+      "kwota_alokacji": null,
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Osoby na rynku pracy podkarpackim - poradnictwo i orientacja zawodowa",
+      "url_regulamin": "https://wuprzeszow.praca.gov.pl/490/-/asset_publisher/9KL4UzrZ3jXP/content/22885641-projekt-orientuj-sie-",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 2. v6.5.1 dograne FEP 2021-2027 Priorytet 7 - 42.3 mln zł na 'Aktywizacja zawodowa osób młodych' (od 07.01.2026). FEP cała pula 575 mln EUR. WUP Rzeszów publikuje priorytety per powiat (asset_publisher zawiera 9 z 21 powiatow). UWAGA - pierwotnie alokacja_kfs_2026 była 20.87 mln (jak lubelskie - błąd w PDF MRiPS lub równe).",
+  "akcja_tygodnia": "FEP 2021-2027 Priorytet 7 - 42.3 mln zł, młodzi 18-29, rusza 07.01.2026 (sprawdzić aktualny status)",
+  "akcja_tygodnia_target": "fep-priorytet-7",
   "alokacja_kfs_2026_wojewodztwo_pln": 20873000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_fep": "https://wuprzeszow.praca.gov.pl/program-regionalny-fundusze-europejskie-dla-podkarpacia-2021-2027",
+  "url_priorytety_powiaty": "https://wuprzeszow.praca.gov.pl/-/priorytety-wydatkowania-srodkow-kfs-w-poszczegolnych-powiatach-w-2026-r."
 }

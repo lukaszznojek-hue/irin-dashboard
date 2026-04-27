@@ -3,21 +3,39 @@
   "wojewodztwo_label": "Dolnośląskie",
   "tier": "1b",
   "data_aktualizacji": "2026-04-27",
-  "wup_url": "https://wupwroclaw.praca.gov.pl",
+  "wup_url": "https://wupdolnoslaski.praca.gov.pl",
   "wup_email": null,
   "wup_telefon": null,
   "operator_bur": "WUP Wrocław",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP Wrocław"
+      "nazwa": "Do weryfikacji - sprawdzić uchwałę Zarządu Województwa Dolnośląskiego",
+      "opis": "Brak danych - WUP Wrocław publikuje priorytety w PDF uchwały zarządu woj."
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 1B - WUP + priorytety do uzupełnienia.",
-  "akcja_tygodnia": null,
+  "projekty_bur": [
+    {
+      "nazwa": "POWER + KPO Dolnośląskie - operator BUR i KFS 2026",
+      "status": "do_weryfikacji",
+      "operator": "WUP Wrocław (POWER) + operatorzy regionalni przez PARP",
+      "id_bur": null,
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 80%",
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Pracodawcy/pracownicy dolnośląscy",
+      "url_regulamin": "https://wupdolnoslaski.praca.gov.pl/web/power-dwup/skorzystaj-z-programu/zobacz-ogloszenia-i-wyniki-naborow-wnioskow",
+      "claudia_note": "WUP Wrocław jest IP dla POWER Dolnośląski + projekt KPO 'Zbudowanie systemu koordynacji'. Konkretne projekty BUR z kwotami nie są agregowane online. LUKA - dograne wymaga kontaktu lub deep-research.",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 1B - 5. woj KFS (31.93 mln). v6.5.1 SYGNAŁ LUKI: WUP Wrocław nie publikuje agregowanych projektów BUR z kwotami. POWER Dolnośląski WUP + KPO 'System koordynacji'. Priorytety wojew. KFS - tylko PDF uchwały zarządu (do dograne). URLe pomocne: kfs-2026, krajowy-fundusz-szkoleniowy.",
+  "akcja_tygodnia": "Sprawdzić ogłoszenia POWER WUP Dolnośląski - konkretne nabory BUR Q2 2026",
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 31930000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_kfs": "https://wupdolnoslaski.praca.gov.pl/kfs-2026",
+  "url_power": "https://wupdolnoslaski.praca.gov.pl/web/power-dwup/skorzystaj-z-programu/zobacz-ogloszenia-i-wyniki-naborow-wnioskow",
+  "url_kpo": "https://wupdolnoslaski.praca.gov.pl/-/23956943-o-projekcie-kpo-zbudowanie-systemu-koordynacji-"
 }

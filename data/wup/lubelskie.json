@@ -10,14 +10,32 @@
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "nazwa": "Priorytety samorządów powiatów lubelskich",
+      "opis": "Każdy powiat lubelski ma swoje priorytety wydatkowania KFS 2026 (źródło: WUP Lublin asset_publisher/jaix5tGBAiqD/.../priorytety-samorzadow-powiatow-wojewodztwa-lubelskiego)"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
+  "projekty_bur": [
+    {
+      "nazwa": "Strategia Zintegrowanego Rozwoju Umiejętności 2030 (ZSU 2030) - Lubelskie",
+      "status": "trwa",
+      "operator": "WUP Lublin",
+      "id_bur": "ZSU-2030-LUB",
+      "kwota_alokacji": 21499998,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2025",
+      "data_end": "2030",
+      "grupa_docelowa": "Wszystkie grupy docelowe rynku pracy lubelskiego (umiejętności podstawowe + zawodowe)",
+      "url_regulamin": "https://wuplublin.praca.gov.pl/lifelong-learning",
+      "claudia_note": "ZSU 2030 - 21.5 mln zł na realizację Strategii Zintegrowanego Rozwoju Umiejętności do 2030. Lifelong Learning programs. Cykl wieloletni.",
+      "do_weryfikacji": false
+    }
+  ],
+  "claudia_note": "TIER 2. v6.5.1 dograne: Strategia ZSU 2030 - 21.5 mln zł. Plus aktualne nabory FELB (Fundusze Europejskie dla Lubelskiego) na RPO. WUP Lublin opublikował priorytety per powiat lubelski (każdy ma swoje, asset_publisher/jaix5tGBAiqD).",
   "akcja_tygodnia": null,
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 20873000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_priorytety_powiaty": "https://wuplublin.praca.gov.pl/strona-glowna/-/asset_publisher/jaix5tGBAiqD/content/priorytety-samorzadow-powiatow-wojewodztwa-lubelskiego-wydatkowania-krajowego-funduszu-szkoleniowego-w-roku-2026",
+  "url_rpo": "https://wuplublin.praca.gov.pl/rpo",
+  "url_lifelong_learning": "https://wuplublin.praca.gov.pl/lifelong-learning"
 }
