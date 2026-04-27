@@ -10,14 +10,35 @@
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "nazwa": "Do weryfikacji - sprawdzić uchwałę Zarządu Województwa Podlaskiego",
+      "opis": "Brak danych - WUP Białystok publikuje priorytety w PDF"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "Podmiotowy System Finansowania (PSF) usług rozwojowych w województwie podlaskim 2024-2029",
+      "status": "trwa",
+      "operator": "WUP Białystok",
+      "id_bur": "PSF-2024-2029",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 80%",
+      "limit_per_usluga_pln": 5000,
+      "limit_per_osoba_pln": 10000,
+      "limit_per_przedsiebiorca_pln": 50000,
+      "data_start": "2024",
+      "data_end": "2029-12-31",
+      "kolejne_nabory": ["Q2 2026 - ogłoszenie czerwiec 2026"],
+      "grupa_docelowa": "Mikro/małe/średnie przedsiębiorstwa podlaskie + ich pracownicy",
+      "url_regulamin": "https://wupbialystok.praca.gov.pl/podmiotowy-system-finansowania-uslug-rozwojowych-w-wojewodztwie-podlaskim-2024-2029",
+      "claudia_note": "PSF Podlaskie 2024-2029 - flagowy program dla MŚP. Limity: 5k/usługę, 10k/osobę, 50k/firmę, do 80% dofinansowania. Wymóg BUR. Q2 2026 nowy nabór czerwiec 2026.",
+      "do_weryfikacji": false
+    }
+  ],
+  "claudia_note": "TIER 2. v6.5.1 dograne PSF Podlaskie 2024-2029 - cykl wieloletni dla MŚP, wymóg BUR (IRIN OK). Limity 5k/usługę, 10k/osobę, 50k/firmę. Q2 2026 nabór ogłoszony w czerwcu 2026. Priorytety wojew. KFS - URL: rynek_pracy/kfs/-/asset_publisher/fRJeGax7dNIi/content/krajowy-fundusz-szkoleniowy-priorytety-na-rok-2026-1 (do weryfikacji).",
+  "akcja_tygodnia": "PSF Podlaskie - czekać na nabór Q2 2026 (czerwiec) - target dla pracodawców MŚP",
+  "akcja_tygodnia_target": "psf-podlaskie-q2-2026",
   "alokacja_kfs_2026_wojewodztwo_pln": 11773000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_psf": "https://wupbialystok.praca.gov.pl/podmiotowy-system-finansowania-uslug-rozwojowych-w-wojewodztwie-podlaskim-2024-2029",
+  "url_priorytety_kfs": "https://wupbialystok.praca.gov.pl/rynek_pracy/kfs/-/asset_publisher/fRJeGax7dNIi/content/krajowy-fundusz-szkoleniowy-priorytety-na-rok-2026-1"
 }

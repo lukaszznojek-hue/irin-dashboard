@@ -6,18 +6,48 @@
   "wup_url": "https://wupzielonagora.praca.gov.pl",
   "wup_email": null,
   "wup_telefon": null,
+  "wup_adres": "ul. Wyspiańskiego 15, 65-036 Zielona Góra",
   "operator_bur": "WUP Zielona Góra",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "nazwa": "Do weryfikacji - sprawdzić uchwałę Zarządu Województwa Lubuskiego",
+      "opis": "Brak danych w wynikach researchu"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
+  "projekty_bur": [
+    {
+      "nazwa": "Umiejętności tworzą możliwości (KPO)",
+      "status": "trwa",
+      "operator": "WUP Zielona Góra + Uniwersytet Zielonogórski + Centrum Doskonalenia Nauczycieli",
+      "id_bur": "UTM-KPO",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 100% (KPO)",
+      "data_start": null,
+      "data_end": "2026-06-30",
+      "grupa_docelowa": "Krajowy Plan Odbudowy - rozwój umiejętności",
+      "url_regulamin": "https://wupzielonagora.praca.gov.pl/urzad/aktualnosci/aktualnosc",
+      "claudia_note": "Projekt KPO realizowany do 30.06.2026 z partnerami akademickimi. Kwota nieznana, do dograne kontaktem.",
+      "do_weryfikacji": true
+    },
+    {
+      "nazwa": "Centrum Integracji Cudzoziemców (CIC)",
+      "status": "trwa",
+      "operator": "WUP Zielona Góra",
+      "id_bur": "CIC",
+      "kwota_alokacji": null,
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Cudzoziemcy w lubuskim",
+      "url_regulamin": "https://wupzielonagora.praca.gov.pl/cic",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 2 NAJMNIEJSZA alokacja KFS w PL (10 mln zl, PRZEDOSTATNIE woj.). v6.5.1 dograne 2 projekty bez konkretnych kwot: 'Umiejętności tworzą możliwości' (KPO, do 30.06.2026) + Centrum Integracji Cudzoziemców. Plus PUP Zielona Góra ma własny projekt aktywizacji 2025-2027. SYGNAŁ LUKI: konkretne kwoty BUR + priorytety wojewódzkie wymagają kontaktu telefonicznego z WUP Zielona Góra.",
   "akcja_tygodnia": null,
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 10012000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_aktualnosci": "https://wupzielonagora.praca.gov.pl/urzad/aktualnosci/aktualnosc",
+  "url_kpo": "https://wupzielonagora.praca.gov.pl/urzad/aktualnosci/aktualnosc"
 }

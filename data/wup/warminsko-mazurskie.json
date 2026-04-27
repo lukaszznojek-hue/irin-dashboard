@@ -6,18 +6,52 @@
   "wup_url": "https://wupolsztyn.praca.gov.pl",
   "wup_email": null,
   "wup_telefon": null,
+  "wup_adres": "ul. Głowackiego 28, 10-448 Olsztyn",
   "operator_bur": "WUP Olsztyn",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "nazwa": "Do weryfikacji - PDF uchwały Zarządu Woj. Warmińsko-Mazurskiego",
+      "opis": "Uchwała Nr 48/868/25/VII Zarządu Województwa z 27.10.2025 - PDF dostępny ze strony WUP Olsztyn priorytety_kfs_2026"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
-  "akcja_tygodnia": null,
+  "projekty_bur": [
+    {
+      "nazwa": "FEWiM Działanie 7.1 Aktywizacja zawodowa - PUP",
+      "status": "trwa",
+      "operator": "WUP Olsztyn + powiatowe urzędy pracy",
+      "id_bur": "FEWiM-7.1-2026",
+      "kwota_alokacji": 93576817,
+      "intensywnosc_max": "do 95%",
+      "data_start": "2026-01",
+      "data_end": "do wyczerpania",
+      "tryb": "pozakonkursowy",
+      "grupa_docelowa": "PUP-y warmińsko-mazurskie - aktywizacja bezrobotnych",
+      "url_regulamin": "https://wupolsztyn.praca.gov.pl/-/25862840-nowe-nabory-fewim",
+      "claudia_note": "DUŻY: 93.6 mln zł na aktywizację bezrobotnych przez PUP-y. Tryb pozakonkursowy - alokacja per PUP. Część bonów = wybór szkoleń z BUR (target IRIN).",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "FEWiM Działanie 7.2 Poprawa zatrudnienia osób pracujących",
+      "status": "trwa",
+      "operator": "WUP Olsztyn",
+      "id_bur": "FEWiM-7.2-2026",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 95%",
+      "data_start": "2026-04-07",
+      "data_end": "2026-04-29",
+      "grupa_docelowa": "Osoby pracujące warmińsko-mazurskie",
+      "url_regulamin": "https://wupolsztyn.praca.gov.pl/nabory",
+      "claudia_note": "Działanie 7.2 - aktywne 7-29.04.2026 - obecnie ZAKONCZONY. Sprawdzić II nabór.",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 2. v6.5.1 dograne FEWiM 7.1 - 93.6 MLN ZŁ na aktywizację bezrobotnych przez PUP-y (pozakonkursowy). Plus FEWiM 7.2 (zakończony 29.04). Priorytety wojew. KFS - PDF uchwały Zarządu Woj. (Nr 48/868/25/VII z 27.10.2025) - do parsing osobno. Adres: ul. Głowackiego 28, Olsztyn.",
+  "akcja_tygodnia": "FEWiM 7.1 - 93.6 mln zl na aktywizacje (PUP-y warm-maz, czesc to bony BUR)",
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 13318000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_priorytety_kfs": "https://wupolsztyn.praca.gov.pl/-/priorytety-wydatkowania-srodkow-kfs-2026",
+  "url_nabory": "https://wupolsztyn.praca.gov.pl/nabory",
+  "url_fewim": "https://wupolsztyn.praca.gov.pl/-/25862840-nowe-nabory-fewim"
 }

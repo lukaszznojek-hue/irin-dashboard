@@ -5,19 +5,50 @@
   "data_aktualizacji": "2026-04-27",
   "wup_url": "https://wupopole.praca.gov.pl",
   "wup_email": null,
-  "wup_telefon": null,
+  "wup_telefon": "77 44 16 701",
+  "wup_adres": "ul. Głogowska 25c, 45-315 Opole",
   "operator_bur": "WUP Opole",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
-      "nazwa": "Do weryfikacji",
-      "opis": "Priorytety P5-P7 do pobrania ze strony WUP"
+      "nazwa": "Sytuacje kryzysowe i ciągłość działania",
+      "opis": "Wsparcie kompetencji w obszarze reagowania na sytuacje kryzysowe (klęski żywiołowe, zagrożenia infrastruktury, przerwy w dostawach energii). Cel: zwiększenie odporności operacyjnej przedsiębiorstw. SWEET SPOT dla PROP-02 NIS2 IRIN!"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "Opolskie kadry rynku pracy",
+      "status": "trwa",
+      "operator": "WUP Opole",
+      "id_bur": "OKRP",
+      "kwota_alokacji": null,
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Pracownicy/pracodawcy opolscy",
+      "url_regulamin": "https://wupopole.praca.gov.pl/projekty-w-realizacji/-/asset_publisher/49eE5whi3B01/content/24205480-opolskie-kadry-rynku-pracy",
+      "do_weryfikacji": true
+    },
+    {
+      "nazwa": "Reorientacja zawodowa - dofinansowanie z BUR dla osób tracących pracę / odchodzących z rolnictwa",
+      "status": "trwa",
+      "operator": "WUP Opole",
+      "id_bur": "REOR-BUR-2026",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 80%",
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Osoby tracące pracę z przyczyn pracodawcy + odchodzący z rolnictwa",
+      "url_regulamin": "https://wupopole.praca.gov.pl/reorientacja-zawodowa-dla-zwalnianych-pracownikow",
+      "claudia_note": "Konkretne ogłoszenie BUR dla zwalnianych pracowników. Aktywne. Kwota TBD.",
+      "do_weryfikacji": false
+    }
+  ],
+  "claudia_note": "TIER 2 - NAJMNIEJSZA alokacja KFS w PL (9.5 mln, miejsce 16/16). v6.5.1 dograne 2 projekty BUR aktywne (Opolskie kadry + Reorientacja zwalnianych) bez konkretnych kwot. WAŻNE: priorytet wojew. KFS = 'sytuacje kryzysowe i ciągłość działania' = SWEET SPOT dla PROP-02 NIS2! Telefon WUP: 77 44 16 701.",
+  "akcja_tygodnia": "Priorytet woj. Opolskie = sytuacje kryzysowe → match PROP-02 NIS2 IRIN!",
+  "akcja_tygodnia_target": "prop-02-nis2",
   "alokacja_kfs_2026_wojewodztwo_pln": 9460000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_priorytety_kfs": "https://wupopole.praca.gov.pl/-/priorytety-kfs-2026-dla-wojewodztwa-opolskiego",
+  "url_projekty": "https://wupopole.praca.gov.pl/projekty-w-realizacji",
+  "url_reorientacja": "https://wupopole.praca.gov.pl/reorientacja-zawodowa-dla-zwalnianych-pracownikow"
 }
