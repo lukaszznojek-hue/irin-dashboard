@@ -14,10 +14,28 @@
       "opis": "Wsparcie umiejętności i kwalifikacji zawodowych związanych z transformacją energetyczną, zwłaszcza w zakładach zagrożonych utratą miejsc pracy"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "PUP Szczecin: nabór 27.03-3.04 zakończony, 4 mln zł. Jeden priorytet wojewódzki: transformacja energetyczna - Akademia OZE IRIN trafia idealnie.",
-  "akcja_tygodnia": null,
+  "projekty_bur": [
+    {
+      "nazwa": "BUR Zachodniopomorskie - operatorzy regionalni FEPZ",
+      "status": "do_weryfikacji",
+      "operator": "WUP Szczecin + operatorzy regionalni przez serwis-uslugirozwojowe.parp.gov.pl",
+      "id_bur": null,
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 80%",
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Pracodawcy/pracownicy zachodniopomorscy",
+      "url_regulamin": "https://serwis-uslugirozwojowe.parp.gov.pl/dofinansowanie/wojewodztwo-zachodniopomorskie",
+      "claudia_note": "WUP Szczecin NIE publikuje agregowanej listy projektów BUR online. Operator centralny PARP (info_uslugirozwojowe@parp.gov.pl, tel. 801 332 202). LUKA - dograne kwot wymaga ręcznego researchu lub kontakt do WUP Szczecin.",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "TIER 1A. v6.5.1 LUKA: WUP Szczecin nie publikuje konkretnych projektów BUR z kwotami. Mam 16.1 mln zł KFS + projekty BUR przez operatorów regionalnych PARP (do dograne). PUP Szczecin sam: nabór 27.03-3.04 zakończony, 4 mln zł. Priorytet wojew. P5 = transformacja energetyczna - SWEET SPOT dla Akademii OZE IRIN. Trzeba bezpośredniego kontaktu z WUP Szczecin albo PARP regional dla dograne projektów BUR z kwotami.",
+  "akcja_tygodnia": "Kontakt do WUP Szczecin lub PARP regional - dograne BUR Zachodniopomorskie 2026",
   "akcja_tygodnia_target": null,
   "alokacja_kfs_2026_wojewodztwo_pln": 16103000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_kfs": "https://wupszczecin.praca.gov.pl/dla-pracodawcow-i-przedsiebiorcow/podnoszenie-kompetencji-i-kwalifikacji-pracownikow-i-kandydatow-do-pracy/szkolenia",
+  "url_bur": "https://serwis-uslugirozwojowe.parp.gov.pl/dofinansowanie/wojewodztwo-zachodniopomorskie",
+  "url_fundusze": "https://wupszczecin.praca.gov.pl/fundusze-europejskie-wup"
 }

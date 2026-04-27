@@ -6,7 +6,7 @@
   "wup_url": "https://wupgdansk.praca.gov.pl",
   "wup_email": null,
   "wup_telefon": null,
-  "operator_bur": "WUP Gdańsk",
+  "operator_bur": "WUP Gdańsk + Agencja Rozwoju Pomorza S.A. (operator BUR sub-region metropolitalny)",
   "priorytety_wojewodzkie": [
     {
       "kod": "P5",
@@ -24,10 +24,67 @@
       "opis": "Wzmacnianie odporności rynku pracy na sytuacje kryzysowe"
     }
   ],
-  "projekty_bur": [],
-  "claudia_note": "Oddział pomorski IRIN (prowadzi Jakub Jabłoński). Rekordowy budżet KFS Gdańska 7.6 mln zł. v6.2: Aktywne nabory KFS w PUP-ach: Kościerzyna (TRWA, ~22-28.04), Starogard (TRWA, ~24-30.04), Tczew (TRWA, ~28.04-05.05), Chojnice (NADCHODZI 4-8.05). Kartuzy/Puck/Wejherowo nadchodzą Q2-Q3. WUP Gdańsk nie udostępnia agregowanych kwot per powiat - do weryfikacji telefonicznej. Brak dograne projektów BUR poziomu wojewódzkiego (w 2025 były nabory 'Skuteczne kompetencje' - sprawdzić Q2 2026).",
-  "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null,
+  "projekty_bur": [
+    {
+      "nazwa": "WEKTOR. Metropolitalny System Finansowania Kształcenia",
+      "status": "trwa",
+      "operator": "Agencja Rozwoju Pomorza S.A. + WUP Gdańsk",
+      "id_bur": "WEKTOR-2026",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2026-02-02",
+      "data_end": "2026-03-31",
+      "obszar": "Sub-region metropolitalny: Gdańsk/Gdynia/Sopot/Gdańsk pow./Kartuski/Nowodworski/Pucki/Wejherowski",
+      "grupa_docelowa": "Osoby dorosłe pracujące - kształcenie BUR",
+      "url_regulamin": "https://wupgdansk.praca.gov.pl/wektor",
+      "claudia_note": "WEKTOR działa do 31.03.2026 - ZAKONCZONY ale cykl nadchodzi. Sub-region metropolitalny Pomorza = duża populacja docelowa. Sprawdzić II termin w Q3 2026.",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "Pomorskie Kompetencje Jutra (KPO)",
+      "status": "trwa",
+      "operator": "WUP Gdańsk",
+      "id_bur": "PKJ-KPO",
+      "kwota_alokacji": null,
+      "intensywnosc_max": "do 100% (KPO)",
+      "data_start": "2025",
+      "data_end": "2026-12 (cykl wieloroczny KPO)",
+      "grupa_docelowa": "Pracownicy/pracodawcy pomorscy - kompetencje przyszłości",
+      "url_regulamin": "https://wupgdansk.praca.gov.pl/kompetencjejutra",
+      "claudia_note": "Projekt KPO (Krajowy Plan Odbudowy) - duży budżet wieloroletni do dograne. KPO zwykle = 100% dofinansowania.",
+      "do_weryfikacji": true
+    },
+    {
+      "nazwa": "Akcja 5.2 FEP 2021-2027 (PUP-y pomorskie)",
+      "status": "trwa",
+      "operator": "WUP Gdańsk + powiatowe urzędy pracy",
+      "id_bur": "FEP-5.2-2025-2026",
+      "kwota_alokacji": 108072292,
+      "intensywnosc_max": "do 80%",
+      "data_start": "2025",
+      "data_end": "2026-12",
+      "grupa_docelowa": "PUP-y pomorskie - bony szkoleniowe dla bezrobotnych",
+      "url_regulamin": "https://wupgdansk.praca.gov.pl/web/rpo-wp/-/24534485-nabor-wnioskow-w-5-2-fep-2021-2027-na-lata-2025-2026",
+      "claudia_note": "108 mln zł na 2025-2026 dla PUP-ów pomorskich (bony szkoleniowe dla bezrobotnych). Część bonów = wybór szkoleń z BUR (target IRIN).",
+      "do_weryfikacji": false
+    },
+    {
+      "nazwa": "Rozwój i kompetencje na miarę przyszłości",
+      "status": "trwa",
+      "operator": "WUP Gdańsk",
+      "id_bur": "RKP-2026",
+      "kwota_alokacji": null,
+      "data_start": null,
+      "data_end": null,
+      "grupa_docelowa": "Osoby dorosłe pomorskie",
+      "url_regulamin": "https://wupgdansk.praca.gov.pl/strona-glowna/-/asset_publisher/MiJu2YoZcRbu/content/rozwoj-i-kompetencje-na-miare-przyszlosci.-nabor-do-projektu",
+      "do_weryfikacji": true
+    }
+  ],
+  "claudia_note": "ODDZIAŁ POMORSKI IRIN (Jakub Jabłoński). v6.5.1 dograne 4 projekty BUR + KFS 25.8 mln + Akcja 5.2 FEP 108 mln (bony PUP). WEKTOR dla sub-regionu metropolitalnego (Gdańsk+Gdynia+Sopot+Kartuzy+Nowy Dwór+Puck+Wejherowo) operator: Agencja Rozwoju Pomorza. PKJ to KPO - duzy potencjal. Rekordowy budżet KFS Gdańska 7.6 mln zł. Pomorskie 19 powiatow z aktywnymi naborami w PUP-ach (TIER 1A v6.5 scraper).",
+  "akcja_tygodnia": "Pomorskie Kompetencje Jutra (KPO) - dograne kwoty + Akcja 5.2 FEP 108 mln (PUP-y bony szkoleniowe)",
+  "akcja_tygodnia_target": "pomorskie-kompetencje-jutra",
   "alokacja_kfs_2026_wojewodztwo_pln": 25753000,
-  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)",
+  "url_aktualne_nabory": "https://wupgdansk.praca.gov.pl"
 }
