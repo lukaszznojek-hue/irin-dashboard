@@ -1,58 +1,64 @@
-# 📧 Email cold: Skuteczne przygotowanie projektu dofinansowanego - od pomysłu do kompletnego wniosku
+# Email cold: Skuteczne przygotowanie projektu dofinansowanego - od pomysłu do kompletnego wniosku
 
-**Cel:** Pierwszy mail do bazy chłodnej - umówić rozmowę 15 min.
+**Cel:** Pierwszy kontakt - umówienie rozmowy telefonicznej (15 min).
 **Persona:** Specjalista dofinansowań / Właściciel firmy szukający funduszy / Dyrektor MŚP planujący ekspansję
 
 ---
 
-## Subject line - 4 warianty (A/B testować)
+## Subject line - warianty
 
-1. `[Firma_klienta] - jak pozyskać dofinansowanie na rozwój firmy?`
-2. `Szkolenie z pisania wniosków: 5 300 zł → 530 zł z KFS`
-3. `Jeden dobry wniosek zwraca koszt szkolenia 10x - pokażemy jak`
-4. `Od pomysłu do kompletnego wniosku w 27h - praktyczny warsztat`
+1. `Warsztat przygotowania wniosków o dofinansowanie - propozycja dla [Firma_klienta]`
+2. `Od pomysłu do kompletnego wniosku w 27h - szkolenie praktyczne`
+3. `Pozyskiwanie dofinansowań (KFS, PARP, EFS+) - szkolenie z certyfikatem BUR`
 
 ---
 
 ## Treść maila
 
 ```
-Dzień dobry [Imię],
+Szanowni Państwo,
 
-czy w najbliższych 12 miesiącach planujecie Państwo pozyskanie
-dofinansowania na rozwój firmy (KFS, PARP, EFS+, NCBiR)?
+zwracam się z pytaniem, czy w najbliższych miesiącach planują
+Państwo pozyskanie środków na rozwój firmy - z programów takich jak
+KFS, PARP, EFS+ czy NCBiR.
 
-Statystycznie 70% wniosków jest odrzucanych. Główny powód: błędy formalne
-i słaba argumentacja. Mamy szkolenie które to zmienia.
+Według danych publicznych ok. 70% wniosków o dofinansowanie jest odrzucanych,
+najczęściej z powodu błędów formalnych i niedostatecznej argumentacji.
+Proponujemy szkolenie, które przygotowuje do samodzielnego pisania wniosków.
 
-IRIN jest w BUR (ID 160205, ocena 4.9/5 z 813 opinii). Mamy szkolenie
-które odpowiada na te potrzeby:
+IRIN sp. z o.o. jest zarejestrowany w BUR PARP (ID 160205, ocena 4.9/5
+na podstawie 813 opinii uczestników). Pozwalam sobie przedstawić
+szkolenie odpowiadające na powyższe potrzeby:
 
-═══════════════════════════════════════════════════════════
-SKUTECZNE PRZYGOTOWANIE PROJEKTU DOFINANSOWANEGO - OD POMYSŁU DO KOMPLETNEGO WNIOSKU
+---
+Skuteczne przygotowanie projektu dofinansowanego - od pomysłu do kompletnego wniosku
 
-📅 Termin: 29 lipca 2026 - 31 lipca 2026
-⏱️ 27 godzin dydaktycznych
-🌐 zdalnie (ZOOM)
-💰 5 300 zł brutto/os. → mikrofirma KFS 90% = 530 zł
+Termin:    29 lipca 2026 - 31 lipca 2026
+Wymiar:    27 godzin dydaktycznych
+Forma:     zdalnie (ZOOM)
+Cena:      5 300 zł brutto/os.
+Po dofinansowaniu KFS (mikrofirma 90%): 530 zł
 
-Po szkoleniu:
-• macie gotowy draft wniosku na WASZ konkretny projekt
-• znacie metodykę pisania wniosków (KFS, PARP, EFS+)
-• oszczędzacie 10-20k zł rocznie na firmach doradczych
-═══════════════════════════════════════════════════════════
+Po ukończeniu szkolenia uczestnicy:
+- dysponują gotowym projektem wniosku na konkretny cel firmy,
+- znają metodykę przygotowania wniosków do KFS, PARP i EFS+,
+- mogą samodzielnie aplikować o środki bez angażowania firm doradczych.
+---
 
-15 minut rozmowy żeby ustalić czy to dla Państwa pasuje?
-Dostępne terminy: [link do calendly LUB ręczne propozycje 2-3 slotów]
+Czy moglibyśmy porozmawiać telefonicznie - ok. 15 minut - żeby ustalić,
+czy ta propozycja odpowiada Państwa potrzebom?
 
-W razie pytań - odpowiadam w 24h.
+Dostępne terminy rozmowy: [propozycje 2-3 slotów]
 
-Pozdrawiam serdecznie,
+W razie pytań pozostaję do dyspozycji.
+
+Z poważaniem,
 [Imię Nazwisko]
-[Stanowisko] | IRIN - Instytut Rozwoju i Nauki
+[Stanowisko]
+IRIN sp. z o.o. - Instytut Rozwoju i Nauki
 +48 [telefon] | [email]@irin.pl
 
-P.S. Profil szkolenia z pełnym programem na BUR PARP:
+Profil szkolenia w BUR PARP:
 https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3381926
 ```
 
@@ -63,31 +69,30 @@ https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3381926
 | Placeholder | Co wstawić |
 |---|---|
 | `[Firma_klienta]` | Nazwa firmy odbiorcy |
-| `[Imię]` | Imię odbiorcy |
-| `[link do calendly LUB ręczne propozycje]` | Link do bookowania albo 2-3 sloty |
+| `[propozycje 2-3 slotów]` | Np. "wtorek 10:00, środa 14:00, czwartek 11:00" |
 | `[Imię Nazwisko]` | Imię i nazwisko handlowca |
 | `[Stanowisko]` | Np. "Specjalista ds. współpracy" |
-| `+48 [telefon]` | Twój numer |
-| `[email]@irin.pl` | Twój adres |
+| `+48 [telefon]` | Numer telefonu |
+| `[email]@irin.pl` | Adres email |
 
 ---
 
-## Po wysłaniu - sequence follow-up
+## Po wysłaniu - harmonogram follow-up
 
 | Dzień | Akcja |
 |---|---|
 | Dzień 0 | Wysyłka cold email |
-| Dzień 3 | Follow-up 1: "Czy mail dotarł? Odpowiedź na pytania?" |
-| Dzień 7 | Follow-up 2: "Mamy też inne terminy / formy" |
-| Dzień 14 | Follow-up 3 (ostatni): "Zostawiam. Wracam za miesiąc z aktualizacją." |
-| Dzień 45 | Re-engagement: nowy temat (nowy nabór KFS w powiecie klienta) |
+| Dzień 3 | Follow-up 1: uprzejme przypomnienie, pytanie o otrzymanie wiadomości |
+| Dzień 7 | Follow-up 2: informacja o innych terminach lub formach szkolenia |
+| Dzień 14 | Follow-up 3 (ostatni): podziękowanie za czas, propozycja powrotu za miesiąc |
+| Dzień 45 | Re-engagement: nowy temat (np. nowy nabór KFS w regionie) |
 
 ---
 
-## Linki
+## Powiązane materiały
 
-- [📋 One-pager](one_pager.md)
-- [🗣️ Skrypt rozmowy](skrypt_rozmowy.md)
+- [One-pager handlowca](one_pager.md)
+- [Skrypt rozmowy telefonicznej](skrypt_rozmowy.md)
 
 ---
 **Ostatnia aktualizacja:** 2026-04-27

@@ -1,60 +1,65 @@
-# 📧 Email cold: Nowoczesna skuteczność w pracy: zarządzanie czasem, energią, motywacją i AI
+# Email cold: Nowoczesna skuteczność w pracy: zarządzanie czasem, energią, motywacją i AI
 
-**Cel:** Pierwszy mail do bazy chłodnej - umówić rozmowę 15 min.
+**Cel:** Pierwszy kontakt - umówienie rozmowy telefonicznej (15 min).
 **Persona:** HR Manager / Prezes mikrofirmy / Dyrektor rozwoju
 
 ---
 
-## Subject line - 4 warianty (A/B testować)
+## Subject line - warianty
 
-1. `[Firma_klienta] - czy Państwa zespół jest gotowy na AI Act sierpień 2026?`
-2. `90% dofinansowania KFS na szkolenie Nowoczesna skuteczność w pracy: zarządza...`
-3. `8 750 zł szkolenie za 875 zł - AI + cyfryzacja z KFS 2026`
-4. `Po sierpniu 2026 macie obowiązek szkolenia AI - nasze szkolenie to pokrywa`
+1. `[Firma_klienta] - szkolenie AI z dofinansowaniem do 90% (KFS 2026)`
+2. `Obowiązek szkolenia AI od sierpnia 2026 - propozycja dla [Firma_klienta]`
+3. `Nowoczesna skuteczność w pracy: zarządzanie czasem - dofinansowanie do 90%`
 
 ---
 
 ## Treść maila
 
 ```
-Dzień dobry [Imię],
+Szanowni Państwo,
 
-dwa fakty które mogą Państwa zainteresować:
+zwracam się z informacją o możliwości przeszkolenia Państwa zespołu
+w zakresie wykorzystania sztucznej inteligencji i narzędzi cyfrowych.
 
-1. Od sierpnia 2026 KAŻDA firma używająca AI (ChatGPT, Canva AI, generatory)
-ma obowiązek udokumentować szkolenie pracowników - wymóg AI Act EU. Kary do 35 mln EUR.
+Od 2 sierpnia 2026 roku, na mocy rozporządzenia AI Act (UE 2024/1689),
+każda organizacja korzystająca z systemów AI ma obowiązek zapewnić
+pracownikom odpowiednie przeszkolenie. Jednocześnie mikrofirmy mogą uzyskać
+do 90% dofinansowania kosztów szkolenia z Krajowego Funduszu Szkoleniowego,
+pod warunkiem że dostawca figuruje w Bazie Usług Rozwojowych PARP.
 
-2. Mikrofirma 1-9 osób może uzyskać do 90% dofinansowania KFS na szkolenie
-specjalistyczne. Ale TYLKO jeśli dostawca jest w Bazie Usług Rozwojowych PARP.
+IRIN sp. z o.o. jest zarejestrowany w BUR PARP (ID 160205, ocena 4.9/5
+na podstawie 813 opinii uczestników). Pozwalam sobie przedstawić
+szkolenie odpowiadające na powyższe potrzeby:
 
-IRIN jest w BUR (ID 160205, ocena 4.9/5 z 813 opinii). Mamy szkolenie
-które odpowiada na te potrzeby:
+---
+Nowoczesna skuteczność w pracy: zarządzanie czasem, energią, motywacją i AI
 
-═══════════════════════════════════════════════════════════
-NOWOCZESNA SKUTECZNOŚĆ W PRACY: ZARZĄDZANIE CZASEM, ENERGIĄ, MOTYWACJĄ I AI
+Termin:    15 czerwca 2026 - 19 czerwca 2026
+Wymiar:    50 godzin dydaktycznych
+Forma:     zdalnie (ZOOM)
+Cena:      8 750 zł brutto/os.
+Po dofinansowaniu KFS (mikrofirma 90%): 875 zł
 
-📅 Termin: 15 czerwca 2026 - 19 czerwca 2026
-⏱️ 50 godzin dydaktycznych
-🌐 zdalnie (ZOOM)
-💰 8 750 zł brutto/os. → mikrofirma KFS 90% = 875 zł
+Po ukończeniu szkolenia uczestnicy:
+- stosują narzędzia AI i cyfryzacji w codziennej pracy zawodowej,
+- dysponują praktycznymi umiejętnościami zwiększającymi efektywność zespołu,
+- spełniają wymóg udokumentowanego przeszkolenia zgodnie z AI Act.
+---
 
-Po szkoleniu Państwa zespół:
-• wykorzystuje AI i cyfryzację w codziennej pracy
-• ma praktyczne narzędzia zwiększające efektywność
-• jest udokumentowany jako "AI literate" zgodnie z AI Act
-═══════════════════════════════════════════════════════════
+Czy moglibyśmy porozmawiać telefonicznie - ok. 15 minut - żeby ustalić,
+czy ta propozycja odpowiada Państwa potrzebom?
 
-15 minut rozmowy żeby ustalić czy to dla Państwa pasuje?
-Dostępne terminy: [link do calendly LUB ręczne propozycje 2-3 slotów]
+Dostępne terminy rozmowy: [propozycje 2-3 slotów]
 
-W razie pytań - odpowiadam w 24h.
+W razie pytań pozostaję do dyspozycji.
 
-Pozdrawiam serdecznie,
+Z poważaniem,
 [Imię Nazwisko]
-[Stanowisko] | IRIN - Instytut Rozwoju i Nauki
+[Stanowisko]
+IRIN sp. z o.o. - Instytut Rozwoju i Nauki
 +48 [telefon] | [email]@irin.pl
 
-P.S. Profil szkolenia z pełnym programem na BUR PARP:
+Profil szkolenia w BUR PARP:
 https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3386476
 ```
 
@@ -65,31 +70,30 @@ https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3386476
 | Placeholder | Co wstawić |
 |---|---|
 | `[Firma_klienta]` | Nazwa firmy odbiorcy |
-| `[Imię]` | Imię odbiorcy |
-| `[link do calendly LUB ręczne propozycje]` | Link do bookowania albo 2-3 sloty |
+| `[propozycje 2-3 slotów]` | Np. "wtorek 10:00, środa 14:00, czwartek 11:00" |
 | `[Imię Nazwisko]` | Imię i nazwisko handlowca |
 | `[Stanowisko]` | Np. "Specjalista ds. współpracy" |
-| `+48 [telefon]` | Twój numer |
-| `[email]@irin.pl` | Twój adres |
+| `+48 [telefon]` | Numer telefonu |
+| `[email]@irin.pl` | Adres email |
 
 ---
 
-## Po wysłaniu - sequence follow-up
+## Po wysłaniu - harmonogram follow-up
 
 | Dzień | Akcja |
 |---|---|
 | Dzień 0 | Wysyłka cold email |
-| Dzień 3 | Follow-up 1: "Czy mail dotarł? Odpowiedź na pytania?" |
-| Dzień 7 | Follow-up 2: "Mamy też inne terminy / formy" |
-| Dzień 14 | Follow-up 3 (ostatni): "Zostawiam. Wracam za miesiąc z aktualizacją." |
-| Dzień 45 | Re-engagement: nowy temat (nowy nabór KFS w powiecie klienta) |
+| Dzień 3 | Follow-up 1: uprzejme przypomnienie, pytanie o otrzymanie wiadomości |
+| Dzień 7 | Follow-up 2: informacja o innych terminach lub formach szkolenia |
+| Dzień 14 | Follow-up 3 (ostatni): podziękowanie za czas, propozycja powrotu za miesiąc |
+| Dzień 45 | Re-engagement: nowy temat (np. nowy nabór KFS w regionie) |
 
 ---
 
-## Linki
+## Powiązane materiały
 
-- [📋 One-pager](one_pager.md)
-- [🗣️ Skrypt rozmowy](skrypt_rozmowy.md)
+- [One-pager handlowca](one_pager.md)
+- [Skrypt rozmowy telefonicznej](skrypt_rozmowy.md)
 
 ---
 **Ostatnia aktualizacja:** 2026-04-27

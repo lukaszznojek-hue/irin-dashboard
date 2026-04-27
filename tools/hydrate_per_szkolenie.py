@@ -435,59 +435,61 @@ def gen_email(s, folder, klaster):
     termin = f"{fmt_data(s.get('data_start'))} - {fmt_data(s.get('data_end'))}"
 
     if klaster == "ai":
-        subject_lines = f"""1. `[Firma_klienta] - czy Państwa zespół jest gotowy na AI Act sierpień 2026?`
-2. `90% dofinansowania KFS na szkolenie {s['tytul'][:40]}...`
-3. `{fmt_cena(cena)} zł szkolenie za {wklad_mikro} zł - AI + cyfryzacja z KFS 2026`
-4. `Po sierpniu 2026 macie obowiązek szkolenia AI - nasze szkolenie to pokrywa`"""
-        hook = f"""dwa fakty które mogą Państwa zainteresować:
+        subject_lines = f"""1. `[Firma_klienta] - szkolenie AI z dofinansowaniem do 90% (KFS 2026)`
+2. `Obowiązek szkolenia AI od sierpnia 2026 - propozycja dla [Firma_klienta]`
+3. `{s['tytul'][:50]} - dofinansowanie do 90%`"""
+        hook = f"""zwracam się z informacją o możliwości przeszkolenia Państwa zespołu
+w zakresie wykorzystania sztucznej inteligencji i narzędzi cyfrowych.
 
-1. Od sierpnia 2026 KAŻDA firma używająca AI (ChatGPT, Canva AI, generatory)
-ma obowiązek udokumentować szkolenie pracowników - wymóg AI Act EU. Kary do 35 mln EUR.
-
-2. Mikrofirma 1-9 osób może uzyskać do 90% dofinansowania KFS na szkolenie
-specjalistyczne. Ale TYLKO jeśli dostawca jest w Bazie Usług Rozwojowych PARP."""
-        po_szkoleniu = """Po szkoleniu Państwa zespół:
-• wykorzystuje AI i cyfryzację w codziennej pracy
-• ma praktyczne narzędzia zwiększające efektywność
-• jest udokumentowany jako "AI literate" zgodnie z AI Act"""
+Od 2 sierpnia 2026 roku, na mocy rozporządzenia AI Act (UE 2024/1689),
+każda organizacja korzystająca z systemów AI ma obowiązek zapewnić
+pracownikom odpowiednie przeszkolenie. Jednocześnie mikrofirmy mogą uzyskać
+do 90% dofinansowania kosztów szkolenia z Krajowego Funduszu Szkoleniowego,
+pod warunkiem że dostawca figuruje w Bazie Usług Rozwojowych PARP."""
+        po_szkoleniu = """Po ukończeniu szkolenia uczestnicy:
+- stosują narzędzia AI i cyfryzacji w codziennej pracy zawodowej,
+- dysponują praktycznymi umiejętnościami zwiększającymi efektywność zespołu,
+- spełniają wymóg udokumentowanego przeszkolenia zgodnie z AI Act."""
     elif klaster == "si_tus":
         typ = "TUS" if "tus" in folder.lower() else "integracji sensorycznej"
-        subject_lines = f"""1. `[Firma_klienta] - kurs {typ} z certyfikatem BUR + 90% dofinansowania KFS`
-2. `{s['godziny']}h kurs {typ} za {wklad_mikro} zł (KFS 90%) - {miasto}`
-3. `Rozszerzenie oferty terapeutycznej Państwa placówki - kurs z BUR PARP`
-4. `{s.get('cena_h', '')} zł/h za kurs specjalistyczny vs rynek 120+ zł/h`"""
-        hook = f"""piszę w sprawie możliwości rozszerzenia kompetencji Państwa zespołu
-w zakresie {typ}.
+        subject_lines = f"""1. `Kurs {typ} z certyfikatem BUR - dofinansowanie do 90% (KFS)`
+2. `[Firma_klienta] - rozszerzenie kompetencji zespołu w zakresie {typ}`
+3. `{s['godziny']}h kurs {typ}, {miasto} - {s.get('cena_h', '')} zł/h`"""
+        hook = f"""zwracam się w sprawie możliwości podniesienia kwalifikacji
+Państwa zespołu w zakresie {typ}.
 
-Jako placówka edukacyjna/terapeutyczna mogą Państwo skorzystać z dofinansowania KFS
-do 90% kosztów szkolenia. Warunek: dostawca musi być w BUR PARP."""
-        po_szkoleniu = f"""Po kursie Państwa specjalista:
-• prowadzi samodzielną diagnozę i terapię
-• posiada certyfikat uznawany w systemie BUR
-• rozszerza ofertę placówki o nową usługę"""
+Placówki edukacyjne i terapeutyczne mogą skorzystać z dofinansowania
+Krajowego Funduszu Szkoleniowego pokrywającego do 90% kosztów szkolenia.
+Warunkiem jest realizacja kursu przez podmiot zarejestrowany
+w Bazie Usług Rozwojowych PARP."""
+        po_szkoleniu = f"""Po ukończeniu kursu specjalista:
+- prowadzi samodzielną diagnozę i terapię,
+- posiada certyfikat potwierdzony w systemie BUR,
+- poszerza ofertę placówki o nową usługę."""
     else:  # dofinans
-        subject_lines = f"""1. `[Firma_klienta] - jak pozyskać dofinansowanie na rozwój firmy?`
-2. `Szkolenie z pisania wniosków: {fmt_cena(cena)} zł → {wklad_mikro} zł z KFS`
-3. `Jeden dobry wniosek zwraca koszt szkolenia 10x - pokażemy jak`
-4. `Od pomysłu do kompletnego wniosku w {s['godziny']}h - praktyczny warsztat`"""
-        hook = f"""czy w najbliższych 12 miesiącach planujecie Państwo pozyskanie
-dofinansowania na rozwój firmy (KFS, PARP, EFS+, NCBiR)?
+        subject_lines = f"""1. `Warsztat przygotowania wniosków o dofinansowanie - propozycja dla [Firma_klienta]`
+2. `Od pomysłu do kompletnego wniosku w {s['godziny']}h - szkolenie praktyczne`
+3. `Pozyskiwanie dofinansowań (KFS, PARP, EFS+) - szkolenie z certyfikatem BUR`"""
+        hook = f"""zwracam się z pytaniem, czy w najbliższych miesiącach planują
+Państwo pozyskanie środków na rozwój firmy - z programów takich jak
+KFS, PARP, EFS+ czy NCBiR.
 
-Statystycznie 70% wniosków jest odrzucanych. Główny powód: błędy formalne
-i słaba argumentacja. Mamy szkolenie które to zmienia."""
-        po_szkoleniu = """Po szkoleniu:
-• macie gotowy draft wniosku na WASZ konkretny projekt
-• znacie metodykę pisania wniosków (KFS, PARP, EFS+)
-• oszczędzacie 10-20k zł rocznie na firmach doradczych"""
+Według danych publicznych ok. 70% wniosków o dofinansowanie jest odrzucanych,
+najczęściej z powodu błędów formalnych i niedostatecznej argumentacji.
+Proponujemy szkolenie, które przygotowuje do samodzielnego pisania wniosków."""
+        po_szkoleniu = """Po ukończeniu szkolenia uczestnicy:
+- dysponują gotowym projektem wniosku na konkretny cel firmy,
+- znają metodykę przygotowania wniosków do KFS, PARP i EFS+,
+- mogą samodzielnie aplikować o środki bez angażowania firm doradczych."""
 
-    return f"""# 📧 Email cold: {s['tytul']}
+    return f"""# Email cold: {s['tytul']}
 
-**Cel:** Pierwszy mail do bazy chłodnej - umówić rozmowę 15 min.
+**Cel:** Pierwszy kontakt - umówienie rozmowy telefonicznej (15 min).
 **Persona:** {PERSONY[klaster]}
 
 ---
 
-## Subject line - 4 warianty (A/B testować)
+## Subject line - warianty
 
 {subject_lines}
 
@@ -496,35 +498,40 @@ i słaba argumentacja. Mamy szkolenie które to zmienia."""
 ## Treść maila
 
 ```
-Dzień dobry [Imię],
+Szanowni Państwo,
 
 {hook}
 
-IRIN jest w BUR (ID 160205, ocena 4.9/5 z 813 opinii). Mamy szkolenie
-które odpowiada na te potrzeby:
+IRIN sp. z o.o. jest zarejestrowany w BUR PARP (ID 160205, ocena 4.9/5
+na podstawie 813 opinii uczestników). Pozwalam sobie przedstawić
+szkolenie odpowiadające na powyższe potrzeby:
 
-═══════════════════════════════════════════════════════════
-{s['tytul'].upper()}
+---
+{s['tytul']}
 
-📅 Termin: {termin}
-⏱️ {s['godziny']} godzin dydaktycznych
-🌐 {forma}
-💰 {fmt_cena(cena)} zł brutto/os. → mikrofirma KFS 90% = {wklad_mikro} zł
+Termin:    {termin}
+Wymiar:    {s['godziny']} godzin dydaktycznych
+Forma:     {forma}
+Cena:      {fmt_cena(cena)} zł brutto/os.
+Po dofinansowaniu KFS (mikrofirma 90%): {wklad_mikro} zł
 
 {po_szkoleniu}
-═══════════════════════════════════════════════════════════
+---
 
-15 minut rozmowy żeby ustalić czy to dla Państwa pasuje?
-Dostępne terminy: [link do calendly LUB ręczne propozycje 2-3 slotów]
+Czy moglibyśmy porozmawiać telefonicznie - ok. 15 minut - żeby ustalić,
+czy ta propozycja odpowiada Państwa potrzebom?
 
-W razie pytań - odpowiadam w 24h.
+Dostępne terminy rozmowy: [propozycje 2-3 slotów]
 
-Pozdrawiam serdecznie,
+W razie pytań pozostaję do dyspozycji.
+
+Z poważaniem,
 [Imię Nazwisko]
-[Stanowisko] | IRIN - Instytut Rozwoju i Nauki
+[Stanowisko]
+IRIN sp. z o.o. - Instytut Rozwoju i Nauki
 +48 [telefon] | [email]@irin.pl
 
-P.S. Profil szkolenia z pełnym programem na BUR PARP:
+Profil szkolenia w BUR PARP:
 {url}
 ```
 
@@ -535,31 +542,30 @@ P.S. Profil szkolenia z pełnym programem na BUR PARP:
 | Placeholder | Co wstawić |
 |---|---|
 | `[Firma_klienta]` | Nazwa firmy odbiorcy |
-| `[Imię]` | Imię odbiorcy |
-| `[link do calendly LUB ręczne propozycje]` | Link do bookowania albo 2-3 sloty |
+| `[propozycje 2-3 slotów]` | Np. "wtorek 10:00, środa 14:00, czwartek 11:00" |
 | `[Imię Nazwisko]` | Imię i nazwisko handlowca |
 | `[Stanowisko]` | Np. "Specjalista ds. współpracy" |
-| `+48 [telefon]` | Twój numer |
-| `[email]@irin.pl` | Twój adres |
+| `+48 [telefon]` | Numer telefonu |
+| `[email]@irin.pl` | Adres email |
 
 ---
 
-## Po wysłaniu - sequence follow-up
+## Po wysłaniu - harmonogram follow-up
 
 | Dzień | Akcja |
 |---|---|
 | Dzień 0 | Wysyłka cold email |
-| Dzień 3 | Follow-up 1: "Czy mail dotarł? Odpowiedź na pytania?" |
-| Dzień 7 | Follow-up 2: "Mamy też inne terminy / formy" |
-| Dzień 14 | Follow-up 3 (ostatni): "Zostawiam. Wracam za miesiąc z aktualizacją." |
-| Dzień 45 | Re-engagement: nowy temat (nowy nabór KFS w powiecie klienta) |
+| Dzień 3 | Follow-up 1: uprzejme przypomnienie, pytanie o otrzymanie wiadomości |
+| Dzień 7 | Follow-up 2: informacja o innych terminach lub formach szkolenia |
+| Dzień 14 | Follow-up 3 (ostatni): podziękowanie za czas, propozycja powrotu za miesiąc |
+| Dzień 45 | Re-engagement: nowy temat (np. nowy nabór KFS w regionie) |
 
 ---
 
-## Linki
+## Powiązane materiały
 
-- [📋 One-pager](one_pager.md)
-- [🗣️ Skrypt rozmowy](skrypt_rozmowy.md)
+- [One-pager handlowca](one_pager.md)
+- [Skrypt rozmowy telefonicznej](skrypt_rozmowy.md)
 
 ---
 **Ostatnia aktualizacja:** 2026-04-27
