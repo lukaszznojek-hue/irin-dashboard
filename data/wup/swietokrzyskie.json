@@ -55,5 +55,7 @@
   ],
   "claudia_note": "Cykl 5-6 naborów BUR rocznie, naprzemiennie 10.6 (pracodawcy) i 10.9 (osoby indywidualne). Siedziba IRIN. v6.2: dograne pełne dane BUR-I/1/2026 (3 mln zł, 80%/75%, transformacja cyfrowa priorytet).",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 11746000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }

@@ -17,5 +17,7 @@
   "projekty_bur": [],
   "claudia_note": "TIER 1B - WUP + priorytety do uzupełnienia.",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 31930000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }

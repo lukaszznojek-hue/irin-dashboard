@@ -17,5 +17,7 @@
   "projekty_bur": [],
   "claudia_note": "TIER 2 - skeleton. Dane do uzupełnienia przez zespół IRIN.",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 10012000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }

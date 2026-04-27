@@ -27,5 +27,7 @@
   "projekty_bur": [],
   "claudia_note": "Oddział pomorski IRIN (prowadzi Jakub Jabłoński). Rekordowy budżet KFS Gdańska 7.6 mln zł. v6.2: Aktywne nabory KFS w PUP-ach: Kościerzyna (TRWA, ~22-28.04), Starogard (TRWA, ~24-30.04), Tczew (TRWA, ~28.04-05.05), Chojnice (NADCHODZI 4-8.05). Kartuzy/Puck/Wejherowo nadchodzą Q2-Q3. WUP Gdańsk nie udostępnia agregowanych kwot per powiat - do weryfikacji telefonicznej. Brak dograne projektów BUR poziomu wojewódzkiego (w 2025 były nabory 'Skuteczne kompetencje' - sprawdzić Q2 2026).",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 25753000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }

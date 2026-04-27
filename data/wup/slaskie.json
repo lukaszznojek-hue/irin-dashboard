@@ -27,5 +27,7 @@
   "projekty_bur": [],
   "claudia_note": "3 priorytety wojewódzkie. Sektory kluczowe (P7): medycyna, IT, energetyka, zielona gospodarka - dopasowanie do oferty IRIN (AI, cyfryzacja).",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 46820000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }

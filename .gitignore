@@ -1,11 +1,10 @@
-_zrodla/
-_zrodla_v3/
-*.DS_Store
-.claude/
-pre_flight_audit.md
-audyt_v3.md
-architektura_v4.md
-plan_faza_B.md
-archiwum/data_backup_*/
-__pycache__/
+# Python venv (used by tools/scraper)
+tools/scraper/venv/
+**/__pycache__/
 *.pyc
+
+# Local OS
+.DS_Store
+
+# Scraper outputs (raw scrape JSONs - keep only summaries)
+data/scrape/scrape_*_*.json

@@ -44,5 +44,7 @@
   ],
   "claudia_note": "Granty KFS do 37 000 zł. Projekt BUR 'Kierunek - Rozwój' aktywny.",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 20680000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }

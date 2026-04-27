@@ -17,5 +17,7 @@
   "projekty_bur": [],
   "claudia_note": "PUP Szczecin: nabór 27.03-3.04 zakończony, 4 mln zł. Jeden priorytet wojewódzki: transformacja energetyczna - Akademia OZE IRIN trafia idealnie.",
   "akcja_tygodnia": null,
-  "akcja_tygodnia_target": null
+  "akcja_tygodnia_target": null,
+  "alokacja_kfs_2026_wojewodztwo_pln": 16103000,
+  "alokacja_kfs_2026_zrodlo": "PDF MRiPS 'KFS 2026_plan wydatkowania' (data/scrape/kfs_2026_mrips_plan.pdf)"
 }
