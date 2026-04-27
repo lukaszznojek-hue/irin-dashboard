@@ -32,7 +32,7 @@
 
   <!-- SKONSOLIDOWANY BANNER (1 linia) -->
   <div class="info-bar" id="info-bar">
-    <span class="info-bar-item info-bar-deadline" onclick="switchTab(document.querySelector('[data-panel=&quot;tailwinds&quot;]'),'tailwinds')">
+    <span class="info-bar-item info-bar-deadline" onclick="window.location.href='strategia.html#tailwinds'">
       AI Act za <strong id="tw-aiact-days">—</strong> dni
     </span>
     <span class="info-bar-sep">|</span>
@@ -69,20 +69,18 @@
 
   <!-- NAV TABS - podzielone na Praca / Reference -->
   <div class="nav-tabs" role="tablist" aria-label="Sekcje dashboardu">
-    <div class="nav-tab active nav-tab-primary" data-panel="powiaty" role="tab" tabindex="0" aria-selected="true" onclick="switchTab(this,'powiaty')">Powiaty</div>
-    <div class="nav-tab nav-tab-primary" data-panel="wup" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'wup')">WUP</div>
+    <div class="nav-tab active nav-tab-primary" data-panel="mapa-pieniedzy" role="tab" tabindex="0" aria-selected="true" onclick="switchTab(this,'mapa-pieniedzy')">💰 Mapa pieniędzy</div>
     <div class="nav-tab nav-tab-primary" data-panel="szkolenia" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'szkolenia')">Szkolenia IRIN</div>
-    <div class="nav-tab nav-tab-primary" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaz</div>
-    <div class="nav-tab nav-tab-primary" data-panel="mapa-pieniedzy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'mapa-pieniedzy')">💰 Mapa pieniędzy</div>
+    <div class="nav-tab nav-tab-primary" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaż</div>
+    <div class="nav-tab nav-tab-primary" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
+    <div class="nav-tab nav-tab-primary" data-panel="powiaty" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'powiaty')">Powiaty</div>
+    <div class="nav-tab nav-tab-primary" data-panel="wup" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'wup')">WUP</div>
     <div class="nav-tab-sep"></div>
-    <div class="nav-tab nav-tab-secondary" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
-    <div class="nav-tab nav-tab-secondary" data-panel="trendy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'trendy')">Trendy</div>
-    <div class="nav-tab nav-tab-secondary" data-panel="tailwinds" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'tailwinds')">Tailwinds</div>
-    <div class="nav-tab nav-tab-secondary" data-panel="slownik" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'slownik')">Slownik</div>
+    <div class="nav-tab nav-tab-secondary" data-panel="slownik" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'slownik')">Słownik</div>
   </div>
 
   <!-- ======== PANEL: POWIATY ======== -->
-  <div class="panel" id="panel-powiaty" role="tabpanel">
+  <div class="panel" id="panel-powiaty" role="tabpanel" style="display:none">
     <div class="filters-header">
       <!-- Filtry podstawowe (zawsze widoczne) -->
       <div class="filters-primary">
@@ -292,15 +290,7 @@
     </div>
   </div>
 
-  <!-- ======== PANEL: TRENDY 2026 ======== -->
-  <div class="panel" id="panel-trendy" role="tabpanel" style="display:none">
-    <div id="trendy-content"></div>
-  </div>
-
-  <!-- ======== PANEL: TAILWINDS 2026 ======== -->
-  <div class="panel" id="panel-tailwinds" role="tabpanel" style="display:none">
-    <div id="tailwinds-content"></div>
-  </div>
+  <!-- Trendy + Tailwinds przeniesione do strategia.html (warstwa zarzadu) -->
 
   <!-- ======== PANEL: SŁOWNIK ======== -->
   <div class="panel" id="panel-slownik" role="tabpanel" style="display:none">
@@ -337,7 +327,7 @@
   </div>
 
   <!-- ======== PANEL: MAPA PIENIĘDZY (KFS+BUR 2026) ======== -->
-  <div class="panel" id="panel-mapa-pieniedzy" role="tabpanel" style="display:none">
+  <div class="panel" id="panel-mapa-pieniedzy" role="tabpanel">
     <div class="mapa-pieniedzy-header">
       <h2>💰 Mapa pieniędzy - wszystkie źródła PL 2026</h2>
       <p class="mapa-subtitle">Pełen przegląd 6 źródeł finansowania szkoleń dla MŚP w Polsce 2026 (~626 mln zł łącznie). Strategiczny widok dla sprzedaży IRIN.</p>

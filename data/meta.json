@@ -1,8 +1,20 @@
 {
-  "wersja": "6.6.0",
+  "wersja": "6.7.0",
   "data_aktualizacji": "2026-04-27",
   "kolejna_planowana_aktualizacja": "2026-05-04",
   "changelog": [
+    {
+      "data": "2026-04-27",
+      "wersja": "6.7.0",
+      "zmiany": [
+        "UX: reorder zakladek glownej nawigacji (9 -> 7) - mapa pieniedzy domyslna + szkolenia + sprzedaz + matryca + powiaty + wup + slownik. Trendy + Tailwinds przeniesione do strategia.html (warstwa zarzadu).",
+        "Strategia zarzadu refactor: po unlock sub-nav 3 sekcje (Strategia markdown / Tailwinds 2026 deadlines / Trendy rynku kategorie) - sticky tabs + intro per sekcja. Zarzad widzi w jednym chronionym widoku: co planujemy + co nas wymusza + gdzie rynek idzie.",
+        "strategia.html: dodano hash routing (#strategia/#tailwinds/#trendy) - banner deadline AI Act z dashboardu prowadzi do strategia.html#tailwinds.",
+        "strategia.html: ladowanie data/trendy.json + tailwinds.js + trendy.js (lazy po unlock).",
+        "CSS: nowy blok .strategia-subnav z sticky position (mobile responsive @media max-600px)."
+      ],
+      "kto": "Claude Code - sprint v6.7 reorder nav + strategia zarzadu refactor"
+    },
     {
       "data": "2026-04-27",
       "wersja": "6.6.0",

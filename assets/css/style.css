@@ -262,7 +262,7 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 .sales-card-links a { font-size: 11px; color: var(--nadchodzi); text-decoration: none; margin-right: 10px; }
 .sales-card-links a:hover { text-decoration: underline; }
 
-.strategia-wrap { max-width: 800px; margin: 0 auto; }
+.strategia-wrap { max-width: 1000px; margin: 0 auto; }
 .strategia-lock { text-align: center; padding: 60px 20px; }
 .strategia-lock-icon { font-size: 48px; margin-bottom: 16px; }
 .strategia-lock-title { font-family: Georgia, serif; font-size: 20px; color: var(--granat); margin-bottom: 6px; }
@@ -283,6 +283,25 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 .strategia-body table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 12px; }
 .strategia-body th, .strategia-body td { padding: 6px 8px; border-bottom: 1px solid var(--linia); }
 .strategia-hint { font-size: 11px; color: var(--szary); text-align: center; padding: 12px; }
+
+/* === Sub-nav strategii zarządu (Strategia / Tailwinds / Trendy) === */
+.strategia-subnav { display: flex; gap: 4px; padding: 0 12px; background: var(--granat); border-bottom: 2px solid var(--zloto, #c9a227); position: sticky; top: 0; z-index: 10; flex-wrap: wrap; }
+.strategia-subnav-tab { background: transparent; color: rgba(255,255,255,0.7); border: none; padding: 12px 18px; font-size: 13px; font-weight: 600; cursor: pointer; transition: color 0.15s, background 0.15s, border-bottom-color 0.15s; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+.strategia-subnav-tab:hover { color: white; background: rgba(255,255,255,0.06); }
+.strategia-subnav-tab.active { color: var(--zloto-jasny, #f5e1a4); border-bottom-color: var(--zloto, #c9a227); background: rgba(0,0,0,0.15); }
+.strategia-section { padding: 20px 24px; background: white; border: 1px solid var(--linia); border-top: none; }
+.strategia-section:last-of-type { border-radius: 0 0 12px 12px; }
+.strategia-section-intro { padding: 8px 0 16px; border-bottom: 1px solid var(--linia); margin-bottom: 16px; }
+.strategia-section-intro h2 { font-family: Georgia, serif; font-size: 18px; color: var(--granat); margin: 0 0 6px; }
+.strategia-section-intro p { font-size: 13px; color: #555; margin: 0; line-height: 1.5; }
+.strategia-section-intro code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; font-size: 12px; }
+
+@media (max-width: 600px) {
+  .strategia-subnav { padding: 0 4px; }
+  .strategia-subnav-tab { padding: 10px 10px; font-size: 12px; flex: 1; min-width: 0; text-align: center; }
+  .strategia-section { padding: 14px 12px; }
+  .strategia-section-intro h2 { font-size: 16px; }
+}
 
 .footer { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; font-size: 11px; color: var(--szary); border-top: 1px solid var(--linia); margin-top: 16px; }
 .footer a { color: var(--nadchodzi); text-decoration: none; }

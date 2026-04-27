@@ -16,11 +16,11 @@
       <img src="assets/img/logo-irin-poziom.svg" alt="IRIN" class="header-logo" onerror="this.style.display='none'">
       <div class="header-text">
         <h1 class="header-title">Strategia IRIN</h1>
-        <div class="header-subtitle">Warstwa zarządu — treść zaszyfrowana</div>
+        <div class="header-subtitle">Warstwa zarządu — strategia, tailwindsy regulacyjne, trendy rynku</div>
       </div>
     </div>
     <div class="header-right">
-      <a href="index.html" class="header-strat-link">← Dashboard</a>
+      <a href="index.html" class="header-strat-link">← Dashboard operacyjny</a>
     </div>
   </header>
 
@@ -35,23 +35,56 @@
       </div>
       <div class="strategia-error" id="strategia-error" style="display:none">Nieprawidłowe hasło</div>
     </div>
+
     <div class="strategia-content" id="strategia-content" style="display:none">
       <div class="strategia-toolbar">
         <span class="strategia-toolbar-title">🔓 Strategia IRIN — tryb odczytu</span>
         <button class="strategia-lock-btn" onclick="lockStrategia()">🔒 Zablokuj</button>
       </div>
-      <div class="strategia-body" id="strategia-body"></div>
-      <div class="strategia-hint">Treść zaszyfrowana AES-256. Odszyfrowywana lokalnie w przeglądarce. Nie jest przesyłana na serwer.</div>
+
+      <nav class="strategia-subnav" role="tablist" aria-label="Sekcje strategii zarządu">
+        <button class="strategia-subnav-tab active" data-section="strategia" role="tab" aria-selected="true" onclick="switchStrategiaSection(this,'strategia')">📋 Strategia</button>
+        <button class="strategia-subnav-tab" data-section="tailwinds" role="tab" aria-selected="false" onclick="switchStrategiaSection(this,'tailwinds')">⚖️ Tailwinds 2026</button>
+        <button class="strategia-subnav-tab" data-section="trendy" role="tab" aria-selected="false" onclick="switchStrategiaSection(this,'trendy')">📈 Trendy rynku</button>
+      </nav>
+
+      <section class="strategia-section" id="section-strategia">
+        <div class="strategia-section-intro">
+          <p>Pełny dokument strategiczny zarządu - kierunki, cele, decyzje. Odszyfrowywany lokalnie z <code>data/strategia_encrypted.json</code>.</p>
+        </div>
+        <div class="strategia-body" id="strategia-body"></div>
+      </section>
+
+      <section class="strategia-section" id="section-tailwinds" style="display:none">
+        <div class="strategia-section-intro">
+          <h2>⚖️ Tailwinds regulacyjne 2026</h2>
+          <p>Cztery wiatry w plecy dla sprzedaży IRIN. Każdy z nich ma <strong>twardy deadline regulacyjny</strong> wymuszający szkolenia. Kliknięcie banera w dashboardzie operacyjnym prowadzi tutaj.</p>
+        </div>
+        <div id="tailwinds-content"></div>
+      </section>
+
+      <section class="strategia-section" id="section-trendy" style="display:none">
+        <div class="strategia-section-intro">
+          <h2>📈 Trendy rynku szkoleń 2026</h2>
+          <p>Sygnały popytowe, regulacyjne i rynkowe pogrupowane wg kategorii. Czerwona ramka = <strong>luka oferty</strong> (popyt jest, my nie mamy → sygnał do propozycji nowej).</p>
+        </div>
+        <div id="trendy-content"></div>
+      </section>
+
+      <div class="strategia-hint">Treść zaszyfrowana AES-256 (sekcja Strategia). Tailwinds + Trendy są jawne, ale ukryte za hasłem aby zachować spójny kontekst zarządczy.</div>
     </div>
   </div>
 
   <footer class="footer">
-    <div class="footer-left">Strategia IRIN v4</div>
+    <div class="footer-left">Strategia IRIN v6.7</div>
     <div class="footer-right">IRIN sp. z o.o. · Kielce</div>
   </footer>
 </div>
 
 <script>
+// Globalny store dla Trendy (renderTrendy z trendy.js czyta DASHBOARD_DATA.trendy)
+window.DASHBOARD_DATA = window.DASHBOARD_DATA || {};
+
 async function unlockStrategia() {
   const pwd = document.getElementById('strategia-pwd').value;
   const errEl = document.getElementById('strategia-error');
@@ -80,6 +113,26 @@ async function unlockStrategia() {
     document.getElementById('strategia-lock').style.display = 'none';
     document.getElementById('strategia-content').style.display = '';
     document.getElementById('strategia-body').innerHTML = marked.parse(plaintext);
+
+    // Renderuj Tailwinds (data inline w tailwinds.js)
+    if (typeof renderTailwinds === 'function') renderTailwinds();
+    // Renderuj Trendy (data z data/trendy.json)
+    try {
+      const trendyResp = await fetch('data/trendy.json');
+      if (trendyResp.ok) {
+        DASHBOARD_DATA.trendy = await trendyResp.json();
+        if (typeof renderTrendy === 'function') renderTrendy();
+      }
+    } catch (e) {
+      console.warn('Nie udalo sie zaladowac trendow:', e);
+    }
+
+    // Honor hash anchor (#tailwinds, #trendy, #strategia)
+    const hash = (location.hash || '').replace('#', '');
+    if (hash === 'tailwinds' || hash === 'trendy') {
+      const tab = document.querySelector(`.strategia-subnav-tab[data-section="${hash}"]`);
+      if (tab) switchStrategiaSection(tab, hash);
+    }
   } catch (e) {
     errEl.style.display = '';
     errEl.textContent = 'Nieprawidłowe hasło';
@@ -91,7 +144,26 @@ function lockStrategia() {
   document.getElementById('strategia-content').style.display = 'none';
   document.getElementById('strategia-body').innerHTML = '';
   document.getElementById('strategia-pwd').value = '';
+  // Reset sekcji do strategii
+  switchStrategiaSection(document.querySelector('.strategia-subnav-tab[data-section="strategia"]'), 'strategia');
+}
+
+function switchStrategiaSection(el, section) {
+  if (!el) return;
+  document.querySelectorAll('.strategia-subnav-tab').forEach(t => {
+    t.classList.remove('active');
+    t.setAttribute('aria-selected', 'false');
+  });
+  el.classList.add('active');
+  el.setAttribute('aria-selected', 'true');
+  document.querySelectorAll('.strategia-section').forEach(s => s.style.display = 'none');
+  const target = document.getElementById('section-' + section);
+  if (target) target.style.display = '';
+  // Update hash bez przewijania
+  history.replaceState(null, '', '#' + section);
 }
 </script>
+<script src="assets/js/tailwinds.js"></script>
+<script src="assets/js/trendy.js"></script>
 </body>
 </html>
