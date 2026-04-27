@@ -30,33 +30,22 @@
     </div>
   </header>
 
-  <!-- TAILWINDS 2026 BANNER (1 countdown - najpilniejszy) -->
-  <div class="tailwinds-banner" id="tailwinds-banner">
-    <div class="tw-banner-icon">⚠️</div>
-    <div class="tw-banner-content">
-      <strong>Tailwinds 2026:</strong>
-      AI Act pełne stosowanie za <span id="tw-aiact-days">—</span> dni (02.08.2026).
-      <a href="#tailwinds" onclick="switchTab(document.querySelector('[data-panel=&quot;tailwinds&quot;]'),'tailwinds')">Zobacz wszystkie ↗</a>
-    </div>
-    <button class="kfs-banner-close" onclick="this.parentElement.style.display='none'" aria-label="Zamknij">✕</button>
+  <!-- SKONSOLIDOWANY BANNER (1 linia) -->
+  <div class="info-bar" id="info-bar">
+    <span class="info-bar-item info-bar-deadline" onclick="switchTab(document.querySelector('[data-panel=&quot;tailwinds&quot;]'),'tailwinds')">
+      AI Act za <strong id="tw-aiact-days">—</strong> dni
+    </span>
+    <span class="info-bar-sep">|</span>
+    <span class="info-bar-item">KFS 2026: do 90% dofin. mikrofirmy</span>
+    <span class="info-bar-sep">|</span>
+    <span class="info-bar-item">BUR wymagany od 01.2026 - IRIN 4.9/5</span>
+    <button class="info-bar-close" onclick="this.parentElement.style.display='none'" aria-label="Zamknij">✕</button>
   </div>
 
-  <!-- KFS 2026 GAME CHANGER BANNER (klikalne sygnaly) -->
-  <div class="kfs-banner" id="kfs-banner">
-    <div class="kfs-banner-icon">⚡</div>
-    <div class="kfs-banner-content">
-      <div class="kfs-banner-title">KFS 2026 — co nowego</div>
-      <div class="kfs-banner-text">
-        <strong onclick="goToSlownik('KFS')" class="banner-link">Dofinansowanie:</strong>
-        do 70% (mikrofirmy do 90%) ·
-        <strong onclick="goToSlownik('BUR')" class="banner-link">Wymóg BUR od 1.01.2026</strong>
-        — IRIN ma BUR <a onclick="goToSzkolenia('all')" class="banner-link">(4.9/5, 813 ocen)</a> ·
-        <strong onclick="goToSlownik('Retencja KFS')" class="banner-link">Retencja 3 mies.</strong>
-        — pracodawca utrzymuje pracownika ·
-        <strong>Wniosek elektroniczny</strong> przez praca.gov.pl
-      </div>
-    </div>
-    <button class="kfs-banner-close" onclick="this.parentElement.style.display='none'" aria-label="Zamknij">✕</button>
+  <!-- TWOJE AKCJE DZIŚ -->
+  <div class="akcje-dnia" id="akcje-dnia">
+    <div class="akcje-dnia-header">Twoje akcje dziś</div>
+    <div class="akcje-dnia-grid" id="akcje-dnia-grid"></div>
   </div>
 
   <!-- STATS (klikalne) -->
@@ -78,78 +67,85 @@
     </div>
   </div>
 
-  <!-- NAV TABS -->
+  <!-- NAV TABS - podzielone na Praca / Reference -->
   <div class="nav-tabs" role="tablist" aria-label="Sekcje dashboardu">
-    <div class="nav-tab active" data-panel="powiaty" role="tab" tabindex="0" aria-selected="true" onclick="switchTab(this,'powiaty')">Powiaty</div>
-    <div class="nav-tab" data-panel="wup" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'wup')">WUP</div>
-    <div class="nav-tab" data-panel="szkolenia" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'szkolenia')">Szkolenia IRIN</div>
-    <div class="nav-tab" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
-    <div class="nav-tab" data-panel="trendy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'trendy')">Trendy 2026</div>
-    <div class="nav-tab" data-panel="tailwinds" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'tailwinds')">Tailwinds 2026</div>
-    <div class="nav-tab" data-panel="slownik" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'slownik')">Słownik</div>
-    <div class="nav-tab" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaż</div>
+    <div class="nav-tab active nav-tab-primary" data-panel="powiaty" role="tab" tabindex="0" aria-selected="true" onclick="switchTab(this,'powiaty')">Powiaty</div>
+    <div class="nav-tab nav-tab-primary" data-panel="wup" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'wup')">WUP</div>
+    <div class="nav-tab nav-tab-primary" data-panel="szkolenia" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'szkolenia')">Szkolenia IRIN</div>
+    <div class="nav-tab nav-tab-primary" data-panel="sprzedaz" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'sprzedaz')">Sprzedaz</div>
+    <div class="nav-tab-sep"></div>
+    <div class="nav-tab nav-tab-secondary" data-panel="matryca" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'matryca')">Matryca</div>
+    <div class="nav-tab nav-tab-secondary" data-panel="trendy" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'trendy')">Trendy</div>
+    <div class="nav-tab nav-tab-secondary" data-panel="tailwinds" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'tailwinds')">Tailwinds</div>
+    <div class="nav-tab nav-tab-secondary" data-panel="slownik" role="tab" tabindex="-1" aria-selected="false" onclick="switchTab(this,'slownik')">Slownik</div>
   </div>
 
   <!-- ======== PANEL: POWIATY ======== -->
   <div class="panel" id="panel-powiaty" role="tabpanel">
     <div class="filters-header">
-      <div class="filter-group">
-        <span class="filter-label">Akcja:</span>
-        <div class="filter-chip active" data-filter="akcja" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
-        <div class="filter-chip" data-filter="akcja" data-value="aktywny" onclick="toggleFilter(this)">🟢 Aktywne</div>
-        <div class="filter-chip" data-filter="akcja" data-value="monitor" onclick="toggleFilter(this)">🔵 Monitor</div>
-        <div class="filter-chip" data-filter="akcja" data-value="zadzwon" onclick="toggleFilter(this)">🟡 Zadzwoń</div>
-        <div class="filter-chip" data-filter="akcja" data-value="zakonczony" onclick="toggleFilter(this)">⬜ Zakończone</div>
+      <!-- Filtry podstawowe (zawsze widoczne) -->
+      <div class="filters-primary">
+        <div class="filter-group">
+          <span class="filter-label">Akcja:</span>
+          <div class="filter-chip active" data-filter="akcja" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
+          <div class="filter-chip" data-filter="akcja" data-value="aktywny" onclick="toggleFilter(this)">Aktywne</div>
+          <div class="filter-chip" data-filter="akcja" data-value="monitor" onclick="toggleFilter(this)">Monitor</div>
+          <div class="filter-chip" data-filter="akcja" data-value="zadzwon" onclick="toggleFilter(this)">Zadzwon</div>
+          <div class="filter-chip" data-filter="akcja" data-value="zakonczony" onclick="toggleFilter(this)">Zakonczone</div>
+        </div>
+        <div class="filter-group" id="filter-group-voivodeship">
+          <div class="woj-dropdown-wrap" id="woj-dropdown-wrap">
+            <button class="woj-dropdown-btn" id="woj-dropdown-btn" onclick="toggleWojDropdown(event)">
+              Wojewodztwa <span id="woj-dropdown-badge" class="woj-badge" style="display:none">0</span> ▾
+            </button>
+            <button class="woj-all-btn" onclick="selectAllVoivodeships()">Wszystkie</button>
+            <div class="woj-dropdown-panel" id="woj-dropdown-panel"></div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <select class="sort-select" id="sort-preset" onchange="applySortPreset(this.value)" aria-label="Sortowanie">
+            <option value="urgency">Po pilnosci</option>
+            <option value="amount">Po kwocie</option>
+            <option value="irin">Dopasowanie IRIN</option>
+            <option value="geo">Alfabetycznie</option>
+          </select>
+        </div>
+        <button class="filter-more-btn" onclick="document.getElementById('filters-extra').classList.toggle('filters-extra-open')">Wiecej filtrow ▾</button>
+        <div class="results-count" id="results-count"></div>
       </div>
-      <div class="filter-group">
-        <span class="filter-label">Filar:</span>
-        <div class="filter-chip" data-filter="pillar" data-value="KFS" onclick="toggleFilter(this)">KFS</div>
-        <div class="filter-chip" data-filter="pillar" data-value="EFS+" onclick="toggleFilter(this)">EFS+</div>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">Tier:</span>
-        <div class="filter-chip active" data-filter="tier" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
-        <div class="filter-chip" data-filter="tier" data-value="1a" onclick="toggleFilter(this)">1A</div>
-        <div class="filter-chip" data-filter="tier" data-value="1b" onclick="toggleFilter(this)">1B</div>
-        <div class="filter-chip" data-filter="tier" data-value="2" onclick="toggleFilter(this)">2</div>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">Kwota:</span>
-        <div class="filter-chip active" data-filter="kwota" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
-        <div class="filter-chip" data-filter="kwota" data-value="mniej500k" onclick="toggleFilter(this)">&lt;500k</div>
-        <div class="filter-chip" data-filter="kwota" data-value="500k_2m" onclick="toggleFilter(this)">500k-2M</div>
-        <div class="filter-chip" data-filter="kwota" data-value="wiecej2m" onclick="toggleFilter(this)">&gt;2M</div>
-        <div class="filter-chip" data-filter="kwota" data-value="brak" onclick="toggleFilter(this)">brak</div>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">Priorytet PARP:</span>
-        <div class="filter-chip" data-filter="priorytet" data-value="P1" onclick="toggleFilter(this)">P1</div>
-        <div class="filter-chip" data-filter="priorytet" data-value="P2" onclick="toggleFilter(this)">P2</div>
-        <div class="filter-chip" data-filter="priorytet" data-value="P3" onclick="toggleFilter(this)">P3</div>
-        <div class="filter-chip" data-filter="priorytet" data-value="P4" onclick="toggleFilter(this)">P4</div>
-        <div class="filter-chip" data-filter="priorytet" data-value="P5" onclick="toggleFilter(this)">P5</div>
-        <div class="filter-chip" data-filter="priorytet" data-value="P6" onclick="toggleFilter(this)">P6</div>
-        <div class="filter-chip" data-filter="priorytet" data-value="P7" onclick="toggleFilter(this)">P7</div>
-      </div>
-      <div class="filter-group" id="filter-group-voivodeship">
-        <div class="woj-dropdown-wrap" id="woj-dropdown-wrap">
-          <button class="woj-dropdown-btn" id="woj-dropdown-btn" onclick="toggleWojDropdown(event)">
-            Województwa <span id="woj-dropdown-badge" class="woj-badge" style="display:none">0</span> ▾
-          </button>
-          <button class="woj-all-btn" onclick="selectAllVoivodeships()">Wszystkie</button>
-          <div class="woj-dropdown-panel" id="woj-dropdown-panel"></div>
+      <!-- Filtry rozszerzone (ukryte domyślnie) -->
+      <div class="filters-extra" id="filters-extra">
+        <div class="filter-group">
+          <span class="filter-label">Filar:</span>
+          <div class="filter-chip" data-filter="pillar" data-value="KFS" onclick="toggleFilter(this)">KFS</div>
+          <div class="filter-chip" data-filter="pillar" data-value="EFS+" onclick="toggleFilter(this)">EFS+</div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Tier:</span>
+          <div class="filter-chip active" data-filter="tier" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
+          <div class="filter-chip" data-filter="tier" data-value="1a" onclick="toggleFilter(this)">1A</div>
+          <div class="filter-chip" data-filter="tier" data-value="1b" onclick="toggleFilter(this)">1B</div>
+          <div class="filter-chip" data-filter="tier" data-value="2" onclick="toggleFilter(this)">2</div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Kwota:</span>
+          <div class="filter-chip active" data-filter="kwota" data-value="all" onclick="toggleFilter(this)">Wszystkie</div>
+          <div class="filter-chip" data-filter="kwota" data-value="mniej500k" onclick="toggleFilter(this)">&lt;500k</div>
+          <div class="filter-chip" data-filter="kwota" data-value="500k_2m" onclick="toggleFilter(this)">500k-2M</div>
+          <div class="filter-chip" data-filter="kwota" data-value="wiecej2m" onclick="toggleFilter(this)">&gt;2M</div>
+          <div class="filter-chip" data-filter="kwota" data-value="brak" onclick="toggleFilter(this)">brak</div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Priorytet PARP:</span>
+          <div class="filter-chip" data-filter="priorytet" data-value="P1" onclick="toggleFilter(this)">P1</div>
+          <div class="filter-chip" data-filter="priorytet" data-value="P2" onclick="toggleFilter(this)">P2</div>
+          <div class="filter-chip" data-filter="priorytet" data-value="P3" onclick="toggleFilter(this)">P3</div>
+          <div class="filter-chip" data-filter="priorytet" data-value="P4" onclick="toggleFilter(this)">P4</div>
+          <div class="filter-chip" data-filter="priorytet" data-value="P5" onclick="toggleFilter(this)">P5</div>
+          <div class="filter-chip" data-filter="priorytet" data-value="P6" onclick="toggleFilter(this)">P6</div>
+          <div class="filter-chip" data-filter="priorytet" data-value="P7" onclick="toggleFilter(this)">P7</div>
         </div>
       </div>
-      <div class="filter-group">
-        <span class="filter-label">Sortuj:</span>
-        <select class="sort-select" id="sort-preset" onchange="applySortPreset(this.value)">
-          <option value="urgency">Po pilności</option>
-          <option value="amount">Po kwocie</option>
-          <option value="irin">Dopasowanie IRIN</option>
-          <option value="geo">Alfabetycznie</option>
-        </select>
-      </div>
-      <div class="results-count" id="results-count"></div>
     </div>
     <div class="cards-grid" id="cards-grid"></div>
   </div>
@@ -334,6 +330,11 @@
     </div>
   </div>
 
+  <!-- FLOATING KALKULATOR BUTTON -->
+  <button class="fab-kalkulator" id="fab-kalkulator" onclick="toggleFabKalkulator()" aria-label="Kalkulator dofinansowania">
+    Kalkulator
+  </button>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-left">
@@ -365,5 +366,6 @@
 <script src="assets/js/kalkulator.js"></script>
 <script src="assets/js/tailwinds.js"></script>
 <script src="assets/js/search.js"></script>
+<script src="assets/js/akcje_dnia.js"></script>
 </body>
 </html>

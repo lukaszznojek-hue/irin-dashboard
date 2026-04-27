@@ -46,3 +46,12 @@ function initKalkulator() {
   );
   obliczDofinansowanie();
 }
+
+function toggleFabKalkulator() {
+  const panel = document.getElementById('panel-szkolenia');
+  const kalk = document.getElementById('kalkulator-dofinansowania');
+  if (!panel || !kalk) return;
+  const tabEl = document.querySelector('.nav-tab[data-panel="szkolenia"]');
+  if (tabEl) switchTab(tabEl, 'szkolenia');
+  setTimeout(() => kalk.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+}

@@ -487,17 +487,64 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 .md-modal-body th { background: var(--krem-jasny); }
 
 
-/* Tailwinds banner */
-.tailwinds-banner {
-  display: flex; align-items: center; gap: 10px;
-  background: linear-gradient(135deg, #FFF7ED 0%, #FEF2F2 100%);
-  border: 1px solid var(--pilne); border-radius: 8px;
-  padding: 10px 14px; margin-bottom: 8px;
-  font-size: 13px;
+/* Info bar (skonsolidowany banner) */
+.info-bar {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 6px 14px; margin-bottom: 8px;
+  background: var(--krem-jasny); border: 1px solid var(--linia); border-radius: 8px;
+  font-size: 11px; color: var(--szary); position: relative;
 }
-.tw-banner-icon { font-size: 18px; }
-.tw-banner-content { flex: 1; }
-.tw-banner-content a { color: var(--granat); font-weight: 600; cursor: pointer; }
+.info-bar-item { white-space: nowrap; }
+.info-bar-deadline { cursor: pointer; color: var(--krytyczne); font-weight: 600; }
+.info-bar-deadline:hover { text-decoration: underline; }
+.info-bar-sep { color: var(--linia); }
+.info-bar-close { position: absolute; right: 8px; top: 4px; background: none; border: none; font-size: 14px; color: var(--szary-jasny); cursor: pointer; }
+
+/* Akcje dnia */
+.akcje-dnia { margin-bottom: 12px; }
+.akcje-dnia-header { font-family: Georgia, serif; font-size: 14px; font-weight: 700; color: var(--granat); margin-bottom: 8px; }
+.akcje-dnia-grid { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.ad-card {
+  flex: 0 0 200px; padding: 10px 12px; border-radius: 8px;
+  border: 1px solid var(--linia); background: var(--white);
+  cursor: pointer; transition: box-shadow 0.15s, transform 0.15s;
+}
+.ad-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); transform: translateY(-1px); }
+.ad-badge { font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; display: inline-block; }
+.ad-badge-aktywny { background: var(--trwa-bg); color: var(--trwa); }
+.ad-badge-monitor { background: var(--nadchodzi-bg); color: var(--nadchodzi); }
+.ad-badge-deadline { background: var(--krytyczne-bg); color: var(--krytyczne); }
+.ad-badge-szkolenie { background: var(--pilne-bg); color: var(--pilne); }
+.ad-title { font-size: 12px; font-weight: 600; color: var(--granat); line-height: 1.3; }
+.ad-sub { font-size: 10px; color: var(--szary); margin-top: 2px; }
+.ad-kwota { font-size: 11px; font-weight: 700; color: var(--granat); margin-top: 4px; }
+
+/* Nav tabs - praca vs reference */
+.nav-tab-sep { width: 1px; background: var(--linia); margin: 6px 2px; flex-shrink: 0; }
+.nav-tab-secondary { font-size: 11px; color: var(--szary-jasny); }
+.nav-tab-secondary:hover { color: var(--szary); }
+
+/* Filtry - primary visible, extra hidden */
+.filters-primary { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.filters-extra { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--linia); }
+.filters-extra.filters-extra-open { display: flex; flex-wrap: wrap; gap: 10px; }
+.filter-more-btn {
+  padding: 5px 10px; border-radius: 10px; font-size: 11px; font-weight: 600;
+  cursor: pointer; background: transparent; color: var(--szary); border: 1px dashed var(--linia);
+  transition: all 0.15s;
+}
+.filter-more-btn:hover { border-color: var(--granat); color: var(--granat); }
+
+/* Floating kalkulator button */
+.fab-kalkulator {
+  position: fixed; bottom: 24px; right: 24px; z-index: 50;
+  padding: 10px 18px; border-radius: 999px;
+  background: var(--granat); color: var(--zloto-jasny); border: none;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(27,41,81,0.3);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.fab-kalkulator:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(27,41,81,0.4); }
 
 /* Tailwinds zakładka - karty */
 .tailwinds-grid {
@@ -648,4 +695,8 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
   .tailwinds-grid { grid-template-columns: 1fr; }
   .kalk-grid { flex-direction: column; }
   .header-search { flex: 1 1 100%; order: 3; }
+  .akcje-dnia-grid { gap: 6px; }
+  .ad-card { flex: 0 0 160px; }
+  .fab-kalkulator { bottom: 16px; right: 16px; padding: 8px 14px; font-size: 12px; }
+  .nav-tab-sep { display: none; }
 }

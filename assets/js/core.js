@@ -76,6 +76,7 @@ function renderAll() {
   if (typeof renderTailwinds === 'function') renderTailwinds();
   if (typeof updateTailwindsBanner === 'function') updateTailwindsBanner();
   if (typeof initKalkulator === 'function') initKalkulator();
+  if (typeof renderAkcjeDnia === 'function') renderAkcjeDnia();
   // Tooltipy - wyłączone na powiaty/wup (zaklóca workflow)
   setTimeout(() => {
     document.querySelectorAll('.panel').forEach(p => {
