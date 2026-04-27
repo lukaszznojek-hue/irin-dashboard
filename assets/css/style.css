@@ -559,6 +559,48 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
 }
 .sales-file-btn:hover { background: var(--zloto-jasny); }
 
+/* WUP zwijanie */
+.wup-card.wup-collapsed .wup-card-body,
+.wup-card.wup-collapsed .wup-card-footer,
+.wup-card.wup-collapsed .wup-card-updated { display: none; }
+.wup-card-header { cursor: pointer; }
+.wup-chevron { transition: transform 0.2s; font-size: 12px; color: var(--szary); }
+.wup-card.wup-collapsed .wup-chevron { transform: rotate(-90deg); }
+
+/* Globalna wyszukiwarka */
+.header-search { position: relative; flex: 0 0 280px; }
+.global-search-input {
+  width: 100%; padding: 7px 12px; border: 1px solid var(--linia); border-radius: 6px;
+  font-size: 13px; background: var(--krem-jasny); color: var(--granat);
+  outline: none; transition: border-color 0.2s;
+}
+.global-search-input:focus { border-color: var(--zloto); }
+.global-search-input::placeholder { color: var(--szary-jasny); }
+.global-search-results {
+  display: none; position: absolute; top: 100%; left: 0; right: 0;
+  background: var(--white); border: 1px solid var(--linia); border-radius: 0 0 8px 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12); max-height: 400px; overflow-y: auto; z-index: 100;
+}
+.search-result-item {
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px;
+  cursor: pointer; border-bottom: 1px solid var(--linia); transition: background 0.1s;
+}
+.search-result-item:hover { background: var(--krem-jasny); }
+.search-result-item:last-child { border-bottom: none; }
+.search-type {
+  font-size: 9px; font-weight: 700; text-transform: uppercase; padding: 2px 6px;
+  border-radius: 3px; background: var(--granat); color: white; white-space: nowrap;
+}
+.search-result-item[data-type="szkolenie"] .search-type { background: var(--trwa); }
+.search-result-item[data-type="wup"] .search-type { background: var(--nadchodzi); }
+.search-result-item[data-type="slownik"] .search-type { background: var(--zloto); color: var(--granat); }
+.search-result-item[data-type="propozycja"] .search-type { background: var(--pilne); }
+.search-result-text { flex: 1; min-width: 0; }
+.search-result-label { font-size: 13px; font-weight: 600; color: var(--granat); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-result-sub { font-size: 11px; color: var(--szary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-badge { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 3px; background: var(--krem); color: var(--granat); white-space: nowrap; }
+.search-no-results { padding: 12px; text-align: center; font-size: 12px; color: var(--szary); }
+
 /* Kontakt PUP w karcie */
 .card-contact { display: flex; gap: 16px; flex-wrap: wrap; margin: 6px 0; font-size: 12px; }
 .contact-item a { color: var(--granat); text-decoration: none; }
@@ -595,4 +637,5 @@ td.amount { font-family: Georgia, serif; font-weight: 600; }
   .card-head-right { flex-wrap: wrap; }
   .tailwinds-grid { grid-template-columns: 1fr; }
   .kalk-grid { flex-direction: column; }
+  .header-search { flex: 1 1 100%; order: 3; }
 }

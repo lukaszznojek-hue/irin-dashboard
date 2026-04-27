@@ -14,9 +14,9 @@ function renderWupGrid() {
       ? w.projekty_bur.map(renderProjektBur).join('')
       : '<div class="no-data">Brak projektów lub do uzupełnienia</div>';
 
-    return `<div class="wup-card">
-      <div class="wup-card-header">
-        <div class="wup-title">${w.operator_bur} <span class="tier-badge" style="background:${tierColor}">${TIER_LABELS[w.tier] || ''}</span></div>
+    return `<div class="wup-card wup-collapsed">
+      <div class="wup-card-header" onclick="this.parentElement.classList.toggle('wup-collapsed')">
+        <div class="wup-title">${w.operator_bur} <span class="tier-badge" style="background:${tierColor}">${TIER_LABELS[w.tier] || ''}</span> <span class="wup-chevron">▾</span></div>
         <div class="wup-voiv">${w.wojewodztwo_label}</div>
       </div>
       <div class="wup-card-body">

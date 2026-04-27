@@ -20,9 +20,13 @@
         <div class="header-subtitle">KFS · BUR · EFS+ · Szkolenia · Strategia</div>
       </div>
     </div>
+    <div class="header-search">
+      <input type="text" id="global-search" class="global-search-input" placeholder="Szukaj powiat, szkolenie, termin..." oninput="globalSearch(this.value)">
+      <div class="global-search-results" id="global-search-results"></div>
+    </div>
     <div class="header-right">
       <span class="header-meta" id="header-meta">v6.0.0 · Aktualizacja: 2026-04-27</span>
-      <a href="strategia.html" class="header-strat-link">🔒 Strategia zarządu</a>
+      <a href="strategia.html" class="header-strat-link">Strategia zarządu</a>
     </div>
   </header>
 
@@ -360,5 +364,6 @@
 <script src="assets/js/sprzedaz.js"></script>
 <script src="assets/js/kalkulator.js"></script>
 <script src="assets/js/tailwinds.js"></script>
+<script src="assets/js/search.js"></script>
 </body>
 </html>
