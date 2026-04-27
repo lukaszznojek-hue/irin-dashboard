@@ -9,21 +9,21 @@
       "elementy": [
         {
           "nazwa": "NIS2 - cyberbezpieczeństwo",
-          "opis": "Dyrektywa unijna o cyberbezpieczeństwie. Pełne egzekwowanie 2025-2026. Wymaga szkoleń cyber dla kadry zarządzającej i IT w podmiotach kluczowych i ważnych. Ministerstwo Cyfryzacji ogłosiło strategię implementacji na 2026-2027.",
-          "popyt": "wysoki",
+          "opis": "Ustawa o KSC wdrażająca dyrektywę NIS2 obowiązuje od 03.04.2026 (Sejm 23.01.2026, Prezydent 19.02.2026). Deadline samoidentyfikacji podmiotów kluczowych/ważnych: 03.10.2026 (5 mies). Pełne wdrożenie środków 04.04.2027. Kary od 04.04.2028. Wymaga szkoleń cyber dla kadry zarządzającej (obowiązek roczny!) i IT.",
+          "popyt": "bardzo wysoki",
           "kfs_priorytet_match": "P3 (cyfryzacja) + P5 świętokrzyskie (cyberbezpieczeństwo)",
-          "irin_obecnie_oferuje": false,
-          "luka_oferty": true,
-          "rekomendacja": "Stworzyć szkolenie: Cyberbezpieczeństwo dla MŚP - wdrożenie NIS2"
+          "irin_obecnie_oferuje": "PROP-02 promowana 2026-04-27",
+          "luka_oferty": false,
+          "rekomendacja": "Promowane jako PROP-02 - pełen pakiet sprzedażowy w sales/per_szkolenie/PROP-02_nis2/"
         },
         {
           "nazwa": "AI Act - sztuczna inteligencja",
-          "opis": "Rozporządzenie UE o sztucznej inteligencji. Etapami od 2024, pełne wdrożenie 2026. Obowiązek AI literacy dla zespołów pracujących z AI wysokiego ryzyka. Dotyczy zarówno dostawców jak i użytkowników systemów AI.",
+          "opis": "Rozporządzenie UE o sztucznej inteligencji. AI literacy art. 4 obowiązuje już od 02.02.2025 (KOREKTA: nie 'od sierpnia 2026' jak w wcześniejszych materiałach IRIN). Pełne stosowanie systemów wysokiego ryzyka od 02.08.2026. Sankcje do 35 mln EUR / 7% obrotu. Dotyczy zarówno dostawców jak i użytkowników (deployer) systemów AI.",
           "popyt": "rosnący silnie",
           "kfs_priorytet_match": "P3 (AI)",
-          "irin_obecnie_oferuje": "częściowo (szkolenia z AI w pracy)",
-          "luka_oferty": true,
-          "rekomendacja": "Stworzyć szkolenie: AI Compliance dla MŚP - AI Act w praktyce"
+          "irin_obecnie_oferuje": "PROP-01 promowana 2026-04-27",
+          "luka_oferty": false,
+          "rekomendacja": "Promowane jako PROP-01 - pełen pakiet sprzedażowy w sales/per_szkolenie/PROP-01_ai_act/"
         },
         {
           "nazwa": "DORA - sektor finansowy",
@@ -168,8 +168,8 @@
       "id": "nis2",
       "nazwa": "NIS2 - rejestracja podmiotów",
       "deadline": "2026-10-03",
-      "status": "TRANSPOZYCJA",
-      "opis": "Podmioty kluczowe i ważne muszą się zarejestrować w krajowym systemie cyberbezpieczeństwa"
+      "status": "W MOCY",
+      "opis": "Ustawa o KSC wdrażająca NIS2 obowiązuje od 03.04.2026. Podmioty kluczowe i ważne mają do 03.10.2026 na samoidentyfikację i wpis do wykazu KSC. Kary do 10 mln EUR / 2% obrotu (kluczowe), 7 mln EUR / 1.4% (ważne) + 600% wynagrodzenia kierowników."
     },
     {
       "id": "akademia_hr",

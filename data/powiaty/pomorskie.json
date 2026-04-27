@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Pomorskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "WUP Gdańsk portal KFS-nabory + web search 27.04.2026",
+  "zrodlo_danych": "WUP Gdańsk portal KFS-nabory + web search 27.04.2026 + v6.2: telefon PUP Chojnice + korekta statusu Chojnice (TRWA→NADCHODZI)",
   "powiaty": [
     {
       "voivodeship": "pomorskie",
@@ -300,11 +300,13 @@
       "display_name": "PUP Chojnice",
       "display_meta": "powiat Chojnice",
       "url_pup": "https://chojnice.praca.gov.pl",
-      "urgency": "trwa",
-      "urgency_days": 0,
+      "telefon": "(52) 39-50-700",
+      "email": null,
+      "urgency": "nadchodzi",
+      "urgency_days": 7,
       "kfs_start_date": "2026-05-04",
       "kfs_end_date": "2026-05-08",
-      "kfs_status": "TRWA",
+      "kfs_status": "NADCHODZI",
       "efs_status": "DO_WERYFIKACJI",
       "amount_kfs": 0,
       "amount_total": 0,
@@ -316,15 +318,16 @@
       "pillar_details": [
         {
           "type": "KFS",
-          "title": "Nabór 2026-05-04 → 2026-05-08",
+          "title": "Nabór 2026-05-04 → 2026-05-08 (NADCHODZI za 7 dni)",
           "fields": {
             "Kwota": "brak danych",
             "Priorytety": "P1-P7",
-            "Priorytety_irin_star": true
+            "Priorytety_irin_star": true,
+            "Telefon": "(52) 39-50-700"
           }
         }
       ],
-      "claudia_note": "Nabór trwa 4-8.05.2026.",
+      "claudia_note": "Nabór nadchodzi 4-8.05.2026 (za 7 dni od 27.04). Telefon zweryfikowany ze strony PUP. v6.2 korekta: status TRWA → NADCHODZI.",
       "priorytety": [
         "P1",
         "P2",
@@ -335,7 +338,7 @@
         "P7"
       ],
       "akcja_status": "aktywny",
-      "akcja_status_uzasadnienie": "Nabor trwa do 2026-05-08"
+      "akcja_status_uzasadnienie": "Nabor nadchodzi za 7 dni - przygotowac wnioski"
     },
     {
       "voivodeship": "pomorskie",

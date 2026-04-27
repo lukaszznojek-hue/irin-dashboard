@@ -3,7 +3,7 @@
   "wojewodztwo_label": "Świętokrzyskie",
   "tier": "1a",
   "data_aktualizacji": "2026-04-27",
-  "zrodlo_danych": "v3 dashboard (17.04.2026) + web research aktualizacja (27.04.2026)",
+  "zrodlo_danych": "v3 dashboard (17.04.2026) + web research aktualizacja (27.04.2026) + v6.2 telefony MUP Kielce + leady oszczędności KFS (lead Łukasz)",
   "powiaty": [
     {
       "voivodeship": "swietokrzyskie",
@@ -183,6 +183,7 @@
       "url_pup": "https://kielce.praca.gov.pl",
       "telefon": null,
       "email": null,
+      "claudia_lead": "Oszczędności KFS - PUP zaprasza nowe wnioski (lead od Łukasza, 2026-04-27). Sprawdzić bezpośrednio - możliwy II termin naboru.",
       "urgency": "zakonczony",
       "urgency_days": 999,
       "kfs_start_date": "2026-03-19",
@@ -243,8 +244,9 @@
       "display_name": "MUP Kielce",
       "display_meta": "miasto Kielce",
       "url_pup": "https://mupkielce.praca.gov.pl",
-      "telefon": null,
-      "email": null,
+      "telefon": "41 340-60-55",
+      "email": "kancelaria@mupkielce.praca.gov.pl",
+      "claudia_lead": "Lead od Łukasza (2026-04-27): oszczędności KFS - PUP zaprasza nowe wnioski. Kluczowy urząd dla IRIN, telefon zweryfikowany ze strony.",
       "urgency": "nadchodzi",
       "urgency_days": 999,
       "kfs_start_date": null,
