@@ -358,19 +358,33 @@
       "display_name": "PUP Człuchów",
       "display_meta": "powiat Człuchów",
       "url_pup": "https://czluchow.praca.gov.pl",
-      "urgency": "nieznany",
-      "urgency_days": 0,
-      "kfs_start_date": null,
-      "kfs_end_date": null,
-      "kfs_status": "DO_WERYFIKACJI",
-      "efs_status": "DO_WERYFIKACJI",
-      "amount_kfs": 0,
-      "amount_total": 0,
-      "irin_match": 1,
-      "has_warning": true,
-      "pillars": [],
-      "pillar_details": [],
-      "claudia_note": "Brak danych w tabeli WUP. | v6.5 scraper [pup_main]: dograne telefon=1. Zrodlo: (brak)",
+      "urgency": "trwa",
+      "urgency_days": 1,
+      "kfs_start_date": "2026-04-23",
+      "kfs_end_date": "2026-04-29",
+      "kfs_status": "TRWA",
+      "efs_status": "DO_POTWIERDZENIA",
+      "amount_kfs": 493600,
+      "amount_total": 493600,
+      "irin_match": 3,
+      "has_warning": false,
+      "pillars": [
+        "KFS"
+      ],
+      "pillar_details": [
+        {
+          "type": "KFS",
+          "title": "I nabór 2026-04-23 → 2026-04-29",
+          "fields": {
+            "Kwota": "493 600 zł",
+            "Priorytety": "P1-P4 (krajowe) + regionalne/lokalny do potwierdzenia",
+            "Priorytety_irin_star": true,
+            "Status": "TRWA - kończy się 29.04.2026 (jutro)",
+            "Zrodlo": "https://czluchow.praca.gov.pl/-/13332393-nabor-kfs"
+          }
+        }
+      ],
+      "claudia_note": "PILNE: I nabór KFS 23-29.04 (493,6k zł) kończy się jutro. P3 AI/cyfryzacja silny match z 4 usługami BUR IRIN. Strategia: mail do dyr. Halina Swajda + pipeline pracodawców na II nabór Q3. EFS+ FEP 5.2: alokacja wojewódzka 108 mln zł, per PUP do potwierdzenia. Kontakt: https://czluchow.praca.gov.pl | research 2026-04-28",
       "priorytety": [
         "P1",
         "P2",
@@ -380,9 +394,10 @@
         "P6",
         "P7"
       ],
-      "akcja_status": "zadzwon",
-      "akcja_status_uzasadnienie": "Brak danych - zadzwon do PUP",
-      "telefon": "59 834 34 42"
+      "akcja_status": "pilny",
+      "akcja_status_uzasadnienie": "I nabór KFS kończy się jutro - mail do dyr. Halina Swajda + pipeline na II nabór Q3",
+      "telefon": "59 834 34 42",
+      "email": "gdcz@praca.gov.pl"
     },
     {
       "voivodeship": "pomorskie",
