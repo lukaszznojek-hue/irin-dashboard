@@ -1,95 +1,34 @@
 {
-  "data_fetch_bur": "2026-04-27",
+  "data_fetch_bur": "2026-05-21",
   "ocena_dostawcy": 4.9,
-  "liczba_ocen": 813,
-  "liczba_uslug": 10,
+  "liczba_ocen": 823,
+  "liczba_uslug": 11,
   "url_bur_dostawca": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/szukaj?dostawcyUslug%5B%5D=160205&mozliwoscDofinansowania=0",
   "uslugi": [
     {
-      "id_bur": "3432404",
-      "tytul": "Nowoczesny Specjalista Social Media w Erze Cyfryzacji",
-      "kategoria": "ai",
-      "cena_brutto": 5900,
-      "godziny": 20,
-      "cena_h": 295,
-      "forma": "zdalna",
-      "miasto": null,
-      "data_start": "2026-06-22",
-      "data_end": "2026-06-24",
-      "tier_priorytetu_irin": 1,
+      "id_bur": "3379725",
+      "tytul": "TUS - Trening Umiejętności Społecznych (z profilaktyką uzależnień cyfrowych)",
+      "kategoria": "edukacja",
+      "cena_brutto": 6000,
+      "godziny": 50,
+      "cena_h": 120,
+      "forma": "mieszana",
+      "miasto": "Kielce",
+      "data_start": "2026-06-12",
+      "data_end": "2026-06-21",
+      "tier_priorytetu_irin": 2,
       "powiazane_priorytety": [
-        "P3"
+        "P4"
       ],
       "argumenty_sprzedazowe": [
-        "Ocena 4.9/5 z 813 ocen w BUR",
-        "Trafia w priorytet PARP P3: cyfryzacja i AI",
-        "20h - krótka inwestycja czasowa",
-        "Zdalna - elastyczność lokalizacji",
-        "Dofinansowanie do 90% dla mikrofirm (KFS 2026)"
+        "TUS z elementem cyfrowym (profilaktyka uzależnień cyfrowych)",
+        "Priorytet P4 PARP: sektor opiekuńczy",
+        "120 zł/h - bardzo konkurencyjna cena",
+        "Kielce: łatwy dojazd + stacjonarnie"
       ],
       "cena_h_rynek_avg": null,
       "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3432404",
-      "trener": null,
-      "uczestnicy_zapisani": null,
-      "alert_cena_h": null,
-      "subscription_available": false,
-      "bundle_compatible": []
-    },
-    {
-      "id_bur": "3432500",
-      "tytul": "Nowoczesna sprzedaż w sklepie: cyfryzacja, marketing i bezpieczeństwo",
-      "kategoria": "ai",
-      "cena_brutto": 5900,
-      "godziny": 20,
-      "cena_h": 295,
-      "forma": "zdalna",
-      "miasto": null,
-      "data_start": "2026-05-11",
-      "data_end": "2026-05-13",
-      "tier_priorytetu_irin": 1,
-      "powiazane_priorytety": [
-        "P3"
-      ],
-      "argumenty_sprzedazowe": [
-        "Cyfryzacja handlu - priorytet PARP P3",
-        "Praktyczne: marketing + bezpieczeństwo cyfrowe",
-        "20h zdalne - minimum czasu poza firmą",
-        "Dofinansowanie do 90% mikrofirmy"
-      ],
-      "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3432500",
-      "trener": null,
-      "uczestnicy_zapisani": null,
-      "alert_cena_h": null,
-      "subscription_available": false,
-      "bundle_compatible": []
-    },
-    {
-      "id_bur": "3421591",
-      "tytul": "Skuteczność osobista w erze cyfryzacji oraz wykorzystanie generatywnej AI w pracy",
-      "kategoria": "ai",
-      "cena_brutto": 5880,
-      "godziny": 28,
-      "cena_h": 210,
-      "forma": "zdalna",
-      "miasto": null,
-      "data_start": "2026-07-13",
-      "data_end": "2026-07-15",
-      "tier_priorytetu_irin": 1,
-      "powiazane_priorytety": [
-        "P3"
-      ],
-      "argumenty_sprzedazowe": [
-        "Łączy AI z efektywnością osobistą - 2 w 1",
-        "Generatywne AI (ChatGPT, Claude, Midjourney) w praktyce",
-        "28h za 5880 zł = 210 zł/h (poniżej rynkowej)",
-        "Priorytet P3 PARP: cyfryzacja i AI"
-      ],
-      "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3421591",
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3379725",
       "trener": null,
       "uczestnicy_zapisani": null,
       "alert_cena_h": null,
@@ -127,29 +66,30 @@
       "bundle_compatible": []
     },
     {
-      "id_bur": "3420786",
-      "tytul": "Integracja sensoryczna I+II - kurs z zakresu diagnozy i terapii (Gdańsk)",
-      "kategoria": "edukacja",
-      "cena_brutto": 9310,
-      "godziny": 120,
-      "cena_h": 77.6,
-      "forma": "mieszana",
-      "miasto": "Gdańsk",
-      "data_start": "2026-05-22",
-      "data_end": "2026-07-10",
-      "tier_priorytetu_irin": 2,
+      "id_bur": "3432404",
+      "tytul": "Nowoczesny Specjalista Social Media w Erze Cyfryzacji",
+      "kategoria": "ai",
+      "cena_brutto": 5900,
+      "godziny": 20,
+      "cena_h": 295,
+      "forma": "zdalna",
+      "miasto": null,
+      "data_start": "2026-06-22",
+      "data_end": "2026-06-24",
+      "tier_priorytetu_irin": 1,
       "powiazane_priorytety": [
-        "P4"
+        "P3"
       ],
       "argumenty_sprzedazowe": [
-        "120h = kompletny program diagnostyczno-terapeutyczny",
-        "77.6 zł/h - wyjątkowo niska cena dla specjalizacji medycznej",
-        "Priorytet P4 PARP: sektor zdrowotny i opiekuńczy",
-        "Gdańsk - oddział pomorski IRIN"
+        "Ocena 4.9/5 z 823 ocen w BUR",
+        "Trafia w priorytet PARP P3: cyfryzacja i AI",
+        "20h - krótka inwestycja czasowa",
+        "Zdalna - elastyczność lokalizacji",
+        "Dofinansowanie do 90% dla mikrofirm (KFS 2026)"
       ],
       "cena_h_rynek_avg": null,
       "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3420786",
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3432404",
       "trener": null,
       "uczestnicy_zapisani": null,
       "alert_cena_h": null,
@@ -157,27 +97,29 @@
       "bundle_compatible": []
     },
     {
-      "id_bur": "3405199",
-      "tytul": "Integracja sensoryczna I+II (Gdańsk II termin)",
-      "kategoria": "edukacja",
-      "cena_brutto": 9310,
-      "godziny": 120,
-      "cena_h": 77.6,
-      "forma": "mieszana",
-      "miasto": "Gdańsk",
-      "data_start": "2026-08-04",
-      "data_end": "2026-09-20",
-      "tier_priorytetu_irin": 2,
+      "id_bur": "3421591",
+      "tytul": "Skuteczność osobista w erze cyfryzacji oraz wykorzystanie generatywnej AI w pracy",
+      "kategoria": "ai",
+      "cena_brutto": 5880,
+      "godziny": 28,
+      "cena_h": 210,
+      "forma": "zdalna",
+      "miasto": null,
+      "data_start": "2026-07-13",
+      "data_end": "2026-07-15",
+      "tier_priorytetu_irin": 1,
       "powiazane_priorytety": [
-        "P4"
+        "P3"
       ],
       "argumenty_sprzedazowe": [
-        "Drugi termin Gdańsk - dla osób które nie zdążyły na maj",
-        "Identyczny program: 120h, 77.6 zł/h"
+        "Łączy AI z efektywnością osobistą - 2 w 1",
+        "Generatywne AI (ChatGPT, Claude, Midjourney) w praktyce",
+        "28h za 5880 zł = 210 zł/h (poniżej rynkowej)",
+        "Priorytet P3 PARP: cyfryzacja i AI"
       ],
       "cena_h_rynek_avg": null,
       "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3405199",
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3421591",
       "trener": null,
       "uczestnicy_zapisani": null,
       "alert_cena_h": null,
@@ -185,57 +127,29 @@
       "bundle_compatible": []
     },
     {
-      "id_bur": "3270238",
-      "tytul": "Integracja sensoryczna I+II (Kielce)",
-      "kategoria": "edukacja",
-      "cena_brutto": 9310,
-      "godziny": 120,
-      "cena_h": 77.6,
-      "forma": "mieszana",
-      "miasto": "Kielce",
-      "data_start": "2026-05-19",
-      "data_end": "2026-07-12",
-      "tier_priorytetu_irin": 2,
+      "id_bur": "3432500",
+      "tytul": "Nowoczesna sprzedaż w sklepie: cyfryzacja, marketing i bezpieczeństwo",
+      "kategoria": "ai",
+      "cena_brutto": 5900,
+      "godziny": 20,
+      "cena_h": 295,
+      "forma": "zdalna",
+      "miasto": null,
+      "data_start": "2026-07-20",
+      "data_end": "2026-07-22",
+      "tier_priorytetu_irin": 1,
       "powiazane_priorytety": [
-        "P4"
+        "P3"
       ],
       "argumenty_sprzedazowe": [
-        "Kielce - siedziba IRIN, stacjonarnie + online",
-        "120h za 77.6 zł/h"
+        "Cyfryzacja handlu - priorytet PARP P3",
+        "Praktyczne: marketing + bezpieczeństwo cyfrowe",
+        "20h zdalne - minimum czasu poza firmą",
+        "Dofinansowanie do 90% mikrofirmy"
       ],
       "cena_h_rynek_avg": null,
       "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3270238",
-      "trener": null,
-      "uczestnicy_zapisani": null,
-      "alert_cena_h": null,
-      "subscription_available": false,
-      "bundle_compatible": []
-    },
-    {
-      "id_bur": "3379725",
-      "tytul": "TUS - Trening Umiejętności Społecznych (z profilaktyką uzależnień cyfrowych)",
-      "kategoria": "edukacja",
-      "cena_brutto": 6000,
-      "godziny": 50,
-      "cena_h": 120,
-      "forma": "mieszana",
-      "miasto": "Kielce",
-      "data_start": "2026-06-12",
-      "data_end": "2026-06-21",
-      "tier_priorytetu_irin": 2,
-      "powiazane_priorytety": [
-        "P4"
-      ],
-      "argumenty_sprzedazowe": [
-        "TUS z elementem cyfrowym (profilaktyka uzależnień cyfrowych)",
-        "Priorytet P4 PARP: sektor opiekuńczy",
-        "120 zł/h - bardzo konkurencyjna cena",
-        "Kielce: łatwy dojazd + stacjonarnie"
-      ],
-      "cena_h_rynek_avg": null,
-      "cena_h_rynek_zrodlo": null,
-      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3379725",
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3432500",
       "trener": null,
       "uczestnicy_zapisani": null,
       "alert_cena_h": null,
@@ -273,6 +187,95 @@
       "bundle_compatible": []
     },
     {
+      "id_bur": "3405199",
+      "tytul": "Integracja sensoryczna I+II (Gdańsk II termin)",
+      "kategoria": "edukacja",
+      "cena_brutto": 9310,
+      "godziny": 120,
+      "cena_h": 77.6,
+      "forma": "mieszana",
+      "miasto": "Gdańsk",
+      "data_start": "2026-08-04",
+      "data_end": "2026-09-20",
+      "tier_priorytetu_irin": 2,
+      "powiazane_priorytety": [
+        "P4"
+      ],
+      "argumenty_sprzedazowe": [
+        "Drugi termin Gdańsk - dla osób które nie zdążyły na maj",
+        "Identyczny program: 120h, 77.6 zł/h"
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3405199",
+      "trener": null,
+      "uczestnicy_zapisani": null,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
+    },
+    {
+      "id_bur": "3515230",
+      "tytul": "TUS - Trening Umiejętności Społecznych z profilaktyką uzależnień cyfrowych (Kielce II termin)",
+      "kategoria": "edukacja",
+      "cena_brutto": 6000,
+      "godziny": 50,
+      "cena_h": 120,
+      "forma": "mieszana",
+      "miasto": "Kielce",
+      "data_start": "2026-08-28",
+      "data_end": "2026-09-06",
+      "tier_priorytetu_irin": 2,
+      "powiazane_priorytety": [
+        "P4"
+      ],
+      "argumenty_sprzedazowe": [
+        "Drugi termin TUS Kielce - dla osób które nie zdążyły na czerwiec",
+        "50h za 6000 zł = 120 zł/h - bardzo konkurencyjna cena",
+        "Priorytet P4 PARP (sektor opiekuńczy)",
+        "Kielce - siedziba IRIN, stacjonarnie + online"
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3515230",
+      "trener": "Patrycja Jędrzejewska + Klaudyna Kawalec",
+      "uczestnicy_zapisani": 0,
+      "alert_cena_h": false,
+      "subscription_available": false,
+      "bundle_compatible": []
+    },
+    {
+      "id_bur": "3575611",
+      "tytul": "Cyberbezpieczeństwo i zarządzanie kryzysowe w organizacji",
+      "kategoria": "ai",
+      "cena_brutto": 5600,
+      "godziny": 40,
+      "cena_h": 140,
+      "forma": "zdalna",
+      "miasto": null,
+      "data_start": "2026-09-07",
+      "data_end": "2026-09-11",
+      "tier_priorytetu_irin": 1,
+      "powiazane_priorytety": [
+        "P3"
+      ],
+      "argumenty_sprzedazowe": [
+        "Cyberbezpieczeństwo + NIS2 + RODO - regulacyjny must-have 2026",
+        "40h kompleksowo (5 dni) za 5600 zł = 140 zł/h - bardzo konkurencyjnie",
+        "Priorytet P3 PARP: cyfryzacja i bezpieczeństwo",
+        "Symulacje kryzysowe + multi-factor + phishing - praktyczne dla każdego działu",
+        "Dofinansowanie do 90% (KFS 2026)"
+      ],
+      "cena_h_rynek_avg": null,
+      "cena_h_rynek_zrodlo": null,
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3575611",
+      "trener": "Marcin Wrzoskiewicz",
+      "uczestnicy_zapisani": 0,
+      "alert_cena_h": null,
+      "subscription_available": false,
+      "bundle_compatible": []
+    },
+    {
       "id_bur": "3486195",
       "tytul": "Integracja sensoryczna w ujęciu neurofizjologicznym – kurs I i II stopnia z zakresu diagnozy i terapii",
       "kategoria": "edukacja",
@@ -302,30 +305,61 @@
       "alert_cena_h": false,
       "subscription_available": false,
       "bundle_compatible": []
+    },
+    {
+      "id_bur": "3573234",
+      "tytul": "TUS - Trening Umiejętności Społecznych z profilaktyką uzależnień cyfrowych (Gdańsk)",
+      "kategoria": "edukacja",
+      "cena_brutto": 6000,
+      "godziny": 44,
+      "cena_h": 136.36,
+      "forma": "mieszana",
+      "miasto": "Gdańsk",
+      "data_start": "2026-10-16",
+      "data_end": "2026-10-25",
+      "tier_priorytetu_irin": 2,
+      "powiazane_priorytety": [
+        "P4"
+      ],
+      "argumenty_sprzedazowe": [
+        "TUS z elementem cyfrowym - priorytet P4 PARP (sektor opiekuńczy)",
+        "44h mieszane (stacjonarnie Gdańsk + online) - elastyczność",
+        "136.36 zł/h vs rynek 166.67 zł/h = -18% taniej",
+        "Gdańsk - oddział pomorski IRIN, dojazd dla TriCity"
+      ],
+      "cena_h_rynek_avg": 166.67,
+      "cena_h_rynek_zrodlo": "BUR (porównanie z innymi TUS 2026-05)",
+      "url_bur": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3573234",
+      "trener": "Patrycja Jędrzejewska + Klaudyna Kawalec",
+      "uczestnicy_zapisani": 1,
+      "alert_cena_h": false,
+      "subscription_available": false,
+      "bundle_compatible": []
     }
   ],
   "podsumowanie_oferty": {
     "klastry": {
-      "ai_cyfryzacja": {
+      "ai_cyfryzacja_bezpieczenstwo": {
         "szkolenia": [
           "3432404",
           "3432500",
           "3421591",
-          "3386476"
+          "3386476",
+          "3575611"
         ],
-        "opis": "4 szkolenia zdalne z AI/cyfryzacji - priorytet P3 PARP, 20-50h, 5880-8750 zł",
-        "mocne": "Dobrze trafiają w trend i priorytet. Zdalne = skalowalne ogólnopolsko."
+        "opis": "5 szkoleń zdalnych z AI/cyfryzacji + cyberbezpieczeństwo (NOWE 09.2026) - priorytet P3 PARP, 20-50h, 5600-8750 zł",
+        "mocne": "Dobrze trafiają w trend + priorytety regulacyjne (NIS2/RODO). Zdalne = skalowalne ogólnopolsko."
       },
       "edukacja_specjalistyczna": {
         "szkolenia": [
-          "3420786",
           "3405199",
-          "3270238",
+          "3486195",
           "3379725",
-          "3486195"
+          "3515230",
+          "3573234"
         ],
-        "opis": "Integracja sensoryczna (4 terminy: Gdańsk 2× + Kielce 2×) + TUS - priorytet P4 PARP, 50-120h, 6000-9310 zł",
-        "mocne": "Premium niche, lojalny klient, bardzo niski koszt godzinowy (77-120 zł/h)"
+        "opis": "Integracja sensoryczna (Gdańsk + Kielce) + TUS (Kielce 2× + Gdańsk NOWY 10.2026) - priorytet P4 PARP, 44-120h, 6000-9310 zł",
+        "mocne": "Premium niche, lojalny klient, bardzo niski koszt godzinowy (77-136 zł/h). 5 terminów = elastyczność wyboru."
       },
       "biznes_meta": {
         "szkolenia": [
@@ -335,6 +369,30 @@
         "mocne": "Generuje pipeline dla pozostałych usług IRIN"
       }
     },
-    "kfs_2026_przewaga": "IRIN jest w BUR (ID 160205, ocena 4.9/5, 813 ocen). Od 1.01.2026 KAŻDY dostawca KFS musi być w BUR. Firmy szkoleniowe bez BUR wypadły z rynku KFS. To przewaga IRIN - argument nr 1 w każdej rozmowie sprzedażowej."
-  }
+    "kfs_2026_przewaga": "IRIN jest w BUR (ID 160205, ocena 4.9/5, 823 ocen na 2026-05-21). Od 1.01.2026 KAŻDY dostawca KFS musi być w BUR. Firmy szkoleniowe bez BUR wypadły z rynku KFS. To przewaga IRIN - argument nr 1 w każdej rozmowie sprzedażowej."
+  },
+  "historia_aktualizacji": [
+    {
+      "data": "2026-05-21",
+      "dodane": [
+        "3575611",
+        "3573234",
+        "3515230"
+      ],
+      "usuniete": [
+        "3420786",
+        "3270238"
+      ],
+      "zmienione": [
+        {
+          "id": "3432500",
+          "co": "data_start 2026-05-11 → 2026-07-20"
+        }
+      ],
+      "ocena": 4.9,
+      "liczba_ocen": 823,
+      "liczba_uslug": 11,
+      "zrodlo": "WebFetch katalog BUR + per-usługa szczegóły"
+    }
+  ]
 }
